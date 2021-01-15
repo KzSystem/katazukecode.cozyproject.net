@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "KEEP OUT STAFF ONLY"
+AuthUserFile /home/katazukecode/.cozy/basic.auth
+require valid-user

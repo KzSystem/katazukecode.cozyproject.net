@@ -1,0 +1,15 @@
+# user dir
+/.bash*
+/.ssh
+/logs/
+
+# for katazuke
+/.cozy/
+/data/
+
+*.backup/
+*_backup/
+
+# git files
+!.gitignore
+!.gitkeep

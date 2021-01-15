@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.711" height="70.711" viewBox="0 0 70.711 70.711">
+  <g id="btn" transform="translate(-2899.138 -1415.628) rotate(-45)">
+    <g id="楕円形_25" data-name="楕円形 25" transform="translate(1024 3076)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <g id="plus" transform="translate(1035.898 3087.898)">
+      <g id="グループ_157" data-name="グループ 157">
+        <path id="パス_1423" data-name="パス 1423" d="M25.18,12.078H14.125V1.024a1.024,1.024,0,0,0-2.047,0V12.078H1.024a1.024,1.024,0,0,0,0,2.047H12.078V25.18a1.024,1.024,0,0,0,2.047,0V14.125H25.18a1.024,1.024,0,0,0,0-2.047Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
