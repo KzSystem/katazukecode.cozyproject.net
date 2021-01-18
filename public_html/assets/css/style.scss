@@ -218,14 +218,16 @@ br{
 			}
 			&_num{
 				position: relative;
+				margin-top: 10px;
 				svg{
 					width: 227px;
+					fill: #fff;
 				}
 			}
 			&_goro{
 				position: absolute;
 				font-size: 12px;
-				bottom: 42px;
+				bottom: 35px;
 				font-weight: 700;
 				span{
 					position: relative;
@@ -248,7 +250,7 @@ br{
 				}
 			}
 			&_acc{
-				margin-top: -4px;
+				margin-top: 10px;
 				font-size: 12px;
 				font-weight: 700;
 			}
@@ -1046,27 +1048,29 @@ br{
 			}
 		}
 		.num{
-			transform: translateY(4px);
+			margin-left: 10px;
+			margin-right: 5px;
+			margin-top: 12px;
 			color: #ED4C24;
 			position: relative;
 			svg{
 				fill: #ED4C24;
-				width: 294px;
+				width: 289px;
 				height: 58px;
 			}
 			& > span{
 				position: absolute;
-				top: -4px;
+				top: -10px;
 				font-weight: 700;
 				display: block;
 				&.muryo{
 					font-size: 12px;
 					left: 5px;
-					top: 0;
+					top: -8px;
 				}
 				&.goro{
 					font-size: 14px;
-					top: -5px;
+					top: -10px;
 					&::before{
 						content: "";
 						display: block;
@@ -1531,6 +1535,7 @@ br{
 		@include sp{
 			width: $cont_w_sp;
 			min-height: inherit;
+			max-height: 80vh;
 			border-radius: s(20);
 			padding: s(60) s(15) s(30);
 		}
@@ -1614,6 +1619,8 @@ br{
 			@include sp{
 				width: s(313);
 				display: block;
+				height: 50vh;
+				overflow-y: scroll;
 			}
 			li{
 				&.modal_open, a{
@@ -2496,6 +2503,41 @@ br{
 				& + li{
 					margin-top: s(10);
 				}
+				&:nth-child(1){
+					figure{	
+						img{
+							width: s(67);
+						}
+					}
+				}
+				&:nth-child(2){
+					figure{	
+						img{
+							width: s(109);
+						}
+					}
+				}
+				&:nth-child(3){
+					figure{	
+						img{
+							width: s(62);
+						}
+					}
+				}
+				&:nth-child(4){
+					figure{	
+						img{
+							width: s(91);
+						}
+					}
+				}
+				&:nth-child(5){
+					figure{	
+						img{
+							width: s(105);
+						}
+					}
+				}
 			}
 			h3{
 				background: $main_color;
@@ -2566,9 +2608,6 @@ br{
 					width: s(140);
 					box-sizing: border-box;
 					padding-left: s(15);
-					img{
-						width: s(108);
-					}
 				}
 			}
 			/*&:hover{
@@ -2621,7 +2660,7 @@ br{
 				padding-left: 55px;
 				&::before{
 					content: "";
-					background: url("../img/ico_check.png")no-repeat 0 0 / contain;
+					background: url("../img/ico_check.svg")no-repeat 0 0 / contain;
 					display: block;
 					width: 42px;
 					height: 40px;
@@ -2772,7 +2811,7 @@ br{
 					display: block;
 					width: 15px;
 					height: 15px;
-					background: url("../img/ico_slash_left.png")no-repeat 0 0 /contain;
+					background: url("../img/ico_slash_left.svg")no-repeat 0 0 /contain;
 					position: absolute;
 					top: 50%;
 					transform: translateY(-50%);
@@ -2811,7 +2850,7 @@ br{
 			pointer-events: none;
 			content: "";
 			display: block;
-			background: url("../img/baloon_movie.png")no-repeat 0 0 / contain;
+			background: url("../img/baloon_movie.svg")no-repeat 0 0 / contain;
 			width: 245px;
 			height: 205px;
 			position: absolute;
@@ -3844,16 +3883,30 @@ br{
 			}
 			@include sp{
 				&.n01{
+					figure img{
+						width: s(156);
+					}
 					p img{
 						width: s(315);
 					}
 				}
 				&.n02{
+					figure img{
+						width: s(97);
+					}
 					p img{
 						width: s(239);
 					}
 				}
+				&.n03{
+					figure img{
+						width: s(82);
+					}
+				}
 				&.n04{
+					figure img{
+						width: s(102);
+					}
 					p img{
 						width: s(311);
 					}
