@@ -71,11 +71,12 @@ var startPos = 0,winScrollTop = 0;
 $(window).on('scroll',function(){
     winScrollTop = $(this).scrollTop();
 		if ( winScrollTop > 600 ) {
-			if (winScrollTop < startPos) {
+			$('#l_fixed_nav').addClass('active');
+			/*if (winScrollTop < startPos) {
 				$('#l_fixed_nav').addClass('active');
 			}else{
 				$('#l_fixed_nav').removeClass('active');
-			}
+			}*/
 		}else{
 			$('#l_fixed_nav').removeClass('active');
 		}
@@ -166,3 +167,27 @@ if (touch) { // remove all :hover stylesheets
         }
     } catch (ex) {}
 }
+
+
+function change_scale(){
+	var pointWidth_pc = 1366;
+	var pointWidth_sp = 680;
+	var windowWidth = $(window).width();
+	var zoom = 1;
+	if(windowWidth < pointWidth_pc){
+		if(windowWidth > pointWidth_sp){
+			zoom = windowWidth / pointWidth_pc;
+		}else{
+			zoom = 1;
+		}
+		$('body').css({'zoom':zoom});
+	}else{
+		$('body').css({'zoom':'1'});
+	}
+}
+$(window).on('load', function() {
+	change_scale();
+});
+window.addEventListener("resize", function() {
+	change_scale();
+});

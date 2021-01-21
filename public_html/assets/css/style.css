@@ -213,8 +213,8 @@ br .sp {
   .icon-arrow svg {
     fill: #000;
     stroke: #000;
-    width: 4px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     transition: all .2s; }
   .icon-arrow.sp {
     display: none; }
@@ -226,7 +226,7 @@ br .sp {
       .icon-arrow.sp {
         display: flex; }
       .icon-arrow svg {
-        width: 1.0666666667vw;
+        width: 1.8666666667vw;
         height: 1.8666666667vw; } }
 
 .modal_open {
@@ -615,14 +615,45 @@ br .sp {
             position: absolute;
             left: 0;
             top: 50%;
-            transform: translateY(-50%); }
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 10.4vw;
+            height: 10.4vw; }
             .l_header__nav.sp .l_header__nav_main .icon img {
+              display: block;
               width: 10.4vw;
-              height: auto; }
+              height: auto;
+              margin: 0 auto; }
           .l_header__nav.sp .l_header__nav_main .child {
             display: none; }
             .l_header__nav.sp .l_header__nav_main .child a {
-              background: #F7F3E5; } }
+              background: #F7F3E5; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(1) .icon img {
+            width: 10.4vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(2) .icon img {
+            width: 7.7333333333vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(3) .icon img {
+            width: 8vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(4) .icon img {
+            width: 8vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(5) .icon img {
+            width: 5.0666666667vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(6) .icon img {
+            width: 5.8666666667vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(7) .icon img {
+            width: 7.4666666667vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(8) .icon img {
+            width: 9.6vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(9) .icon img {
+            width: 8vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(10) .icon img {
+            width: 6.4vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(11) .icon img {
+            width: 7.2vw; }
+          .l_header__nav.sp .l_header__nav_main > li:nth-child(12) .icon img {
+            width: 6.1333333333vw; } }
 
 .l_footer {
   background: #F4F4F4;
@@ -876,7 +907,7 @@ br .sp {
   background: #fff;
   width: 100%;
   z-index: 9997;
-  padding: 18px 0;
+  padding: 10px 0;
   transform: translateY(-100%);
   transition: transform .3s; }
   .l_fixed_nav.active {
@@ -1284,6 +1315,32 @@ br .sp {
           margin-left: auto;
           margin-top: 2.6666666667vw; } }
 
+.l_banner_franchise-partner {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 50px; }
+  @media (max-width: 680px) {
+    .l_banner_franchise-partner {
+      margin: 0 auto 10.6666666667vw;
+      display: block; } }
+  .l_banner_franchise-partner a {
+    display: block;
+    width: 450px;
+    transition: opacity .2s; }
+    .l_banner_franchise-partner a:hover {
+      opacity: .6; }
+    .l_banner_franchise-partner a + a {
+      margin-left: 30px; }
+    @media (max-width: 680px) {
+      .l_banner_franchise-partner a {
+        width: 92vw;
+        margin: 0 auto; }
+        .l_banner_franchise-partner a img {
+          width: 100%; }
+        .l_banner_franchise-partner a + a {
+          margin-left: auto;
+          margin-top: 1.3333333333vw; } }
+
 .l_section_title {
   text-align: center;
   font-size: 40px;
@@ -1427,7 +1484,7 @@ br .sp {
         overflow-y: scroll; } }
     .l_modal .l_modal__shops_list li.modal_open, .l_modal .l_modal__shops_list li a {
       display: block;
-      width: 450px;
+      width: 295px;
       padding: 25px 55px 25px 30px;
       border-radius: 5px;
       position: relative;
@@ -1457,8 +1514,9 @@ br .sp {
         right: 15px; }
         @media (max-width: 680px) {
           .l_modal .l_modal__shops_list li.modal_open::after, .l_modal .l_modal__shops_list li a::after {
-            width: 6.4vw;
-            height: 6.4vw;
+            background: url("../img/sp/ico_nav-arrow.svg") no-repeat 0 0/contain;
+            width: 4.8vw;
+            height: 4.8vw;
             right: 4vw; } }
     .l_modal .l_modal__shops_list li + li {
       margin-left: 10px; }
@@ -1466,12 +1524,12 @@ br .sp {
         .l_modal .l_modal__shops_list li + li {
           margin-left: 0;
           margin-top: 1.8666666667vw; } }
-    .l_modal .l_modal__shops_list li:nth-child(2n+1) {
+    .l_modal .l_modal__shops_list li:nth-child(3n+1) {
       margin-left: 0; }
-    .l_modal .l_modal__shops_list li:nth-child(n+3) {
+    .l_modal .l_modal__shops_list li:nth-child(n+4) {
       margin-top: 10px; }
       @media (max-width: 680px) {
-        .l_modal .l_modal__shops_list li:nth-child(n+3) {
+        .l_modal .l_modal__shops_list li:nth-child(n+4) {
           margin-top: 1.8666666667vw; } }
   .l_modal .l_modal__shops .not_find {
     text-align: center;
@@ -1526,17 +1584,17 @@ br .sp {
   .l_emergency .arrow {
     stroke: #EB6D4E;
     fill: #EB6D4E;
-    width: 5px;
+    width: 7px;
     height: 9px;
     position: absolute;
-    right: -16px;
+    right: -24px;
     top: 50%;
     transform: translateY(-50%); }
     @media (max-width: 680px) {
       .l_emergency .arrow {
-        width: 1.3333333333vw;
+        width: 1.8666666667vw;
         height: 2.4vw;
-        right: -5.3333333333vw; } }
+        right: -6.6666666667vw; } }
 
 .l_contact {
   width: 1224px;
@@ -1756,15 +1814,16 @@ br .sp {
       width: 20px;
       height: 20px; }
       .l_contact__line .icon-arrow svg, .l_contact__mail .icon-arrow svg {
-        width: 5px;
-        height: 9px; }
+        width: 7px;
+        height: 8px;
+        transform: translateX(1px); }
       @media (max-width: 680px) {
         .l_contact__line .icon-arrow, .l_contact__mail .icon-arrow {
           width: 5.3333333333vw;
           height: 5.3333333333vw; }
           .l_contact__line .icon-arrow svg, .l_contact__mail .icon-arrow svg {
-            width: 1.3333333333vw;
-            height: 2.4vw; } }
+            width: 1.8666666667vw;
+            height: 2.1333333333vw; } }
   .l_contact__line {
     background: #00B900; }
     @media (max-width: 680px) {
@@ -1982,7 +2041,7 @@ br .sp {
           .l_service__box h3 a .icon-arrow svg {
             fill: #03A58E;
             stroke: #03A58E;
-            width: 4px;
+            width: 5px;
             height: 7px; }
           @media (max-width: 680px) {
             .l_service__box h3 a .icon-arrow {
@@ -1990,7 +2049,7 @@ br .sp {
               width: 5.0666666667vw;
               height: 5.0666666667vw; }
               .l_service__box h3 a .icon-arrow svg {
-                width: 1.0666666667vw;
+                width: 1.3333333333vw;
                 height: 1.8666666667vw; } }
         .l_service__box h3 a:hover {
           background: #02816F; }
@@ -2033,6 +2092,7 @@ br .sp {
         .l_service__list a .icon-arrow svg {
           fill: #fff;
           stroke: #fff;
+          transform: translateX(1px);
           width: 4px;
           height: 7px; }
         @media (max-width: 680px) {
@@ -2194,13 +2254,14 @@ br .sp {
         font-weight: 700;
         text-align: center;
         height: 82px;
+        width: calc(100% + 1px);
         line-height: 1.45;
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
         transition: background .2s;
-        border-radius: 3px 3px 0 0; }
+        border-radius: 5px 5px 0 0; }
         @media (max-width: 680px) {
           .l_5reasons__list li h3 {
             font-size: 4.8vw;
@@ -2969,7 +3030,7 @@ br .sp {
   .l_which-one .caution {
     position: absolute;
     right: 0;
-    bottom: 0; }
+    bottom: -2px; }
     @media (max-width: 680px) {
       .l_which-one .caution {
         position: static;
@@ -4167,3 +4228,5 @@ br .sp {
         transform: translateY(-50%); }
     .top__shops-sp_map_links li + li {
       margin-top: 2.6666666667vw; }
+
+/*# sourceMappingURL=style.css.map */

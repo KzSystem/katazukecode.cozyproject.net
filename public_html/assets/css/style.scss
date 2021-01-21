@@ -119,8 +119,8 @@ br{
 	svg{
 		fill: #000;
 		stroke: #000;
-		width: 4px;
-		height: 7px;
+		width: 6px;
+		height: 6px;
 		transition: all .2s;
 	}
 	&.sp{
@@ -134,7 +134,7 @@ br{
 		height: s(17);
 		right: s(20);
 		svg{
-			width: s(4);
+			width: s(7);
 			height: s(7);
 		}
 	}
@@ -609,15 +609,82 @@ br{
 						left: 0;
 						top: 50%;
 						transform: translateY(-50%);
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: s(39);
+						height: s(39);
 						img{
+							display: block;
 							width: s(39);
 							height: auto;
+							margin: 0 auto;
 						}
 					}
 					.child{
 						display: none;
 						a{
 							background: #F7F3E5;
+						}
+					}
+					& > li:nth-child(1){
+						.icon img{
+							width: s(39);
+						}
+					}
+					& > li:nth-child(2){
+						.icon img{
+							width: s(29);
+						}
+					}
+					& > li:nth-child(3){
+						.icon img{
+							width: s(30);
+						}
+					}
+					& > li:nth-child(4){
+						.icon img{
+							width: s(30);
+						}
+					}
+					& > li:nth-child(5){
+						.icon img{
+							width: s(19);
+						}
+					}
+					& > li:nth-child(6){
+						.icon img{
+							width: s(22);
+						}
+					}
+					& > li:nth-child(7){
+						.icon img{
+							width: s(28);
+						}
+					}
+					& > li:nth-child(8){
+						.icon img{
+							width: s(36);
+						}
+					}
+					& > li:nth-child(9){
+						.icon img{
+							width: s(30);
+						}
+					}
+					& > li:nth-child(10){
+						.icon img{
+							width: s(24);
+						}
+					}
+					& > li:nth-child(11){
+						.icon img{
+							width: s(27);
+						}
+					}
+					& > li:nth-child(12){
+						.icon img{
+							width: s(23);
 						}
 					}
 				}
@@ -937,7 +1004,7 @@ br{
 	background: #fff;
 	width: 100%;
 	z-index: 9997;
-	padding: 18px 0;
+	padding: 10px 0;
 	transform: translateY(-100%);
 	transition: transform .3s;
 	&.active{
@@ -1451,6 +1518,41 @@ br{
 }
 
 // -------------------------------------------------
+// l_banner_franchise-partner
+// -------------------------------------------------
+.l_banner_franchise-partner{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 50px;
+	@include sp{
+		margin: 0 auto s(40);
+		display: block;
+	}
+	a{
+		display: block;
+		width: 450px;
+		transition: opacity .2s;
+		&:hover{
+			opacity: .6;
+		}
+		& + a{
+			margin-left: 30px;
+		}
+		@include sp{
+			width: s(345);
+			margin: 0 auto;
+			img{
+				width: 100%;
+			}
+			& + a{
+				margin-left: auto;
+				margin-top: s(5);
+			}
+		}
+	}
+}
+
+// -------------------------------------------------
 // l_section_title
 // -------------------------------------------------
 .l_section_title{
@@ -1625,7 +1727,7 @@ br{
 			li{
 				&.modal_open, a{
 					display: block;
-					width: 450px;
+					width: 295px;
 					padding: 25px 55px 25px 30px;
 					border-radius: 5px;
 					position: relative;
@@ -1655,8 +1757,9 @@ br{
 						transform: translateY(-50%);
 						right: 15px;
 						@include sp{
-							width: s(24);
-							height: s(24);
+							background: url("../img/sp/ico_nav-arrow.svg")no-repeat 0 0 / contain;
+							width: s(18);
+							height: s(18);
 							right: s(15);
 						}
 					}
@@ -1668,10 +1771,10 @@ br{
 						margin-top: s(7);
 					}
 				}
-				&:nth-child(2n+1){
+				&:nth-child(3n+1){
 					margin-left: 0;
 				}
-				&:nth-child(n+3){
+				&:nth-child(n+4){
 					margin-top: 10px;
 					@include sp{
 						margin-top: s(7);
@@ -1741,16 +1844,16 @@ br{
 	.arrow{
 		stroke: #EB6D4E;
 		fill: #EB6D4E;
-		width: 5px;
+		width: 7px;
 		height: 9px;
 		position: absolute;
-		right: -16px;
+		right: -24px;
 		top: 50%;
 		transform: translateY(-50%);
 		@include sp{
-			width: s(5);
+			width: s(7);
 			height: s(9);
-			right: s(-20);
+			right: s(-25);
 		}
 	}
 }
@@ -2003,15 +2106,16 @@ br{
 			width: 20px;
 			height: 20px;
 			svg{
-				width: 5px;
-				height: 9px;
+				width: 7px;
+				height: 8px;
+				transform: translateX(1px);
 			}
 			@include sp{
 				width: s(20);
 				height: s(20);
 				svg{
-					width: s(5);
-					height: s(9);
+					width: s(7);
+					height: s(8);
 				}
 			}
 		}
@@ -2278,7 +2382,7 @@ br{
 					svg{
 						fill: $main_color;
 						stroke: $main_color;
-						width: 4px;
+						width: 5px;
 						height: 7px;
 					}
 					@include sp{
@@ -2286,7 +2390,7 @@ br{
 						width: s(19);
 						height: s(19);
 						svg{
-							width: s(4);
+							width: s(5);
 							height: s(7);
 						}
 					}
@@ -2340,6 +2444,7 @@ br{
 				svg{
 					fill: #fff;
 					stroke: #fff;
+					transform: translateX(1px);
 					width: 4px;
 					height: 7px;
 				}
@@ -2546,13 +2651,14 @@ br{
 				font-weight: 700;
 				text-align: center;
 				height: 82px;
+				width: calc(100% + 1px);
 				line-height: 1.45;
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				position: relative;
 				transition: background .2s;
-				border-radius: 3px 3px 0 0;
+				border-radius: 5px 5px 0 0;
 				@include sp{
 					font-size: s(18);
 					height: 100%;
@@ -3507,7 +3613,7 @@ br{
 	.caution{
 		position: absolute;
 		right: 0;
-		bottom: 0;
+		bottom: -2px;
 		@include sp{
 			position: static;
 			text-align: right;
