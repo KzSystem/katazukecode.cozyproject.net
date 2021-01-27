@@ -120,14 +120,24 @@ $('.modal_open').on('click', function(){
 });
 $('.l_modal__close').on('click', function(){
 	$('.l_modal__content').fadeOut(100);
-	ytPlayer.pauseVideo();
+	if($('#youtube_official_movie').length){
+		ytPlayer.pauseVideo();
+	}
 	setTimeout(function(){
 		$('#l_modal').fadeOut(100);
 	}, 100);
 });
 $('.l_modal__bg').on('click', function(){
 	$('.l_modal__content').fadeOut(100);
-	ytPlayer.pauseVideo();
+	if($('#youtube_official_movie').length){
+		ytPlayer.pauseVideo();
+	}
+	setTimeout(function(){
+		$('#l_modal').fadeOut(100);
+	}, 100);
+});
+$('.l_modal__content a').on('click', function(){
+	$('.l_modal__content').fadeOut(100);
 	setTimeout(function(){
 		$('#l_modal').fadeOut(100);
 	}, 100);
@@ -169,7 +179,7 @@ if (touch) { // remove all :hover stylesheets
 }
 
 
-function change_scale(){
+/*function change_scale(){
 	var pointWidth_pc = 1366;
 	var pointWidth_sp = 680;
 	var windowWidth = $(window).width();
@@ -186,8 +196,9 @@ function change_scale(){
 	}
 }
 $(window).on('load', function() {
+	$('body').css({'overflow-x':'hidden'});
 	change_scale();
 });
 window.addEventListener("resize", function() {
 	change_scale();
-});
+});*/
