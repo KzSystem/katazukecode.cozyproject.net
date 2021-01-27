@@ -55,6 +55,16 @@ $('.has_child').on('click', function(){
 	$(this).toggleClass('active');
 	$(this).next('.child').slideToggle(200);
 });
+$('.shop_detail__items_list h3.sp').on('click', function(){
+	$(this).toggleClass('active');
+	$(this).next('figure').slideToggle(200);
+	$(this).next('figure').next('.text').slideToggle(200);
+});
+$('.faq_a').on('click', function(){
+	$(this).toggleClass('active');
+	$(this).children('.ico-slide_down').toggleClass('active');
+	$(this).next('.faq_q').slideToggle(200);
+});
 
 // .service_box
 $('.l_service__box h3').on({
@@ -102,7 +112,13 @@ function onYouTubeIframeAPIReady() {
 
 // モーダル
 $('.modal_open').on('click', function(){
+	var click_obj = $(this);
 	var tar_name = $(this).data('modal');	
+	if(click_obj.hasClass('modal_white')){
+		$('#l_modal').addClass('white');
+	}else{
+		$('#l_modal').removeClass('white');
+	}
 	if($(this).hasClass('in_modal')){
 		$('.l_modal__content').fadeOut(100);
 		setTimeout(function(){
