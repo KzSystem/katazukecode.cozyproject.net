@@ -162,7 +162,10 @@ $('.l_modal__content a').on('click', function(){
 // スムーススクロール
 $(function(){
   $('a[href^=#]').click(function(){
-    var adjust = 0;
+    var adjust = -120;
+		if (window.matchMedia('(max-width: 680px)').matches) {
+			adjust = -20;
+		}
     var speed = 400;
     var href= $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);

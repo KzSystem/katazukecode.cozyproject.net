@@ -513,7 +513,7 @@ br{
 					.l_header__line_sp{
 						background: $line_color;
 						border-radius: 60px 60px;
-						width: s(170);
+						width: s(165);
 						height: s(60);
 						padding-right: s(20);
 						box-sizing: border-box;
@@ -1761,8 +1761,9 @@ br{
 		height: 70px;
 		cursor: pointer;
 		transition: opacity .2s;
+		z-index: 10;
 		svg{
-			stroke: #fff;
+			fill: #fff;
 		}
 		&:hover{
 			opacity: .6;
@@ -1781,6 +1782,35 @@ br{
 	&__content{
 		display: none;
 		position: relative;
+	}
+	&.white{
+		.l_modal__wrap{
+			padding: 15px;
+			@include sp{
+				padding: s(10);
+			}
+		}
+		.l_modal__content{
+			background: #fff;
+			border-radius: 15px;
+			padding: 20px;
+			@include sp{
+				border-radius: s(15);
+				padding: s(10);
+			}
+		}
+		.l_modal__close{
+			right: 25px;
+			top: 25px;
+			@include sp{
+				right: s(20);
+				top: s(20);
+			}
+			svg{
+				fill: $main_color;
+				stroke: none;
+			}
+		}
 	}
 	#youtube_official_movie{
 		@include sp{
@@ -1975,7 +2005,7 @@ br{
 							border-bottom: 1px dashed #EB6D4E;
 							position: absolute;
 							top: 50%;
-							left: 50%;
+							left: 56%;
 							font-weight: 500;
 							padding-bottom: .2em;
 							white-space: nowrap;
@@ -5904,6 +5934,53 @@ br{
 					}
 				}
 			}
+			.not_find{
+				position: relative;
+				cursor: default;
+				&::before, &::after{
+					pointer-events: none;
+					transition: opacity .2s;
+					opacity: 0;
+				}
+				&::before{
+					content: "";
+					display: block;
+					background: url("../img/shop_list/not_find-arrow.svg")no-repeat 0 0 / 100% 100%;
+					width: 10px;
+					height: 10px;
+					left: 50%;
+					transform: translateX(-50%);
+					bottom: calc(100% + -2px);
+					position: absolute;
+					z-index: 2;
+				}
+				&::after{
+					content: "ただいま加盟店募集中";
+					display: inline-block;
+					background: #f8ece9;
+					border: #eb6d4e 1px solid;
+					padding: .8em .8em;
+					border-radius: 3px;
+					font-size: 12px;
+					position: absolute;
+					left: 50%;
+					transform: translateX(-50%);
+					bottom: calc(100% + 7px);
+					white-space: nowrap;
+					font-weight: 500;
+					color: #000;
+					z-index: 1;
+				}
+				&:hover{
+					opacity: 1;
+					&::before, &::after{
+						opacity: 1;
+					}
+				}
+				@include sp{
+					display: none;
+				}
+			}
 		}
 	}
 	
@@ -8017,6 +8094,7 @@ br{
 				background: #fff;
 				border-radius: 10px;
 				dt{
+					cursor: pointer;
 					height: 100px;
 					width: 100%;
 					display: flex;
@@ -8208,6 +8286,117 @@ br{
 		}
 	}
 	
+}	
+.shop_detail__service_modal{
+	h2{
+		margin: 40px 0 30px;
+		font-weight: 700;
+		text-align: center;
+		@extend .font-maru;
+		color: $main_color;
+		font-size: 40px;
+		@include sp{
+			margin: s(50) 0 s(20);
+			font-size: s(32);			
+		}
+	}
+	.shop_detail__service_box{
+		background: #fff;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		max-height: 470px;
+		overflow-y: scroll;
+		@include sp{
+			max-height: 50vh;
+		}
+		@include sp{
+			width: 100%;
+			padding: 0;
+			border-radius: 0;
+		}
+		.flex figure{
+			width: 484px;
+			height: 350px;
+			overflow: hidden;
+			border-radius: 15px 15px;
+			order: 1 !important;
+			@include sp{
+				width: 100%;
+				height: s(240);
+				border-radius: s(15);
+			}
+			img{
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			@include sp{
+				width: 100%;
+				height: s(200);
+				border-radius: s(7) s(7);
+			}
+		}
+		.flex{
+			display: flex;
+			margin-bottom: 30px;
+			@include sp{
+				display: block;
+				margin-bottom: 0;
+			}
+			.inr{
+				width: 580px;
+				position: relative;
+				@include sp{
+					width: 100%;
+				}
+				p{
+					padding: 20px 30px;
+					line-height: 1.7;
+					@include sp{
+						padding: s(15) s(12);
+					}
+				}
+			}				
+		}
+		.shop_detail__service_box_list{
+			display: flex;
+			padding: 0 20px;
+			@include sp{
+				display: none;
+			}
+			li{
+				figure{
+					width: 156px;
+					height: 156px;
+					border-radius: 50% 50%;
+					overflow: hidden;
+					margin: 0 auto;
+					img{
+						display: block;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				h4{
+					font-weight: 700;
+					font-size: 26px;
+					color: $main_color;
+					text-align: center;
+					margin: 15px 0 10px;
+				}
+				p{
+					line-height: 1.7;
+				}
+				& + li{
+					margin-left: 35px;
+				}
+			}
+		}
+	}
 }
 
 
