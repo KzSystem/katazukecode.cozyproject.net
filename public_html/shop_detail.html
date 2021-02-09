@@ -193,6 +193,38 @@
 				</div>
 			</div>
 			<main id="shop_detail" class="shop_detail">
+				<nav class="shop_detail__fixednav">
+					<div class="shop_name">
+						〇〇〇〇〇店
+					</div>
+					<ul>
+						<li>
+							<a href="#price">料金表一覧
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+						<li>
+							<a href="#voice">お客様の声
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+						<li>
+							<a href="#cases">実績紹介
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+						<li>
+							<a href="#faq">よくある質問
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+						<li>
+							<a href="#news">お知らせ
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+					</ul>
+				</nav>
 				<section class="shop_detail__visual">
 					<picture>
 						<source media="(max-width: 640px)" srcset="assets/img/sp/slide01.jpg">
@@ -438,8 +470,12 @@
 						</ul>
 					</div>
 					<h3>
-						<span class="pc">お客様のさまざまな<span class="line_wave">ご要望にお応えいたします！</span></span>
-						<span class="sp">お客様のさまざまな<span class="line_wave">ご要望</span><br><span class="line_wave">にお応えいたします！</span></span>
+						<span class="pc">
+							<img src="assets/img/shop_detail/service_text.svg" alt="お客様のさまざまなご要望にお応えいたします！">
+						</span>
+						<span class="sp">
+							<img src="assets/img/shop_detail/sp/service_text.svg" alt="お客様のさまざまなご要望にお応えいたします！">
+						</span>
 					</h3>
 					<ul class="shop_detail__service_list">
 						<li class="modal_open modal_white" data-modal="service_house">
@@ -541,7 +577,7 @@
 						</picture>
 					</a>
 				</div>
-				<section class="shop_detail__price">
+				<section id="price" class="shop_detail__price">
 					<h2 class="l_section_title"><span class="small">片付け堂 〇〇〇〇〇店の</span><br>サービス料金<span class="en">PRICE</span></h2>
 					<h3 class="shop_detail__price_fukidashi"><span><strong>不用品回収・ゴミ屋敷清掃</strong>は<br class="sp">お任せください！</span><br>
 					お客様にあった最適なプランを<br class="sp">ご提案させて頂きます。</h3>
@@ -711,7 +747,7 @@
 						</li>
 					</ul>
 				</section>
-				<section class="l_cases">
+				<section id="cases" class="l_cases">
 					<div class="l_cases__head">
 						<h2 class="l_section_title"><span class="small">片付け堂 〇〇〇〇〇店の</span><br>作業実績<span class="en">CASES</span></h2>
 						<div class="l_cases__outline">
@@ -968,7 +1004,7 @@
 						</div>
 					</div>					
 				</section>
-				<section class="l_voice">
+				<section id="voice" class="l_voice">
 					<h2 class="l_section_title"><span class="small">片付け堂 〇〇〇〇〇店の</span><br>お客様の声<span class="en">VOICE</span></h2>
 					<p>実際にご利用頂いたお客さまからの嬉しい声をご紹介します。</p>
 					<ul class="l_voice__list">
@@ -1327,7 +1363,7 @@
 						</a>
 					</div>
 				</section>
-				<section class="shop_detail__faq">
+				<section id="faq" class="shop_detail__faq">
 					<figure class="sp"><img src="assets/img/shop_detail/faq_obj.svg" alt=""></figure>
 					<h2 class="l_section_title"><span class="small">片付け堂と他社さんを</span><br>よくある質問<span class="en">FAQ</span></h2>
 					<p>
@@ -1362,7 +1398,7 @@
 						</span>
 					</a>
 				</section>
-				<section class="l_news">
+				<section id="news" class="l_news">
 					<div class="l_news__wrap">
 						<div>
 							<h2 class="l_section_title"><span class="small">片付け堂 〇〇〇〇〇店の</span><br>お知らせ<span class="en">NEWS</span></h2>
@@ -1658,7 +1694,8 @@
 						<dt>運営会社</dt><dd>株式会社片付け堂</dd>
 						<dt>拠　点</dt><dd><strong>本社</strong><br>
 						〒690-0017　<br class="sp">島根県松江市西津田3丁目1-12<br>
-						TEL 0852-67-2897　<br class="sp">FAX： 0852-67-2896</dd>
+						TEL： <a class="sp" href="tel:0852-67-2897">0852-67-2897</a>
+						<span class="pc">0852-67-2897</span>　<br class="sp">FAX： 0852-67-2896</dd>
 					</dl>
 					<div class="sns">
 						<a class="tw" href=""><img src="assets/img/ico_twitter.svg" alt="Twitter"></a>
