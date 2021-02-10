@@ -60,6 +60,11 @@ $('.shop_detail__items_list h3.sp').on('click', function(){
 	$(this).next('figure').slideToggle(200);
 	$(this).next('figure').next('.text').slideToggle(200);
 });
+$('.city__items_list h3.sp').on('click', function(){
+	$(this).toggleClass('active');
+	$(this).next('figure').slideToggle(200);
+	$(this).next('figure').next('.text').slideToggle(200);
+});
 $('.faq_a').on('click', function(){
 	$(this).toggleClass('active');
 	$(this).children('.ico-slide_down').toggleClass('active');
@@ -74,6 +79,28 @@ $('.l_service__box h3').on({
 	'mouseleave': function() {
 		$(this).parents('.l_service__box').children('figure').removeClass('hover');
 	}
+});
+
+// .city__disposal_nav
+$('.city__disposal_nav li').on('click', function(){
+	var tar = $(this).attr('class');
+	$('.city__disposal_nav li').removeClass('active');
+	$(this).addClass('active');
+	$('.city__disposal_content').removeClass('active');
+	$('.city__disposal_content.'+tar).addClass('active');
+});
+// .city__recycling_nav
+$('.city__recycling_nav li').on('click', function(){
+	var tar = $(this).attr('class');
+	$('.city__recycling_nav li').removeClass('active');
+	$(this).addClass('active');
+	$('.city__recycling_content').removeClass('active');
+	$('.city__recycling_content.'+tar).addClass('active');
+});
+
+// .city__cases_box .l_btn
+$('.city__cases_box .l_btn').on('click', function(){
+	$(this).parent('.city__cases_box').addClass('active');
 });
 
 // fixed_nav
@@ -175,7 +202,7 @@ $(function(){
   });
 });
 
-
+// タブレット・スマホでホバーイベントをさせない
 var touch = 'ontouchstart' in document.documentElement
             || navigator.maxTouchPoints > 0
             || navigator.msMaxTouchPoints > 0;
@@ -198,7 +225,8 @@ if (touch) { // remove all :hover stylesheets
 }
 
 
-/*function change_scale(){
+var userAgent = window.navigator.userAgent.toLowerCase();
+function change_scale(){
 	var pointWidth_pc = 1366;
 	var pointWidth_sp = 680;
 	var windowWidth = $(window).width();
@@ -215,9 +243,13 @@ if (touch) { // remove all :hover stylesheets
 	}
 }
 $(window).on('load', function() {
-	$('body').css({'overflow-x':'hidden'});
-	change_scale();
+	if(userAgent.indexOf('msie') == -1) {
+		$('body').css({'overflow-x':'hidden'});
+		change_scale();
+	}
 });
 window.addEventListener("resize", function() {
-	change_scale();
-});*/
+	if(userAgent.indexOf('msie') == -1) {
+		change_scale();
+	}
+});
