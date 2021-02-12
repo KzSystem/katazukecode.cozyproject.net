@@ -1889,7 +1889,7 @@ br{
 			&.area-list li{
 				&.modal_open, a{
 					display: block;
-					width: 450px;
+					width: 295px;
 					padding: 25px 55px 25px 30px;
 					border-radius: 5px;
 					position: relative;
@@ -1933,10 +1933,10 @@ br{
 						margin-top: s(7);
 					}
 				}
-				&:nth-child(2n+1){
+				&:nth-child(3n+1){
 					margin-left: 0;
 				}
-				&:nth-child(n+3){
+				&:nth-child(n+4){
 					margin-top: 10px;
 					@include sp{
 						margin-top: s(7);

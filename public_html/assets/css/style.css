@@ -1586,7 +1586,7 @@ br.sp {
         overflow-y: scroll; } }
     .l_modal .l_modal__shops_list.area-list li.modal_open, .l_modal .l_modal__shops_list.area-list li a {
       display: block;
-      width: 450px;
+      width: 295px;
       padding: 25px 55px 25px 30px;
       border-radius: 5px;
       position: relative;
@@ -1626,12 +1626,12 @@ br.sp {
         .l_modal .l_modal__shops_list.area-list li + li {
           margin-left: 0;
           margin-top: 1.8666666667vw; } }
-    .l_modal .l_modal__shops_list.area-list li:nth-child(2n+1) {
+    .l_modal .l_modal__shops_list.area-list li:nth-child(3n+1) {
       margin-left: 0; }
-    .l_modal .l_modal__shops_list.area-list li:nth-child(n+3) {
+    .l_modal .l_modal__shops_list.area-list li:nth-child(n+4) {
       margin-top: 10px; }
       @media (max-width: 680px) {
-        .l_modal .l_modal__shops_list.area-list li:nth-child(n+3) {
+        .l_modal .l_modal__shops_list.area-list li:nth-child(n+4) {
           margin-top: 1.8666666667vw; } }
     .l_modal .l_modal__shops_list.shops-list li.modal_open, .l_modal .l_modal__shops_list.shops-list li a {
       display: block;
