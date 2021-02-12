@@ -33,29 +33,3 @@ $sp: ((1 / $sp_w)*100vw);
 @function s($size, $viewport:$sp_w){
   @return $size * $sp;
 }
-
-//==================================================
-// 変数
-//==================================================
-
-$cont_w_pc: 1100px;
-$cont_w_sp: s(345);
-
-$main_color: #03A58E;
-$main_color_hover: #02816F;
-$line_color: #00B900;
-$mail_color: #007246;
-$point_color: #FFD800;
-
-
-//==================================================
-// extend用class
-//==================================================
-
-.font-maru{
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-.font-osw{
-	font-family: 'Oswald', sans-serif;
-	font-weight: 600;
-}

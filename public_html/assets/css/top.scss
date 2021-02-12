@@ -1,0 +1,928 @@
+@import '_general';
+
+//==================================================
+// top
+//==================================================
+
+.top{
+
+	// -------------------------------------------------
+	// top__slider
+	// -------------------------------------------------
+	&__slider{
+		width: 1306px;
+		margin: 0 auto;
+		position: relative;
+		@include sp{
+			width: 100%;
+			img{
+				width: 100%;
+			}
+		}
+		.slide-arrow{
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 39px;
+			height: auto;
+			z-index: 10;
+			transition: all .2s;
+			&.prev-arrow{
+				left: -20px;
+				transform: rotateY(180deg) translateY(-50%);
+			}
+			&.next-arrow{
+				right: -20px;
+			}
+			@include sp{
+				display: none !important;
+			}
+		}
+		.slick-dots{
+			display: flex;
+			width: 90px;
+			height: 2px;
+			border-radius: 50px 50px;
+			background: #B7B7B7;
+			margin: 25px auto 20px;
+			position: relative;
+			@include sp{
+				width: s(90);
+				margin: s(25) auto s(20);
+			}
+			button{
+				border: none;
+				background: none;
+				color: transparent;
+				height: 2px;
+				width: 100%;
+			}
+			li{
+				border-radius: 50px 50px;
+				&.slick-active{
+					background: $main_color;
+				}
+			}
+			.slider_num{
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				color: $main_color;
+				@extend .font-osw;
+				font-weight: 600;
+				&.min{
+					right: 95px;
+					@include sp{
+						right: s(95);
+					}
+				}
+				&.max{
+					left: 95px;
+					@include sp{
+						left: s(95);
+					}
+				}
+			}
+			.slider_dots_arrow{
+				background: url("../img/slider_bots_arrow.svg")no-repeat 0 0 / contain;
+				content: "";
+				display: block;
+				width: 7px;
+				height: 13px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				cursor: pointer;
+				transition: all .2s;
+				@include sp{
+					width: s(7);
+					height: s(13);
+				}
+				&.prev{
+					left: -18px;
+					@include sp{
+						left: s(-18);
+					}
+				}
+				&.next{
+					right: -18px;
+					transform: translateY(-50%) rotate(180deg);
+					@include sp{
+						right: s(-18);
+					}
+				}
+			}
+		}
+	}
+
+	// -------------------------------------------------
+	// top__about
+	// -------------------------------------------------
+	&__about{
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		width: 790px;
+		margin: 40px auto 60px;
+		@include sp{
+			width: $cont_w_sp;
+			margin: s(40) auto s(60);
+			position: relative;
+		}
+		&_text{
+			h2{
+				@extend .font-maru;
+				font-weight: 700;
+				font-size: 35px;
+				line-height: 1.5;
+				margin-bottom: 25px;
+				.small{
+					display: block;
+					font-size: 20px;
+				}
+				.marker_y{
+					background: $point_color;
+				}
+			}
+			.logo{
+				width: 190px;
+			}
+			@include sp{
+				position: relative;
+				z-index: 2;
+				h2{
+					font-size: s(30);
+					margin-bottom: s(175);
+					text-align: center;
+					.small{
+						font-size: s(20);
+					}
+				}
+				.logo{
+					width: s(190);
+					margin: 0 auto;
+					display: block;
+				}
+			}
+		}
+		@include sp{
+			&_img{
+				position: absolute;
+				top: s(60);
+				left: 50%;
+				transform: translateX(-50%);
+				z-index: 1;
+				img{
+					width: s(345);
+				}
+			}
+		}
+	}
+
+	// -------------------------------------------------
+	// top__price
+	// -------------------------------------------------
+	&__price{
+		background: #F7F3E5;
+		padding: 70px 0 50px;
+		margin-bottom: 50px;
+		@include sp{
+			padding: s(50) 0 s(30);
+			margin-bottom: s(30);
+		}
+		h2{
+			margin-bottom: 30px;
+			@include sp{
+				margin-bottom: s(30);
+			}
+		}
+		p{
+			line-height: 1.875;
+			width: $cont_w_pc;
+			margin: 0 auto;
+			@include sp{
+				width: $cont_w_sp;
+			}
+		}
+		&_wrap{
+			width: $cont_w_pc;
+			margin: 30px auto 20px;
+			display: flex;
+			justify-content: space-between;
+			@include sp{
+				width: $cont_w_sp;
+				margin: s(30) auto s(20);
+				display: block;
+			}
+			.box{
+				display: block;
+				width: 346px;
+				background: #fff;
+				border-radius: 10px;
+				text-decoration: none;
+				transition: all .2s;
+				padding-bottom: 1px;
+				@include sp{
+					width: 100%;
+					border-radius: s(10);
+					& + .box{
+						margin-top: s(35);
+					}
+				}
+				h3{
+					color: #fff;
+					font-weight: 700;
+					font-size: 26px;
+					display: flex;
+					align-items: flex-end;
+					box-sizing: border-box;
+					padding-left: 20px;
+					padding-bottom: 30px;
+					height: 80px;
+					position: relative;
+					transition: background .2s;
+					border-radius: 10px 10px 0 0;
+					strong{
+						margin-right: 5px;
+					}
+					span{
+						font-size: 18px;
+					}
+					img{
+						position: absolute;
+						display: block;
+						right: 0;
+						top: 0;
+					}
+					@include sp{
+						border-radius: s(10) s(10) 0 0;
+						font-size: s(26);
+						padding-left: s(24);
+						padding-bottom: s(26);
+						height: s(80);
+						strong{
+							margin-right: s(5);
+						}
+						span{
+							font-size: s(18);
+						}
+					}
+				}
+				h4{
+					width: 306px;
+					margin: 20px auto 0;
+					padding: 10px 0;
+					background: #F4F4F4;
+					border-radius: 60px 60px;
+					color: #454D4C;
+					text-align: center;
+					font-size: 14px;
+					font-weight: 500;
+					@include sp{
+						width: s(305);
+						margin: s(20) auto 0;
+						padding: s(10) 0;
+						font-size: s(14);
+					}
+				}
+				dl{
+					width: 306px;
+					margin: 0 auto;
+					display: flex;
+					align-items: center;
+					padding: 17px 0;
+					position: relative;
+					@include sp{
+						width: s(305);
+						padding: s(17) 0;
+					}
+					&::after{
+						content: "";
+						display: block;
+						width: 100%;
+						height: 1px;
+						background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+						background-size: 9px 1px;
+						background-repeat: repeat-x;
+						position: absolute;
+						bottom: 0;
+					}
+					dt{
+						font-size: 18px;
+						font-weight: 700;
+						padding-left: 5px;
+						width: 120px;
+						box-sizing: border-box;
+						@include sp{
+							font-size: s(18);
+							padding-left: s(5);
+							width: s(120);
+						}
+					}
+					dd{
+						margin: 0;
+						font-size: 14px;
+						display: flex;
+						align-items: center;
+						span{
+							display: block;
+						}
+						.price{
+							font-size: 28px;
+							margin-left: 12px;
+							margin-right: 4px;
+							padding-bottom: 5px;
+							@extend .font-osw;
+							transform: translateY(.1em);
+						}
+						@include sp{
+							font-size: s(14);
+							.price{
+								font-size: s(28);
+								margin-left: s(12);
+								margin-right: s(4);
+								padding-bottom: s(5);
+							}
+						}
+					}
+				}
+				.more{
+					position: relative;
+					display: block;
+					padding-right: 30px;
+					width: 160px;
+					margin: 20px 20px 20px auto;
+					color: $main_color;
+					font-weight: 500;
+					box-sizing: border-box;
+					transition: padding .2s;
+					white-space: nowrap;
+					@include sp{
+						padding-right: s(30);
+						width: s(160);
+						margin: s(20) s(20) s(20) auto;
+					}
+					.icon-arrow{
+						right: 0;
+						background: $main_color;
+						top: 55%;
+						svg{
+							stroke: #fff;
+							fill: #fff;
+						}
+					}
+				}
+				&:hover{
+					.more{
+						padding-left: 10px;
+					}
+				}
+			}
+		}
+		&_type01.box{
+			box-shadow: 0 0 0 3px $main_color inset;
+			h3{
+				background: $main_color;
+				img{
+					right: 0;
+					top: -20px;
+				}
+			}
+			&:hover{
+				box-shadow: 0 0 0 3px $main_color_hover inset;
+				h3{
+					background: $main_color_hover;
+				}
+			}
+			@include sp{
+				box-shadow: 0 0 0 s(3) $main_color inset;
+				h3{
+					img{
+						width: s(120);
+					}
+				}
+			}
+		}
+		&_type02.box{
+			box-shadow: 0 0 0 3px #FA7F3F inset;
+			h3{
+				background: #FA7F3F;
+				img{
+					right: -4px;
+					top: -13px;
+				}
+			}
+			&:hover{
+				box-shadow: 0 0 0 3px #EB5C12 inset;
+				h3{
+					background: #EB5C12;
+				}
+			}
+			@include sp{
+				box-shadow: 0 0 0 s(3) #FA7F3F inset;
+				h3{
+					img{
+						width: s(104);
+					}
+				}
+			}
+		}
+		&_type03.box{
+			box-shadow: 0 0 0 3px #00AAC7 inset;
+			h3{
+				background: #00AAC7;
+				img{
+					right: 14px;
+					top: -6px;
+				}
+			}
+			&:hover{
+				box-shadow: 0 0 0 3px #01869D inset;
+				h3{
+					background: #01869D;
+				}
+			}
+			@include sp{
+				box-shadow: 0 0 0 s(3) #00AAC7 inset;
+				h3{
+					img{
+						width: s(131);
+					}
+				}
+			}
+		}
+	
+		.l_btn_more{
+			position: relative;
+			left: 50%;
+			transform: translateX(-50%);
+			margin-top: 10px;
+			@include sp{
+				margin-top: 0;
+			}
+		}
+	}	
+
+	// -------------------------------------------------
+	// top__shops(pc)
+	// -------------------------------------------------
+	&__shops-pc{
+		padding: 70px 0;
+		background: #F7F3E5;
+		@include sp{
+			display: none;
+		}
+		&_head{
+			width: $cont_w_pc;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			position: relative;
+			z-index: 10;
+			@include sp{
+				width: $cont_w_sp;
+			}
+			div{
+				width: 163px;
+			}
+			h2{
+				width: 163px;
+				margin-top: -10px;
+				margin-right: 30px;
+				text-align: left;
+				.en{
+					text-align: left;
+				}
+			}
+			a{
+				display: block;
+				padding: 15px 0;
+				margin-top: 20px;
+				width: 100%;
+				text-decoration: none;
+				position: relative;
+				transition: padding .2s;
+				box-sizing: border-box;
+				.icon-arrow{
+					right: 0;
+					width: 17px;
+					height: 17px;
+					background: $main_color;
+					svg{
+						fill: #fff;
+						stroke: #fff;
+						width: 4px;
+						height: 7px;
+					}
+				}
+				&::after{
+					content: "";
+					background: $main_color;
+					display: block;
+					width: 100%;
+					height: 1px;
+					bottom: 0;
+					left: 0;
+					position: absolute;
+				}
+				&:hover{
+					padding: 15px 0 15px 15px;
+					&::after{
+						height: 3px;
+					}
+				}
+			}
+			p{
+				line-height: 1.875;
+				width: 810px;
+			}
+		}
+		&_map{
+			width: $cont_w_pc;
+			margin: -60px auto 0;
+			position: relative;
+			padding-left: 240px;
+			box-sizing: border-box;
+			@include sp{
+				width: $cont_w_sp;
+			}
+			&_links{
+				li{
+					position: absolute;
+					.modal_open{
+						background: $main_color;
+						border-radius: 5px;
+						width: 220px;
+						height: 50px;
+						display: flex;
+						align-items: center;
+						padding: 0 20px;
+						box-sizing: border-box;
+						position: relative;
+						font-size: 16px;
+						font-weight: 500;
+						color: #fff;
+						box-shadow: 0 0 5px rgba(0,0,0,.16);
+						transition: all .2s;
+						&::after{
+							content: "";
+							display: block;
+							background: url("../img/ico_plus.svg")no-repeat 0 0 / contain;
+							width: 18px;
+							height: 18px;
+							position: absolute;
+							right: 20px;
+							top: 50%;
+							transform: translateY(-50%);
+						}
+						&:hover{
+							background: $main_color_hover;
+							&::after{
+								background: url("../img/ico_plus-active.svg")no-repeat 0 0 / contain;
+							}
+						}					
+					}
+					.line01,.line02,.line03{
+						display: block;
+						width: 100px;
+						height: 1px;
+						background-image: linear-gradient(to right, #707070, #707070 4px, transparent 4px, transparent 9px);
+						background-size: 9px 1px;
+						background-repeat: repeat-x;
+						position: absolute;
+					}	
+					&.hokkaidou{
+						top: 170px;
+						right: 0;
+						.line01{
+							width: 105px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 80px;
+							left: -145px;
+							bottom: 59px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kantou{
+						top: 363px;
+						right: 82px;
+						.line01{
+							width: 104px;
+							right: 100%;
+							top: 50%;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.tyubu{
+						top: 529px;
+						right: 82px;
+						.line01{
+							width: 40px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 120px;
+							left: -99px;
+							bottom: 84px;
+							transform: rotate(90deg);
+						}
+						.line03{
+							width: 180px;
+							left: -214px;
+							bottom: 144px;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kinki{
+						top: 147px;
+						right: 452px;
+						.line01{
+							width: 282px;
+							right: -28px;
+							top: 149px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								right: -10px;
+							}
+						}
+					}
+					&.tyugoku{
+						top: 147px;
+						left: 0;
+						.line01{
+							width: 120px;
+							left: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 260px;
+							right: -250px;
+							top: 155px;
+							transform: rotate(90deg);
+						}
+						.line03{
+							width: 78px;
+							right: -199px;
+							bottom: -237px;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								right: -10px;
+							}
+						}
+					}
+					&.shikoku{
+						top: 509px;
+						right: 370px;
+						.line01{
+							width: 62px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 23px;
+							left: -76px;
+							bottom: 38px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kyushu{
+						top: 570px;
+						right: 468px;
+						.line01{
+							width: 25px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 55px;
+							left: -56px;
+							bottom: 52px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&_outline{
+			position: absolute;
+			left: 0;
+			bottom: 85px;
+			p{
+				@extend .font-maru;
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 1.4;
+				strong{
+					background: $point_color;
+				}
+				.medium{
+					font-size: 22px;
+					font-weight: 700;
+					display: block;
+				}
+				.small{
+					font-size: 19px;
+					font-weight: 700;
+					display: block;
+				}
+			}
+			h3{
+				margin: 10px 0 15px;
+			}
+		}
+	}
+
+	// -------------------------------------------------
+	// top__shops(sp)
+	// -------------------------------------------------
+	&__shops-sp{
+		display: none;
+		padding: s(50) 0 s(30);
+		background: #F7F3E5;
+		@include sp{
+			display: block;
+		}
+		&_outline{
+			position: relative;
+			width: $cont_w_sp;
+			margin: s(25) auto 0;
+			p{
+				@extend .font-maru;
+				font-size: s(15);
+				font-weight: 700;
+				line-height: 1.4;
+				margin-bottom: s(5);
+				strong{
+					background: $point_color;
+				}
+				.medium{
+					font-size: s(14);
+					font-weight: 700;
+					display: block;
+				}
+				.small{
+					font-size: s(12);
+					font-weight: 700;
+					display: block;
+				}
+			}
+			h3 img{
+				width: s(134);
+			}
+			figure{
+				position: absolute;
+				&.obj{
+					right: s(-5);
+					bottom: 0;
+					img{
+						width: s(175);
+					}
+				}
+				&.map{
+					right: s(-15);
+					bottom: 0;
+					img{
+						width: s(218);
+					}
+				}
+			}
+			& + p{
+				line-height: 1.7;
+				width: $cont_w_sp;
+				margin: s(20) auto s(10);
+			}
+		}
+		a{
+			display: block;
+			padding: s(15) 0;
+			margin: s(20) s(20) 0 auto;
+			width: s(200);
+			text-decoration: none;
+			position: relative;
+			transition: padding .2s;
+			box-sizing: border-box;
+			.icon-arrow{
+				right: 0;
+				width: s(17);
+				height: s(17);
+				background: $main_color;
+				svg{
+					fill: #fff;
+					stroke: #fff;
+					width: s(4);
+					height: s(7);
+				}
+			}
+			&::after{
+				content: "";
+				background: $main_color;
+				display: block;
+				width: 100%;
+				height: 1px;
+				bottom: 0;
+				left: 0;
+				position: absolute;
+			}
+		}
+		&_map_links{
+			width: $cont_w_sp;
+			margin: s(30) auto 0;
+			li{
+				&.modal_open{
+					background: $main_color;
+					border-radius: s(5);
+					width: 100%;
+					height: s(60);
+					display: flex;
+					align-items: center;
+					padding: 0 s(20);
+					box-sizing: border-box;
+					position: relative;
+					font-weight: 500;
+					color: #fff;
+					transition: all .2s;
+					&::after{
+						content: "";
+						display: block;
+						background: url("../img/ico_plus.svg")no-repeat 0 0 / contain;
+						width: s(18);
+						height: s(18);
+						position: absolute;
+						right: s(20);
+						top: 50%;
+						transform: translateY(-50%);
+					}				
+				}
+				& + li{
+					margin-top: s(10);
+				}
+			}
+		}
+	}
+}

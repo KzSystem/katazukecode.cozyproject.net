@@ -1,3 +1,37 @@
+// JavaScript Document
+
+// home-main_visual-slider
+$('.top__slider ul').slick({
+	speed: 800,
+	infinite: true,
+	fade: true,
+  autoplay: true,
+  autoplaySpeed: 4000,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: true,
+	dots: true,
+  prevArrow: '<img src="assets/img/arrow.png" class="slide-arrow prev-arrow">',
+  nextArrow: '<img src="assets/img/arrow.png" class="slide-arrow next-arrow">'
+});
+
+$(window).on('load', function() {
+	var slider_count = $('.top__slider .slick-dots li').length;
+	var w = 100 / slider_count;
+	w = w + '%';
+	$('.top__slider .slick-dots li').css({'width':w});
+	$('.top__slider .slick-dots').append(
+		'<li class="slider_num min"><span class="slider_dots_arrow prev"></span>01</li>',
+		'<li class="slider_num max">0' + slider_count + '<span class="slider_dots_arrow next"></span></li>'
+	);
+	
+	$('.top__slider .slick-dots').on('click','.slider_dots_arrow.prev',function(){
+		$('.top__slider ul').slick('slickPrev');
+	});
+	$('.top__slider .slick-dots').on('click','.slider_dots_arrow.next',function(){
+		$('.top__slider ul').slick('slickNext');
+	});
+});
 
 // nav_btn
 $('#nav_btn').on('click', function(){
@@ -68,13 +102,7 @@ function onYouTubeIframeAPIReady() {
 
 // モーダル
 $('.modal_open').on('click', function(){
-	var click_obj = $(this);
 	var tar_name = $(this).data('modal');	
-	if(click_obj.hasClass('modal_white')){
-		$('#l_modal').addClass('white');
-	}else{
-		$('#l_modal').removeClass('white');
-	}
 	if($(this).hasClass('in_modal')){
 		$('.l_modal__content').fadeOut(100);
 		setTimeout(function(){
@@ -92,24 +120,14 @@ $('.modal_open').on('click', function(){
 });
 $('.l_modal__close').on('click', function(){
 	$('.l_modal__content').fadeOut(100);
-	if($('#youtube_official_movie').length){
-		ytPlayer.pauseVideo();
-	}
+	ytPlayer.pauseVideo();
 	setTimeout(function(){
 		$('#l_modal').fadeOut(100);
 	}, 100);
 });
 $('.l_modal__bg').on('click', function(){
 	$('.l_modal__content').fadeOut(100);
-	if($('#youtube_official_movie').length){
-		ytPlayer.pauseVideo();
-	}
-	setTimeout(function(){
-		$('#l_modal').fadeOut(100);
-	}, 100);
-});
-$('.l_modal__content a').on('click', function(){
-	$('.l_modal__content').fadeOut(100);
+	ytPlayer.pauseVideo();
 	setTimeout(function(){
 		$('#l_modal').fadeOut(100);
 	}, 100);
@@ -119,31 +137,16 @@ $('.l_modal__content a').on('click', function(){
 $(function(){
   $('a[href^=#]').click(function(){
     var adjust = 0;
-		var pointWidth_pc = 1366;
-		var windowWidth = $(window).width();
-		if (window.matchMedia('(max-width: 680px)').matches) {
-			adjust = -20;
-		}else{
-			adjust = -60;
-			if($('#storeList').length){
-				adjust = -100;
-			}
-		}
     var speed = 400;
     var href= $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top + adjust;
-		if (!window.matchMedia('(max-width: 680px)').matches) {
-			if(windowWidth < pointWidth_pc){
-				position = position * (windowWidth / pointWidth_pc);
-			}
-		}
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
 });
 
-// タブレット・スマホでホバーイベントをさせない
+
 var touch = 'ontouchstart' in document.documentElement
             || navigator.maxTouchPoints > 0
             || navigator.msMaxTouchPoints > 0;
@@ -166,7 +169,6 @@ if (touch) { // remove all :hover stylesheets
 }
 
 
-var userAgent = window.navigator.userAgent.toLowerCase();
 function change_scale(){
 	var pointWidth_pc = 1366;
 	var pointWidth_sp = 680;
@@ -184,13 +186,8 @@ function change_scale(){
 	}
 }
 $(window).on('load', function() {
-	if(userAgent.indexOf('msie') == -1) {
-		$('body').css({'overflow-x':'hidden'});
-		change_scale();
-	}
+	change_scale();
 });
 window.addEventListener("resize", function() {
-	if(userAgent.indexOf('msie') == -1) {
-		change_scale();
-	}
+	change_scale();
 });
