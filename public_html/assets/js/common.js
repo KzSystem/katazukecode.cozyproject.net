@@ -119,8 +119,6 @@ $('.l_modal__content a').on('click', function(){
 $(function(){
   $('a[href^=#]').click(function(){
     var adjust = 0;
-		var pointWidth_pc = 1366;
-		var windowWidth = $(window).width();
 		if (window.matchMedia('(max-width: 680px)').matches) {
 			adjust = -20;
 		}else{
@@ -133,11 +131,6 @@ $(function(){
     var href= $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
     var position = target.offset().top + adjust;
-		if (!window.matchMedia('(max-width: 680px)').matches) {
-			if(windowWidth < pointWidth_pc){
-				position = position * (windowWidth / pointWidth_pc);
-			}
-		}
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
@@ -164,33 +157,3 @@ if (touch) { // remove all :hover stylesheets
         }
     } catch (ex) {}
 }
-
-
-var userAgent = window.navigator.userAgent.toLowerCase();
-function change_scale(){
-	var pointWidth_pc = 1366;
-	var pointWidth_sp = 680;
-	var windowWidth = $(window).width();
-	var zoom = 1;
-	if(windowWidth < pointWidth_pc){
-		if(windowWidth > pointWidth_sp){
-			zoom = windowWidth / pointWidth_pc;
-		}else{
-			zoom = 1;
-		}
-		$('body').css({'zoom':zoom});
-	}else{
-		$('body').css({'zoom':'1'});
-	}
-}
-$(window).on('load', function() {
-	if(userAgent.indexOf('msie') == -1) {
-		$('body').css({'overflow-x':'hidden'});
-		change_scale();
-	}
-});
-window.addEventListener("resize", function() {
-	if(userAgent.indexOf('msie') == -1) {
-		change_scale();
-	}
-});

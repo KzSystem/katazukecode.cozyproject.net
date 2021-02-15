@@ -3683,3 +3683,469 @@
 		}
 	}
 }
+
+.areaList{
+	&__about{
+		width: $cont_w_pc;
+		margin: 0 auto;
+		padding: 0 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		h3{
+			line-height: 1.7;
+			font-size: 35px;
+			font-weight: 700;
+			@extend .font-maru;
+			span{
+				font-size: 20px;
+				display: block;
+			}
+			strong{
+				background: $point_color;
+				padding-left: .2em;
+			}
+		}
+		p{
+			margin-top: 5px;
+			margin-bottom: 20px;
+			line-height: 2;
+		}
+		@include sp{
+			width: $cont_w_sp;
+			padding: 0;
+			display: block;
+			h3{
+				margin-top: s(20);
+				text-align: center;
+				font-size: s(30);
+				span{
+					font-size: s(18);
+				}
+			}
+			p{
+				margin: s(5) auto s(20);
+				width: $cont_w_sp;
+				padding: 0 s(20);
+			}
+			figure{
+				width: s(278);
+				margin-left: s(40);
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+	&__internalnav{
+		width: $cont_w_pc;
+		margin: 50px auto 0;
+		background: #FDFBF2;
+		border-radius: 20px;
+		box-shadow: 0 0 5px 1px rgba(0,0,0,.16);
+		padding: 25px 50px 30px;
+		@include sp{
+			width: $cont_w_sp;
+			margin: s(30) auto 0;
+			background: transparent;
+			border-radius: 0;
+			box-shadow: none;
+			padding: 0;
+		}
+		h4{
+			text-align: center;
+			font-size: 32px;
+			@extend .font-maru;
+			margin-bottom: 25px;
+			@include sp{
+				font-size: s(24);
+				margin-bottom: s(20);
+			}
+		}
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				width: 32%;
+				height: 60px;
+				a{
+					width: 100%;
+					height: 100%;
+					text-decoration: none;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					text-align: center;
+					color: #fff;
+					font-weight: 500;
+					background: $main_color;
+					border-radius: 5px;
+					box-shadow: 0 0 5px 1px rgba(0,0,0,.16);
+					position: relative;
+					transition: background .3s;
+					.icon-arrow{
+						svg{
+							transform: rotate(90deg);
+							fill: $main_color;
+							stroke: $main_color;
+							transition: all .3s;
+						}
+					}
+					&:hover{
+						background: $main_color_hover;
+						.icon-arrow{
+							svg{
+								fill: $main_color_hover;
+								stroke: $main_color_hover;
+							}
+						}
+					}
+				}
+			}
+			@include sp{
+				display: block;
+				li{
+					width: 100%;
+					height: s(60);
+					& + li{
+						margin-top: s(5);
+					}
+					a{
+						justify-content: flex-start;
+						padding-left: s(20);
+						border-radius: s(5);
+						box-shadow: none;
+					}
+				}
+			}
+		}
+	}
+	
+	.l_shops-pc{
+		background: transparent;
+		padding: 70px 0 50px;
+		&_head{
+			display: block;
+			& > div{
+				width: 100%;
+				a{
+					display: none;
+				}
+			}
+			.l_section_title{
+				width: 100%;
+				text-align: center;
+				.en{
+					text-align: center;
+				}
+			}
+			& > p{
+				width: 100%;
+				margin-top: 20px;
+			}
+		}
+		&_map{
+			margin-top: 0;
+		}
+	}	
+	.l_shops-sp{
+		background: transparent;
+		padding: s(50) 0 s(30);
+		& > a{
+			margin-top: 0;
+		}
+		&_outline + p{
+			margin-bottom: 0;
+		}
+	}
+	
+	&__prefectures{
+		background: #F7F3E5;
+		padding: 70px 0 50px;
+		h2 + p{
+			width: $cont_w_pc;
+			margin: 20px auto 30px;
+			line-height: 2;
+		}
+		@include sp{
+			padding: s(50) 0 s(35);
+			h2 + p{
+				width: $cont_w_sp;
+				margin: s(20) auto;
+			}
+		}
+		&_list{
+			width: $cont_w_pc;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			li{
+				width: 260px;
+				border-radius: 20px;
+				box-shadow: 0 0 5px 1px rgba(0,0,0,.16);
+				& + li{
+					margin-left: 20px;
+				}
+				&:nth-child(4n+1){
+					margin-left: 0;
+				}
+				&:nth-child(n+5){
+					margin-top: 20px;
+				}
+				.img{
+					background: #fff;
+					padding: 5px;
+					border-radius: 20px 20px 0 0;
+					figure{
+						overflow: hidden;
+						width: 100%;
+						height: 120px;
+						border-radius: 15px 15px 0 0;
+						img{
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+							font-family: 'object-fit: cover;';
+							transition: transform .3s;
+						}
+					}
+				}
+				.text{
+					background: $main_color;
+					border-radius: 0 0 20px 20px;
+					padding-top: 5px;
+					height: 60px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: background .3s;
+					p{
+						display: inline-block;
+						color: #fff;
+						font-size: 24px;
+						padding-right: 30px;
+						font-weight: 700;
+						position: relative;
+						.point{
+							position: relative;
+							&::before{
+								content: "";
+								display: block;
+								width: 6px;
+								height: 6px;
+								background: $point_color;
+								border-radius: 50% 50%;
+								left: 50%;
+								transform: translateX(-50%);
+								top: -5px;
+								position: absolute;
+								@include sp{
+									width: s(5);
+									height: s(5);
+								}
+							}
+						}
+						.icon-arrow{
+							right: 0;
+							width: 19px;
+							height: 19px;
+							svg{
+								fill: $main_color;
+								stroke: $main_color;
+								width: 5px;
+								height: 8px;
+								transition: all .3s;
+							}
+						}
+					}
+				}
+				&:hover{
+					.img{
+						figure{
+							img{
+								transform: scale(1.1);
+							}
+						}
+					}
+					.text{
+						background: $main_color_hover;
+						p{
+							.icon-arrow{
+								svg{
+									fill: $main_color_hover;
+									stroke: $main_color_hover;
+								}
+							}
+						}
+					}
+				}
+			}
+			@include sp{
+				width: $cont_w_sp;
+				li{
+					width: s(168);
+					border-radius: s(15);
+					& + li{
+						margin-left: s(9);
+					}
+					&:nth-child(4n+1){
+						margin-left: s(9);
+					}
+					&:nth-child(2n+1){
+						margin-left: 0;
+					}
+					&:nth-child(n+5){
+						margin-top: s(9);
+					}
+					&:nth-child(n+3){
+						margin-top: s(9);
+					}
+					.img{
+						padding: s(3);
+						border-radius: s(15) s(15) 0 0;
+						figure{
+							height: s(77);
+							border-radius: s(12) s(12) 0 0;
+						}
+					}
+					.text{
+						border-radius: 0 0 s(15) s(15);
+						padding-top: s(5);
+						height: s(40);
+						p{
+							font-size: s(16);
+							padding-right: s(18);
+							.point{
+								&::before{
+									width: s(5);
+									height: s(5);
+								}
+							}
+							.icon-arrow{
+								width: s(12);
+								height: s(12);
+								svg{
+									width: s(4);
+									height: s(6);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&__od-city{
+		padding: 70px 0 65px;
+		h2 + p{
+			width: $cont_w_pc;
+			margin: 20px auto 50px;
+			line-height: 2;
+		}
+		@include sp{
+			padding: s(50) 0 s(30);
+			h2 + p{
+				width: $cont_w_sp;
+				margin: s(20) auto;
+			}
+		}
+		&_list{
+			width: $cont_w_pc;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			li{
+				width: 263px;
+				&:nth-child(n+5){
+					margin-top: 35px;
+				}
+				a{
+					background: $main_color;
+					border-radius: 60px 60px;
+					padding-top: 5px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 60px;
+					width: 100%;
+					font-weight: 500;
+					font-size: 24px;
+					transition: background .2s;
+					line-height: 1.2;
+					text-decoration: none;
+					color: #fff;
+					&:hover{
+						background: $main_color_hover;
+					}
+					& > span{
+						position: relative;
+						padding-right: 30px;
+						letter-spacing: -.1em;
+						.icon-arrow{
+							right: 0;
+							svg{
+								fill: $main_color;
+								stroke: $main_color;
+							}
+						}
+					}
+				}
+				.point{
+					position: relative;
+					&::before{
+						content: "";
+						display: block;
+						width: 6px;
+						height: 6px;
+						background: $point_color;
+						border-radius: 50% 50%;
+						left: 50%;
+						transform: translateX(-50%);
+						top: -5px;
+						position: absolute;
+						@include sp{
+							width: s(5);
+							height: s(5);
+						}
+					}
+				}
+			}
+			@include sp{
+				width: $cont_w_sp;
+				li{
+					width: s(168);
+					&:nth-child(n+5){
+						margin-top: s(9);
+					}
+					&:nth-child(n+3){
+						margin-top: s(9);
+					}
+					a{
+						padding-top: s(5);
+						height: s(60);
+						font-size: s(16);
+						& > span{
+							padding-right: s(24);
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.l_otherLinks{
+		margin-bottom: 50px;
+		@include sp{
+			margin-bottom: s(30);
+		}
+	}
+	.l_otherLinks + div .l_btn{
+		margin-bottom: 50px;
+		@include sp{
+			margin-bottom: s(30);
+		}
+	}
+}

@@ -14,7 +14,7 @@ Text Domain: blankslate
 BlankSlate WordPress Theme © 2011-2019 TidyThemes
 BlankSlate is distributed under the terms of the GNU GPL
 */
-.font-maru, .l_fixed_contact__head p, .l_section_title, .l_modal .l_modal__shops h2, .l_modal .l_modal__storeList h2, .l_cases__outline h3, .l_lowerTitle {
+.font-maru, .l_fixed_contact__head p, .l_section_title, .l_modal .l_modal__shops h2, .l_modal .l_modal__storeList h2, .l_modal .l_modal__prefectures h2, .l_cases__outline h3, .l_shops-pc_outline p, .l_shops-sp_outline p, .l_lowerTitle {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
 .font-osw, .l_section_title .en, .l_5reasons__list li h3 .num, .l_cases__outline h3 strong, .l_cases__list li a .flex .date, .l_cases__list li a .price strong, .l_flow__list li h3 .num, .l_news__wrap dl dt, .l_news__wrap dl dd .new {
@@ -159,6 +159,9 @@ br.sp {
   @media (max-width: 680px) {
     br.sp {
       display: inline; } }
+
+.text-center {
+  text-align: center; }
 
 .icon-arrow {
   display: flex;
@@ -1813,6 +1816,57 @@ br.sp {
       .l_modal .l_modal__storeList .not_find {
         font-size: 6.4vw;
         margin-top: 26.6666666667vw; } }
+  .l_modal .l_modal__prefectures h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 35px; }
+    @media (max-width: 680px) {
+      .l_modal .l_modal__prefectures h2 {
+        font-size: 8vw;
+        margin-top: 0;
+        margin-bottom: 6.6666666667vw;
+        line-height: 1.4; } }
+  .l_modal .l_modal__prefectures .wrap {
+    width: 100%;
+    padding: 30px;
+    padding-top: 0;
+    background: #fff;
+    border-radius: 20px; }
+    .l_modal .l_modal__prefectures .wrap ul {
+      display: flex;
+      flex-wrap: wrap; }
+      .l_modal .l_modal__prefectures .wrap ul li {
+        display: inline-block;
+        margin: 30px 15px 0 0; }
+        .l_modal .l_modal__prefectures .wrap ul li a {
+          text-decoration: none;
+          padding-right: 20px;
+          padding-left: 6px;
+          position: relative; }
+        .l_modal .l_modal__prefectures .wrap ul li .icon-arrow {
+          right: 4px;
+          transition: right .3s; }
+          .l_modal .l_modal__prefectures .wrap ul li .icon-arrow svg {
+            fill: #03A58E;
+            stroke: #03A58E; }
+        .l_modal .l_modal__prefectures .wrap ul li:hover .icon-arrow {
+          right: 0; }
+    @media (max-width: 680px) {
+      .l_modal .l_modal__prefectures .wrap {
+        width: 100%;
+        padding: 0 4vw 8vw;
+        border-radius: 4vw;
+        max-height: 55vh;
+        overflow-y: auto; }
+        .l_modal .l_modal__prefectures .wrap ul li {
+          margin: 8vw 2.6666666667vw 0 0; }
+          .l_modal .l_modal__prefectures .wrap ul li a {
+            padding-right: 5.3333333333vw;
+            padding-left: 0.8vw; }
+          .l_modal .l_modal__prefectures .wrap ul li .icon-arrow {
+            right: 1.0666666667vw; } }
 
 .l_emergency {
   width: 900px;
@@ -3770,6 +3824,382 @@ br.sp {
       left: 50%;
       transform: translateX(-50%);
       margin-top: 10px; } }
+
+.l_shops-pc {
+  padding: 70px 0;
+  background: #F7F3E5; }
+  @media (max-width: 680px) {
+    .l_shops-pc {
+      display: none; } }
+  .l_shops-pc_head {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10; }
+    @media (max-width: 680px) {
+      .l_shops-pc_head {
+        width: 92vw; } }
+    .l_shops-pc_head div {
+      width: 163px; }
+    .l_shops-pc_head h2 {
+      width: 163px;
+      margin-top: -10px;
+      margin-right: 30px;
+      text-align: left; }
+      .l_shops-pc_head h2 .en {
+        text-align: left; }
+    .l_shops-pc_head a {
+      display: block;
+      padding: 15px 0;
+      margin-top: 20px;
+      width: 100%;
+      text-decoration: none;
+      position: relative;
+      transition: padding .2s;
+      box-sizing: border-box; }
+      .l_shops-pc_head a .icon-arrow {
+        right: 0;
+        width: 17px;
+        height: 17px;
+        background: #03A58E; }
+        .l_shops-pc_head a .icon-arrow svg {
+          fill: #fff;
+          stroke: #fff;
+          width: 4px;
+          height: 7px; }
+      .l_shops-pc_head a::after {
+        content: "";
+        background: #03A58E;
+        display: block;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        position: absolute; }
+      .l_shops-pc_head a:hover {
+        padding: 15px 0 15px 15px; }
+        .l_shops-pc_head a:hover::after {
+          height: 3px; }
+    .l_shops-pc_head p {
+      line-height: 1.875;
+      width: 810px; }
+  .l_shops-pc_map {
+    width: 1100px;
+    margin: -60px auto 0;
+    position: relative;
+    padding-left: 240px;
+    box-sizing: border-box; }
+    @media (max-width: 680px) {
+      .l_shops-pc_map {
+        width: 92vw; } }
+    .l_shops-pc_map_links li {
+      position: absolute; }
+      .l_shops-pc_map_links li .modal_open {
+        background: #03A58E;
+        border-radius: 5px;
+        width: 220px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        position: relative;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
+        transition: all .2s; }
+        .l_shops-pc_map_links li .modal_open::after {
+          content: "";
+          display: block;
+          background: url("../img/ico_plus.svg") no-repeat 0 0/contain;
+          width: 18px;
+          height: 18px;
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%); }
+        .l_shops-pc_map_links li .modal_open:hover {
+          background: #02816F; }
+          .l_shops-pc_map_links li .modal_open:hover::after {
+            background: url("../img/ico_plus-active.svg") no-repeat 0 0/contain; }
+      .l_shops-pc_map_links li .line01, .l_shops-pc_map_links li .line02, .l_shops-pc_map_links li .line03 {
+        display: block;
+        width: 100px;
+        height: 1px;
+        background-image: linear-gradient(to right, #707070, #707070 4px, transparent 4px, transparent 9px);
+        background-size: 9px 1px;
+        background-repeat: repeat-x;
+        position: absolute; }
+      .l_shops-pc_map_links li.hokkaidou {
+        top: 170px;
+        right: 0; }
+        .l_shops-pc_map_links li.hokkaidou .line01 {
+          width: 105px;
+          right: 100%;
+          top: 50%; }
+        .l_shops-pc_map_links li.hokkaidou .line02 {
+          width: 80px;
+          left: -145px;
+          bottom: 59px;
+          transform: rotate(90deg); }
+          .l_shops-pc_map_links li.hokkaidou .line02::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
+      .l_shops-pc_map_links li.kantou {
+        top: 363px;
+        right: 82px; }
+        .l_shops-pc_map_links li.kantou .line01 {
+          width: 104px;
+          right: 100%;
+          top: 50%; }
+          .l_shops-pc_map_links li.kantou .line01::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
+      .l_shops-pc_map_links li.tyubu {
+        top: 529px;
+        right: 82px; }
+        .l_shops-pc_map_links li.tyubu .line01 {
+          width: 40px;
+          right: 100%;
+          top: 50%; }
+        .l_shops-pc_map_links li.tyubu .line02 {
+          width: 120px;
+          left: -99px;
+          bottom: 84px;
+          transform: rotate(90deg); }
+        .l_shops-pc_map_links li.tyubu .line03 {
+          width: 180px;
+          left: -214px;
+          bottom: 144px; }
+          .l_shops-pc_map_links li.tyubu .line03::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
+      .l_shops-pc_map_links li.kinki {
+        top: 147px;
+        right: 452px; }
+        .l_shops-pc_map_links li.kinki .line01 {
+          width: 282px;
+          right: -28px;
+          top: 149px;
+          transform: rotate(90deg); }
+          .l_shops-pc_map_links li.kinki .line01::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            right: -10px; }
+      .l_shops-pc_map_links li.tyugoku {
+        top: 147px;
+        left: 0; }
+        .l_shops-pc_map_links li.tyugoku .line01 {
+          width: 120px;
+          left: 100%;
+          top: 50%; }
+        .l_shops-pc_map_links li.tyugoku .line02 {
+          width: 260px;
+          right: -250px;
+          top: 155px;
+          transform: rotate(90deg); }
+        .l_shops-pc_map_links li.tyugoku .line03 {
+          width: 78px;
+          right: -199px;
+          bottom: -237px; }
+          .l_shops-pc_map_links li.tyugoku .line03::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            right: -10px; }
+      .l_shops-pc_map_links li.shikoku {
+        top: 509px;
+        right: 370px; }
+        .l_shops-pc_map_links li.shikoku .line01 {
+          width: 62px;
+          right: 100%;
+          top: 50%; }
+        .l_shops-pc_map_links li.shikoku .line02 {
+          width: 23px;
+          left: -76px;
+          bottom: 38px;
+          transform: rotate(90deg); }
+          .l_shops-pc_map_links li.shikoku .line02::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
+      .l_shops-pc_map_links li.kyushu {
+        top: 570px;
+        right: 468px; }
+        .l_shops-pc_map_links li.kyushu .line01 {
+          width: 25px;
+          right: 100%;
+          top: 50%; }
+        .l_shops-pc_map_links li.kyushu .line02 {
+          width: 55px;
+          left: -56px;
+          bottom: 52px;
+          transform: rotate(90deg); }
+          .l_shops-pc_map_links li.kyushu .line02::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
+  .l_shops-pc_outline {
+    position: absolute;
+    left: 0;
+    bottom: 85px; }
+    .l_shops-pc_outline p {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.4; }
+      .l_shops-pc_outline p strong {
+        background: #FFD800; }
+      .l_shops-pc_outline p .medium {
+        font-size: 22px;
+        font-weight: 700;
+        display: block; }
+      .l_shops-pc_outline p .small {
+        font-size: 19px;
+        font-weight: 700;
+        display: block; }
+    .l_shops-pc_outline h3 {
+      margin: 10px 0 15px; }
+
+.l_shops-sp {
+  display: none;
+  padding: 13.3333333333vw 0 8vw;
+  background: #F7F3E5; }
+  @media (max-width: 680px) {
+    .l_shops-sp {
+      display: block; } }
+  .l_shops-sp_outline {
+    position: relative;
+    width: 92vw;
+    margin: 6.6666666667vw auto 0; }
+    .l_shops-sp_outline p {
+      font-size: 4vw;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 1.3333333333vw; }
+      .l_shops-sp_outline p strong {
+        background: #FFD800; }
+      .l_shops-sp_outline p .medium {
+        font-size: 3.7333333333vw;
+        font-weight: 700;
+        display: block; }
+      .l_shops-sp_outline p .small {
+        font-size: 3.2vw;
+        font-weight: 700;
+        display: block; }
+    .l_shops-sp_outline h3 img {
+      width: 35.7333333333vw; }
+    .l_shops-sp_outline figure {
+      position: absolute; }
+      .l_shops-sp_outline figure.obj {
+        right: -1.3333333333vw;
+        bottom: 0; }
+        .l_shops-sp_outline figure.obj img {
+          width: 46.6666666667vw; }
+      .l_shops-sp_outline figure.map {
+        right: -4vw;
+        bottom: 0; }
+        .l_shops-sp_outline figure.map img {
+          width: 58.1333333333vw; }
+    .l_shops-sp_outline + p {
+      line-height: 1.7;
+      width: 92vw;
+      margin: 5.3333333333vw auto 2.6666666667vw; }
+  .l_shops-sp a {
+    display: block;
+    padding: 4vw 0;
+    margin: 5.3333333333vw 5.3333333333vw 0 auto;
+    width: 53.3333333333vw;
+    text-decoration: none;
+    position: relative;
+    transition: padding .2s;
+    box-sizing: border-box; }
+    .l_shops-sp a .icon-arrow {
+      right: 0;
+      width: 4.5333333333vw;
+      height: 4.5333333333vw;
+      background: #03A58E; }
+      .l_shops-sp a .icon-arrow svg {
+        fill: #fff;
+        stroke: #fff;
+        width: 1.0666666667vw;
+        height: 1.8666666667vw; }
+    .l_shops-sp a::after {
+      content: "";
+      background: #03A58E;
+      display: block;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      position: absolute; }
+  .l_shops-sp_map_links {
+    width: 92vw;
+    margin: 8vw auto 0; }
+    .l_shops-sp_map_links li.modal_open {
+      background: #03A58E;
+      border-radius: 1.3333333333vw;
+      width: 100%;
+      height: 16vw;
+      display: flex;
+      align-items: center;
+      padding: 0 5.3333333333vw;
+      box-sizing: border-box;
+      position: relative;
+      font-weight: 500;
+      color: #fff;
+      transition: all .2s; }
+      .l_shops-sp_map_links li.modal_open::after {
+        content: "";
+        display: block;
+        background: url("../img/ico_plus.svg") no-repeat 0 0/contain;
+        width: 4.8vw;
+        height: 4.8vw;
+        position: absolute;
+        right: 5.3333333333vw;
+        top: 50%;
+        transform: translateY(-50%); }
+    .l_shops-sp_map_links li + li {
+      margin-top: 2.6666666667vw; }
 
 .l_lowerTitle {
   width: 1306px;

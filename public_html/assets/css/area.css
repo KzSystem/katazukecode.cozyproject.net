@@ -1,4 +1,4 @@
-.font-maru, .area__visual .text h3, .area__disposal_content h4, .area__recycling > h4, .area__recycling_content .caution, .area__recycling_content h4, .area__5reasons_n01 h3, .area__5reasons_n01-info h4, .area__price_fukidashi, .area__price_caution, .area__price_subtitle, .area__price_pack .detail .amount, .area__price_pack .total .price, .area__cases_outline h3, .area__area h3 {
+.font-maru, .area__visual .text h3, .area__disposal_content h4, .area__recycling > h4, .area__recycling_content .caution, .area__recycling_content h4, .area__5reasons_n01 h3, .area__5reasons_n01-info h4, .area__price_fukidashi, .area__price_caution, .area__price_subtitle, .area__price_pack .detail .amount, .area__price_pack .total .price, .area__cases_outline h3, .area__area h3, .areaList__about h3, .areaList__internalnav h4 {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
 .font-osw, .area__disposal_content ol li::before, .area__recycling_flow ul li figure figcaption, .area__5reasons_n01 h3 .num, .area__price_pack .detail .amount .inr .num strong, .area__price_pack .total .price .num strong, .area__price_pack .total .tpoint > p .num, .area__cases_outline h3 strong, .area__cases_content .price .num strong {
@@ -2936,6 +2936,363 @@
   margin-bottom: 50px; }
   @media (max-width: 680px) {
     .area .l_btnlist {
+      margin-bottom: 8vw; } }
+
+.areaList__about {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .areaList__about h3 {
+    line-height: 1.7;
+    font-size: 35px;
+    font-weight: 700; }
+    .areaList__about h3 span {
+      font-size: 20px;
+      display: block; }
+    .areaList__about h3 strong {
+      background: #FFD800;
+      padding-left: .2em; }
+  .areaList__about p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 2; }
+  @media (max-width: 680px) {
+    .areaList__about {
+      width: 92vw;
+      padding: 0;
+      display: block; }
+      .areaList__about h3 {
+        margin-top: 5.3333333333vw;
+        text-align: center;
+        font-size: 8vw; }
+        .areaList__about h3 span {
+          font-size: 4.8vw; }
+      .areaList__about p {
+        margin: 1.3333333333vw auto 5.3333333333vw;
+        width: 92vw;
+        padding: 0 5.3333333333vw; }
+      .areaList__about figure {
+        width: 74.1333333333vw;
+        margin-left: 10.6666666667vw; }
+        .areaList__about figure img {
+          width: 100%;
+          height: auto; } }
+.areaList__internalnav {
+  width: 1100px;
+  margin: 50px auto 0;
+  background: #FDFBF2;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16);
+  padding: 25px 50px 30px; }
+  @media (max-width: 680px) {
+    .areaList__internalnav {
+      width: 92vw;
+      margin: 8vw auto 0;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0; } }
+  .areaList__internalnav h4 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px; }
+    @media (max-width: 680px) {
+      .areaList__internalnav h4 {
+        font-size: 6.4vw;
+        margin-bottom: 5.3333333333vw; } }
+  .areaList__internalnav ul {
+    display: flex;
+    justify-content: space-between; }
+    .areaList__internalnav ul li {
+      width: 32%;
+      height: 60px; }
+      .areaList__internalnav ul li a {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        background: #03A58E;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16);
+        position: relative;
+        transition: background .3s; }
+        .areaList__internalnav ul li a .icon-arrow svg {
+          transform: rotate(90deg);
+          fill: #03A58E;
+          stroke: #03A58E;
+          transition: all .3s; }
+        .areaList__internalnav ul li a:hover {
+          background: #02816F; }
+          .areaList__internalnav ul li a:hover .icon-arrow svg {
+            fill: #02816F;
+            stroke: #02816F; }
+    @media (max-width: 680px) {
+      .areaList__internalnav ul {
+        display: block; }
+        .areaList__internalnav ul li {
+          width: 100%;
+          height: 16vw; }
+          .areaList__internalnav ul li + li {
+            margin-top: 1.3333333333vw; }
+          .areaList__internalnav ul li a {
+            justify-content: flex-start;
+            padding-left: 5.3333333333vw;
+            border-radius: 1.3333333333vw;
+            box-shadow: none; } }
+.areaList .l_shops-pc {
+  background: transparent;
+  padding: 70px 0 50px; }
+  .areaList .l_shops-pc_head {
+    display: block; }
+    .areaList .l_shops-pc_head > div {
+      width: 100%; }
+      .areaList .l_shops-pc_head > div a {
+        display: none; }
+    .areaList .l_shops-pc_head .l_section_title {
+      width: 100%;
+      text-align: center; }
+      .areaList .l_shops-pc_head .l_section_title .en {
+        text-align: center; }
+    .areaList .l_shops-pc_head > p {
+      width: 100%;
+      margin-top: 20px; }
+  .areaList .l_shops-pc_map {
+    margin-top: 0; }
+.areaList .l_shops-sp {
+  background: transparent;
+  padding: 13.3333333333vw 0 8vw; }
+  .areaList .l_shops-sp > a {
+    margin-top: 0; }
+  .areaList .l_shops-sp_outline + p {
+    margin-bottom: 0; }
+.areaList__prefectures {
+  background: #F7F3E5;
+  padding: 70px 0 50px; }
+  .areaList__prefectures h2 + p {
+    width: 1100px;
+    margin: 20px auto 30px;
+    line-height: 2; }
+  @media (max-width: 680px) {
+    .areaList__prefectures {
+      padding: 13.3333333333vw 0 9.3333333333vw; }
+      .areaList__prefectures h2 + p {
+        width: 92vw;
+        margin: 5.3333333333vw auto; } }
+  .areaList__prefectures_list {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; }
+    .areaList__prefectures_list li {
+      width: 260px;
+      border-radius: 20px;
+      box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16); }
+      .areaList__prefectures_list li + li {
+        margin-left: 20px; }
+      .areaList__prefectures_list li:nth-child(4n+1) {
+        margin-left: 0; }
+      .areaList__prefectures_list li:nth-child(n+5) {
+        margin-top: 20px; }
+      .areaList__prefectures_list li .img {
+        background: #fff;
+        padding: 5px;
+        border-radius: 20px 20px 0 0; }
+        .areaList__prefectures_list li .img figure {
+          overflow: hidden;
+          width: 100%;
+          height: 120px;
+          border-radius: 15px 15px 0 0; }
+          .areaList__prefectures_list li .img figure img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            font-family: 'object-fit: cover;';
+            transition: transform .3s; }
+      .areaList__prefectures_list li .text {
+        background: #03A58E;
+        border-radius: 0 0 20px 20px;
+        padding-top: 5px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background .3s; }
+        .areaList__prefectures_list li .text p {
+          display: inline-block;
+          color: #fff;
+          font-size: 24px;
+          padding-right: 30px;
+          font-weight: 700;
+          position: relative; }
+          .areaList__prefectures_list li .text p .point {
+            position: relative; }
+            .areaList__prefectures_list li .text p .point::before {
+              content: "";
+              display: block;
+              width: 6px;
+              height: 6px;
+              background: #FFD800;
+              border-radius: 50% 50%;
+              left: 50%;
+              transform: translateX(-50%);
+              top: -5px;
+              position: absolute; }
+              @media (max-width: 680px) {
+                .areaList__prefectures_list li .text p .point::before {
+                  width: 1.3333333333vw;
+                  height: 1.3333333333vw; } }
+          .areaList__prefectures_list li .text p .icon-arrow {
+            right: 0;
+            width: 19px;
+            height: 19px; }
+            .areaList__prefectures_list li .text p .icon-arrow svg {
+              fill: #03A58E;
+              stroke: #03A58E;
+              width: 5px;
+              height: 8px;
+              transition: all .3s; }
+      .areaList__prefectures_list li:hover .img figure img {
+        transform: scale(1.1); }
+      .areaList__prefectures_list li:hover .text {
+        background: #02816F; }
+        .areaList__prefectures_list li:hover .text p .icon-arrow svg {
+          fill: #02816F;
+          stroke: #02816F; }
+    @media (max-width: 680px) {
+      .areaList__prefectures_list {
+        width: 92vw; }
+        .areaList__prefectures_list li {
+          width: 44.8vw;
+          border-radius: 4vw; }
+          .areaList__prefectures_list li + li {
+            margin-left: 2.4vw; }
+          .areaList__prefectures_list li:nth-child(4n+1) {
+            margin-left: 2.4vw; }
+          .areaList__prefectures_list li:nth-child(2n+1) {
+            margin-left: 0; }
+          .areaList__prefectures_list li:nth-child(n+5) {
+            margin-top: 2.4vw; }
+          .areaList__prefectures_list li:nth-child(n+3) {
+            margin-top: 2.4vw; }
+          .areaList__prefectures_list li .img {
+            padding: 0.8vw;
+            border-radius: 4vw 4vw 0 0; }
+            .areaList__prefectures_list li .img figure {
+              height: 20.5333333333vw;
+              border-radius: 3.2vw 3.2vw 0 0; }
+          .areaList__prefectures_list li .text {
+            border-radius: 0 0 4vw 4vw;
+            padding-top: 1.3333333333vw;
+            height: 10.6666666667vw; }
+            .areaList__prefectures_list li .text p {
+              font-size: 4.2666666667vw;
+              padding-right: 4.8vw; }
+              .areaList__prefectures_list li .text p .point::before {
+                width: 1.3333333333vw;
+                height: 1.3333333333vw; }
+              .areaList__prefectures_list li .text p .icon-arrow {
+                width: 3.2vw;
+                height: 3.2vw; }
+                .areaList__prefectures_list li .text p .icon-arrow svg {
+                  width: 1.0666666667vw;
+                  height: 1.6vw; } }
+.areaList__od-city {
+  padding: 70px 0 65px; }
+  .areaList__od-city h2 + p {
+    width: 1100px;
+    margin: 20px auto 50px;
+    line-height: 2; }
+  @media (max-width: 680px) {
+    .areaList__od-city {
+      padding: 13.3333333333vw 0 8vw; }
+      .areaList__od-city h2 + p {
+        width: 92vw;
+        margin: 5.3333333333vw auto; } }
+  .areaList__od-city_list {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .areaList__od-city_list li {
+      width: 263px; }
+      .areaList__od-city_list li:nth-child(n+5) {
+        margin-top: 35px; }
+      .areaList__od-city_list li a {
+        background: #03A58E;
+        border-radius: 60px 60px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 24px;
+        transition: background .2s;
+        line-height: 1.2;
+        text-decoration: none;
+        color: #fff; }
+        .areaList__od-city_list li a:hover {
+          background: #02816F; }
+        .areaList__od-city_list li a > span {
+          position: relative;
+          padding-right: 30px;
+          letter-spacing: -.1em; }
+          .areaList__od-city_list li a > span .icon-arrow {
+            right: 0; }
+            .areaList__od-city_list li a > span .icon-arrow svg {
+              fill: #03A58E;
+              stroke: #03A58E; }
+      .areaList__od-city_list li .point {
+        position: relative; }
+        .areaList__od-city_list li .point::before {
+          content: "";
+          display: block;
+          width: 6px;
+          height: 6px;
+          background: #FFD800;
+          border-radius: 50% 50%;
+          left: 50%;
+          transform: translateX(-50%);
+          top: -5px;
+          position: absolute; }
+          @media (max-width: 680px) {
+            .areaList__od-city_list li .point::before {
+              width: 1.3333333333vw;
+              height: 1.3333333333vw; } }
+    @media (max-width: 680px) {
+      .areaList__od-city_list {
+        width: 92vw; }
+        .areaList__od-city_list li {
+          width: 44.8vw; }
+          .areaList__od-city_list li:nth-child(n+5) {
+            margin-top: 2.4vw; }
+          .areaList__od-city_list li:nth-child(n+3) {
+            margin-top: 2.4vw; }
+          .areaList__od-city_list li a {
+            padding-top: 1.3333333333vw;
+            height: 16vw;
+            font-size: 4.2666666667vw; }
+            .areaList__od-city_list li a > span {
+              padding-right: 6.4vw; } }
+.areaList .l_otherLinks {
+  margin-bottom: 50px; }
+  @media (max-width: 680px) {
+    .areaList .l_otherLinks {
+      margin-bottom: 8vw; } }
+.areaList .l_otherLinks + div .l_btn {
+  margin-bottom: 50px; }
+  @media (max-width: 680px) {
+    .areaList .l_otherLinks + div .l_btn {
       margin-bottom: 8vw; } }
 
 /*# sourceMappingURL=area.css.map */
