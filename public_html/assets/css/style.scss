@@ -5351,3 +5351,108 @@ br{
 	}
 }
 
+.l_search_box{
+	background: #fff;
+	&__head{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 70px;
+		border-radius: 10px 10px 0 0;
+		background: $main_color;
+		@include sp{
+			height: s(56);
+		}
+	}
+	&__ttl{
+		color:#fff;
+		font-size: 26px;
+		font-weight: bold;
+		@include sp{
+			font-size: s(24);
+		}
+	}
+	&__body{
+		padding:28px ;
+		border: 3px solid $main_color;
+		border-top:none;
+		@include sp{
+			padding:s(20);
+		}
+	}
+	&__row{
+		display: flex;
+		align-items: center;
+		@include sp{
+			flex-wrap:wrap;
+			justify-content: center;
+		}
+	}
+	&__select{
+		outline: none;
+		appearance: none;
+		width: 402px;
+		height: 54px;
+		padding:0 20px;
+		border:#1A1311 solid 1px;
+		border-radius: 3px;
+		background:#fff url("../img/qa/ico_search_arrow.svg") no-repeat 370px center;
+		font-size: 16px;
+		&::-ms-expand{
+			display:none;
+		}
+		@include sp{
+			width:100%;
+			height:s(60);
+			margin-bottom: s(5);
+			background-position: s(275) center;
+			background-size:s(10) auto;
+			border-radius: s(3);
+		}
+	}
+	&__input{
+		outline: none;
+		width: 402px;
+		height: 54px;
+		margin-left: 5px;
+		padding:0 20px;
+		border:#AAAAAA solid 1px;
+		background: #F3F3F3;
+		border-radius: 3px !important;
+		font-size: 16px;
+		color:#999;
+		@include sp{
+			width:100%;
+			height: s(60);
+			margin-left: 0;
+			margin-bottom: s(15);
+			border-radius: s(3) !important;
+		}
+	}
+	&__btn{
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		height: 54px;
+		margin-left: auto;
+		border:none;
+		border-radius: 60px;
+		background: #EB6D4E;
+		font-family: inherit;
+		color:#fff;
+		font-size: 16px;
+		@include sp{
+			width: 100%;
+			height:s(60);
+		}
+		&_ico{
+			display: inline-block;
+			padding:3px 0 3px 30px;
+			background: url("../img/qa/ico_search_glass.svg") no-repeat left center;
+		}
+	}
+}
+
+ 

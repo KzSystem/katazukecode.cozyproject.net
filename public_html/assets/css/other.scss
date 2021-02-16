@@ -1,0 +1,207 @@
+
+@import '_general';
+$main_color: #03A58E;
+
+.qa{
+	&_inner{
+		max-width: 1100px;
+		margin:0 auto;
+		@include sp{
+			padding:0 4vw;
+		}
+	}
+	&_lead{
+		padding:0 0 50px 0;
+		@include sp{
+			padding:0 0 s(30) 0;
+		}
+		&__txt{
+			padding:25px 0;
+			line-height: 1.875;
+			@include sp{
+				padding:s(20) 0 s(18) 0;
+			}
+		}
+	}
+
+	&_bg{
+		padding:70px 0 52px 0;
+		background: #F7F3E5;
+		@include sp{
+			padding:s(50) 0 s(32) 0;
+		}
+		&_low_space{
+			padding:52px 0;
+			@include sp{
+				padding:s(50) 0 s(32) 0;
+			}			
+		}
+	}
+	&_sec{
+		margin-bottom: 75px;
+		@include sp{
+			margin-bottom:s(50);
+		}
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	
+	&_ttl{
+		margin-bottom: 30px;
+		padding-bottom: 28px;
+		text-align: center;
+		font-size: 32px;
+		font-weight: bold;
+		letter-spacing:normal;
+		border-bottom: dashed 1px $main_color;
+		@include sp{
+			padding-bottom: s(15);
+			margin-bottom: s(20);
+			font-size:s(24);
+			border-width: s(1);
+		}
+	}
+	&_list{
+		li{
+			margin-bottom: 10px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	&_link{
+		display: flex;
+		align-items: center;
+		min-height: 100px;
+		padding:20px 70px 20px 95px;
+		background-color: #fff;
+		background-image: url("../img/qa/ico_q.svg"),url("../img/qa/ico_link.svg");
+		background-repeat: no-repeat,no-repeat;
+		background-position: 20px center,calc(100% - 20px) center;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+		line-height: 1.666;
+		@include sp{
+			padding:s(15) s(47) s(15) s(65);
+			font-size:s(18);
+			background-size:s(40) auto,s(17) s(17);
+			background-position: s(15) s(15), 95% s(31);
+		}
+	}
+
+	&_retrun{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding:0 0 50px 0;
+		@include sp{
+			padding:0 0 s(30) 0;
+		}
+		&__home.l_btn_home{
+			@include sp{
+				margin-top:15px;
+			}
+		}
+		&__shop.l_btn_more{
+			    padding: 20px 105px 14px 80px;
+		}
+	}
+
+
+
+	&_single{
+		padding:30px 0 0 0;
+		@include sp{
+			padding:s(15) 0 0 0;
+		}
+		&__inner{
+			max-width: 900px;
+			margin:0 auto;
+			@include sp{
+				padding:0 4vw;
+			}
+		}
+		&__ttl{
+			margin-bottom: 25px;
+			padding-left: 75px;
+			background: url("../img/qa/ico_q.svg") no-repeat left top;
+			font-size: 32px;
+			font-weight: bold;
+			line-height: 1.3125;
+			@include sp{
+				margin-bottom: s(15);
+				padding-left:s(50);
+				font-size:s(18);
+				line-height: 1.666;
+				background-size:s(40) s(40);
+				background-position: left s(5);
+			}
+		}
+		&__box{
+			margin-bottom: 50px;
+			padding-bottom: 45px; 
+			border-bottom:solid 1px #DCDCDC;
+			line-height: 1.875;
+			@include sp{
+				margin-bottom:s(30);
+				padding-bottom:s(30);
+			}
+		}		
+		&__row{
+			display: flex;
+			margin-bottom: 40px;
+			@include sp{
+				flex-wrap:wrap;
+				margin-bottom: s(28);
+			}
+		}
+		&__img{
+			margin:10px 20px 20px 0;
+			@include sp{
+				margin:0 0 s(18) 0;
+			}
+			img{
+				display: block;
+				@include sp{
+					max-width: 100%;
+				}
+			}
+		}
+
+		&__retrun.l_btn_more{
+			padding: 22px 90px 19px 65px;
+			@include sp{
+				padding: s(22) s(33) s(19) s(25);
+			}
+			.l_btn_more__wrap{
+				display: inline-block;
+			}
+			.icon-arrow{
+				right: -30px;
+				@include sp{
+					right:s(-22);
+				}
+			}
+		}
+		&_sec{
+			margin-bottom: 52px;
+		}
+	}
+
+	&_no_bg.city__menu{
+		padding:80px 0 0 0;
+		background: #fff;
+		@include sp{
+			padding:s(40) 0 0 0;
+		}
+	}
+   &_space.l_otherLinks{
+	   margin:40px auto 20px auto;
+        @include sp{
+			margin:s(25) auto s(5) auto;
+		}
+    }	
+
+}
