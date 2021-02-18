@@ -5479,6 +5479,10 @@ br{
 	}
 }
 
+// -------------------------------------------------
+// l_search_box
+// -------------------------------------------------
+
 .l_search_box{
 	background: #fff;
 	&__head{
@@ -5505,7 +5509,7 @@ br{
 		border: 3px solid $main_color;
 		border-top:none;
 		@include sp{
-			padding:s(20);
+			padding:s(20) s(18);
 		}
 	}
 	&__row{
@@ -5537,7 +5541,33 @@ br{
 			background-size:s(10) auto;
 			border-radius: s(3);
 		}
+		&_mini{
+			width:158px;
+			background-position: 126px center;
+			@include sp{
+				width:s(149);
+				background-position: s(126) center;
+				font-size: s(14);
+				padding:0 s(10);
+			}
+		}
 	}
+	&__select_list{
+		display: flex;
+		@include sp{
+			flex-wrap:wrap;
+			justify-content: space-between;
+		}
+		li{
+			margin-left: 5px;
+			@include sp{
+				margin:0;
+			}
+			&:first-child{
+				margin-left: 0;
+			}
+		}
+	}	
 	&__input{
 		outline: none;
 		width: 402px;
@@ -5574,13 +5604,224 @@ br{
 		@include sp{
 			width: 100%;
 			height:s(60);
+			font-size: s(16);
 		}
 		&_ico{
 			display: inline-block;
 			padding:3px 0 3px 30px;
 			background: url("../img/qa/ico_search_glass.svg") no-repeat left center;
 		}
+		&_space{
+			
+			@include sp{
+				margin-top: s(10);
+			}
+		}
+	}
+	&_plus{
+		outline: none;
+		appearance: none;
+		display: flex;
+		align-items: center;
+		width: 158px;
+		height: 54px;
+		padding:0 20px;
+		border:#1A1311 solid 1px;
+		border-radius: 3px;
+		background:#fff url("../img/sp/ico_plus.svg") no-repeat 126px center;
+		font-size: 16px;
+		
+		@include sp{
+			width: s(149);
+			height:s(60);
+			margin-bottom: s(5);
+			padding:0 s(10);
+			background-position: s(123) center;
+			background-size:s(16) auto;
+			border-radius: s(3);
+			font-size: s(14);
+		}
 	}
 }
 
+
+// -------------------------------------------------
+// inner
+// -------------------------------------------------
+
+.l_inner{
+	max-width: 1100px;
+	margin:0 auto;
+	@include sp{
+		padding:0 4vw;
+	}
+}
+
+// -------------------------------------------------
+// lead
+// -------------------------------------------------
+
+.l_lead{
+	padding:30px 0 50px 0;
+	@include sp{
+		padding:s(10) 0 s(30) 0;
+	}
+	&__txt{
+		padding:25px 0;
+		line-height: 1.875;
+		text-align: center;
+		@include sp{
+			padding:s(20) 0 s(18) 0;
+			text-align: left;
+		}
+	}
+}
+
+// -------------------------------------------------
+// section
+// -------------------------------------------------
+
+.l_sec_space{
+	padding:70px 0;
+	@include sp{
+		padding:s(30) 0;
+	}
+	&__bg{
+		background: #FDFBF2;
+	}
+}
+
+// -------------------------------------------------
+// retrun_area
+// -------------------------------------------------
+
+.l_retrun_area{
+	padding:50px 0;
+	@include sp{
+		padding:s(30) 0;
+	}
+	&__list{
+		display: flex;
+		justify-content: center;
+		@include sp{
+			flex-wrap:wrap;
+		}
+		li{
+			padding:0 15px;
+			@include sp{
+				padding:0;
+			}
+			&:nth-child(1){
+				@include sp{
+					margin-bottom: s(20);
+				}
+				
+			}
+		}
+	}
+	&__top{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+// -------------------------------------------------
+//  pager
+// -------------------------------------------------
+.l_pager{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__space{
+		padding:30px 0 50px 0;
+		@include sp{
+			padding:s(30) 0 ;
+		}
+	}
+	li{
+		padding:0 4px;
+		@include sp{
+			padding:0 s(2);
+		}
+	}
+	a{
+		text-decoration: none;
+	}
+	&__item{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		font-weight: bold;			
+	}
+	&__num{
+		width: 60px;
+		height: 60px;		
+		font-weight: bold;	
+		background: $main_color;
+		color:#fff;
+		@include sp{
+			width:s(35);
+			height:s(35);
+			font-size: s(11);
+		}
+	}
+	&__current{
+		width: 60px;
+		height: 60px;			
+		color:#fff;			
+		background: #DCDCDC;
+		@include sp{
+			width:s(35);
+			height:s(35);
+			font-size: s(11);
+		}		
+	}		
+	&__prev,
+	&__next{
+		width: 45px;
+		height: 45px;
+		margin:0 3px;
+		box-shadow: 0px 0px 5px #00000029;
+		@include sp{
+			width:s(30);
+			height:s(30);
+			margin:0 s(2);
+			box-shadow: 0px 0px s(5) #00000029;
+		}	
+		img{
+			display: block;
+		}	
+	}
+	&__prev{
+		display: none;
+		@include sp{
+			display:flex;
+		}
+		img{
+			transform: scale(-1, 1);
+		}	
+	}	
+
+	&__ico_01{
+		@include sp{
+			width: s(4);
+		}
+	}
+	&__ico_02{
+		@include sp{
+			width: s(8);
+		}
+	}
+	&__r_space{
+		@include sp{
+			margin-right: s(10);
+		}
+	}
+	&__l_space{
+		@include sp{
+			margin-left: s(10);
+		}
+	}	
+}
  

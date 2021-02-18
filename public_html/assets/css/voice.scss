@@ -3,214 +3,6 @@
 $main_color: #03A58E;
 $border_color: #DCDCDC;
 
-//==================================================
-// qa
-//==================================================
-
-.qa{
-	&_inner{
-		max-width: 1100px; 
-		margin:0 auto;
-		@include sp{
-			padding:0 4vw;
-		}
-	}
-	&_lead{
-		padding:0 0 50px 0;
-		@include sp{
-			padding:0 0 s(30) 0;
-		}
-		&__txt{
-			padding:25px 0;
-			line-height: 1.875;
-			@include sp{
-				padding:s(20) 0 s(18) 0;
-			}
-		}
-	}
-
-	&_bg{
-		padding:70px 0 52px 0;
-		background: #F7F3E5;
-		@include sp{
-			padding:s(50) 0 s(32) 0;
-		}
-		&_low_space{
-			padding:52px 0;
-			@include sp{
-				padding:s(50) 0 s(32) 0;
-			}			
-		}
-	}
-	&_sec{
-		margin-bottom: 75px;
-		@include sp{
-			margin-bottom:s(50);
-		}
-		&:last-child{
-			margin-bottom: 0;
-		}
-	}
-	
-	&_ttl{
-		margin-bottom: 30px;
-		padding-bottom: 28px;
-		text-align: center;
-		font-size: 32px;
-		font-weight: bold;
-		letter-spacing:normal;
-		border-bottom: dashed 1px $main_color;
-		@include sp{
-			padding-bottom: s(15);
-			margin-bottom: s(20);
-			font-size:s(24);
-			border-width: s(1);
-		}
-	}
-	&_list{
-		li{
-			//margin-bottom: 10px;
-			&:last-child{
-				margin-bottom: 0;
-			}
-		}
-	}
-	&_link{
-		display: flex;
-		align-items: center;
-		min-height: 100px;
-		padding:20px 70px 20px 95px;
-		background-color: #fff;
-		background-image: url("../img/qa/ico_q.svg"),url("../img/qa/ico_link.svg");
-		background-repeat: no-repeat,no-repeat;
-		background-position: 20px center,calc(100% - 20px) center;
-		font-size: 18px;
-		font-weight: bold;
-		text-decoration: none;
-		line-height: 1.666;
-		@include sp{
-			padding:s(15) s(47) s(15) s(65);
-			font-size:s(18);
-			background-size:s(40) auto,s(17) s(17);
-			background-position: s(15) s(15), 95% s(31);
-		}
-	}
-
-	&_retrun{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding:0 0 50px 0;
-		@include sp{
-			padding:0 0 s(30) 0;
-		}
-		&__home.l_btn_home{
-			@include sp{
-				margin-top:15px;
-			}
-		}
-		&__shop.l_btn_more{
-			    padding: 20px 105px 14px 80px;
-		}
-	}
-
-
-
-	&_single{
-		padding:30px 0 0 0;
-		@include sp{
-			padding:s(15) 0 0 0;
-		}
-		&__inner{
-			max-width: 900px;
-			margin:0 auto;
-			@include sp{
-				padding:0 4vw;
-			}
-		}
-		&__ttl{
-			margin-bottom: 25px;
-			padding-left: 75px;
-			background: url("../img/qa/ico_q.svg") no-repeat left top;
-			font-size: 32px;
-			font-weight: bold;
-			line-height: 1.3125;
-			@include sp{
-				margin-bottom: s(15);
-				padding-left:s(50);
-				font-size:s(18);
-				line-height: 1.666;
-				background-size:s(40) s(40);
-				background-position: left s(5);
-			}
-		}
-		&__box{
-			margin-bottom: 50px;
-			padding-bottom: 45px; 
-			border-bottom:solid 1px #DCDCDC;
-			line-height: 1.875;
-			@include sp{
-				margin-bottom:s(30);
-				padding-bottom:s(30);
-			}
-		}		
-		&__row{
-			display: flex;
-			margin-bottom: 40px;
-			@include sp{
-				flex-wrap:wrap;
-				margin-bottom: s(28);
-			}
-		}
-		&__img{
-			margin:10px 20px 20px 0;
-			@include sp{
-				margin:0 0 s(18) 0;
-			}
-			img{
-				display: block;
-				@include sp{
-					max-width: 100%;
-				}
-			}
-		}
-
-		&__retrun.l_btn_more{
-			padding: 22px 90px 19px 65px;
-			@include sp{
-				padding: s(22) s(33) s(19) s(25);
-			}
-			.l_btn_more__wrap{
-				display: inline-block;
-			}
-			.icon-arrow{
-				right: -30px;
-				@include sp{
-					right:s(-22);
-				}
-			}
-		}
-		&_sec{
-			margin-bottom: 52px;
-		}
-	}
-
-	&_no_bg.city__menu{
-		padding:80px 0 0 0;
-		background: #fff;
-		@include sp{
-			padding:s(40) 0 0 0;
-		}
-	}
-   &_space.l_otherLinks{
-	   margin:40px auto 20px auto;
-        @include sp{
-			margin:s(25) auto s(5) auto;
-		}
-    }	
-
-}
 
 //==================================================
 // voice
@@ -239,7 +31,12 @@ $border_color: #DCDCDC;
 				margin-bottom:s(10);
 			}
 		}
-
+        &__star{
+            @include sp{
+                width:s(15);
+                margin-right:s(3);
+            }
+        }   
 		&__ttl{
 			width: 118px;
 			padding:8px 3px;
@@ -249,10 +46,14 @@ $border_color: #DCDCDC;
 			text-align: center;
 			@include sp{
 				width:s(118);
+                font-size: s(14);
 			}
 			&_fit{
 				width: auto;
 				min-width: 3em;
+                @include sp{
+                    width:s(118);
+                }
 			}
 		}
 
@@ -286,9 +87,6 @@ $border_color: #DCDCDC;
 			@include sp{
 				flex-wrap:wrap;
 			}
-			dl{
-
-			}
 		}
 
 		&__col_01{
@@ -299,6 +97,9 @@ $border_color: #DCDCDC;
 				flex-wrap:wrap;
 				width: 100%;
 			}
+            &_service{
+               // order:-2;
+            }
 		}
 		&__col_02{
 			display: flex;
@@ -308,6 +109,11 @@ $border_color: #DCDCDC;
 				flex-wrap:wrap;
 				width: 100%;
 			}
+            &_star{
+                @include sp{
+                   // order:-1;
+                }
+            }            
 		}		
 		&__body{
 			position: relative;
@@ -331,7 +137,7 @@ $border_color: #DCDCDC;
 				padding:0 0 20px 15px;
 				@include sp{
 					width:calc(100% - #{s(82)});
-					padding:0 0 0 s(8);
+					padding:s(2) 0 0 s(8);
 				}
 			}			
 		}
@@ -353,6 +159,7 @@ $border_color: #DCDCDC;
 			line-height: 1.875;
 			@include sp{
 				width: 100%;
+                padding:s(10) 0 s(15) 0;
 				padding-bottom: s(15);
 				font-size:s(16);
 			}
@@ -369,12 +176,7 @@ $border_color: #DCDCDC;
 				font-size:s(14);
 			}
 		}
-		&__star{
-			@include sp{
-				width:s(15);
-				margin-right:s(3);
-			}
-		}
+
 	}
 
 	.l_btnlist{
@@ -416,7 +218,7 @@ $border_color: #DCDCDC;
 			width: 347px;
 			@include sp{
 				width: 100%;
-				margin-bottom: s(20);
+				margin-bottom: s(25);
 			}
 			img{
 				display: block;
@@ -456,6 +258,7 @@ $border_color: #DCDCDC;
 				display: block;
 				width: 100%;
 			}
+        
 		}
 		&__col_03{
 			width: 260px;
@@ -482,6 +285,7 @@ $border_color: #DCDCDC;
 		border-bottom:1px dashed #DCDCDC;
 		@include sp{
 			flex-wrap:wrap;
+            padding-bottom: s(5);
 		}
 		li{
 			margin-right: 30px;
@@ -498,11 +302,14 @@ $border_color: #DCDCDC;
 	&_block{
 		padding-top: 10px;
 		border-bottom:1px dashed #DCDCDC;
+        @include sp{
+            padding-top:s(15);
+        }
 	}
 
 
 	&_sub{
-		margin-bottom: 6px;
+		margin-bottom: 10px;
 		font-weight: bold;
 		@include sp{
 			margin-bottom: s(10);
@@ -518,18 +325,21 @@ $border_color: #DCDCDC;
 	}
 
 	&_info{
-		padding:40px 0 50px 0;
+		padding:35px 0 50px 0;
+        @include sp{
+            padding:s(25) 0 s(25) 0;
+        }
 	}
 
 	&_qa{
 		margin-bottom: 100px;
 		@include sp{
-			margin-bottom:s(30);
+			margin-bottom:s(25);
 		}
 		&__space_s{
 			margin-bottom: 50px;
 			@include sp{
-				margin-bottom:s(80);
+				margin-bottom:s(85);
 			}
 		}
 		&__head{
@@ -538,9 +348,14 @@ $border_color: #DCDCDC;
 			border-bottom:dashed 1px #dcdcdc;
 			@include sp{
 				width: 100%;
+                margin-bottom: s(20);
+                padding-bottom: s(5);
 			}
 		}
 		&__ttl{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
 			margin-bottom: 10px;
 			padding:7px 0 7px 48px;
 			background: url("../img/store/voice/ico_q.svg") no-repeat left center;
@@ -548,13 +363,25 @@ $border_color: #DCDCDC;
 			font-size: 26px;
 			color:$main_color;
 			@include sp{
+                margin-bottom: 0;
 				background-position: left s(5);
 				font-size: s(22);
 				line-height: s(33);
 			}
 			&_space{
 				margin-bottom: 20px;
+                @include sp{
+                    margin-bottom:s(5);
+                }
 			}
+            &_small{
+                font-size: 18px;
+                @include sp{
+                    display: block;
+                    width: 100%;
+                    font-size:s(16);
+                }
+            }
 		}
 		&__data{
 			dl{
@@ -592,11 +419,14 @@ $border_color: #DCDCDC;
 				}
 			}
 			dd{
+                margin-left: 0;
 				line-height:1.857;
 				@include sp{
+                    
 					font-size: s(14);
 				}
 			}
+               
 		}
 		&__list{
 			li{
@@ -751,11 +581,20 @@ $border_color: #DCDCDC;
 	&_photo{
 		width: 100%;
 		text-align: center;
-	
+        img{
+            max-width: 100%;
+        }
 	}
 
 	&_recommend{
-		margin-bottom: 30px;
+		padding:80px 0 40px 0;
+        background: #FDFBF2;
+        @include sp{
+            padding:s(50) 0 s(20) 0;
+        }
+        &__ttl{
+            margin-bottom: 30px;
+        }
 	}
     
 	.l_btn_more{
@@ -764,7 +603,7 @@ $border_color: #DCDCDC;
 		width: 400px;
 		padding:20px 0 14px 0;
 		@include sp{
-			width: s(320);
+			width: s(325);
 		}
 	}
 
