@@ -795,6 +795,101 @@
 				width: 100%;
 			}
 		}
+		.slide-arrow{
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 39px;
+			height: auto;
+			z-index: 10;
+			transition: all .2s;
+			&.prev-arrow{
+				left: -20px;
+				transform: rotateY(180deg) translateY(-50%);
+			}
+			&.next-arrow{
+				right: -20px;
+			}
+			@include sp{
+				display: none !important;
+			}
+		}
+		.slick-dots{
+			display: flex;
+			width: 90px;
+			height: 2px;
+			border-radius: 50px 50px;
+			background: #B7B7B7;
+			margin: 25px auto 20px;
+			position: relative;
+			@include sp{
+				width: s(90);
+				margin: s(25) auto s(20);
+			}
+			button{
+				border: none;
+				background: none;
+				color: transparent;
+				height: 2px;
+				width: 100%;
+			}
+			li{
+				border-radius: 50px 50px;
+				&.slick-active{
+					background: $main_color;
+				}
+			}
+			.slider_num{
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				color: $main_color;
+				@extend .font-osw;
+				font-weight: 600;
+				&.min{
+					right: 95px;
+					@include sp{
+						right: s(95);
+					}
+				}
+				&.max{
+					left: 95px;
+					@include sp{
+						left: s(95);
+					}
+				}
+			}
+			.slider_dots_arrow{
+				background: url("../img/slider_bots_arrow.svg")no-repeat 0 0 / contain;
+				content: "";
+				display: block;
+				width: 7px;
+				height: 13px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				cursor: pointer;
+				transition: all .2s;
+				@include sp{
+					width: s(7);
+					height: s(13);
+				}
+				&.prev{
+					left: -18px;
+					@include sp{
+						left: s(-18);
+					}
+				}
+				&.next{
+					right: -18px;
+					transform: translateY(-50%) rotate(180deg);
+					@include sp{
+						right: s(-18);
+					}
+				}
+			}
+		}
 	}
 	
 	.breadcrumb{
