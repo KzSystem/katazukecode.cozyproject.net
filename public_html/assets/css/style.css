@@ -3108,7 +3108,7 @@ br.sp {
           @media (max-width: 680px) {
             .l_cases__list li a .price {
               width: auto;
-              margin: 5.3333333333vw 2.6666666667vw 5.3333333333vw 0;
+              margin: 5.3333333333vw auto;
               display: inline-flex;
               flex-direction: column;
               align-items: flex-start; }

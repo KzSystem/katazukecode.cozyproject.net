@@ -30,7 +30,7 @@ $(window).on('load', function() {
 	});
 });
 
-$('.shop_detail__items_list h3.sp').on('click', function(){
+$('.store__items_list h3.sp').on('click', function(){
 	$(this).toggleClass('active');
 	$(this).next('figure').slideToggle(200);
 	$(this).next('figure').next('.text').slideToggle(200);
