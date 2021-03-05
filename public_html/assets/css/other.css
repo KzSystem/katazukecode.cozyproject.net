@@ -93,6 +93,10 @@
   }
 }
 
+.qa_list li {
+  margin-bottom: 10px;
+}
+
 .qa_list li:last-child {
   margin-bottom: 0;
 }

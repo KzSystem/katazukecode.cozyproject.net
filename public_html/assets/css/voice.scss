@@ -4,6 +4,8 @@ $main_color: #03A58E;
 $border_color: #DCDCDC;
 
 
+
+
 //==================================================
 // voice
 //==================================================
@@ -214,14 +216,18 @@ $border_color: #DCDCDC;
 	&_row{
 		display: flex;
 		flex-wrap:wrap;
+		&__ico{
+			position: relative;
+			display: block;
+		}
 		&__img{
-			width: 347px;
+			
 			@include sp{
-				width: 100%;
 				margin-bottom: s(25);
 			}
 			img{
 				display: block;
+				max-width: 100%;
 			}
 			.modal_open{
 				position: relative;
@@ -229,12 +235,22 @@ $border_color: #DCDCDC;
 					content:"";
 					position: absolute;
 					right:0;
-					bottom:0;
+					top:286px;
 					display: block;
 					width: 50px;
 					height: 50px;
 					background: url("../img/store/voice/ico_search.svg");
 				}
+			}
+		}
+		&__flame{
+			overflow: hidden;
+			display: block;
+			width: 347px;
+			height: 336px;
+			border:solid #0F7893 3px;
+			@include sp{
+				width: 100%;
 			}
 		}
 		&__cnt{
@@ -325,7 +341,7 @@ $border_color: #DCDCDC;
 	}
 
 	&_info{
-		padding:35px 0 50px 0;
+		padding:35px 0 35px 0;
         @include sp{
             padding:s(25) 0 s(25) 0;
         }
@@ -472,6 +488,9 @@ $border_color: #DCDCDC;
 				}
 			}
 		}
+		&__body{
+			width:calc(100% - 162px)
+		}
 		&__ttl{
 			margin-bottom: 15px;
 			font-size: 18px;
@@ -601,10 +620,29 @@ $border_color: #DCDCDC;
 		display: inline-flex;
 		justify-content: center;
 		width: 400px;
-		padding:20px 0 14px 0;
+		padding:20px 30px 14px 0;
 		@include sp{
 			width: s(325);
 		}
 	}
 
+}
+
+
+.l_modal__wrap.l_modal__wrap_voice{
+	width: 100%;
+	max-width: 480px;
+	padding:0;
+	background: none;
+	@include sp{
+		width: s(250);
+	}
+	.l_modal__close{
+		right:-70px;
+		top:0;
+		@include sp{
+			right:s(-45);
+			width: s(40);
+		}
+	}
 }

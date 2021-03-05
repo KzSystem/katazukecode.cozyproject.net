@@ -5885,6 +5885,7 @@ br{
 		border-radius: 3px;
 		background:#fff url("../img/qa/ico_search_arrow.svg") no-repeat 370px center;
 		font-size: 16px;
+		font-family: inherit;
 		&::-ms-expand{
 			display:none;
 		}
@@ -6095,6 +6096,7 @@ br{
 	}
 	li{
 		padding:0 4px;
+				
 		@include sp{
 			padding:0 s(2);
 		}
@@ -6134,18 +6136,23 @@ br{
 	}		
 	&__prev,
 	&__next{
+		background: #fff;
 		width: 45px;
 		height: 45px;
 		margin:0 3px;
-		box-shadow: 0px 0px 5px #00000029;
+		box-shadow: 0px 0px 5px rgba(0,0,0,.16);
 		@include sp{
 			width:s(30);
 			height:s(30);
 			margin:0 s(2);
-			box-shadow: 0px 0px s(5) #00000029;
+			box-shadow: 0px 0px s(5) rgba(0,0,0,.16);
 		}	
 		img{
 			display: block;
+			margin-left: 3px;
+			@include sp{
+				margin-left:s(3);
+			}
 		}	
 	}
 	&__prev{
@@ -6155,6 +6162,9 @@ br{
 		}
 		img{
 			transform: scale(-1, 1);
+			@include sp{
+				margin-right:s(3);
+			}			
 		}	
 	}	
 
