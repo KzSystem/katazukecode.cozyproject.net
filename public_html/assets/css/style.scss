@@ -5636,6 +5636,8 @@ br{
 	@include sp{
 		padding: s(50) 0 s(30);
 	}
+
+
 	ul{
 		display: flex;
 		justify-content: center;
@@ -5753,7 +5755,14 @@ br{
 				}
 			}
 		}
+
 	}
+
+
+	&_gray li{
+		background: #dcdcdc !important;
+	}
+
 }
 
 // -------------------------------------------------

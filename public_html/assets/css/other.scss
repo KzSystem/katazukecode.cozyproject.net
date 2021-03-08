@@ -88,8 +88,10 @@ $border_color: #DCDCDC;
 		font-weight: bold;
 		text-decoration: none;
 		line-height: 1.666;
+		border-radius: 10px;
 		@include sp{
 			padding:s(15) s(47) s(15) s(65);
+			border-radius: s(10);
 			font-size:s(18);
 			background-size:s(40) auto,s(17) s(17);
 			background-position: s(15) s(15), 95% s(31);
@@ -768,4 +770,124 @@ $border_color: #DCDCDC;
 		}
 	}
 
+}
+
+//==================================================
+// 404
+//==================================================
+
+.not_found{
+	&_sec{
+		max-width: 1100px;
+		margin:70px auto 0 auto;
+		padding:0  520px 50px 0;
+		line-height: (30 / 16);
+		@include sp{
+			position: relative;
+			margin-top: s(25);
+			padding:0 s(15) s(260) s(15);
+			line-height: s(30);
+		}
+	}
+
+	&_img{
+		position: relative;
+		@include sp{
+			position:static;
+		}
+		&:after{
+			content:"";
+			position: absolute;
+			right:-520px;
+			bottom:0;
+			display: block;
+			width: 472px;
+			height: 297px;
+			background: url("../img/404/img.png") no-repeat center / cover ;
+			@include sp{
+				right:0;
+				left:0;
+				bottom:s(25);
+				width:s(345);
+				height: s(220);
+				margin:0 auto;
+				background-size:contain;
+			}
+		}
+		
+	}
+
+	&_ttl{
+		margin-bottom: 15px;
+		font-size: 32px;
+		line-height: (42 / 32);
+		font-weight: bold;
+		@include sp{
+			margin-bottom: s(18);
+			font-size:s(24);
+			line-height: s(30);
+		}
+	}
+	&_sub{
+		margin-bottom: 15px;
+		@include sp{
+			margin-bottom:s(20);
+		}
+	}
+	&_list{
+		margin-bottom: 20px;
+		@include sp{
+			margin-bottom:s(20);
+		}
+		li{
+			position: relative;
+			padding-left: 18px;
+			@include sp{
+				padding-left:s(18);
+				line-height: s(22);
+			}
+			&:before{
+				content:"";
+				position: absolute;
+				left:0;
+				top:12px;
+				display: block;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: $main_color;
+				@include sp{
+					width:s(10);
+					height: s(10);
+					top:s(8);
+				}
+			}
+		}	
+	}
+	&_txt{
+		margin-bottom: 20px;
+		@include sp{
+			margin-bottom:s(15);
+		}
+	}
+	&_btn_space{
+		@include sp{
+			text-align: center;
+		}
+	}
+	.l_btn{
+		@media (min-width: 681px){
+			padding: 15px 77px 15px 52px;
+		}
+	}
+	.l_lowerTitle{
+		.l_lowerTitle__main{
+			margin:32px 0;
+			text-align: center;
+			@include sp{
+				line-height: s(48);
+				margin:0;
+			}
+		}
+	}
 }
