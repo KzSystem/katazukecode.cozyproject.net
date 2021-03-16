@@ -1,0 +1,845 @@
+@import '_general';
+
+//==================================================
+// price
+//==================================================
+
+.price{
+	// -------------------------------------------------
+	// price__about
+	// -------------------------------------------------
+	&__about{
+		.l_section_title{
+			margin-top: 30px;
+			margin-bottom: 55px;
+			@include sp{
+				margin-top: s(15);
+				margin-bottom: s(25);
+			}
+		}
+		&_list{
+			display: flex;
+			justify-content: space-between;
+			width: $cont_w_pc;
+			margin: 0 auto;
+			@include sp{
+				display: block;
+				width: $cont_w_sp;
+			}
+			li{
+				width: 353px;
+				@include sp{
+					width: 100%;
+					display: flex;
+					& + li{
+						margin-top: s(5);
+					}
+				}
+				h3{
+					background: $main_color;
+					height: 82px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border-radius: 10px 10px 0 0;
+					font-size: 18px;
+					color: #fff;
+					font-weight: 700;
+					position: relative;
+					.color_yellow{
+						color: #FFD800;
+						font-size: 26px;
+						margin-left: .1em;
+					}
+					.num{
+						background: $main_color;
+						border-radius: 50% 50%;
+						@extend .font-osw;
+						width: 52px;
+						height: 52px;
+						padding: 14px 0;
+						font-size: 20px;
+						text-align: center;
+						position: absolute;
+						left: 50%;
+						top: 0;
+						transform: translateX(-50%) translateY(-50%);
+					}
+					@include sp{
+						height: s(112);
+						width: s(203);
+						border-radius: s(10) 0 0 s(10);
+						font-size: s(18);
+						padding-left: s(20);
+						justify-content: flex-start;
+						line-height: 1.2;
+						.color_yellow{
+							font-size: s(22);
+						}
+						span:not(.num){
+							z-index: 2;
+							position: relative;
+						}
+						.num{
+							width: s(46);
+							height: s(46);
+							padding: s(12) 0;
+							font-size: s(20);
+							left: auto;
+							right: 0;
+							top: 50%;
+							transform: translateX(50%) translateY(-50%);
+							z-index: 1;
+						}
+					}
+				}
+				figure{
+					border-radius: 0 0 10px 10px;
+					border: solid 3px $main_color;
+					text-align: center;
+					@include sp{
+						border-radius: 0 s(10) s(10) 0;
+						border: solid s(3) $main_color;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: s(140);
+						height: s(112);
+						img{
+							width: s(120);
+							height: auto;
+						}
+					}
+				}
+			}
+			& + p{
+				width: $cont_w_pc;
+				margin: 0 auto;
+				line-height: 1.8;
+				margin-top: 10px;
+				@include sp{
+					width: $cont_w_sp;
+					margin-top: s(10);
+				}
+			}
+		}
+		&_method{
+			background: #FDFBF2;
+			border-radius: 20px;
+			width: $cont_w_pc;
+			margin: 40px auto 0;
+			padding: 25px 30px 30px;
+			@include sp{
+				border-radius: s(20);
+				width: $cont_w_sp;
+				margin: s(30) auto 0;
+				padding: s(20) s(15) s(15);
+			}
+			h3{
+				font-size: 32px;
+				font-weight: 700;
+				@extend .font-maru;
+				text-align: center;
+				margin-bottom: 20px;
+				& + p{
+					width: 100%;
+					line-height: 1.8;
+					margin-bottom: 35px;
+				}
+				@include sp{
+					font-size: s(24);
+					margin-bottom: s(25);
+					& + p{
+						display: none;
+					}
+				}
+			}
+			dl{
+				dt{
+					font-size: 26px;
+					color: $main_color;
+					font-weight: 700;
+					padding-left: 20px;
+					position: relative;
+					&::before{
+						content: "";
+						background: $main_color;
+						width: 5px;
+						height: 32px;
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+					@include sp{
+						font-size: s(22);
+						padding-left: s(20);
+						&::before{
+							width: s(5);
+							height: s(32);
+						}
+					}
+				}
+				dd{
+					margin-top: 15px;
+					margin-left: 0;
+					p{
+						line-height: 1.8;
+					}
+					figure{
+						margin-top: 15px;
+						margin-bottom: 5px;
+						background: #fff;
+						padding: 10px;
+					}
+					@include sp{
+						margin-top: s(15);
+						figure{
+							margin-top: s(10);
+							margin-bottom: s(5);
+							padding: s(10);
+							img{
+								width: 100%;
+								height: auto;
+							}
+						}
+					}
+				}
+				& + dl{
+					margin-top: 40px;
+					@include sp{
+						margin-top: s(35);
+					}
+				}
+			}
+		}
+		
+		& + .l_banner{
+			margin-top: 50px;
+			margin-bottom: 50px;
+			@include sp{
+				margin-top: s(30);
+				margin-bottom: s(50);
+			}
+		}
+	}
+
+	// -------------------------------------------------
+	// price__search(pc)
+	// -------------------------------------------------
+	&__search-pc{
+		padding: 70px 0;
+		background: #F7F3E5;
+		@include sp{
+			display: none;
+		}
+		&_head{
+			width: $cont_w_pc;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			position: relative;
+			z-index: 10;
+			@include sp{
+				width: $cont_w_sp;
+			}
+			div{
+				width: 163px;
+			}
+			h2{
+				width: 280px;
+				margin-top: -10px;
+				margin-right: 95px;
+				text-align: left;
+				position: relative;
+				.en{
+					text-align: left;
+				}
+				&::after{
+					content: "";
+					background: url("../img/price/search_baloon.svg")no-repeat 0 0 / contain;
+					height: 71px;
+					width: 73px;
+					display: block;
+					position: absolute;
+					right: -35px;
+					top: -30px;
+				}
+			}
+			a{
+				display: block;
+				padding: 15px 0;
+				margin-top: 20px;
+				width: 100%;
+				text-decoration: none;
+				position: relative;
+				transition: padding .2s;
+				box-sizing: border-box;
+				.icon-arrow{
+					right: 0;
+					width: 17px;
+					height: 17px;
+					background: $main_color;
+					svg{
+						fill: #fff;
+						stroke: #fff;
+						width: 4px;
+						height: 7px;
+					}
+				}
+				&::after{
+					content: "";
+					background: $main_color;
+					display: block;
+					width: 100%;
+					height: 1px;
+					bottom: 0;
+					left: 0;
+					position: absolute;
+				}
+				&:hover{
+					padding: 15px 0 15px 15px;
+					&::after{
+						height: 3px;
+					}
+				}
+			}
+			p{
+				line-height: 1.875;
+				width: 724px;
+			}
+		}
+		&_map{
+			width: $cont_w_pc;
+			margin: -60px auto 0;
+			position: relative;
+			padding-left: 240px;
+			box-sizing: border-box;
+			@include sp{
+				width: $cont_w_sp;
+			}
+			&_links{
+				li{
+					position: absolute;
+					.modal_open{
+						background: #fff;
+						border-radius: 5px;
+						border: solid $main_color 2px;
+						min-width: 220px;
+						height: 50px;
+						display: flex;
+						align-items: center;
+						padding: 0 45px 0 15px;
+						box-sizing: border-box;
+						position: relative;
+						font-size: 16px;
+						font-weight: 500;
+						color: $main_color;
+						box-shadow: 0 0 5px rgba(0,0,0,.16);
+						transition: all .2s;
+						&::after{
+							content: "";
+							display: block;
+							background: url("../img/ico_plus_color.svg")no-repeat 0 0 / contain;
+							width: 18px;
+							height: 18px;
+							position: absolute;
+							right: 14px;
+							top: 50%;
+							transform: translateY(-50%);
+						}
+						&:hover{
+							background: #FDFBF2;
+						}					
+					}
+					.line01,.line02,.line03{
+						display: block;
+						width: 100px;
+						height: 1px;
+						background-image: linear-gradient(to right, #707070, #707070 4px, transparent 4px, transparent 9px);
+						background-size: 9px 1px;
+						background-repeat: repeat-x;
+						position: absolute;
+					}	
+					&.hokkaidou{
+						top: 170px;
+						right: 0;
+						.line01{
+							width: 105px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 80px;
+							left: -145px;
+							bottom: 59px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kantou{
+						top: 363px;
+						right: 82px;
+						.line01{
+							width: 104px;
+							right: 100%;
+							top: 50%;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.tyubu{
+						top: 529px;
+						right: 82px;
+						.line01{
+							width: 40px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 120px;
+							left: -99px;
+							bottom: 84px;
+							transform: rotate(90deg);
+						}
+						.line03{
+							width: 180px;
+							left: -214px;
+							bottom: 144px;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kinki{
+						top: 147px;
+						right: 452px;
+						.line01{
+							width: 282px;
+							right: -28px;
+							top: 149px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								right: -10px;
+							}
+						}
+					}
+					&.tyugoku{
+						top: 147px;
+						left: 0;
+						.line01{
+							width: 120px;
+							left: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 260px;
+							right: -250px;
+							top: 155px;
+							transform: rotate(90deg);
+						}
+						.line03{
+							width: 78px;
+							right: -199px;
+							bottom: -237px;
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								right: -10px;
+							}
+						}
+					}
+					&.shikoku{
+						top: 509px;
+						right: 370px;
+						.line01{
+							width: 62px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 23px;
+							left: -76px;
+							bottom: 38px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+					&.kyushu{
+						top: 590px;
+						right: 470px;
+						.line01{
+							width: 25px;
+							right: 100%;
+							top: 50%;
+						}
+						.line02{
+							width: 74px;
+							left: -66px;
+							bottom: 60px;
+							transform: rotate(90deg);
+							&::after{
+								content: "";
+								display: block;
+								background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+								width: 20px;
+								height: 20px;
+								position: absolute;
+								top: -10px;
+								left: -10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&_outline{
+			position: absolute;
+			left: 0;
+			bottom: 85px;
+			p{
+				@extend .font-maru;
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 1.4;
+				strong{
+					background: $point_color;
+				}
+				.medium{
+					font-size: 22px;
+					font-weight: 700;
+					display: block;
+				}
+				.small{
+					font-size: 19px;
+					font-weight: 700;
+					display: block;
+				}
+			}
+			h3{
+				margin: 10px 0 15px;
+			}
+		}
+	}
+
+	// -------------------------------------------------
+	// price__search(sp)
+	// -------------------------------------------------
+	&__search-sp{
+		display: none;
+		padding: s(50) 0 s(30);
+		background: #F7F3E5;
+		@include sp{
+			display: block;
+		}
+		h2{
+			position: relative;
+			&::after{
+				content: "";
+				background: url("../img/price/search_baloon.svg")no-repeat 0 0 / contain;
+				height: s(64);
+				width: s(64);
+				display: block;
+				position: absolute;
+				right: s(45);
+				top: s(-35);
+			}
+		}
+		&_outline{
+			position: relative;
+			width: $cont_w_sp;
+			margin: s(25) auto 0;
+			p{
+				@extend .font-maru;
+				font-size: s(15);
+				font-weight: 700;
+				line-height: 1.4;
+				margin-bottom: s(5);
+				strong{
+					background: $point_color;
+				}
+				.medium{
+					font-size: s(14);
+					font-weight: 700;
+					display: block;
+				}
+				.small{
+					font-size: s(12);
+					font-weight: 700;
+					display: block;
+				}
+			}
+			h3 img{
+				width: s(134);
+			}
+			figure{
+				position: absolute;
+				&.obj{
+					right: s(-5);
+					bottom: 0;
+					img{
+						width: s(175);
+					}
+				}
+				&.map{
+					right: s(-15);
+					bottom: 0;
+					img{
+						width: s(218);
+					}
+				}
+			}
+			& + p{
+				line-height: 1.7;
+				width: $cont_w_sp;
+				margin: s(20) auto s(10);
+			}
+		}
+		a{
+			display: block;
+			padding: s(15) 0;
+			margin: s(20) s(20) 0 auto;
+			width: s(200);
+			text-decoration: none;
+			position: relative;
+			transition: padding .2s;
+			box-sizing: border-box;
+			.icon-arrow{
+				right: 0;
+				width: s(17);
+				height: s(17);
+				background: $main_color;
+				svg{
+					fill: #fff;
+					stroke: #fff;
+					width: s(4);
+					height: s(7);
+				}
+			}
+			&::after{
+				content: "";
+				background: $main_color;
+				display: block;
+				width: 100%;
+				height: 1px;
+				bottom: 0;
+				left: 0;
+				position: absolute;
+			}
+		}
+		&_map_links{
+			width: $cont_w_sp;
+			margin: s(30) auto 0;
+			li{
+				&.modal_open{
+					background: #fff;
+					border-radius: s(5);
+					width: 100%;
+					height: s(60);
+					display: flex;
+					align-items: center;
+					padding: 0 s(20);
+					box-sizing: border-box;
+					position: relative;
+					font-weight: 500;
+					color: $main_color;
+					transition: all .2s;
+					border: solid s(2) $main_color;
+					&::after{
+						content: "";
+						display: block;
+						background: url("../img/ico_plus_color.svg")no-repeat 0 0 / contain;
+						width: s(18);
+						height: s(18);
+						position: absolute;
+						right: s(20);
+						top: 50%;
+						transform: translateY(-50%);
+					}				
+				}
+				& + li{
+					margin-top: s(10);
+				}
+			}
+		}
+	}
+	
+	// -------------------------------------------------
+	// price__list
+	// -------------------------------------------------
+	&__list{
+		padding-top: 70px;
+		.l_section_title{
+			margin-bottom: 30px;
+		}
+		@include sp{
+			padding-top: s(50);
+			.l_section_title{
+				margin-bottom: s(20);
+			}
+		}
+		&_box{
+			width: $cont_w_pc;
+			margin: 0 auto;
+			display: flex;
+			padding: 10px;
+			border-radius: 20px;
+			box-shadow: 0 0 5px 1px rgba(0,0,0,.16);
+			h3{
+				margin: 30px 0 20px;
+				width: 556px;
+				height: 80px;
+				font-size: 32px;
+				font-weight: 700;
+				a{
+					background: $main_color;
+					border-radius: 0 60px 60px 0;
+					width: 100%;
+					height: 100%;
+					padding-left: 40px;
+					color: #fff;
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					transition: background .3s;
+					&:hover{
+						background: $main_color_hover;
+					}
+					& > span{
+						position: relative;
+						.icon-arrow{
+							right: -30px;
+							width: 19px;
+							height: 19px;
+							svg{
+								width: 5px;
+								height: 8px;
+								stroke: $main_color;
+								fill: $main_color;
+							}
+						}
+					}
+				}
+				& + p{
+					margin-left: 40px;
+					line-height: 1.8;
+				}
+			}
+			& + &{
+				margin-top: 20px;
+			}
+			@include sp{
+				width: $cont_w_sp;
+				display: block;
+				padding: 0;
+				border-radius: s(10);
+				h3{
+					margin: s(-33) 0 s(15);
+					width: s(325);
+					min-height: s(65);
+					font-size: s(28);
+					position: relative;
+					z-index: 2;
+					a{
+						padding: s(5) s(20);
+						& > span{
+							line-height: 1.1;
+							.icon-arrow{
+								right: s(-30);
+								width: s(19);
+								height: s(19);
+								svg{
+									width: s(5);
+									height: s(8);
+								}
+							}
+						}
+					}
+					& + p{
+						width: s(305);
+						margin: 0 auto;
+					}
+				}
+				figure{
+					padding: s(7) s(7) 0;
+					margin: 0 auto;
+					position: relative;
+					z-index: 1;
+					img{
+						width: 100%;
+					}
+				}
+				& + &{
+					margin-top: s(10);
+				}
+			}
+		}
+	}
+	
+	.l_serviceMenu{
+		background: #F7F3E5;
+		margin-top: 50px;
+		@include sp{
+			margin-top: s(30);
+		}
+	}
+	
+	.l_otherLinks{
+		margin-bottom: 25px;
+		@include sp{
+			margin-bottom: s(10);
+		}
+	}
+	
+	.l_btn_home{
+		margin-bottom: 50px;
+		@include sp{
+			margin-bottom: s(30);
+		}
+	}
+}

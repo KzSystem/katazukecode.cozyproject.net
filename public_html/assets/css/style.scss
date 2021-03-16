@@ -1485,7 +1485,7 @@ br{
 }
 
 // -------------------------------------------------
-// l_btn_more
+// l_btn_home
 // -------------------------------------------------
 .l_btn_home{
 	display: inline-block;
@@ -6198,4 +6198,120 @@ br{
 		}
 	}	
 }
- 
+
+// -------------------------------------------------
+//  l_service_modal
+// -------------------------------------------------
+.l_service_modal{
+	h2{
+		margin: 40px 0 30px;
+		font-weight: 700;
+		text-align: center;
+		@extend .font-maru;
+		color: $main_color;
+		font-size: 40px;
+		@include sp{
+			margin: s(50) 0 s(20);
+			font-size: s(32);			
+		}
+	}
+	.l_service_box{
+		background: transparent;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		max-height: 470px;
+		overflow-y: scroll;
+		@include sp{
+			max-height: 50vh;
+		}
+		@include sp{
+			width: 100%;
+			padding: 0;
+			border-radius: 0;
+		}
+		.flex figure{
+			width: 484px;
+			height: 350px;
+			overflow: hidden;
+			border-radius: 15px 15px;
+			order: 1 !important;
+			@include sp{
+				width: 100%;
+				height: s(240);
+				border-radius: s(15);
+			}
+			img{
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				font-family: 'object-fit: cover;';
+			}
+			@include sp{
+				width: 100%;
+				height: s(200);
+				border-radius: s(7) s(7);
+			}
+		}
+		.flex{
+			display: flex;
+			margin-bottom: 30px;
+			@include sp{
+				display: block;
+				margin-bottom: 0;
+			}
+			.inr{
+				width: 580px;
+				position: relative;
+				@include sp{
+					width: 100%;
+				}
+				p{
+					padding: 20px 30px;
+					line-height: 1.7;
+					@include sp{
+						padding: s(15) s(12);
+					}
+				}
+			}				
+		}
+		.l_service_box_list{
+			display: flex;
+			padding: 0 20px;
+			@include sp{
+				display: none;
+			}
+			li{
+				figure{
+					width: 156px;
+					height: 156px;
+					border-radius: 50% 50%;
+					overflow: hidden;
+					margin: 0 auto;
+					img{
+						display: block;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						font-family: 'object-fit: cover;';
+					}
+				}
+				h4{
+					font-weight: 700;
+					font-size: 26px;
+					color: $main_color;
+					text-align: center;
+					margin: 15px 0 10px;
+				}
+				p{
+					line-height: 1.7;
+				}
+				& + li{
+					margin-left: 35px;
+				}
+			}
+		}
+	}
+}

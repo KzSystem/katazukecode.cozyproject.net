@@ -4139,8 +4139,7 @@
 			}
 		}
 	}
-}
-	
+}	
 .store__service{
 	&_box{
 			background: #fff;
@@ -4289,4 +4288,228 @@
 				}
 			}
 		}
+}
+
+.areaDetail{
+	.area__trouble{
+		padding-top: 0;
+		@include sp{
+			padding-top: s(25);
+		}
+	}
+	.l_serviceMenu{
+		background: #F7F3E5;
+	}
+	.area__area{
+		padding-bottom: 30px;
+		@include sp{
+			padding-bottom: s(30);
+		}
+	}
+	&__faq{
+		background: #F7F3E5;
+		padding-top: 70px;
+		padding-bottom: 50px;
+		position: relative;
+		h2{
+			margin-bottom: 20px;
+			& + p{
+				width: $cont_w_pc;
+				margin: 0 auto 25px;
+				line-height: 1.7;
+				padding-right: 270px;
+				box-sizing: border-box;
+			}
+		}
+		figure{
+			position: absolute;
+			top: -218px;
+			right: 0;
+		}
+		&_box{
+			position: relative;
+			width: $cont_w_pc;
+			margin: 0 auto;
+			dl{
+				width: 100%;
+				background: #fff;
+				border-radius: 10px;
+				dt{
+					cursor: pointer;
+					height: 100px;
+					width: 100%;
+					display: flex;
+					align-items: center;
+					box-sizing: border-box;
+					padding-left: 95px;
+					padding-right: 70px;
+					font-size: 18px;
+					line-height: 1.8;
+					position: relative;
+					&::before{
+						content: "Q";
+						@extend .font-maru;
+						font-weight: 700;
+						color: #fff;
+						width: 60px;
+						height: 60px;
+						border-radius: 50% 50%; 
+						padding: 15px;
+						text-align: center;
+						font-size: 32px;
+						line-height: .9;
+						display: block;
+						box-sizing: border-box;
+						background: $main_color;
+						position: absolute;
+						top: 50%;
+						left: 20px;
+						transform: translateY(-50%);
+					}
+					.ico-slide_down{
+						display: block;
+						position: absolute;
+						right: 20px;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 30px;
+						height: 30px;
+						background: #F7F3E5;
+						border-radius: 50% 50%;
+						&::before{
+							content: "";
+							display: block;
+							background: url("../img/plus.svg")no-repeat 0 0 / contain;
+							width: 17px;
+							height: 17px;
+							position: absolute;
+							left: 50%;
+							top: 50%;
+							transform: translateX(-50%) translateY(-50%);
+						}
+						&.active{
+							&::before{
+								background: url("../img/minus.svg")no-repeat 0 0 / contain;
+								width: 17px;
+								height: 2px;
+							}
+						}
+					}
+				}
+				dd{
+					display: none;
+					width: 100%;
+					box-sizing: border-box;
+					padding: 0 25px 25px;
+					margin: 0;
+					line-height: 1.7;
+				}
+				& + dl{
+					margin-top: 10px;
+				}
+			}
+		}
+		@include sp{
+			padding-top: s(50);
+			padding-bottom: s(30);
+			h2{
+				margin-bottom: s(25);
+				text-align: center;
+				.en{
+					text-align: center;
+				}
+				& + p{
+					width: $cont_w_sp;
+					margin: 0 auto s(20);
+					padding-right: 0;
+				}
+			}
+			figure{
+				top: s(5);
+				right: s(-10);
+				img{
+					width: s(160);
+				}
+			}
+			&_box{
+				width: $cont_w_sp;
+				dl{
+					border-radius: s(10);
+					dt{
+						padding-left: s(70);
+						padding-right: s(45);
+						padding: s(15) s(45) s(15) s(70);
+						font-size: s(18);
+						line-height: 1.5;
+						height: auto;
+						&::before{
+							width: s(40);
+							height: s(40);
+							padding: s(7);
+							font-size: s(26);
+							left: s(15);
+							top: s(15);
+							transform: none;
+						}
+						.ico-slide_down{
+							right: s(20);
+							top: s(30);
+							transform: none;
+							width: s(17);
+							height: s(17);
+							&::before{
+								width: s(8);
+								height: s(8);
+							}
+							&.active{
+								&::before{
+									width: s(8);
+									height: s(2);
+								}
+							}
+						}
+					}
+					dd{
+						padding: 0 s(15) s(20);
+					}
+					& + dl{
+						margin-top: s(10);
+					}
+				}
+			}
+		}
+	}
+	&__link-back{
+		margin: 50px 0;
+		display: flex;
+		justify-content: center;
+		li + li{
+			margin-left: 20px;
+		}
+		.l_btn{
+			width: 260px;
+			padding: 20px 50px 20px 30px;
+		}
+		@include sp{
+			margin: s(30) 0;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			li + li{
+				margin-top: s(20);
+				margin-left: 0;
+			}
+		}
+	}
+	.l_otherLinks{
+		@include sp{
+			margin: s(30) auto;
+		}
+	}
+	.l_btnlist{
+		margin-bottom: 50px;
+		@include sp{
+			margin-bottom: s(30);
+		}
+	}
 }
