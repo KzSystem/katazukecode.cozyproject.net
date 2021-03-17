@@ -822,6 +822,7 @@ $border_color: #DCDCDC;
 		font-size: 32px;
 		line-height: (42 / 32);
 		font-weight: bold;
+		font-family: 'M PLUS Rounded 1c', sans-serif;
 		@include sp{
 			margin-bottom: s(18);
 			font-size:s(24);

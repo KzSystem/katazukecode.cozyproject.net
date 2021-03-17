@@ -1065,6 +1065,7 @@
   font-size: 32px;
   line-height: 1.3125;
   font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 @media (max-width: 680px) {
