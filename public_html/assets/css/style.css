@@ -17,7 +17,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 .font-maru, .l_fixed_contact__head p, .l_section_title, .l_modal .l_modal__shops h2, .l_modal .l_modal__storeList h2, .l_modal .l_modal__prefectures h2, .l_cases__outline h3, .l_shops-pc_outline p, .l_shops-sp_outline p, .l_lowerTitle, .l_service_modal h2 {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
-.font-osw, .l_section_title .en, .l_5reasons__list li h3 .num, .l_cases__outline h3 strong, .l_cases__list li a .flex .date, .l_cases__list li a .price strong, .l_flow__list li h3 .num, .l_news__wrap dl dt, .l_news__wrap dl dt .new {
+.font-osw, .l_list_number li::before, .l_section_title .en, .l_5reasons__list li h3 .num, .l_cases__outline h3 strong, .l_cases__list li a .flex .date, .l_cases__list li a .price strong, .l_flow__list li h3 .num, .l_news__wrap dl dt, .l_news__wrap dl dt .new {
   font-family: 'Oswald', sans-serif;
   font-weight: 600; }
 
@@ -117,7 +117,7 @@ body {
   font-size: 16px;
   color: #1A1311;
   font-weight: 400;
-  min-width: 1340px;
+  min-width: 1200px;
   overflow-x: hidden; }
   @media (max-width: 680px) {
     body {
@@ -203,6 +203,69 @@ br.sp {
 
 .modal_open {
   cursor: pointer; }
+
+.l_list_disc li {
+  position: relative;
+  padding-left: 20px;
+  line-height: 1.8; }
+  .l_list_disc li + li {
+    margin-top: 8px; }
+  .l_list_disc li::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #03A58E;
+    border-radius: 50% 50%;
+    position: absolute;
+    left: 0;
+    top: 0.6em; }
+@media (max-width: 680px) {
+  .l_list_disc li {
+    padding-left: 5.3333333333vw; }
+    .l_list_disc li + li {
+      margin-top: 1.3333333333vw; }
+    .l_list_disc li::before {
+      width: 2.6666666667vw;
+      height: 2.6666666667vw; } }
+
+.l_list_number {
+  counter-reset: item;
+  list-style-type: none; }
+  .l_list_number li {
+    position: relative;
+    padding-left: 35px; }
+    .l_list_number li::before {
+      counter-increment: item;
+      content: "0" counter(item);
+      font-weight: bold;
+      font-size: 14px;
+      color: #fff;
+      background: #03A58E;
+      border-radius: 50% 50%;
+      width: 26px;
+      height: 26px;
+      padding: .4em 0;
+      box-sizing: border-box;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -.2em;
+      text-align: center; }
+    .l_list_number li + li {
+      margin-top: 20px; }
+  @media (max-width: 680px) {
+    .l_list_number li {
+      padding-left: 9.3333333333vw;
+      line-height: 1.8; }
+      .l_list_number li::before {
+        font-size: 3.7333333333vw;
+        width: 6.9333333333vw;
+        height: 6.9333333333vw;
+        line-height: 1;
+        top: .1em; }
+      .l_list_number li + li {
+        margin-top: 2.6666666667vw; } }
 
 .l_header {
   background: #fff; }
@@ -1927,6 +1990,7 @@ br.sp {
 
 .l_contact {
   width: 1224px;
+  max-width: 91.666%;
   background: #03A58E;
   border-radius: 20px;
   margin: 0 auto;
@@ -1935,6 +1999,7 @@ br.sp {
   @media (max-width: 680px) {
     .l_contact {
       width: 100%;
+      max-width: none;
       margin: 0;
       border-radius: 0;
       paddng: 17.3333333333vw 4vw 2.6666666667vw; } }
@@ -4505,6 +4570,7 @@ br.sp {
 
 .l_lowerTitle {
   width: 1306px;
+  max-width: 91.666%;
   margin: 0 auto;
   padding: 25px 0;
   border-radius: 20px;
@@ -4519,6 +4585,7 @@ br.sp {
   @media (max-width: 680px) {
     .l_lowerTitle {
       width: 100%;
+      max-width: none;
       padding: 12vw 0;
       border-radius: 0;
       margin-top: 5.3333333333vw; } }

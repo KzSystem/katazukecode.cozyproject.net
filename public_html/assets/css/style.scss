@@ -30,7 +30,7 @@ body{
 	font-size: 16px;
 	color: #1A1311;
 	font-weight: 400;
-	min-width: 1340px;
+	min-width: 1200px;
 	overflow-x: hidden;
 	@include sp{
 		font-size: s(16);
@@ -131,6 +131,86 @@ br{
 }
 .modal_open{
 	cursor: pointer;
+}
+
+.l_list_disc{
+	li{
+		position: relative;
+		padding-left: 20px;
+		line-height: 1.8;
+		& + li{
+			margin-top: 8px;
+		}
+		&::before {
+			content: "";
+			display: block;
+			width: 10px;
+			height: 10px;
+			background: $main_color;
+			border-radius: 50% 50%;
+			position: absolute;
+			left: 0;
+			top: 0.6em;
+		}
+	}
+	@include sp{
+		li{
+			padding-left: s(20);
+			& + li{
+				margin-top: s(5);
+			}
+			&::before {
+				width: s(10);
+				height: s(10);
+			}
+		}
+	}
+}
+.l_list_number{
+	counter-reset: item;
+	list-style-type: none;
+	li{
+		position: relative;
+		padding-left: 35px;
+		&::before {
+			counter-increment: item;
+			content: '0'counter(item);
+			font-weight: bold;
+			font-size: 14px;
+			@extend .font-osw;
+			color: #fff;
+			background: $main_color;
+			border-radius: 50% 50%;
+			width: 26px;
+			height: 26px;
+			padding: .4em 0;
+			box-sizing: border-box;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: -.2em;
+			text-align: center;
+		}
+		& + li{
+			margin-top: 20px;
+		}
+	}
+	@include sp{
+		li{
+				padding-left: s(35);
+				line-height: 1.8;
+				&::before {
+					font-size: s(14);
+					width: s(26);
+					height: s(26);
+					line-height: 1;
+					top: .1em;
+				}
+				& + li{
+					margin-top: s(10);
+				}
+			}
+	}
 }
 
 // -------------------------------------------------
@@ -2304,6 +2384,7 @@ br{
 // -------------------------------------------------
 .l_contact{
 	width: 1224px;
+	max-width: 91.666%;
 	background: $main_color;
 	border-radius: 20px;
 	margin: 0 auto;
@@ -2311,6 +2392,7 @@ br{
 	padding: 53px 10px 10px;
 	@include sp{
 		width: 100%;
+		max-width: none;
 		margin: 0;
 		border-radius: 0;
 		paddng: s(65) s(15) s(10);
@@ -5440,6 +5522,7 @@ br{
 // -------------------------------------------------
 .l_lowerTitle{
 	width: 1306px;
+	max-width: 91.666%;
 	margin: 0 auto;
 	padding: 25px 0;
 	border-radius: 20px;
@@ -5454,6 +5537,7 @@ br{
 	margin-top: 20px;
 	@include sp{
 		width: 100%;
+		max-width: none;
 		padding: s(45) 0;
 		border-radius: 0;
 		margin-top: s(20);

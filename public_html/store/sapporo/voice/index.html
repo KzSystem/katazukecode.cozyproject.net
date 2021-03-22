@@ -18,7 +18,7 @@
 		<div id="cont_hidden_wrap">
 			<header class="l_header">
 				<div class="l_header__wrap">
-					<h1 class="l_header__logo"><a href=""><img src="../../../assets/img/logo.svg" alt="片付け堂"></a></h1>
+					<div class="l_header__logo"><a href=""><img src="../../../assets/img/logo.svg" alt="片付け堂"></a></div>
 					<p class="l_header__discription">
 						不用品回収、ゴミ屋敷清掃、遺品整理なら<br>
 						片付け堂！片付け専門の全国チェーン
@@ -194,18 +194,36 @@
 				</div>
 			</div>
 			<main id="voice" class="voice">
-				<h2 class="l_lowerTitle">
+				<h1 class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂 札幌店</span>
 					<span class="l_lowerTitle__main">
 						<span class="point">お</span><span class="point">客</span><span class="point">様</span><span class="point">の</span><span class="point">声</span>
 					</span>
-				</h2>
+				</h1>
 				<div id="breadcrumb" class="breadcrumb">
-					<ul>
-						<li class="breadcrumb__home"><a href="">不用品回収専門業者 片付け堂トップ</a></li>
-						<li ><a href="">片付け堂 店舗紹介</a></li>
-						<li ><a href="">片付け堂 札幌店</a></li>
-						<li class="active">札幌店 お客様の声</li>
+					<ul itemscope itemtype="http://schema.org/BreadcrumbList">
+						<li class="breadcrumb__home" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="">
+								<span itemprop="name">不用品回収専門業者 片付け堂トップ</span>
+							</a>
+							<meta itemprop="position" content="1" />
+						</li>
+						<li itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="">
+								<span itemprop="name">片付け堂 店舗紹介</span>
+							</a>
+							<meta itemprop="position" content="2" />
+						</li>
+						<li itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="">
+								<span itemprop="name">片付け堂 札幌店</span>
+							</a>
+							<meta itemprop="position" content="3" />
+						</li>
+						<li class="active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+							<span itemprop="name">札幌店 お客様の声</span>
+							<meta itemprop="position" content="4" />
+						</li>
 					</ul>
 				</div>
 				<div class="l_lead">

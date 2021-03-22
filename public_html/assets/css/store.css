@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.font-maru, .storeList__about_header h3, .storeList__about_balloon, .storeList__pref h3, .store__fixednav .balloon, .store__fixednav .shop_name, .store__service > h3, .store__price_fukidashi, .store__price_caution, .store__price_subtitle, .store__price_pack .detail .amount, .store__price_pack .total .price, .store__area h3, .store__info_staff h3, .store__info_blog h3, .store__faq_box dl dt::before, .store__service_modal h2 {
+.font-maru, .storeList__about_header_title, .storeList__about_balloon, .storeList__pref h3, .store__fixednav .balloon, .store__fixednav .shop_name, .store__service > h3, .store__price_fukidashi, .store__price_caution, .store__price_subtitle, .store__price_pack .detail .amount, .store__price_pack .total .price, .store__area h3, .store__info_staff h3, .store__info_blog h3, .store__faq_box dl dt::before, .store__service_modal h2 {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
 .font-osw, .storeList__about_balloon strong, .store__visual .slick-dots .slider_num, .store__price_pack .detail .amount .inr .num strong, .store__price_pack .total .price .num strong, .store__price_pack .total .tpoint > p .num, .store__info_blog ul li .date {
@@ -28,13 +28,13 @@
   .storeList__about_header {
     width: 360px;
     position: relative; }
-    .storeList__about_header h3 {
+    .storeList__about_header_title {
       font-size: 35px; }
-      .storeList__about_header h3 .small {
+      .storeList__about_header_title .small {
         display: block;
         font-size: 20px;
         margin-bottom: 15px; }
-      .storeList__about_header h3 strong {
+      .storeList__about_header_title strong {
         background: #FFD800; }
     @media (max-width: 680px) {
       .storeList__about_header {
@@ -42,11 +42,11 @@
         text-align: center;
         display: flex;
         flex-direction: column; }
-        .storeList__about_header h3 {
+        .storeList__about_header_title {
           font-size: 8vw;
           line-height: 1.7;
           order: 1; }
-          .storeList__about_header h3 .small {
+          .storeList__about_header_title .small {
             font-size: 4.8vw;
             margin-bottom: 2.6666666667vw;
             line-height: 1; } }
@@ -628,13 +628,15 @@
       display: none; } }
 .store__visual {
   width: 1306px;
+  max-width: 91.666%;
   margin: 0 auto;
   position: relative; }
+  .store__visual img {
+    width: 100%; }
   @media (max-width: 680px) {
     .store__visual {
-      width: 100%; }
-      .store__visual img {
-        width: 100%; } }
+      width: 100%;
+      max-width: none; } }
   .store__visual .slide-arrow {
     cursor: pointer;
     position: absolute;
