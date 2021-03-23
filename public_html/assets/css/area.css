@@ -1302,7 +1302,7 @@
         .area__price_fukidashi + p {
           width: 92vw; } }
   .area__price_caution {
-    width: 1100px;
+    width: 900px;
     margin: 15px auto 0;
     background: #FCDFD8;
     border: 1px #EB6D4E dashed;
@@ -3518,9 +3518,11 @@
       padding-bottom: 8vw; }
       .areaDetail__faq h2 {
         margin-bottom: 6.6666666667vw;
-        text-align: center; }
+        text-align: left;
+        position: relative;
+        padding-left: 4vw; }
         .areaDetail__faq h2 .en {
-          text-align: center; }
+          text-align: left; }
         .areaDetail__faq h2 + p {
           width: 92vw;
           margin: 0 auto 5.3333333333vw;

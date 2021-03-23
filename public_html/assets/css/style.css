@@ -1489,7 +1489,12 @@ br.sp {
   font-weight: 700;
   line-height: 1.2; }
   .l_section_title .small {
-    font-size: 24px; }
+    display: block;
+    font-size: 24px;
+    margin-bottom: .2em;
+    line-height: 1.5; }
+    .l_section_title .small + br {
+      display: none; }
   .l_section_title .en {
     display: block;
     text-align: center;

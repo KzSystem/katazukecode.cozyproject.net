@@ -1776,7 +1776,13 @@ br{
 	line-height: 1.2;
 	@extend .font-maru;
 	.small{
+		display: block;
 		font-size: 24px;
+		margin-bottom: .2em;
+		line-height: 1.5;
+		& + br{
+			display: none;
+		}
 	}
 	.en{
 		display: block;
