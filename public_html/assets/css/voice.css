@@ -636,6 +636,12 @@
   width: calc(100% - 162px);
 }
 
+@media (max-width: 680px) {
+  .voice_staff__body {
+    width: 100%;
+  }
+}
+
 .voice_staff__ttl {
   margin-bottom: 15px;
   font-size: 18px;

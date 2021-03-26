@@ -489,7 +489,10 @@ $border_color: #DCDCDC;
 			}
 		}
 		&__body{
-			width:calc(100% - 162px)
+			width:calc(100% - 162px);
+			@include sp{
+				width:100%;
+			}
 		}
 		&__ttl{
 			margin-bottom: 15px;
