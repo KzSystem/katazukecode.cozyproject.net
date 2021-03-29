@@ -2470,6 +2470,16 @@
 					left: 50%;
 					transform: translateX(-50%);
 				}
+				.date{
+					margin-left: 30px;
+					@extend .font-osw;
+					font-size: 14px;
+					color: #B4B4B4;
+					@include sp{
+						margin-left: s(24);
+						font-size: s(12);
+					}
+				}
 			}
 			.status{
 				position: relative;

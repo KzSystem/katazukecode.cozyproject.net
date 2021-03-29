@@ -1,7 +1,7 @@
 .font-maru, .area__visual .text h3, .area__disposal_content h4, .area__recycling > h4, .area__recycling_content .caution, .area__recycling_content h4, .area__5reasons_n01 h3, .area__5reasons_n01-info h4, .area__price_fukidashi, .area__price_caution, .area__price_subtitle, .area__price_pack .detail .amount, .area__price_pack .total .price, .area__cases_outline h3, .area__area h3, .areaList__about h3, .areaList__internalnav h4, .store__service_modal h2, .areaDetail__faq_box dl dt::before {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
-.font-osw, .area__disposal_content ol li::before, .area__recycling_flow ul li figure figcaption, .area__5reasons_n01 h3 .num, .area__price_pack .detail .amount .inr .num strong, .area__price_pack .total .price .num strong, .area__price_pack .total .tpoint > p .num, .area__cases_outline h3 strong, .area__cases_content .price .num strong {
+.font-osw, .area__disposal_content ol li::before, .area__recycling_flow ul li figure figcaption, .area__5reasons_n01 h3 .num, .area__price_pack .detail .amount .inr .num strong, .area__price_pack .total .price .num strong, .area__price_pack .total .tpoint > p .num, .area__cases_outline h3 strong, .area__cases_content .flex-box .date, .area__cases_content .price .num strong {
   font-family: 'Oswald', sans-serif;
   font-weight: 600; }
 
@@ -1986,6 +1986,14 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%); }
+      .area__cases_content .flex-box .date {
+        margin-left: 30px;
+        font-size: 14px;
+        color: #B4B4B4; }
+        @media (max-width: 680px) {
+          .area__cases_content .flex-box .date {
+            margin-left: 6.4vw;
+            font-size: 3.2vw; } }
     .area__cases_content .status {
       position: relative;
       padding: 10px 0;
