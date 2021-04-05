@@ -17,9 +17,19 @@ $('.pull_down').on('click', function(){
 	$(this).toggleClass('active');
 	$(this).next('.child').slideToggle(200);
 });
-$('.has_child').on('click', function(){
+$('.l_footer .has_child').on('click', function(event){
+    var w = $(window).width();
+    var x = 680;
+    if (w <= x) {
+			event.preventDefault();
+			$(this).toggleClass('active');
+			$(this).next('.child').slideToggle(200);
+		}
+});
+$('.faq_a').on('click', function(){
 	$(this).toggleClass('active');
-	$(this).next('.child').slideToggle(200);
+	$(this).children('.ico-slide_down').toggleClass('active');
+	$(this).next('.faq_q').slideToggle(200);
 });
 
 // .service_box
