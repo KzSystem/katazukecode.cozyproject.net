@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .font-maru, .service__about h3, .service_price__about_title, .service_price__trouble_catch_text, .service_price__menu_recycle_title, .service_price__canbuy_title, .service_price__remarks_title, .service_price__faq_box dl dt::before {
   font-family: 'M PLUS Rounded 1c', sans-serif; }
 
@@ -695,6 +696,16 @@
       margin-top: 5px;
       text-align: right;
       line-height: 1.6; }
+      .service_price__pickup_graph .caution span {
+        display: inline-block;
+        position: relative;
+        padding-left: 1em; }
+        .service_price__pickup_graph .caution span::before {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "※"; }
   @media (max-width: 680px) {
     .service_price__pickup {
       padding: 6.6666666667vw 0; }
