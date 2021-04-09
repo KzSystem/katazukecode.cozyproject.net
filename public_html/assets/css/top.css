@@ -7,13 +7,15 @@
 
 .top__slider {
   width: 1306px;
+  max-width: 91.666%;
   margin: 0 auto;
   position: relative; }
+  .top__slider img {
+    width: 100%; }
   @media (max-width: 680px) {
     .top__slider {
-      width: 100%; }
-      .top__slider img {
-        width: 100%; } }
+      width: 100%;
+      max-width: none; } }
   .top__slider .slide-arrow {
     cursor: pointer;
     position: absolute;

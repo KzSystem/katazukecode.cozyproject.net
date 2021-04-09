@@ -11,13 +11,15 @@
 	// -------------------------------------------------
 	&__slider{
 		width: 1306px;
+		max-width: 91.666%;
 		margin: 0 auto;
 		position: relative;
+		img{
+			width: 100%;
+		}
 		@include sp{
 			width: 100%;
-			img{
-				width: 100%;
-			}
+			max-width: none;
 		}
 		.slide-arrow{
 			cursor: pointer;

@@ -3917,7 +3917,7 @@ br{
 				color: #fff;
 				.marker{
 					background: #ED4C24;
-					padding: 0 .2em;
+					padding: 0 .2em .1em .3em;
 				}
 				@include sp{
 					font-size: s(20);
@@ -4005,11 +4005,13 @@ br{
 					z-index: 1;
 					width: 100%;
 					font-size: s(16);
+					border-radius: 10px;
 					&::before{
 						display: none;
 					}
 					.balloon-inr{
 						padding: s(60) s(15) s(10);
+						border-radius: 7px;
 						&::before{
 							display: none;
 						}
@@ -4558,6 +4560,8 @@ br{
 		padding: s(50) 0 s(195);
 	}
 	h2{
+		position: relative;
+		z-index: 2;
 		margin-bottom: 30px;
 		@include sp{
 			margin-left: s(20);
@@ -5287,7 +5291,6 @@ br{
 		}
 		li{
 			width: 252px;
-			box-shadow: 0 0 0 3px $main_color inset;
 			border-radius: 10px;
 			background: #fff;
 			box-sizing: border-box;
@@ -5328,6 +5331,9 @@ br{
 				transition: background .2s;
 				border-radius: 10px 10px 0 0;
 				@include sp{
+					position: absolute;
+					left: 0;
+					top: 0;
 					width: s(172);
 					height: s(112);
 					font-size: s(18);
@@ -5376,6 +5382,7 @@ br{
 				@include sp{
 					width: s(160);
 					height: s(112);
+					margin-left: auto;
 					img{
 						width: 100%;
 					}
@@ -5405,7 +5412,6 @@ br{
 				}
 			}
 			&:nth-child(even){
-				box-shadow: 0 0 0 3px #00AAC7 inset;
 				h3{
 					background: #00AAC7;
 					.num{
@@ -5463,6 +5469,28 @@ br{
 					p img{
 						width: s(311);
 					}
+				}
+			}
+		}
+		&_item_inr{
+			border: solid 3px $main_color;
+			border-top: none;
+			border-radius: 0 0 10px 10px;
+			@include ie{
+				margin-top: -1px;
+			}
+			@include sp{
+				width: 100%;
+				border: solid 3px $main_color;
+				border-radius: s(10);
+			}
+		}
+		li:nth-child(even){
+			.l_flow__list_item_inr{
+				border: solid 3px #00AAC7;
+				border-top: none;
+				@include sp{
+					border: solid 3px #00AAC7;
 				}
 			}
 		}
