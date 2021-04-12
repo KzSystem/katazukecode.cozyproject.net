@@ -5772,6 +5772,9 @@ br{
 	@include sp{
 		display: none;
 	}
+	&_no_bg{
+		background: transparent;
+	}	
 	&_head{
 		width: $cont_w_pc;
 		margin: 0 auto;
@@ -6555,6 +6558,10 @@ br{
 		background: #dcdcdc !important;
 	}
 
+	&_bg{
+		background: #F7F3E5 !important;
+	}	
+
 }
 
 // -------------------------------------------------
@@ -6639,6 +6646,10 @@ br{
 // l_search_box
 // -------------------------------------------------
 
+// -------------------------------------------------
+// l_search_box
+// -------------------------------------------------
+
 .l_search_box{
 	background: #fff;
 	&__head{
@@ -6708,7 +6719,105 @@ br{
 				padding:0 s(10);
 			}
 		}
+		&_size_m{
+			width: 250px;
+			background-position: 220px center;
+			@include sp{
+				width: 100%;
+				background-position: s(275) center;
+				font-size: s(14);
+			}
+		}
 	}
+
+	&__data{
+		display: flex;
+		align-items: center;
+		@include sp{
+			flex-wrap:wrap;
+		}
+		dt{
+			padding-right: 20px;
+			@include sp{
+				padding-right: 0;
+			}
+			&:first-child{
+				min-width: 100px;
+			}
+		}
+		dd{
+			margin-left: 0;
+		}
+		&_select{
+			dt{
+				margin-left: 60px;
+				@include sp{
+					width: 100%;
+					margin-left:0;
+					margin-bottom: s(8);
+				}
+				&:first-child{
+					margin-left: 0;
+				}
+			}
+			dd{
+				@include sp{
+					width: 100%;
+					margin-left:0;
+					margin-bottom: s(20);
+				}
+			}
+		}
+		&_check{
+			dt{
+				@include sp{
+					margin-bottom:s(13);
+				}
+			}
+			dd{
+				margin-left:0;
+				margin-right: 20px;
+				@include sp{
+					margin:0 s(15) s(18) 0;
+				}
+			
+			}
+		}
+		&_tag{
+			dt{
+				@include sp{
+					margin-bottom: 12px;
+				}
+			}
+			dd{
+				margin-left:0;
+				margin-right: 5px;
+				@include sp{
+					margin:0 s(10) s(10) 0;
+				}
+			}
+		}
+		dt{
+			@include sp{
+				width: 100%;
+			}
+		}
+		&_input{
+			dt{
+				@include sp{
+					margin-bottom: 12px;
+				}
+			}
+			dd{
+				margin-left:0;
+				@include sp{
+					width: 100%;
+				}
+			}
+		}
+
+	}
+
 	&__select_list{
 		display: flex;
 		@include sp{
@@ -6736,12 +6845,22 @@ br{
 		border-radius: 3px !important;
 		font-size: 16px;
 		color:#999;
+		font-family: inherit;
 		@include sp{
 			width:100%;
 			height: s(60);
 			margin-left: 0;
 			margin-bottom: s(15);
 			border-radius: s(3) !important;
+		}
+		&_size_s{
+			width: 350px;
+			@include sp{
+				width: 100%;
+			}
+		}
+		&_left{
+			margin-left:0;
 		}
 	}
 	&__btn{
@@ -6774,6 +6893,12 @@ br{
 				margin-top: s(10);
 			}
 		}
+		&_size_l{
+			width: 300px;
+		}
+		&_center{
+			margin:0 auto;
+		}
 	}
 	&_plus{
 		outline: none;
@@ -6799,6 +6924,129 @@ br{
 			font-size: s(14);
 		}
 	}
+
+	&__check{
+		cursor: pointer;
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		align-items: center;
+		@include sp{
+			padding-bottom: s(2);
+		}
+		input[type="checkbox"]{
+			position: absolute;
+			left:0;
+			top:0;
+			opacity: 0;
+		}
+		&_ico{
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin-right: 8px;
+			border:solid 1px #1A1311;
+			border-radius: 2px;
+			
+		}
+		input[type="checkbox"]:checked + &_ico{
+			background: $main_color url("../img/case/ico_chekc.svg") no-repeat center;
+			border-color:$main_color;
+
+		}
+	}
+
+	&__sub{
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+		font-size: 18px;
+		color:$main_color;
+		font-weight: bold;
+		@include sp{
+			margin-bottom:s(15);
+		}
+		&:before{
+			content: "";
+			display: block;
+			width: 12px;
+			height: 12px;
+			margin-right: 5px;
+			margin-top: 3px;
+			background: $main_color;
+			border-radius: 2px;
+		}
+		&:after{
+			content:"";
+			display: block;
+			flex: 1;
+			margin-left: 10px;
+			border-top: dashed $main_color 1px;
+		}
+		&_txt{
+			display: block;
+		}
+	}
+
+	&__tag{
+		cursor: pointer;
+		overflow: hidden;
+		position: relative;
+		input[type="checkbox"]{
+			position: absolute;
+			left:0;
+			top:0;
+			opacity: 0;
+		}
+		&_txt{
+			display: block;
+			padding:3px 8px 4px 8px;
+			border-radius: 3px;
+			background: #F3F3F3;
+			border:solid 1px #818080;
+			font-size: 14px;
+			color:#999999;
+			@include sp{
+				padding:s(8) s(10);
+			}
+		}
+		input[type="checkbox"]:checked + &_txt{
+			border-color:$main_color;
+			background: $main_color;
+			color:#fff;
+		}
+	}
+
+	&__space_01{
+		margin-bottom: 12px;
+		@include sp{
+			margin-bottom:s(10);
+		}
+	}
+	&__space_02{
+		margin-bottom: 20px;
+		@include sp{
+			margin-bottom: s(20);
+		}
+	}	
+	&__space_03{
+		margin-bottom: 30px;
+		@include sp{
+			margin-bottom: s(5);
+		}
+	}
+	&__space_04{
+		margin-bottom: 40px;
+		@include sp{
+			margin-bottom:s(15);
+		}
+	}	
+	&__space_05{
+		margin-bottom: 30px;
+		@include sp{
+			margin-bottom:s(5);
+		}
+	}		
 }
 
 
@@ -6895,6 +7143,12 @@ br{
 			padding:s(30) 0 ;
 		}
 	}
+	&__space_02{
+		padding:10px 0 50px 0;
+		@include sp{
+			padding:s(10) 0 s(30) 0 ;
+		}
+	}	
 	li{
 		padding:0 4px;
 				

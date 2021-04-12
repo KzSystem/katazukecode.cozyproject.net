@@ -892,3 +892,50 @@ $border_color: #DCDCDC;
 		}
 	}
 }
+
+//==================================================
+// case
+//==================================================
+.case{
+	.l_cases{
+		padding:0;
+		margin:50px  auto 0 auto;
+		@include sp{
+			margin:s(30) auto 0 auto;
+		}
+	}
+	.l_shops-pc{
+		padding-bottom: 0;
+	}
+	.l_otherLinks{
+		@include sp{
+			margin:0 auto s(30) auto !important;
+			padding:0;
+		}
+
+	}
+	&_lead{
+		padding:70px 0 30px 0;
+		text-align: center;
+		@include sp{
+			padding:s(50) 0  s(20) 0;
+		}
+		&__txt{
+			padding-top: 25px;
+			line-height: 1.875;
+			@include sp{
+				text-align: left;
+			}
+		}
+	}
+	&_top{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		padding-top: 20px;
+		@include sp{
+			margin-top: 0 !important;
+			padding-top:0;
+		}
+	}
+}

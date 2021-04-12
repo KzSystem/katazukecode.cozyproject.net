@@ -1161,3 +1161,61 @@
     margin: 0;
   }
 }
+
+.case .l_cases {
+  padding: 0;
+  margin: 50px  auto 0 auto;
+}
+
+@media (max-width: 680px) {
+  .case .l_cases {
+    margin: 8vw auto 0 auto;
+  }
+}
+
+.case .l_shops-pc {
+  padding-bottom: 0;
+}
+
+@media (max-width: 680px) {
+  .case .l_otherLinks {
+    margin: 0 auto 8vw auto !important;
+    padding: 0;
+  }
+}
+
+.case_lead {
+  padding: 70px 0 30px 0;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .case_lead {
+    padding: 13.33333vw 0 5.33333vw 0;
+  }
+}
+
+.case_lead__txt {
+  padding-top: 25px;
+  line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .case_lead__txt {
+    text-align: left;
+  }
+}
+
+.case_top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media (max-width: 680px) {
+  .case_top {
+    margin-top: 0 !important;
+    padding-top: 0;
+  }
+}
