@@ -32,7 +32,7 @@
 		&_header{
 			width: 360px;
 			position: relative;
-			&_title{
+			.storeList__about_title{
 				@extend .font-maru;
 				font-size: 35px;
 				.small{
@@ -49,7 +49,7 @@
 				text-align: center;
 				display: flex;
 				flex-direction: column;
-				&_title{
+				.storeList__about_title{
 					font-size: s(30);
 					line-height: 1.7;
 					order: 1;
