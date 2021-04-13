@@ -1568,6 +1568,18 @@ br{
 			}
 		}
 	}
+
+	&_wide{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 400px;
+		padding: 24px 75px 17px 50px;
+		@include sp{
+			width: 100%;
+		}
+	}
+
 }
 
 // -------------------------------------------------
@@ -7062,6 +7074,14 @@ br{
 	}
 }
 
+.l_narrow_inner{
+	max-width: 900px;
+	margin:0 auto;
+	@include sp{
+		padding:0 4vw;
+	}
+}
+
 // -------------------------------------------------
 // lead
 // -------------------------------------------------
@@ -7173,8 +7193,8 @@ br{
 		background: $main_color;
 		color:#fff;
 		@include sp{
-			width:s(35);
-			height:s(35);
+			width:s(34);
+			height:s(34);
 			font-size: s(11);
 		}
 	}
@@ -7184,8 +7204,8 @@ br{
 		color:#fff;			
 		background: #DCDCDC;
 		@include sp{
-			width:s(35);
-			height:s(35);
+			width:s(34);
+			height:s(34);
 			font-size: s(11);
 		}		
 	}		
@@ -7197,8 +7217,8 @@ br{
 		margin:0 3px;
 		box-shadow: 0px 0px 5px rgba(0,0,0,.16);
 		@include sp{
-			width:s(30);
-			height:s(30);
+			width:s(28);
+			height:s(28);
 			margin:0 s(2);
 			box-shadow: 0px 0px s(5) rgba(0,0,0,.16);
 		}	
@@ -7243,6 +7263,95 @@ br{
 			margin-left: s(10);
 		}
 	}	
+}
+
+.l_next_prev{
+	ul{
+		display: flex;
+		justify-content: space-between;
+		@include sp{
+			
+		}
+		li{
+			width: 430px;
+			height: 115px;
+			border: 2px solid #DCDCDC;
+			border-radius: 10px;	
+			@include sp{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: s(168);
+				height:s(50);
+				border-radius: s(10);
+				border-width: s(2);
+			}
+			&:nth-child(2){
+				text-align: right;
+			}		
+		}
+	}
+	&__link{
+		display: block;
+		padding:20px;
+		text-decoration: none;
+		@include sp{
+			padding:0;
+		}
+	}
+	&__ttl{
+		position: relative;
+		display: block;
+		margin-bottom: 7px;
+		color:$main_color;
+		font-size: 16px;
+		@include sp{
+			margin-bottom: 0;
+		}
+		&:before{
+			content:"";
+			position: absolute;
+			top:0;
+			bottom:0;
+			display: block;
+			margin:auto;
+			width: 4px;
+			height: 7px;
+			background: url("../img/case/sample/ico_arrow.svg") no-repeat center / contain;
+		}
+	}
+
+	li:nth-child(1) &__ttl:before{
+		left:-12px;
+		@include sp{
+			
+		}
+	}
+	li:nth-child(1) &__link{
+		padding-left: 34px;
+		@include sp{
+			padding-left:s(20);
+		}
+	}
+	li:nth-child(2) &__ttl:before{
+		right:-12px;
+		transform: rotate(180deg);
+
+	}	
+	li:nth-child(2) &__link{
+		padding-right: 34px;
+		@include sp{
+			padding-right:s(34);
+		}
+	}	
+	&__txt{
+		display: block;
+		line-height: (26 / 14);
+		font-size: 14px;
+		@include sp{
+			display:none;
+		}
+	}
 }
 
 // -------------------------------------------------
