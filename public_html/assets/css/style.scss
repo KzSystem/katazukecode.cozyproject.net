@@ -1580,6 +1580,10 @@ br{
 		}
 	}
 
+	&__block{
+		display: block;
+	}
+
 }
 
 // -------------------------------------------------
@@ -3307,6 +3311,39 @@ br{
 			}*/
 		}
 	}
+
+	&__img_01{
+		width: 97px;
+		@include sp{
+			width:s(67) !important;
+		}
+	}
+	&__img_02{
+		width: 150px;
+		@include sp{
+			width:s(108) !important;
+		}		
+	}
+	&__img_03{
+		width: 88px;
+		@include sp{
+			width:s(62) !important;
+		}		
+	}
+	&__img_04{
+		width: 130px;
+		@include sp{
+			width:s(85) !important;
+		}		
+	}
+	&__img_05{
+		width: 150px;
+		@include sp{
+			width:s(110) !important;
+			margin-left: s(-3);
+		}		
+	}				
+
 	&__detail{
 		width: $cont_w_pc;
 		margin: 50px auto 0;
@@ -7114,6 +7151,17 @@ br{
 	&__bg{
 		background: #FDFBF2;
 	}
+}
+.l_sec_space_02{
+	padding:70px 0 50px 0;
+	@include sp{
+		padding:s(30) 0;
+	}
+
+}
+
+body .l_sec_bg{
+	background: #FDFBF2 !important;
 }
 
 // -------------------------------------------------

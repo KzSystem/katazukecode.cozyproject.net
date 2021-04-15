@@ -383,6 +383,14 @@
 			margin-top: s(15);
 			margin-bottom: s(30);
 		}
+
+		&_top-space{
+			padding-top: 20px;
+			@include sp{
+				padding-top: 0;
+			}
+		}
+	
 		&_wrap{
 			display: flex;
 			justify-content: space-between;
@@ -394,6 +402,9 @@
 				width: s(345);
 			}
 		}
+
+
+
 		&_text-box{
 			width: 557px;
 			@include sp{
@@ -414,6 +425,7 @@
 				text-align: center;
 			}
 		}
+		
 		&_text{
 			margin-bottom: 15px;
 			font-size: 16px;
@@ -737,7 +749,22 @@
 				font-size: s(28);
 				line-height: 1.2;
 			}
+
 		}
+
+		&_free_size{
+			height:auto;
+			padding-top: 18px;
+			padding-bottom: 18px;
+			line-height: (42 / 32);
+			@include sp{
+				padding-top: s(12);
+				padding-bottom: s(12);
+				line-height: 1.2;
+			}
+		}		
+
+
 		&_text{
 			width: 517px;
 			padding-left: 38px;
@@ -1231,6 +1258,7 @@
 				text-align: center;
 				color: #fff;
 			}
+	
 			.status{
 				position: relative;
 				padding: 10px 0 0;
@@ -1390,6 +1418,18 @@
 		}
 		.text-center{
 			margin-top: 30px;
+		}
+
+		&_box.color01{
+			.service_price__case01_info .type{
+				background: #EB6D4E;
+			}
+			.service_price__case01_img .after{
+				border-color:#EB6D4E;
+			}
+			.service_price__case01_img .before::after{
+				background-image: url("../img/service/hoarding_house/ico-arrow.svg");
+			}
 		}
 	}
 	
@@ -1891,6 +1931,129 @@
 	.l_otherLinks{
 		@include sp{
 			margin-top: s(10);
+		}
+	}
+
+}
+
+//==================================================
+// service_onestop
+//==================================================
+
+.service_onestop{
+	&_head{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+		padding-top: 20px;
+		@include sp{
+			flex-wrap:wrap;
+			padding-top: 0;
+		}		
+		&__body{
+			width: 540px;
+			@include sp{
+			}
+		}
+		&__img{
+			width: 510px;
+			@include sp{
+				width:100%;
+				padding-top: s(25);
+			}
+			img{
+				max-width: 100%;
+			}
+		}
+		.l_section_title{
+			text-align: left;
+			@include sp{
+				text-align: center;
+			}
+			.en{
+				text-align: left;
+				@include sp{
+					text-align: center;
+				}				
+			}
+		}
+	}
+
+	&_body{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+		@include sp{
+			flex-wrap:wrap;
+			margin-bottom: 0;
+		}
+		img{
+			max-width: 100%;
+		}
+	}
+	
+	&_item{
+		width: 345px;
+		@include sp{
+			display: flex;
+			margin-bottom: s(20);
+		}
+		&__ttl{
+			@include sp{
+				width:s(135);
+				padding-left: s(10);
+				line-height: s(26);
+			}
+		}
+		&__img{
+			display: block;
+			margin-bottom: 20px;
+			@include sp{
+				width:s(200);
+				margin-bottom: 0;
+			}
+		}
+		dt{
+			margin-bottom: 10px;
+			color:$main_color;
+			font-size: 26px;
+			font-weight: 700;
+			text-align: center;
+			@include sp{
+				display: flex;
+				align-items: center;
+				margin-bottom: s(5);
+				font-size: s(22);
+				text-align: left;
+			}
+		}
+		dd{
+			line-height: (30 / 16);
+			@include sp{
+				margin-left: 0;
+				font-size:s(16);
+			}
+		}
+	}
+
+	&_txt{
+		margin-top: 35px;
+		line-height: (30 / 16);
+		@include sp{
+			margin-top:s(25);
+		}
+	}	
+	&_bnr{
+		width: 728px;
+		margin: 0 auto;
+		@include sp{
+			width: 100%;
+		}
+		a{
+			display: block;
+		}
+		img{
+			max-width: 100%;
 		}
 	}
 }

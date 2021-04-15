@@ -1938,6 +1938,10 @@ br.sp {
   }
 }
 
+.l_btn_more__block {
+  display: block;
+}
+
 .l_btn_home {
   display: inline-block;
   padding: 15px 60px 15px 0;
@@ -4038,6 +4042,57 @@ br.sp {
     border-radius: 0 10px 10px 0;
     border: solid 3px #03A58E;
     border-left: none;
+  }
+}
+
+.l_5reasons__img_01 {
+  width: 97px;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_01 {
+    width: 17.86667vw !important;
+  }
+}
+
+.l_5reasons__img_02 {
+  width: 150px;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_02 {
+    width: 28.8vw !important;
+  }
+}
+
+.l_5reasons__img_03 {
+  width: 88px;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_03 {
+    width: 16.53333vw !important;
+  }
+}
+
+.l_5reasons__img_04 {
+  width: 130px;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_04 {
+    width: 22.66667vw !important;
+  }
+}
+
+.l_5reasons__img_05 {
+  width: 150px;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_05 {
+    width: 29.33333vw !important;
+    margin-left: -0.8vw;
   }
 }
 
@@ -8580,6 +8635,20 @@ input[type="checkbox"]:checked + .l_search_box__tag_txt {
 
 .l_sec_space__bg {
   background: #FDFBF2;
+}
+
+.l_sec_space_02 {
+  padding: 70px 0 50px 0;
+}
+
+@media (max-width: 680px) {
+  .l_sec_space_02 {
+    padding: 8vw 0;
+  }
+}
+
+body .l_sec_bg {
+  background: #FDFBF2 !important;
 }
 
 .l_retrun_area {
