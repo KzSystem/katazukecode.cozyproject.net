@@ -2337,6 +2337,30 @@
 					}
 				}
 			}
+		}		
+		&_box.blue{
+			.price_lower__case_img{
+				.before{
+					&::after{
+						background: url("../img/service/price/ico-arrow-b.svg")no-repeat 0 0 / contain;
+					}
+				}
+				.after{
+					border: solid #15AAC7 3px;
+				}
+			}
+			.price_lower__case_info{
+				.type{
+					background: #15AAC7;
+				}
+			}
+			@include sp{
+				.price_lower__case_img{
+					.before::after{
+						background: url("../img/service/price/sp/ico-arrow-b.svg")no-repeat 0 0 / contain;
+					}
+				}
+			}
 		}
 	}
 	&__quote{
@@ -2501,6 +2525,7 @@
 			margin-bottom: 12px;
 			font-size: 26px;
 			font-weight: 700;
+			line-height: 1.4;
 			color: $main_color;
 			text-align: center;
 		}
@@ -2706,8 +2731,13 @@
 				line-height: 1.85;
 				margin-bottom: 30px;
 			}
+			&_list{
+				display: flex;
+				justify-content: center;
+			}
 			.l_list_number{
-				width: 720px;
+				display: inline-block;
+				width: auto;
 				margin: 0 auto;
 				font-size: 24px;
 				font-weight: 700;
@@ -2904,3 +2934,5 @@
 		}
 	}
 }
+
+

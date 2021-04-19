@@ -1905,6 +1905,15 @@
   @media (max-width: 680px) {
     .price_lower__case_box.orange .price_lower__case_img .before::after {
       background: url("../img/service/price/sp/ico-arrow-o.svg") no-repeat 0 0/contain; } }
+  .price_lower__case_box.blue .price_lower__case_img .before::after {
+    background: url("../img/service/price/ico-arrow-b.svg") no-repeat 0 0/contain; }
+  .price_lower__case_box.blue .price_lower__case_img .after {
+    border: solid #15AAC7 3px; }
+  .price_lower__case_box.blue .price_lower__case_info .type {
+    background: #15AAC7; }
+  @media (max-width: 680px) {
+    .price_lower__case_box.blue .price_lower__case_img .before::after {
+      background: url("../img/service/price/sp/ico-arrow-b.svg") no-repeat 0 0/contain; } }
 .price_lower__quote {
   padding: 70px 0 50px; }
   @media (max-width: 680px) {
@@ -2028,6 +2037,7 @@
     margin-bottom: 12px;
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.4;
     color: #03A58E;
     text-align: center; }
   .price_lower__tips_text {
@@ -2199,8 +2209,12 @@
     .price_lower__merit_cautions_lead {
       line-height: 1.85;
       margin-bottom: 30px; }
+    .price_lower__merit_cautions_list {
+      display: flex;
+      justify-content: center; }
     .price_lower__merit_cautions .l_list_number {
-      width: 720px;
+      display: inline-block;
+      width: auto;
       margin: 0 auto;
       font-size: 24px;
       font-weight: 700;
