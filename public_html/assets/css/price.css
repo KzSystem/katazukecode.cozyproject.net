@@ -1604,6 +1604,18 @@
     padding: 35px 50px 30px;
     background: #FDFBF2;
     border-radius: 20px; }
+    .price_lower__trouble_counter::before {
+      display: block;
+      position: absolute;
+      top: -18px;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 37px 55px 0 55px;
+      border-color: #ED4C24 transparent transparent transparent;
+      transform: translateX(-50%);
+      content: ""; }
     .price_lower__trouble_counter_title {
       margin-bottom: 20px;
       font-size: 32px;
@@ -1642,6 +1654,9 @@
         margin: 0 auto;
         padding: 4.8vw 4vw 4vw;
         border-radius: 5.3333333333vw; }
+        .price_lower__trouble_counter::before {
+          top: -7.2vw;
+          border-width: 9.8666666667vw 14.6666666667vw 0 14.6666666667vw; }
         .price_lower__trouble_counter_title {
           margin-bottom: 2.6666666667vw;
           font-size: 6.4vw;

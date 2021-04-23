@@ -1955,6 +1955,19 @@
 			padding: 35px 50px 30px;
 			background: #FDFBF2;
 			border-radius: 20px;
+			&::before{
+				display: block;
+				position: absolute;
+				top: -18px;
+				left: 50%;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 37px 55px 0 55px;
+				border-color: #ED4C24 transparent transparent transparent;
+				transform: translateX(-50%);
+				content: "";
+			}
 			&_title{
 				margin-bottom: 20px;
 				@extend .font-maru;
@@ -2001,6 +2014,10 @@
 				margin: 0 auto;
 				padding: s(18) s(15) s(15);
 				border-radius: s(20);
+				&::before{
+					top: s(-27);
+					border-width: s(37) s(55) 0 s(55);
+				}
 				&_title{
 					margin-bottom: s(10);
 					font-size: s(24);

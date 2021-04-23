@@ -7639,14 +7639,14 @@ br.sp {
 .l_lowerTitle__main .point::before {
   content: "";
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 6px;
+  height: 6px;
   background: #FFD800;
   border-radius: 50% 50%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  top: -8px;
+  top: -5px;
   position: absolute;
 }
 
