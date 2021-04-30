@@ -2,8 +2,8 @@
 <html lang="ja">
 	<head>
         <?php require_once( dirname(__FILE__). '/../assets/block_parts/tmp/head.php'); ?>
-        <meta name="description" content="">
-        <title>片付け堂</title>
+        <meta name="description" content="片付け堂のサービス紹介ページです。不用品回収・粗大ゴミ回収・ゴミ屋敷清掃・遺品整理・ハウスクリーニング・不用品買取・解体・生前整理まで片付けに関する幅広いサービスを提供します。業界最安値の価格と許可取得の安心と信頼といえば片付け堂">
+        <title>サービス紹介 | 不用品回収・粗大ゴミ回収なら片付け堂</title>
         <link href="../assets/css/slick.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/service.css">
 	</head>

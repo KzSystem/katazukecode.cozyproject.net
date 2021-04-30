@@ -1542,7 +1542,7 @@ br.sp {
 }
 
 .l_fixed_contact__tel .num > span.goro.n55 {
-  right: 0;
+  right: -14px;
 }
 
 .l_fixed_contact__tel .acc {
@@ -3149,7 +3149,7 @@ br.sp {
 }
 
 .l_contact__tel_cont .num .goro.n55 {
-  right: 10px;
+  right: -5px;
 }
 
 @media (max-width: 680px) {
@@ -9101,4 +9101,55 @@ li:nth-child(2) .l_next_prev__link {
 
 .l_service_modal .l_service_box .l_service_box_list li + li {
   margin-left: 35px;
+}
+
+.font-maru, .l_fixed_contact__head p, .l_section_title, .l_modal .l_modal__shops h2, .l_modal .l_modal__storeList h2, .l_modal .l_modal__prefectures h2, .l_5reasons__permit_warning_catch, .l_5reasons__permit_warning_title, .l_5reasons__permit_our_title, .l_5reasons__permit_why_title .inr, .l_cases__outline h3, .l_shops-pc_outline p, .l_shops-sp_outline p, .l_lowerTitle, .l_service_modal h2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.font-osw, .l_list_number li::before, .l_section_title .en, .l_5reasons__list li h3 .num, .l_5reasons__permit_title .num, .l_cases__outline h3 strong, .l_cases__list li a .flex .date, .l_cases__list li a .price strong, .l_flow__list li h3 .num, .l_news__wrap dl dt, .l_news__wrap dl dt .new {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+.l_section-space-01 {
+  padding: 70px 0 50px 0;
+}
+
+@media (max-width: 680px) {
+  .l_section-space-01 {
+    padding: 13.33333vw 0 8vw;
+  }
+}
+
+.l_section-space-01--bg {
+  background: #F7F3E5;
+}
+
+.l_section-space-02 {
+  padding: 80px 0 50px 0;
+}
+
+@media (max-width: 680px) {
+  .l_section-space-02 {
+    padding: 13.33333vw 0 8vw;
+  }
+}
+
+.l_section-space-02--bg {
+  background: #F7F3E5;
+}
+
+.l_section-space-03 {
+  padding: 50px 0;
+}
+
+@media (max-width: 680px) {
+  .l_section-space-03 {
+    padding: 13.33333vw 0 13.33333vw;
+  }
+}
+
+.l_section-space-03--bg {
+  background: #F7F3E5;
 }

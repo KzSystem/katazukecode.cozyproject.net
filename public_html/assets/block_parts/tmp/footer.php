@@ -111,7 +111,7 @@
         <div class="logo"><img src="/assets/img/logo.svg" alt="片付け堂"></div>
         <dl>
             <dt>運営会社</dt><dd>株式会社片付け堂</dd>
-            <dt>拠　点</dt><dd><strong>本社</strong><br>
+            <dt>拠　点</dt><dd>
             〒690-0017　<br class="sp">島根県松江市西津田3丁目1-12<br>
             TEL： <a class="sp" href="tel:0852-67-2897">0852-67-2897</a>
             <span class="pc">0852-67-2897</span>　<br class="sp">FAX： 0852-67-2896</dd>
