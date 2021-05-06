@@ -1,0 +1,817 @@
+@import '_general';
+
+//==================================================
+// seminar
+//==================================================
+
+.l_fixed_contact{
+	display: none;
+}
+.seminar{
+	.l_lowerTitle{
+		text-align: center;
+		@include sp{
+			padding: s(25) 0 s(30);
+			line-height: 1.6;
+			.point::before{
+				top: -6px;
+			}
+		}
+	}
+	// -------------------------------------------------
+	// seminar__entry_btn
+	// -------------------------------------------------
+	&__entry_btn{
+		display: inline-block;
+		width: 460px;
+		padding: 25px 0;
+		background: #EB6D4E;
+		border-radius: 60px;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.16);
+		font-size: 20px;
+		font-weight: 700;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		transition: background .2s;
+		.text{
+			position: relative;
+			.icon-arrow{
+				right: -30px;
+				svg{
+					height: 8px;
+					stroke: #EB6D4E;
+					fill: #EB6D4E;
+				}
+			}
+		}
+		@include sp{
+			width: s(345);
+			padding: s(25) 0;
+			font-size: s(18);
+			.text{
+				position: relative;
+				.icon-arrow{
+					right: s(-23);
+					svg{
+						height: s(8);
+					}
+				}
+			}
+		}
+		&:hover{
+			background: #DD4F2B;
+			@include sp{
+				background: #EB6D4E;
+			}
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__fixedentry
+	// -------------------------------------------------
+	&__fixedentry{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 998;
+		width: 100%;
+		padding: 5px 0;
+		background: rgba(26,19,17,.8);
+		text-align: center;
+		.seminar__entry_btn{
+			padding: 16px 0;
+		}
+		@include sp{
+			padding: s(5) 0;
+			.seminar__entry_btn{
+				padding: s(16) 0;
+			}
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__contents
+	// -------------------------------------------------
+	&__contents{
+		width: $cont_w_pc;
+		margin: 35px auto 20px;
+		padding: 0 100px 50px;
+		border-bottom: #DCDCDC 1px solid;
+		@include sp{
+			width: $cont_w_sp;
+			margin: s(10) auto s(20);
+			padding: 0 0 s(30);
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__info
+	// -------------------------------------------------
+	&__info{
+		.cate{
+			margin-right: 10px;
+			padding: .1em .6em;
+			background: $main_color;
+			border-radius: 3px;
+			font-size: 14px;
+			color: #fff;
+			@include sp{
+				margin-right: s(7);
+				font-size: s(12);
+			}
+		}
+		.new{
+			padding: .1em 0;
+			@extend .font-osw;
+			font-size: 14px;
+			font-weight: 700;
+			color: #EB6D4E;
+			@include sp{
+				font-size: s(14);
+			}
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__article
+	// -------------------------------------------------
+	&__article{
+		margin-top: 15px;
+		@include sp{
+			margin-top: s(15);
+		}
+		&_title{
+			margin-bottom: 10px;
+			@extend .font-maru;
+			font-size: 32px;
+			font-weight: 700;
+			line-height: 1.3;
+			@include sp{
+				margin-bottom: s(10);
+				font-size: s(24);
+			}
+		}
+		&_held{
+			margin-bottom: 30px;
+			@include sp{
+				margin-bottom: s(20);
+			}
+			&_dl{
+				display: flex;
+				align-items: center;
+				@include sp{
+					align-items: flex-start;
+				}
+				& + &{
+					margin-top: 5px;
+					@include sp{
+						margin-top: s(5);
+					}
+				}
+			}
+			&_dt{
+				width: 76px;
+				margin-right: 10px;
+				padding: .4em 0;
+				background: #F4F4F4;
+				border-radius: 3px;
+				font-size: 14px;
+				font-weight: 400;
+				text-align: center;
+				@include sp{
+					width: s(66);
+					margin-right: s(10);
+					font-size: s(14);
+				}
+			}
+			&_dd{
+				width: calc(100% - 86px);
+				margin: 0;
+				font-size: 14px;
+				line-height: 1.85;
+				@include sp{
+					width: s(270);
+					font-size: s(14);
+				}
+			}
+		}
+		&_visual{
+			width: 100%;
+			height: 505px;
+			@include sp{
+				height: s(194);
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				font-family: 'object-fit: cover;';
+			}
+		}
+		&_lead{
+			margin-top: 20px;
+			line-height: 1.85;
+			@include sp{
+				margin-top: s(15);
+			}
+		}
+		&_section{
+			margin-top: 50px;
+			@include sp{
+				margin-top: s(50);
+			}
+		}
+		&_h2{
+			position: relative;
+			padding: 15px 20px;
+			margin-bottom: 20px;
+			background: #F3F3F3;
+			font-size: 26px;
+			font-weight: 700;
+			line-height: 1.5;
+			@include sp{
+				padding: s(15) s(15) s(15) s(20);
+				margin-bottom: s(20);
+				font-size: s(24);
+			}
+			&::before{
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 5px;
+				height: 45px;
+				background: $main_color;
+				transform: translateY(-50%);
+				content: "";
+				@include sp{
+					width: s(5);
+					height: s(45);
+				}
+			}
+		}
+		&_h3{
+			position: relative;
+			padding-left: 20px;
+			margin-bottom: 15px;
+			font-size: 22px;
+			font-weight: 700;
+			line-height: 1.35;
+			@include sp{
+				padding-left: s(20);
+				margin-bottom: s(15);
+				font-size: s(18);
+			}
+			&::before{
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 5px;
+				height: 35px;
+				background: $main_color;
+				transform: translateY(-49%);
+				content: "";
+				@include sp{
+					width: s(5);
+					height: s(35);
+				}
+			}
+		}
+		&_text{
+			line-height: 1.875;
+			& + &{
+				margin-top: 30px;
+			}
+			& + .seminar__article_imgtext{
+				margin-top: 20px;
+			}
+			& + .seminar__article_h3{
+				margin-top: 30px;
+			}
+			@include sp{
+				& + &{
+					margin-top: s(30);
+				}
+				& + .seminar__article_imgtext{
+					margin-top: s(20);
+				}
+				& + .seminar__article_h3{
+					margin-top: s(30);
+				}
+			}
+		}
+		&_imgtext{
+			display: flex;
+			justify-content: space-between;
+			& + .seminar__article_h3{
+				margin-top: 30px;
+			}
+			@include sp{
+				display: block;
+				& + .seminar__article_h3{
+					margin-top: s(30);
+				}
+			}
+			&_img{
+				width: 380px;
+				height: 240px;
+				img{
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					font-family: 'object-fit: cover;';
+				}
+				@include sp{
+					width: 100%;
+					height: s(220);
+					margin-bottom: s(20);
+				}
+			}
+			&_text{
+				width: 494px;
+				line-height: 1.875;
+				@include sp{
+					width: 100%;
+				}
+			}
+		}
+		&_checklist{
+			margin-top: 30px;
+			@include sp{
+				margin-top: s(30);
+			}
+			.item{
+				position: relative;
+				padding-left: 53px;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 1.625;
+				&::before{
+					display: block;
+					position: absolute;
+					top: -5px;
+					left: 0;
+					width: 42px;
+					height: 39px;
+					background: url("../img/ico_check.svg")no-repeat 0 0 / contain;
+					content: "";
+				}
+				.marker{
+					background: linear-gradient(transparent 60%, $point_color 60%);
+				}
+				& + .item{
+					margin-top: 25px;
+				}
+				@include sp{
+					padding-left: s(45);
+					font-size: s(18);
+					&::before{
+						top: s(-3);
+						width: s(40);
+						height: s(39);
+					}
+					& + .item{
+						margin-top: s(10);
+					}
+				}
+			}
+			& + .seminar__article_text{
+				margin-top: 20px;
+				@include sp{
+					margin-top: s(20);
+				}
+			}
+		}
+		&_disclist{
+			margin-top: 30px;
+			@include sp{
+				margin-top: s(30);
+			}
+			.item{
+				position: relative;
+				padding-left: 1.2em;
+				line-height: 1.875;
+				&::before{
+					display: block;
+					position: absolute;
+					top: .7em;
+					left: 0;
+					width: 10px;
+					height: 10px;
+					background: $main_color;
+					border-radius: 50%;
+					content: "";
+					@include sp{
+						width: s(10);
+						height: s(10);
+					}
+				}
+				& + .item{
+					margin-top: 2px;
+				}
+			}
+			& + .seminar__article_text{
+				margin-top: 20px;
+				@include sp{
+					margin-top: s(20);
+				}
+			}
+		}
+		&_numberlist{
+			margin-top: 30px;
+			counter-reset: item;
+			@include sp{
+				margin-top: s(30);
+			}
+			.item{
+				position: relative;
+				padding-left: 1.7em;
+				line-height: 1.875;
+				&:before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					counter-increment: item;
+					content: '0'counter(item)'.';
+					line-height: 1.875;
+				}
+				&:nth-child(n+10){
+					&:before {
+						content: counter(item)'.';
+					}
+				}
+				& + .item{
+					margin-top: 2px;
+				}
+			}
+			& + .seminar__article_text{
+				margin-top: 20px;
+				@include sp{
+					margin-top: s(20);
+				}
+			}
+		}
+		&_link{
+			text-decoration: underline;
+			color: #0058FF;
+			transition: opacity .2s;
+			&:hover{
+				opacity: .6;
+				@include sp{
+					opacity: 1;
+				}
+			}
+			&.blank{
+				position: relative;
+				padding-right: 25px;
+				@include sp{
+					padding-right: s(25);
+				}
+				&::after{
+					display: block;
+					position: absolute;
+					top: .3em;
+					right: 4px;
+					width: 16px;
+					height: 14px;
+					background: url("../img/ico_link-blue.svg")no-repeat 0 0 / contain;
+					content: "";
+					@include sp{
+						right: s(4);
+						width: s(16);
+						height: s(14);
+					}
+				}
+			}
+			&.pdf{
+				position: relative;
+				padding-right: 25px;
+				@include sp{
+					padding-right: s(25);
+				}
+				&::after{
+					display: block;
+					position: absolute;
+					top: -.1em;
+					right: 0;
+					width: 20px;
+					height: 24px;
+					background: url("../img/ico_pdf-blue.svg")no-repeat 0 0 / contain;
+					content: "";
+					@include sp{
+						width: s(20);
+						height: s(24);
+					}
+				}
+			}
+		}
+		&_dlist{
+			position: relative;
+			display: flex;
+			flex-wrap: wrap;
+			padding: 10px 0;
+			@include sp{
+				padding: s(15) 0;
+			}
+			&::before{
+				content: "";
+				display: block;
+				width: 100%;
+				height: 2px;
+				background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+				background-size: 9px 1px;
+				background-repeat: repeat-x;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			&::after{
+				content: "";
+				display: block;
+				width: 100%;
+				height: 2px;
+				background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+				background-size: 9px 1px;
+				background-repeat: repeat-x;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+			&_dt{
+				width: 118px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				font-size: 14px;
+				font-weight: 700;
+				text-align: center;
+				.inr{
+					display: inline-block;
+					width: 100%;
+					padding: .1em 0;
+					background: #F4F4F4;
+					border-radius: 3px;
+					line-height: 1.85;
+				}
+				&:nth-last-child(2){
+					margin-bottom: 0;
+				}
+				@include sp{
+					width: s(97);
+					margin-right: s(10);
+					margin-bottom: s(10);
+					font-size: s(14);
+					&:nth-last-child(2){
+						margin-bottom: 0;
+					}
+				}
+			}
+			&_dd{
+				width: calc(100% - 128px);
+				margin: 0;
+				margin-bottom: 10px;
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 1.85;
+				&_ps{
+					margin-top: 5px;
+				}
+				&:last-child{
+					margin-bottom: 0;
+				}
+				@include sp{
+					width: s(238);
+					margin-bottom: s(10);
+					font-size: s(14);
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		&_remarks{
+			margin-top: 20px;
+			width: 100%;
+			padding: 30px;
+			background: #FDFBF2;
+			border-radius: 20px;
+			box-shadow: 0 0 5px 0 rgba(0,0,0,.16);
+			@include sp{
+				margin-top: s(20);
+				padding: s(20);
+				border-radius: s(20);
+			}
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__entry
+	// -------------------------------------------------
+	&__entry{
+		text-align: center;
+	}
+	.text_center{
+		margin-bottom: 50px;
+		text-align: center;
+		@include sp{
+			margin-top: s(20);
+		}
+	}
+	
+	// -------------------------------------------------
+	// seminar__other
+	// -------------------------------------------------
+	&__other{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 70px;
+		padding-bottom: 50px;
+		background: #FDFBF2;
+		@include sp{
+			margin-top: s(30);
+			margin-bottom: s(30);
+			padding-top: s(50);
+			padding-bottom: s(40);
+		}
+		&_list{
+			width: $cont_w_pc;
+			margin: 30px auto 0;
+			@include sp{
+				width: $cont_w_sp;
+				margin: s(30) auto 0;
+			}
+			&_item{ 
+				a{
+					display: flex;
+					box-shadow: 0 0 5px 0 rgba(0,0,0,.16);
+					border-radius: 10px;
+					background: #fff;
+					text-decoration: none;
+					@include sp{
+						display: block;
+						padding: s(5);
+						border-radius: s(10);
+					}
+					&:hover{
+						img{
+							transform: scale(1.1);
+							@include sp{
+								transform: scale(1);
+							}
+						}
+					}
+				}
+				& + &{
+					margin-top: 20px;
+					@include sp{
+						margin-top: s(15);
+					}
+				}
+			}
+		}
+		&_thum{
+			width: 442px;
+			height: auto;
+			border-radius: 10px 0 0 10px;
+			overflow: hidden;
+			@include sp{
+				width: 100%;
+				height: s(190);
+				border-radius: s(10) s(10) 0 0;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				font-family: 'object-fit: cover;';
+				transition: transform .2s;
+				@include sp{
+					width: 104%;
+					height: 104%;
+				}
+			}
+		}
+		&_outline{
+			width: calc(100% - 442px);
+			padding: 30px;
+			background: #fff;
+			border-radius: 0 10px 10px 0;
+			@include sp{
+				width: 100%;
+				padding: s(15) s(10) s(10);
+				border-radius: 0;
+			}
+			&_info{
+				display: flex;
+				align-items: center;
+				@include sp{
+					flex-wrap: wrap;
+				}
+				.cate{
+					display: inline-block;
+					margin-right: 10px;
+					padding: .2em .6em .3em;
+					background: $main_color;
+					border-radius: 3px;
+					font-size: 14px;
+					color: #fff;
+					@include sp{
+						order: 1;
+						margin-right: s(10);
+						font-size: s(12);
+					}
+				}
+				.new{
+					margin-right: 10px;
+					padding: .2em 0 .3em;
+					@extend .font-osw;
+					font-size: 14px;
+					font-weight: 700;
+					color: #EB6D4E;
+					@include sp{
+						order: 2;
+						display: inline-block;
+						margin-right: s(10);
+						font-size: s(14);
+					}
+				}
+				.held{
+					display: flex;
+					align-items: center;
+					@include sp{
+						order: 3;
+						width: 100%;
+						margin-top: s(10);
+					}
+					&_dt{
+						width: 76px;
+						padding: .2em 0 .3em;
+						background: #F4F4F4;
+						border-radius: 3px;
+						font-size: 14px;
+						font-weight: 400;
+						text-align: center;
+						white-space: nowrap;
+						@include sp{
+							width: s(46);
+							font-size: s(12);
+						}
+					}
+					&_dd{
+						margin-left: 10px;
+						padding: .2em 0 .3em;
+						font-size: 14px;
+						white-space: nowrap;
+						@include sp{
+							margin-left: s(5);
+							font-size: s(12);
+						}
+					}
+				}
+			}
+			&_title{
+				margin-top: 20px;
+				margin-bottom: 15px;
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 1.35;
+				@include sp{
+					margin-top: s(10);
+					margin-bottom: s(10);
+					font-size: s(22);
+				}
+			}
+			&_text{
+				line-height: 1.85;
+			}
+		}
+	}
+	
+	
+	.l_shops-pc{
+		margin-top: 50px;
+	}
+	.l_shops-sp{
+		margin-top: s(30);
+	}
+	.l_serviceMenu{
+		padding-bottom: 0;
+		ul li{
+			background: #DCDCDC;
+		}
+	}	
+	.l_otherLinks{
+		@include sp{
+			margin-bottom: 0;
+		}
+	}	
+	.l_btn_home{
+		margin-top: -15px;
+		margin-bottom: 50px;
+		@include sp{
+			margin-top: s(15);
+			margin-bottom: s(30);
+		}
+	}
+}

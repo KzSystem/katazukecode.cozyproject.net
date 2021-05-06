@@ -1104,6 +1104,13 @@
             position: absolute;
             top: -63px;
             left: 20px; }
+        .area__5reasons_n01-info_wrap .caution {
+          margin-top: 12px;
+          font-size: 14px;
+          text-align: right; }
+          @media (max-width: 680px) {
+            .area__5reasons_n01-info_wrap .caution {
+              display: none; } }
       .area__5reasons_n01-info figure {
         width: 390px; }
         .area__5reasons_n01-info figure img {

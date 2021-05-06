@@ -1365,6 +1365,14 @@
 							left: 20px;
 						}
 					}
+					.caution{
+						margin-top: 12px;
+						font-size: 14px;
+						text-align: right;
+						@include sp{
+							display: none;
+						}
+					}
 				}
 				figure{
 					width: 390px;
