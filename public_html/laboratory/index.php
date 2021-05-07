@@ -352,22 +352,22 @@
 						</ul>
 					</div>
 				</div>
-				<section class="labo__area">
+				<section class="labo__area l_section_space_01--bg">
 					<h2 class="l_section_title"><span class="small">おすすめ情報を</span><br>地域から探す<span class="en">AREA</span></h2>
 					<p class="l_section_lead">
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
 					</p>
-					<div class="labo__area_guide pc">
+					<div class="l_area_guide pc">
 						<dl>
 							<dt>
-								<a href="#storeList__area_hokkaidou">北海道地方
+								<a href="">北海道地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
 							</dt>
 							<dd>
 								<ul>
-									<li><a href="#storeList__pref_hokkaidou">北海道
+									<li><a href="">北海道
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -412,38 +412,38 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_kanto">関東地方
+								<a href="">関東地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
 							</dt>
 							<dd>
 								<ul>
-									<li><a href="#storeList__pref_ibaraki">茨城県
+									<li><a href="">茨城県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_tochigi">栃木県
+									<li><a href="">栃木県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_gunma">群馬県
+									<li><a href="">群馬県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_saitama">埼玉県
+									<li><a href="">埼玉県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_chiba">千葉県
+									<li><a href="">千葉県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_tokyo">東京都
+									<li><a href="">東京都
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_kanagawa">神奈川県
+									<li><a href="">神奈川県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -452,7 +452,7 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_chubu">中部地方
+								<a href="">中部地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
@@ -491,7 +491,7 @@
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_aichi">愛知県
+									<li><a href="">愛知県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -500,38 +500,38 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_kinki">近畿地方
+								<a href="">近畿地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
 							</dt>
 							<dd>
 								<ul>
-									<li><a href="#storeList__pref_mie">三重県
+									<li><a href="">三重県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_shiga">滋賀県
+									<li><a href="">滋賀県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_kyoto">京都府
+									<li><a href="">京都府
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_osaka">大阪府
+									<li><a href="">大阪府
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_hyogo">兵庫県
+									<li><a href="">兵庫県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_nara">奈良県
+									<li><a href="">奈良県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_wakayama">和歌山県
+									<li><a href="">和歌山県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -540,30 +540,30 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_chugoku">中国地方
+								<a href="">中国地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
 							</dt>
 							<dd>
 								<ul>
-									<li><a href="#storeList__pref_tottori">鳥取県
+									<li><a href="">鳥取県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_shimane">島根県
+									<li><a href="">島根県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_okayama">岡山県
+									<li><a href="">岡山県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_hiroshima">広島県
+									<li><a href="">広島県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_yamaguchi">山口県
+									<li><a href="">山口県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -572,7 +572,7 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_shikoku">四国地方
+								<a href="">四国地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
@@ -583,15 +583,15 @@
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_kagawa">香川県
+									<li><a href="">香川県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_ehime">愛媛県
+									<li><a href="">愛媛県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_kochi">高知県
+									<li><a href="">高知県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -600,7 +600,7 @@
 						</dl>
 						<dl>
 							<dt>
-								<a href="#storeList__area_kyushu">九州地方
+								<a href="">九州地方
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a>
@@ -627,7 +627,7 @@
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
-									<li><a href="#storeList__pref_miyazaki">宮崎県
+									<li><a href="">宮崎県
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span></a></li>
@@ -643,7 +643,7 @@
 							</dd>
 						</dl>
 					</div>
-					<div class="labo__area_guide sp">
+					<div class="l_area_guide sp">
 						<ul>
 							<li class="modal_open" data-modal=""><span>北海道地方</span></li>
 							<li class="modal_open" data-modal=""><span>関東地方</span></li>
