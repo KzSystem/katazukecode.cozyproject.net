@@ -1632,6 +1632,7 @@
 				margin-left: .1em;
 				@extend .font-maru;
 				.tax{
+					margin-bottom: 3px;
 					font-size: 10px;
 				}
 				.yen{
@@ -2947,6 +2948,19 @@
 						width: 120px;
 					}
 				}
+			}
+		}
+	}
+}
+
+.disused_item{
+	.price_lower__sample_recommend_nav{
+		.item{
+			height: 70px;
+			text-align: center;
+			line-height: 1.4;
+			@include sp{
+				height: s(76);
 			}
 		}
 	}

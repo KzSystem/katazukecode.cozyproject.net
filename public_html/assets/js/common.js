@@ -31,6 +31,18 @@ $('.faq_a').on('click', function(){
 	$(this).children('.ico-slide_down').toggleClass('active');
 	$(this).next('.faq_q').slideToggle(200);
 });
+$('.blog__aside_title').on('click', function(){
+	let tar = $(this);
+	if(tar.hasClass('active')){
+		tar.next('ul').slideUp(200);
+		setTimeout(function(){
+			tar.removeClass('active');
+		},300);
+	}else{
+		tar.addClass('active');
+		tar.next('ul').slideDown(200);
+	}
+});
 
 // .service_box
 $('.l_service__box h3').on({

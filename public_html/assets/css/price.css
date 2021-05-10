@@ -1334,6 +1334,7 @@
     .price_lower__sample_price_unit {
       margin-left: .1em; }
       .price_lower__sample_price_unit .tax {
+        margin-bottom: 3px;
         font-size: 10px; }
       .price_lower__sample_price_unit .yen {
         font-size: 18px; }
@@ -2370,5 +2371,13 @@
         width: 200px; }
       .hoarding_house .price_lower__quote .price_lower__quote_table_thead .price_lower__quote_table_head:nth-child(3) {
         width: 120px; } }
+
+.disused_item .price_lower__sample_recommend_nav .item {
+  height: 70px;
+  text-align: center;
+  line-height: 1.4; }
+  @media (max-width: 680px) {
+    .disused_item .price_lower__sample_recommend_nav .item {
+      height: 20.2666666667vw; } }
 
 /*# sourceMappingURL=price.css.map */

@@ -1,5 +1,17 @@
-$('.price_lower__recovery_title.sp').on('click', function(){
-	$(this).toggleClass('active');
-	$(this).next('figure').slideToggle(200);
-	$(this).next('figure').next('.text-box').slideToggle(200);
+$('.price_lower__sample_recommend_nav .item').on('click', function(){
+	var tar = $(this).attr('class');
+	tar = tar.replace("item", "");
+	$('.price_lower__sample_recommend_nav .item').removeClass('active');
+	$(this).addClass('active');
+	$('.price_lower__sample_recommend_content').removeClass('active');
+	$('.price_lower__sample_recommend_content.'+tar).addClass('active');
+});
+
+$('.price_lower__merit_nav .item').on('click', function(){
+	var tar = $(this).attr('class');
+	tar = tar.replace("item", "");
+	$('.price_lower__merit_nav .item').removeClass('active');
+	$(this).addClass('active');
+	$('.price_lower__merit_content').removeClass('active');
+	$('.price_lower__merit_content.'+tar).addClass('active');
 });

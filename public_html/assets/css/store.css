@@ -6,6 +6,148 @@
   font-family: 'Oswald', sans-serif;
   font-weight: 600; }
 
+.l_area_guide {
+  width: 1100px;
+  margin: 30px auto 0;
+  padding: 22px 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
+  background: #fff;
+  border-radius: 20px 20px; }
+  @media (max-width: 680px) {
+    .l_area_guide {
+      width: 92vw;
+      padding: 0;
+      margin-top: 5.3333333333vw;
+      box-shadow: none;
+      background: none;
+      border-radius: 0; }
+      .l_area_guide li.modal_open {
+        background: #03A58E;
+        border-radius: 1.3333333333vw;
+        width: 100%;
+        height: 16vw;
+        display: flex;
+        align-items: center;
+        padding: 0 5.3333333333vw;
+        box-sizing: border-box;
+        position: relative;
+        font-weight: 500;
+        color: #fff;
+        transition: all .2s; }
+        .l_area_guide li.modal_open::after {
+          content: "";
+          display: block;
+          background: url("../img/ico_plus.svg") no-repeat 0 0/contain;
+          width: 4.8vw;
+          height: 4.8vw;
+          position: absolute;
+          right: 5.3333333333vw;
+          top: 50%;
+          transform: translateY(-50%); }
+      .l_area_guide li + li {
+        margin-top: 2.6666666667vw; } }
+  .l_area_guide dl {
+    padding: 15px 0;
+    display: flex;
+    position: relative; }
+    .l_area_guide dl::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+      background-size: 9px 1px;
+      background-repeat: repeat-x;
+      position: absolute;
+      bottom: 0; }
+    .l_area_guide dl:last-child::after {
+      display: none; }
+    .l_area_guide dl dt {
+      font-weight: 700;
+      font-size: 24px;
+      width: 170px; }
+      .l_area_guide dl dt a {
+        position: relative;
+        color: #03A58E;
+        text-decoration: none;
+        transition: opacity .2s; }
+        .l_area_guide dl dt a:hover {
+          opacity: .6; }
+      .l_area_guide dl dt .icon-arrow {
+        background: #03A58E;
+        right: -30px; }
+        .l_area_guide dl dt .icon-arrow svg {
+          fill: #fff;
+          stroke: #fff;
+          transform: rotate(90deg);
+          width: 6px;
+          height: 8px; }
+    .l_area_guide dl dd {
+      display: flex;
+      align-items: center; }
+      .l_area_guide dl dd ul {
+        display: flex; }
+      .l_area_guide dl dd li {
+        margin-left: 30px; }
+        .l_area_guide dl dd li a {
+          position: relative;
+          padding-right: 15px;
+          text-decoration: none;
+          transition: opacity .2s; }
+          .l_area_guide dl dd li a:hover {
+            opacity: .6; }
+          .l_area_guide dl dd li a .icon-arrow {
+            background: none;
+            right: 0; }
+            .l_area_guide dl dd li a .icon-arrow svg {
+              fill: #03A58E;
+              stroke: #03A58E;
+              transform: rotate(90deg);
+              width: 6px;
+              height: 8px; }
+    .l_area_guide dl .not_find {
+      position: relative;
+      cursor: default; }
+      .l_area_guide dl .not_find::before, .l_area_guide dl .not_find::after {
+        pointer-events: none;
+        transition: opacity .2s;
+        opacity: 0; }
+      .l_area_guide dl .not_find::before {
+        content: "";
+        display: block;
+        background: url("../img/store/list/not_find-arrow.svg") no-repeat 0 0/100% 100%;
+        width: 10px;
+        height: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: calc(100% + -2px);
+        position: absolute;
+        z-index: 2; }
+      .l_area_guide dl .not_find::after {
+        content: "ただいま加盟店募集中";
+        display: inline-block;
+        background: #f8ece9;
+        border: #eb6d4e 1px solid;
+        padding: .8em .8em;
+        border-radius: 3px;
+        font-size: 12px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: calc(100% + 7px);
+        white-space: nowrap;
+        font-weight: 500;
+        color: #000;
+        z-index: 1; }
+      .l_area_guide dl .not_find:hover {
+        opacity: 1; }
+        .l_area_guide dl .not_find:hover::before, .l_area_guide dl .not_find:hover::after {
+          opacity: 1; }
+      @media (max-width: 680px) {
+        .l_area_guide dl .not_find {
+          display: none; } }
+
 .storeList__about {
   width: 1100px;
   margin: 0 auto;
@@ -123,147 +265,11 @@
       .storeList__about_img {
         width: 100%;
         margin: 0 auto; } }
-.storeList__guide {
-  width: 1100px;
-  margin: 0 auto;
-  padding: 22px 30px;
-  box-sizing: border-box;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
-  background: #FDFBF2;
-  border-radius: 20px 20px; }
+.storeList .l_area_guide {
+  background: #FDFBF2; }
   @media (max-width: 680px) {
-    .storeList__guide {
-      width: 92vw;
-      padding: 0;
-      margin-top: 5.3333333333vw;
-      box-shadow: none;
-      background: none;
-      border-radius: 0; }
-      .storeList__guide li.modal_open {
-        background: #03A58E;
-        border-radius: 1.3333333333vw;
-        width: 100%;
-        height: 16vw;
-        display: flex;
-        align-items: center;
-        padding: 0 5.3333333333vw;
-        box-sizing: border-box;
-        position: relative;
-        font-weight: 500;
-        color: #fff;
-        transition: all .2s; }
-        .storeList__guide li.modal_open::after {
-          content: "";
-          display: block;
-          background: url("../img/ico_plus.svg") no-repeat 0 0/contain;
-          width: 4.8vw;
-          height: 4.8vw;
-          position: absolute;
-          right: 5.3333333333vw;
-          top: 50%;
-          transform: translateY(-50%); }
-      .storeList__guide li + li {
-        margin-top: 2.6666666667vw; } }
-  .storeList__guide dl {
-    padding: 15px 0;
-    display: flex;
-    position: relative; }
-    .storeList__guide dl::after {
-      content: "";
-      display: block;
-      width: 100%;
-      height: 1px;
-      background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
-      background-size: 9px 1px;
-      background-repeat: repeat-x;
-      position: absolute;
-      bottom: 0; }
-    .storeList__guide dl:last-child::after {
-      display: none; }
-    .storeList__guide dl dt {
-      font-weight: 700;
-      font-size: 24px;
-      width: 170px; }
-      .storeList__guide dl dt a {
-        position: relative;
-        color: #03A58E;
-        text-decoration: none;
-        transition: opacity .2s; }
-        .storeList__guide dl dt a:hover {
-          opacity: .6; }
-      .storeList__guide dl dt .icon-arrow {
-        background: #03A58E;
-        right: -30px; }
-        .storeList__guide dl dt .icon-arrow svg {
-          fill: #fff;
-          stroke: #fff;
-          transform: rotate(90deg);
-          width: 6px;
-          height: 8px; }
-    .storeList__guide dl dd {
-      display: flex;
-      align-items: center; }
-      .storeList__guide dl dd ul {
-        display: flex; }
-      .storeList__guide dl dd li {
-        margin-left: 30px; }
-        .storeList__guide dl dd li a {
-          position: relative;
-          padding-right: 15px;
-          text-decoration: none;
-          transition: opacity .2s; }
-          .storeList__guide dl dd li a:hover {
-            opacity: .6; }
-          .storeList__guide dl dd li a .icon-arrow {
-            background: none;
-            right: 0; }
-            .storeList__guide dl dd li a .icon-arrow svg {
-              fill: #03A58E;
-              stroke: #03A58E;
-              transform: rotate(90deg);
-              width: 6px;
-              height: 8px; }
-    .storeList__guide dl .not_find {
-      position: relative;
-      cursor: default; }
-      .storeList__guide dl .not_find::before, .storeList__guide dl .not_find::after {
-        pointer-events: none;
-        transition: opacity .2s;
-        opacity: 0; }
-      .storeList__guide dl .not_find::before {
-        content: "";
-        display: block;
-        background: url("../img/store/list/not_find-arrow.svg") no-repeat 0 0/100% 100%;
-        width: 10px;
-        height: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: calc(100% + -2px);
-        position: absolute;
-        z-index: 2; }
-      .storeList__guide dl .not_find::after {
-        content: "ただいま加盟店募集中";
-        display: inline-block;
-        background: #f8ece9;
-        border: #eb6d4e 1px solid;
-        padding: .8em .8em;
-        border-radius: 3px;
-        font-size: 12px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: calc(100% + 7px);
-        white-space: nowrap;
-        font-weight: 500;
-        color: #000;
-        z-index: 1; }
-      .storeList__guide dl .not_find:hover {
-        opacity: 1; }
-        .storeList__guide dl .not_find:hover::before, .storeList__guide dl .not_find:hover::after {
-          opacity: 1; }
-      @media (max-width: 680px) {
-        .storeList__guide dl .not_find {
-          display: none; } }
+    .storeList .l_area_guide {
+      background: none; } }
 .storeList__area {
   margin-top: 90px;
   padding-top: 55px;
