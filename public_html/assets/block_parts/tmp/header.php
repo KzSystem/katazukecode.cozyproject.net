@@ -1,10 +1,10 @@
 <header class="l_header">
 	<div class="l_header__wrap">
 		<div class="l_header__logo"><a href=""><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
-		<p class="l_header__discription">
+		<h1 class="l_header__discription">
 			不用品回収、ゴミ屋敷清掃、遺品整理なら<br>
 			片付け堂！片付け専門の全国チェーン
-		</p>
+		</h1>
 		<div class="l_header__tel">
 			<div class="l_header__tel_wrap">
 				<p class="muryo">無料見積り受付中！</p>
