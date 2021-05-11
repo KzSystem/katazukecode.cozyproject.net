@@ -1838,6 +1838,181 @@ br{
 }
 
 // -------------------------------------------------
+// l_redtitle
+// -------------------------------------------------
+.l_redtitle{
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	@extend .font-maru;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-align: center;
+	color: #ED4C24;
+	@include sp{
+		padding-top: s(35);
+		padding-bottom: s(10);
+		margin-bottom: s(20);
+		font-size: s(24);
+	}
+	&::after{
+		content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #ED4C24, #ED4C24 4px, transparent 4px, transparent 9px);
+    background-size: 9px 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-repeat: repeat-x;
+	}
+	&_inr{
+		display: inline-block;
+		position: relative;
+		&::before{
+			display: block;
+			position: absolute;
+			top: -.1em;
+			left: -63px;
+			width: 48px;
+			height: 44px;
+			background: url("../img/ico_attention.svg")no-repeat 0 0 / contain;
+			content: "";
+			@include sp{
+				top: s(-40);
+				left: 50%;
+				width: s(36);
+				height: s(33);
+				transform: translateX(-50%);
+			}
+		}
+	}
+}
+
+// -------------------------------------------------
+// l_btn_pdf
+// -------------------------------------------------
+.l_btn_pdf{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: $main_color;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,
+	.16);
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	color: #fff;
+	transition: background .2s;
+	@include sp{
+		padding: s(15);
+	}
+	&::after{
+		display: inline-block;
+		width: 20px;
+		height: 24px;
+		margin-left: 8px;
+		background: url("../img/ico-pdf-white.svg")no-repeat 0 0 / contain;
+		content: "";
+		@include sp{
+			width: s(20);
+			height: s(24);
+			margin-left: s(8);
+		}
+	}
+	&:hover{
+		background: $main_color_hover;
+		@include sp{
+			background: $main_color;
+		}
+	}
+}
+
+// -------------------------------------------------
+// under_marker
+// -------------------------------------------------
+.under_marker{
+	background:linear-gradient(transparent 60%, $point_color 60%);
+}
+
+// -------------------------------------------------
+// border_dash
+// -------------------------------------------------
+.border_dash-bottom{
+	position: relative;
+	&::after{
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(220, 220, 220) 4px, transparent 4px, transparent 9px);
+		background-size: 9px 1px;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background-repeat: repeat-x;
+	}
+}
+.border_dash-top{
+	position: relative;
+	&::before{
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-image: linear-gradient(to right, rgb(220, 220, 220), rgb(220, 220, 220) 4px, transparent 4px, transparent 9px);
+		background-size: 9px 1px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-repeat: repeat-x;
+	}
+}
+
+// -------------------------------------------------
+// slash_speech
+// -------------------------------------------------
+.slash_speech{
+	display: inline-block;
+	position: relative;
+	&::before, &::after{
+		display: block;
+		position: absolute;
+		left: -35px;
+		bottom: .1em;
+		width: 25px;
+		height: 25px;
+		background: url("../img/ico_slash_left.svg")no-repeat 0 0 / contain;
+		transform: rotateY(0);
+		content: "";
+	}
+	&::after{
+		right: -35px;
+		left: auto;
+		transform: rotateY(180deg);
+	}
+	@include sp{
+		&::before, &::after{
+			left: s(-45);
+			top: 50%;
+			bottom: auto;
+			width: s(25);
+			height: s(25);
+			transform: translateY(-50%);
+		}
+		&::after{
+			right: s(-45);
+			left: auto;
+			transform: rotateY(180deg) translateY(-50%);
+		}
+	}
+}
+
+// -------------------------------------------------
 // l_section_lead
 // -------------------------------------------------
 .l_section_lead{
@@ -5019,7 +5194,7 @@ br{
 					font-weight: 500;
 					margin-bottom: 5px;
 					& + dt{
-						margin-left: 20px;
+						margin-left: 16px;
 					}
 					.ico-star{
 						position: relative;
@@ -5064,7 +5239,8 @@ br{
 						width: 126px;
 					}
 					&:nth-child(4), &:nth-child(6){
-						width: 42px;
+						width: 48px;
+						white-space: nowrap;
 					}
 				}
 				&:nth-child(2) dd{
@@ -5094,11 +5270,19 @@ br{
 			figure{
 				position: absolute;
 				left: 0;
-				top: 0; 
+				top: 0;
+				overflow: hidden;
+				width: 130px;
+				height: 194px;
+				img{
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					font-family: 'object-fit: cover;';
+				}
 				@include sp{
-					img{
-						width: s(82);
-					}
+					width: s(82);
+					height: s(122);
 				}
 			}
 			.people{
@@ -6278,6 +6462,65 @@ br{
 }
 
 // -------------------------------------------------
+// l_cartype
+// -------------------------------------------------
+.l_cartype{
+	&_list{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: $cont_w_pc;
+		margin: 30px auto 0;
+		@include sp{
+			display: block;
+			width: $cont_w_sp;
+			margin: s(20) auto 0;
+		}
+		&_item{
+			width: 525px;
+			&:nth-child(n+3){
+				margin-top: 30px;
+			}
+			@include sp{
+				width: 100%;
+				&:nth-child(n+3){
+					margin-top: s(20);
+				}
+				&:nth-child(n+2){
+					margin-top: s(20);
+				}
+			}
+		}
+		&_img{
+			width: 100%;
+			height: 250px;
+			margin-bottom: 15px;
+			img{
+				width: 100%;
+			}
+			@include sp{
+				height: s(164);
+				margin-bottom: s(15);
+			}
+		}
+		&_name{
+			margin-bottom: 10px;
+			font-size: 26px;
+			font-weight: 700;
+			color: $main_color;
+			text-align: center;
+			@include sp{
+				margin-bottom: s(10);
+				font-size: s(26);
+			}
+		}
+		&_text{
+			line-height: 1.85;
+		}
+	}
+}
+
+// -------------------------------------------------
 // l_lowerTitle
 // -------------------------------------------------
 .l_lowerTitle{
@@ -7279,7 +7522,6 @@ body .l_sec_bg{
 		}	
 	}
 	&__prev{
-		display: none;
 		@include sp{
 			display:flex;
 		}

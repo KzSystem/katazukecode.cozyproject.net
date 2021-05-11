@@ -1132,7 +1132,7 @@
 				}
 			}
 			@include sp{
-				padding: s(10) s(5);
+				padding: s(10) s(5) s(15);
 				text-align: right;
 				&_wrap{    
 					display: inline-flex;
@@ -1870,6 +1870,9 @@
 		}
 		.l_btn_more{
 			margin-top: 20px;
+			@include sp{
+				text-align: left;
+			}
 		}
 		@include sp{
 			padding-top: s(50);
@@ -2716,7 +2719,7 @@
 								left: 50%;
 								-webkit-transform: translateX(-50%);
 								transform: translateX(-50%);
-								top: -8px;
+								top: -2px;
 								position: absolute;
 								@include sp{
 									width: s(7);

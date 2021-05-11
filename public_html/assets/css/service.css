@@ -874,7 +874,7 @@
       font-size: 14px; }
   @media (max-width: 680px) {
     .service_lower__canbuy_price {
-      padding: 2.6666666667vw 1.3333333333vw;
+      padding: 2.6666666667vw 1.3333333333vw 4vw;
       text-align: right; }
       .service_lower__canbuy_price_wrap {
         display: inline-flex;
@@ -1437,6 +1437,9 @@
         margin-top: 10px; }
   .service_lower__faq .l_btn_more {
     margin-top: 20px; }
+    @media (max-width: 680px) {
+      .service_lower__faq .l_btn_more {
+        text-align: left; } }
   @media (max-width: 680px) {
     .service_lower__faq {
       padding-top: 13.3333333333vw;
@@ -2115,7 +2118,7 @@
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
-        top: -8px;
+        top: -2px;
         position: absolute; }
         @media (max-width: 680px) {
           .service_purchase__technique_points_item_title .point-title .dot::before {

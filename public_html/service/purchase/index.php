@@ -272,8 +272,8 @@
 					</p>
 					<div class="service_lower__menu_box">
 						<picture class="service_lower__menu_img">
-							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/sp/menu_obj01.jpg">
-							<img src="../../assets/img/service/lower/menu_obj01.jpg" alt="イメージ">
+							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/purchase/sp/service_obj01.jpg">
+							<img src="../../assets/img/service/lower/purchase/service_obj01.jpg" alt="イメージ">
 						</picture>
 						<div class="service_lower__menu_text-box">
 							<h3 class="service_lower__menu_title"><span>家電製品の出張買取</span>
@@ -285,8 +285,8 @@
 					</div>
 					<div class="service_lower__menu_box">
 						<picture class="service_lower__menu_img">
-							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/sp/menu_obj02.jpg">
-							<img src="../../assets/img/service/lower/menu_obj02.jpg" alt="イメージ">
+							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/purchase/sp/service_obj02.jpg">
+							<img src="../../assets/img/service/lower/purchase/service_obj02.jpg" alt="イメージ">
 						</picture>
 						<div class="service_lower__menu_text-box">
 							<h3 class="service_lower__menu_title">
@@ -299,8 +299,8 @@
 					</div>
 					<div class="service_lower__menu_box">
 						<picture class="service_lower__menu_img">
-							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/sp/menu_obj03.jpg">
-							<img src="../../assets/img/service/lower/menu_obj03.jpg" alt="イメージ">
+							<source media="(max-width: 680px)" srcset="../../assets/img/service/lower/purchase/sp/service_obj03.jpg">
+							<img src="../../assets/img/service/lower/purchase/service_obj03.jpg" alt="イメージ">
 						</picture>
 						<div class="service_lower__menu_text-box">
 							<h3 class="service_lower__menu_title">

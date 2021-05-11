@@ -598,8 +598,8 @@
 }
 
 .pricelist__price_pack.orange {
-  border-color: #FC6C22;
-  background: #FC6C22;
+  border-color: #fc8e8e;
+  background: #fc8e8e;
 }
 
 .pricelist__price_pack + .pricelist__price_pack {
