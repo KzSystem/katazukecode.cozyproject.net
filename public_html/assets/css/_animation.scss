@@ -1,0 +1,65 @@
+
+/*==================================================*/
+/* アニメーション用css */
+/*==================================================*/
+
+@mixin keyframes($animation-name: animaton) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($animation-name) {
+  -webkit-animation: $animation-name;
+  -moz-animation: $animation-name;
+  animation: $animation-name;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+// 曲線
+@function getPointX($t,$x1,$x2,$x3) {
+	$tp: 1 - $t;
+	$x: $t*$t*$x3 + 2*$t*$tp*$x2 + $tp*$tp*$x1;
+
+	@return $x + px;
+}
+@function getPointY($t,$y1,$y2,$y3) {
+	$tp: 1 - $t;
+	$y: $t*$t*$y3 + 2*$t*$tp*$y2 + $tp*$tp*$y1;
+
+	@return $y + px;
+}
+@mixin object-keyframes($startX, $startY, $ctrlX, $ctrlY, $endX, $endY) {
+	@for $i from 0 through 100 {
+		#{$i}% {
+			transform: translate(getPointX($i * 0.01, $startX, $ctrlX, $endX), getPointY($i * 0.01, $startY, $ctrlY, $endY));
+		}
+	}
+}
+
+/*==================================================*/
+
+/*==============================================================*/
+  /* アニメーション */
+/*==============================================================*/
+  
+@include keyframes(scroll){
+  0% {
+		transform: translateY(0);
+  }
+  50% {
+		transform: translateY(20px);
+  }
+  100% {
+		transform: translateY(0);
+  }
+}

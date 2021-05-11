@@ -5465,7 +5465,8 @@ br.sp {
     .l_otherLinks {
       display: block;
       width: 92vw;
-      margin-top: 13.3333333333vw; } }
+      margin-top: 13.3333333333vw;
+      margin-bottom: 8vw; } }
   .l_otherLinks_box {
     width: 540px;
     background: #fff;

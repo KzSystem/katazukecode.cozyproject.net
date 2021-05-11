@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+// ブレイクポイント
+$pc_w: 1366; // PC画面幅
+$sp_w: 375; // スマホ画面幅
+@mixin sp{ // スマホ 
+  @media (max-width: 680px){
+    @content;
+  }
+}
+
+// IE9～11に適用(CSSハック)
+@mixin ie{
+  @media screen and (min-width: 0\0) and (min-resolution: +72dpi) {
+        .selector {
+            property: value;
+        }
+    /* IE向けのCSS～START */
+    @content;
+    /* IE向けのCSS～END */
+  }
+}
+
+$pc: ((1 / $pc_w)*100vw);
+$sp: ((1 / $sp_w)*100vw);
+
+// vwに変換
+@function p($size, $viewport:$pc_w){
+  @return $size * $pc;
+}
+
+// vwに変換
+@function s($size, $viewport:$sp_w){
+  @return $size * $sp;
+}
+
+//==================================================
+// 変数
+//==================================================
+
+$cont_w_pc: 1100px;
+$cont_w_sp: s(345);
+
+$main_color: #03A58E;
+$main_color_hover: #02816F;
+$line_color: #00B900;
+$mail_color: #007246;
+$point_color: #FFD800;
+
+
+//==================================================
+// extend用class
+//==================================================
+
+.font-maru{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.font-osw{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
