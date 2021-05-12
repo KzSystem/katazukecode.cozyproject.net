@@ -1321,18 +1321,12 @@ br.sp {
       stroke: #02816F;
       fill: #02816F; }
   .l_btn_more .point {
-    position: relative; }
-    .l_btn_more .point::before {
-      content: "";
-      display: block;
-      width: 6px;
-      height: 6px;
-      background: #FFD800;
-      border-radius: 50% 50%;
-      left: 50%;
-      transform: translateX(-50%);
-      top: -5px;
-      position: absolute; }
+    padding-top: .2em;
+    background-position: top left -2px;
+    background-repeat: repeat-x;
+    background-size: 1.0em .2em;
+    background-image: -webkit-radial-gradient(0.1em 0.1em at center center, #FFD800, #FFD800 100%, transparent);
+    background-image: radial-gradient(0.1em 0.1em at center center, #FFD800, #FFD800 100%, transparent);}
       @media (max-width: 680px) {
         .l_btn_more .point::before {
           width: 1.3333333333vw;
@@ -5439,22 +5433,12 @@ br.sp {
         font-size: 10.1333333333vw;
         margin-top: 6.6666666667vw; } }
     .l_lowerTitle__main .point {
-      position: relative; }
-      .l_lowerTitle__main .point::before {
-        content: "";
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #FFD800;
-        border-radius: 50% 50%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -8px;
-        position: absolute; }
-        @media (max-width: 680px) {
-          .l_lowerTitle__main .point::before {
-            width: 1.8666666667vw;
-            height: 1.8666666667vw; } }
+    padding-top: .2em;
+    background-position: top left -2px;
+    background-repeat: repeat-x;
+    background-size: 1.0em .2em;
+    background-image: radial-gradient(.10em .10em at center center,#FFD800,#FFD800 100%,transparent);
+}
 
 .l_otherLinks {
   display: flex;

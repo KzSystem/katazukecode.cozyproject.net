@@ -13,7 +13,7 @@
 				<div class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂</span>
 					<span class="l_lowerTitle__main">
-						<span class="point">不</span><span class="point">用</span><span class="point">品</span><span class="point">回</span><span class="point">収</span><span class="point">の</span><span class="point">料</span><span class="point">金</span>
+						<span class="point">不用品回収の料金</span>
 					</span>
 				</div>
 				<div id="breadcrumb" class="breadcrumb">

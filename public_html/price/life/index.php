@@ -13,7 +13,7 @@
 				<div class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂</span>
 					<span class="l_lowerTitle__main">
-						<span class="point">生</span><span class="point">前</span><span class="point">整</span><span class="point">理</span>の料金
+						<span class="point">生前整理</span>の料金
 					</span>
 				</div>
 				<div id="breadcrumb" class="breadcrumb">

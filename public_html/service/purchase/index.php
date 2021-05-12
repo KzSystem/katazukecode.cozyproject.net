@@ -11,12 +11,12 @@
 		<div id="cont_hidden_wrap">
 			<?php require_once( dirname(__FILE__). '/../../assets/block_parts/tmp/header.php'); ?>
 			<main id="service_lower" class="service_lower service_purchase">
-				<h1 class="l_lowerTitle">
+				<div class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂</span>
 					<span class="l_lowerTitle__main">
-						<span class="point">不</span><span class="point">用</span><span class="point">品</span><span class="point">買</span><span class="point">取</span>
+						<span class="point">不用品買取</span>
 					</span>
-				</h1>
+				</div>
 				<div id="breadcrumb" class="breadcrumb">
 					<ul itemscope itemtype="https://schema.org/BreadcrumbList">
 						<li class="breadcrumb__home" itemscope itemprop="itemListElement" itemtype="https://schema.org/ListItem">
