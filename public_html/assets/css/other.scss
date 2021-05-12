@@ -1015,7 +1015,8 @@ $border_color: #DCDCDC;
 		@include sp{
 			position: relative;
 			display: flex;
-			padding:s(5) s(5) s(5) s(161);
+			width: 100%;
+			padding:s(5) s(5) s(5) s(5);
 			border-radius: s(15);
 		}
 		$img : s(10);
@@ -1023,10 +1024,10 @@ $border_color: #DCDCDC;
 			display: block;	
 			
 			@include sp{
-				position: absolute;
-				left:s(5);
+				//position: absolute;
+				//left:s(5);
 				width:s(156);
-				height:calc(100% - #{$img});
+				//height:calc(100% - #{$img});
 			}
 			img{
 				border-radius: 20px 20px 0 0;
@@ -1034,8 +1035,8 @@ $border_color: #DCDCDC;
 				width: 100%;
 				height: 216px;
 				@include sp{
-					object-fit: cover;
-					height: 100%;
+					object-fit: none;
+					height: auto;
 					border-radius:s(15);
 				}
 			}
@@ -1050,6 +1051,7 @@ $border_color: #DCDCDC;
 				width:s(180);
 				padding:s(5) s(5) s(5) s(8);
 				align-items: flex-start;	
+				justify-content: flex-start;
 			}
 			dd{
 				width: 100%;

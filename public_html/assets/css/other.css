@@ -1325,7 +1325,8 @@
   .case_unit {
     position: relative;
     display: flex;
-    padding: 1.33333vw 1.33333vw 1.33333vw 42.93333vw;
+    width: 100%;
+    padding: 1.33333vw 1.33333vw 1.33333vw 1.33333vw;
     border-radius: 4vw;
   }
 }
@@ -1336,10 +1337,7 @@
 
 @media (max-width: 680px) {
   .case_unit__img {
-    position: absolute;
-    left: 1.33333vw;
     width: 41.6vw;
-    height: calc(100% - 2.66667vw);
   }
 }
 
@@ -1353,9 +1351,9 @@
 
 @media (max-width: 680px) {
   .case_unit__img img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    height: 100%;
+    -o-object-fit: none;
+       object-fit: none;
+    height: auto;
     border-radius: 4vw;
   }
 }
@@ -1373,6 +1371,7 @@
     width: 48vw;
     padding: 1.33333vw 1.33333vw 1.33333vw 2.13333vw;
     align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
