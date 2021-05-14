@@ -14,7 +14,7 @@
 				<h1 class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂</span>
 					<span class="l_lowerTitle__main">
-						<span class="point">サ</span><span class="point">ー</span><span class="point">ビ</span><span class="point">ス</span><span class="point">紹</span><span class="point">介</span>
+						<span class="point">サービス紹介</span>
 					</span>
 				</h1>
 				<div id="breadcrumb" class="breadcrumb">
