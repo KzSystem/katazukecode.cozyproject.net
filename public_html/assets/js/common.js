@@ -44,6 +44,10 @@ $('.blog__aside_title').on('click', function(){
 	}
 });
 
+$('.l_cases--type2_box .l_btn').on('click', function(){
+	$(this).parent('.l_cases--type2_box').addClass('active');
+});
+
 // .service_box
 $('.l_service__box h3').on({
 	'mouseenter': function() {

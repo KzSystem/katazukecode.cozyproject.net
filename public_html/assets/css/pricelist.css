@@ -652,7 +652,6 @@
   text-align: center;
   margin: 40px 1100px 40px;
   width: 1100px;
-  padding: 0 0 150px;
   font-size: 24px;
   font-weight: bold;
   margin: 40px auto;
@@ -721,6 +720,14 @@
   .pricelist__about .l_section_title {
     margin-top: 4vw;
     margin-bottom: 6.66667vw;
+  }
+
+
+
+  .pricelist_5listtcontent ul li {
+    width: 100%;
+    padding: 0 10px;
+    float: none;
   }
 }
 
@@ -1240,15 +1247,10 @@
 }
 
 .pricelist__search-pc_3title {
-  width: 1100px;
   margin: 15px auto 20px;
 }
 
-@media (max-width: 680px) {
-  .pricelist__search-pc_3title {
-    width: 92vw;
-  }
-}
+
 
 .pricelist__search-pc_3title h3 {
   font-size: 32px;
@@ -1265,7 +1267,6 @@
 
 .pricelist__search-pc_3title ul {
   margin: 0 auto 10px;
-  width: 80%;
   padding: 0 20px;
   background: #fcdfd8;
   border: #f3b49d dashed 2px;
@@ -3949,9 +3950,46 @@
 
 ._thin {
   background: #fdfbf2 !important;
+  margin-top:0px!important;
 }
 
 ._dark {
   background: #f7f3e5 !important;
 }
 /*# sourceMappingURL=pricelist.css.map */
+
+.price_base_color{
+background-color:#ffffff!important;
+}
+
+.price_base_color  div{
+background-color:#F7F3E5!important;
+}
+
+.price_base_color_olta{
+ background-color:#F7F3E5!important;
+ }
+  
+ .price_base_color_olta  div{
+background-color:#ffffff!important;
+}
+.price_base_space{
+padding:30px 0 40px;
+}
+
+.price__about_list li figure{
+  background: #ffffff!important;
+
+}
+.tax_price_list{
+width:80%;
+margin:0 auto;
+
+}
+.plaise_contact_top{
+margin:40px auto!important ;
+
+}
+.plaise_height div{
+  height: auto;
+}
