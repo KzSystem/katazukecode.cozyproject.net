@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="ja">
 	<head>
-		<?php require_once( dirname(__FILE__). '/../../assets/block_parts/tmp/head.php'); ?>
-		<meta name="description" content="不用品回収の料金詳細ページです。過去の料金実績や内訳まで不用品回収の料金システムを詳しく解説。お客様の状況にあった最適なプランをご提案します。不用品回収なら無料下見、無料見積の片付け堂までお気軽にご相談ください。">
-		<title>不用品回収の料金 | 不用品回収・粗大ゴミ回収なら片付け堂</title>
+        <?php require_once( dirname(__FILE__). '/../../assets/block_parts/tmp/head.php'); ?>
+		<meta name="description" content="遺品整理の料金詳細ページです。過去の料金実績や内訳まで遺品整理の料金システムを詳しく解説。お客様の状況にあった最適なプランをご提案します。遺品整理なら、無料下見、無料見積の片付け堂までお気軽にお問い合わせください。">
+		<title>遺品整理の料金 | 不用品回収・粗大ゴミ回収なら片付け堂</title>
 		<link rel="stylesheet" href="../../assets/css/price.css">
 	</head>
 	<body>
 		<div id="cont_hidden_wrap">
-			<?php require_once( dirname(__FILE__). '/../../assets/block_parts/tmp/header.php'); ?>
-			<main id="price_lower" class="price_lower disused_item">
+            <?php require_once( dirname(__FILE__). '/../../assets/block_parts/tmp/header.php'); ?>
+			<main id="price_lower" class="price_lower hoarding_house">
 				<div class="l_lowerTitle">
 					<span class="l_lowerTitle__sub">片付け堂</span>
 					<span class="l_lowerTitle__main">
-						<span class="point">不用品回収の料金</span>
+						<span class="point">遺品整理</span>の料金
 					</span>
-				</div>
+                </div>
 				<div id="breadcrumb" class="breadcrumb">
 					<ul itemscope itemtype="https://schema.org/BreadcrumbList">
 						<li class="breadcrumb__home" itemscope itemprop="itemListElement" itemtype="https://schema.org/ListItem">
@@ -31,13 +31,13 @@
 							</a>
 						</li>
 						<li class="active" itemscope itemprop="itemListElement" itemtype="https://schema.org/ListItem">
-							<span itemprop="name">不用品回収の料金</span>
+							<span itemprop="name">遺品整理の料金</span>
 							<meta itemprop="position" content="3" />
 						</li>
 					</ul>
 				</div>
 				<section class="price_lower__plans">
-					<h2 class="l_section_title">不用品回収の料金の<br class="sp">仕組み<span class="en">PRICE PLANS</span></h2>
+					<h2 class="l_section_title">遺品整理の料金の仕組み<span class="en">PRICE PLANS</span></h2>
 					<p class="l_section_lead">
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
 					</p>
@@ -99,19 +99,19 @@
 					</ul>
 					<div class="price_lower__plans_ex">
 						<h3 class="price_lower__plans_ex_title">
-							不用品回収の料金例
+							遺品整理の料金例
 						</h3>
 						<p class="price_lower__plans_ex_lead">
 							この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
 						</p>
 						<p class="price_lower__caution">
-							※下記料金は料金参考例です。実際の料金は店舗によって異なります。
+							※2LDK/2tトラック2台分/スタッフ4名の場合の料金参考例です。
 						</p>
 						<div class="price_lower__plans_ex_detail">
 							<div class="flex_wrap">
 								<div class="price_lower__plans_ex_detail_box">
 									<h4 class="price_lower__plans_ex_detail_name">
-										<span>車両費（2t車）</span>
+										<span>車輌費（2t車）</span>
 									</h4>
 									<div class="price_lower__plans_ex_detail_inr">
 										<figure class="price_lower__plans_ex_detail_img">
@@ -121,13 +121,13 @@
 											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 										</p>
 										<p class="price_lower__plans_ex_detail_price">
-											<span class="num">10,000</span><span class="yen">円</span><span class="tax">（税込）</span>
+											<span class="num">20,000</span><span class="yen">円</span><span class="tax">（税込）</span>
 										</p>
 									</div>
 								</div>
 								<div class="price_lower__plans_ex_detail_box">
 									<h4 class="price_lower__plans_ex_detail_name">
-										<span>人件費（2名）</span>
+										<span>人件費（4名）</span>
 									</h4>
 									<div class="price_lower__plans_ex_detail_inr">
 										<figure class="price_lower__plans_ex_detail_img">
@@ -137,7 +137,7 @@
 											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 										</p>
 										<p class="price_lower__plans_ex_detail_price">
-											<span class="num">15,000</span><span class="yen">円</span><span class="tax">（税込）</span>
+											<span class="num">45,000</span><span class="yen">円</span><span class="tax">（税込）</span>
 										</p>
 									</div>
 								</div>
@@ -153,7 +153,7 @@
 											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 										</p>
 										<p class="price_lower__plans_ex_detail_price">
-											<span class="num">5,000</span><span class="yen">円</span><span class="tax">（税込）</span>
+											<span class="num">10,000</span><span class="yen">円</span><span class="tax">（税込）</span>
 										</p>
 									</div>
 								</div>
@@ -167,7 +167,7 @@
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 									</p>
 									<p class="price_lower__plans_ex_detail_price">
-										<span class="num">3,000</span><span class="yen">円</span><span class="tax">（税込）</span>
+										<span class="num">5,000</span><span class="yen">円</span><span class="tax">（税込）</span>
 									</p>
 								</div>
 							</div>
@@ -180,7 +180,7 @@
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 									</p>
 									<p class="price_lower__plans_ex_detail_price">
-										<span class="num">33,000</span><span class="yen">円</span><span class="tax">（税込）</span>
+										<span class="num">80,000</span><span class="yen">円</span><span class="tax">（税込）</span>
 									</p>
 								</div>
 							</div>
@@ -206,10 +206,10 @@
 								</div>
 								<div class="price_lower__plans_ex_other_box">
 									<figure class="price_lower__plans_ex_other_img">
-										<img src="../../assets/img/price/sample_obj05.svg" alt="イメージ">
+										<img src="../../assets/img/price/sample_obj07.svg" alt="イメージ">
 									</figure>
 									<p class="price_lower__plans_ex_other_name">
-										分別・搬出作業費
+										ハウスクリーニング
 									</p>
 									<p class="price_lower__plans_ex_other_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
@@ -230,19 +230,18 @@
 						</div>
 					</div>
 				</section>
-				<?php require_once( dirname(__FILE__). '/../../assets/block_parts/car_type.php'); ?>
 				<section class="price_lower__sample">
 					<h2 class="l_section_title"><span class="small">
-					片付け堂の</span><br>不用品回収の料金参考例<span class="en">SAMPLE PRICE</span></h2>
+					片付け堂の</span><br>遺品整理の料金参考例<span class="en">SAMPLE PRICE</span></h2>
 					<p class="l_section_lead">
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
 					</p>
 					<p class="price_lower__caution">
-						※一部店舗の料金参考例です。実際の料金は店舗によって異なります。
+						※京都店の場合の料金参考例です。<br class="sp">実際の料金は店舗によって異なります。
 					</p>
 					<div class="price_lower__sample_list">
 						<div class="price_lower__sample_box n01">
-							<h3 class="price_lower__sample_name"><span>軽トラ</span>
+							<h3 class="price_lower__sample_name"><span>1R / 1K</span>
 								<span class="price_lower__sample_img">
 									<img src="../../assets/img/price/price_obj01.svg" alt="イメージ">
 								</span>
@@ -256,7 +255,7 @@
 										<span>処分費用</span>
 									</div>
 									<div class="item">
-										<span>作業<br>スタッフ<br>1名</span>
+										<span>作業<br>スタッフ<br>2名</span>
 									</div>
 								</div>
 								<div class="price_lower__sample_disp">
@@ -266,15 +265,15 @@
 												処分量<br>軽トラ
 											</div>
 											<div class="price_lower__sample_amount_num">
-												1<span class="small dai">台</span>
+												2<span class="small dai">台</span>
 											</div>
 										</div>
 										<div class="price_lower__sample_amount_size">
-											(１～1.5m3)
+											(2～3m3)
 										</div>
 									</div>
 									<div class="price_lower__sample_price">
-										<div class="price_lower__sample_price_num">19,800</div>
+										<div class="price_lower__sample_price_num">40,000</div>
 										<div class="price_lower__sample_price_unit">
 											<div class="tax">(税込)</div>
 											<div class="yen">円〜</div>
@@ -284,7 +283,7 @@
 							</div>
 						</div>
 						<div class="price_lower__sample_box n02">
-							<h3 class="price_lower__sample_name"><span>2tトラック</span>
+							<h3 class="price_lower__sample_name"><span>1LDK</span>
 								<span class="price_lower__sample_img">
 									<img src="../../assets/img/price/price_obj02.svg" alt="イメージ">
 								</span>
@@ -305,18 +304,18 @@
 									<div class="price_lower__sample_amount">
 										<div class="flex_wrap">
 											<div class="price_lower__sample_amount_name">
-												処分量
+												処分量<br>2t車
 											</div>
 											<div class="price_lower__sample_amount_num">
-												2<span class="small dai">t車</span>
+												2<span class="small dai">台</span>
 											</div>
 										</div>
 										<div class="price_lower__sample_amount_size">
-											(軽トラ2台分)
+											(8m3)
 										</div>
 									</div>
 									<div class="price_lower__sample_price">
-										<div class="price_lower__sample_price_num">33,000</div>
+										<div class="price_lower__sample_price_num">80,000</div>
 										<div class="price_lower__sample_price_unit">
 											<div class="tax">(税込)</div>
 											<div class="yen">円〜</div>
@@ -326,7 +325,7 @@
 							</div>
 						</div>
 						<div class="price_lower__sample_box n03">
-							<h3 class="price_lower__sample_name"><span>4tトラック</span>
+							<h3 class="price_lower__sample_name"><span>2LDK</span>
 								<span class="price_lower__sample_img">
 									<img src="../../assets/img/price/price_obj03.svg" alt="イメージ">
 								</span>
@@ -347,18 +346,18 @@
 									<div class="price_lower__sample_amount">
 										<div class="flex_wrap">
 											<div class="price_lower__sample_amount_name">
-												処分量
+												処分量<br>4t車
 											</div>
 											<div class="price_lower__sample_amount_num">
-												4<span class="small dai">t車</span>
+												2<span class="small dai">台</span>
 											</div>
 										</div>
 										<div class="price_lower__sample_amount_size">
-											(軽トラ4台分)
+											(16m3)
 										</div>
 									</div>
 									<div class="price_lower__sample_price">
-										<div class="price_lower__sample_price_num">61,600</div>
+										<div class="price_lower__sample_price_num">120,000</div>
 										<div class="price_lower__sample_price_unit">
 											<div class="tax">(税込)</div>
 											<div class="yen">円〜</div>
@@ -373,17 +372,17 @@
 							こんな方におすすめ
 						</h3>
 						<ul class="price_lower__sample_recommend_nav">
-							<li class="n01 item active"><span>パック料金が<br class="sp">おすすめ</span></li>
-							<li class="n02 item"><span>単品料金が<br class="sp">おすすめ</span></li>
+							<li class="n01 item active"><span>遺品整理と買取を<br class="sp">お願いしたい</span></li>
+							<li class="n02 item"><span>遺品整理と<br class="sp">ハウスクリーニングを<br>お願いしたい</span></li>
 						</ul>
 						<div class="price_lower__sample_recommend_content n01 active">
 							<ul class="price_lower__sample_recommend_list">
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj01.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj14.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										一度にたくさんの<br>不用品を<br class="sp">処分したい方
+										時間がないので<br>全てお任せしたい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -391,10 +390,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj02.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj15.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										トラックに<br class="sp">載せれるだけ<br>処分したい方
+										遺品の整理と<br class="sp">買取りを<br>一緒にしてほしい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -402,10 +401,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj03.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj08.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										軽トラ以上の<br class="sp">不用品を<br class="pc">お得に<br class="sp">処分したい方
+										買取りを<br class="sp">してもらい<br>安く処分したい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -413,10 +412,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj04.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj16.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										分別から搬出まで<br class="sp">全て<br class="pc">お願い<br class="sp">したい方
+										遺品の整理を<br>手伝ってほしい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -428,10 +427,10 @@
 							<ul class="price_lower__sample_recommend_list">
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj05.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj01.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										少しずつ不用品を<br>処分したい方
+										ゴミ屋敷の処分と掃除も<br>一緒に依頼したい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -439,10 +438,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj06.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj13.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										家具や家電を<br>単品で処分<br class="sp">したい方
+										退去するため<br class="sp">ハウス<br class="pc">クリーニングもしたい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -450,10 +449,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj07.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj02.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										搬出は自分で<br class="sp">するので<br class="pc">回収だけ<br class="sp">依頼したい方
+										ゴミ処分と掃除を<br>同じ業者に<br class="sp">依頼したい
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -461,10 +460,10 @@
 								</li>
 								<li class="item">
 									<figure class="price_lower__sample_recommend_img">
-										<img src="../../assets/img/price/recommend_obj08.svg" alt="イメージ">
+										<img src="../../assets/img/price/recommend_obj12.svg" alt="イメージ">
 									</figure>
 									<h4 class="price_lower__sample_recommend_point">
-										少しでも<br>安く処分したい方
+										住人がゴミ屋敷<br class="sp">のまま<br class="pc">退去<br class="sp">してしまった
 									</h4>
 									<p class="price_lower__sample_recommend_text">
 										この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -483,20 +482,20 @@
 					</h2>
 					<ul class="price_lower__trouble_check">
 						<li class="item">
-							HPでは「0円回収」と記載されていたのに<strong class="marker">高額請求にあった</strong>
+							作業後に<strong class="marker">見積りに記載された以上の高額請求や追加請求があった</strong>
 						</li>
 						<li class="item">
-							電話で不用品回収の見積りしてもらったが、<strong class="marker">作業後に追加請求があった</strong>
+							遺品整理の作業中に<strong class="marker">貴金属や現金などを盗難されてしまった</strong>
 						</li>
 						<li class="item">
-							見積りの書面がなかったので、<strong class="marker">作業後に料金トラブルになった</strong>
+							違法業者に依頼してしまい、<strong class="marker">遺品を全て不法投棄されてしまった</strong>
 						</li>
 						<li class="item">
-							不用品回収の見積りだけで<strong class="marker">出張見積費用を請求されてしまった</strong>
+							遺品整理を依頼したが、<strong class="marker">本来捨ててほしくない遺品まで処分されてしまった</strong>
 						</li>
 					</ul>
 					<div class="price_lower__trouble_counter">
-						<h3 class="price_lower__trouble_counter_title">不用品回収の<br class="sp">料金トラブルを防ぐためには</h3>
+						<h3 class="price_lower__trouble_counter_title">遺品整理の<br class="sp">料金トラブルを防ぐためには</h3>
 						<figure class="price_lower__trouble_img pc">
 							<img src="../../assets/img/5reasons_warning.svg" alt="イメージ">
 						</figure>
@@ -505,23 +504,23 @@
 						</p>
 						<div class="price_lower__trouble_counter_list">
 							<ol class="l_list_number">
-								<li>市町村の<strong class="color_green">一般廃棄物収集運搬業を取得した許可業者か</strong>確認。</li>
-								<li>HPの<strong class="color_green">「0円回収」の業者には注意</strong>し、まずは電話で相談。</li>
-								<li>無料の事前見積りを利用し、<strong class="color_green">料金は事前に確定</strong>させる。</li>
+								<li>遺品整理の現地下見の際は<strong class="color_green">追加請求の有無を確認</strong>する。</li>
+								<li><strong class="color_green">見積りは書面で作成</strong>してもらい、料金トラブルがないようにする。</li>
+								<li>貴金属や現金などの<strong class="color_green">貴重品は事前に仕分け</strong>しておく。</li>
 							</ol>
 						</div>
 					</div>
 				</section>
 				<section class="price_lower__case">
 					<h2 class="l_section_title">
-						不用品回収の<br class="sp">料金実績
+						遺品整理の料金実績
 						<span class="en">CASE</span>
 					</h2>
 					<p class="l_section_lead">
 						この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。<br>
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
 					</p>
-					<div class="price_lower__case_box">
+					<div class="price_lower__case_box blue">
 						<div class="flex-wrap">
 							<div class="price_lower__case_img">
 								<figure class="before">
@@ -533,7 +532,7 @@
 							</div>
 							<div class="price_lower__case_info">
 								<div class="flex-box">
-									<div class="type">不用品回収</div>
+									<div class="type">遺品整理</div>
 									<div class="place">島根県松江市</div>
 								</div>
 								<div class="status">
@@ -565,7 +564,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="price_lower__case_box">
+					<div class="price_lower__case_box blue">
 						<div class="flex-wrap">
 							<div class="price_lower__case_img">
 								<figure class="before">
@@ -577,7 +576,7 @@
 							</div>
 							<div class="price_lower__case_info">
 								<div class="flex-box">
-									<div class="type">不用品回収</div>
+									<div class="type">遺品整理</div>
 									<div class="place">島根県松江市</div>
 								</div>
 								<div class="status">
@@ -612,7 +611,7 @@
 				</section>
 				<section class="price_lower__quote">
 					<h2 class="l_section_title">
-						不用品回収の料金相場
+						遺品整理の料金相場
 						<span class="en">PRICE QUOTE</span>
 					</h2>
 					<p class="l_section_lead">
@@ -626,34 +625,66 @@
 							<table class="price_lower__quote_table">
 								<thead class="price_lower__quote_table_thead">
 									<tr class="price_lower__quote_table_tr">
-										<th class="price_lower__quote_table_head">部屋の広さの目安</th>
-										<th class="price_lower__quote_table_head">プラン料金</th>
-										<th class="price_lower__quote_table_head">作業スタッフ</th>
-										<th class="price_lower__quote_table_head">トラックの大きさ</th>
-										<th class="price_lower__quote_table_head">積載量</th>
+										<th class="price_lower__quote_table_head">間取り</th>
+										<th class="price_lower__quote_table_head">作業人数</th>
+										<th class="price_lower__quote_table_head">作業時間</th>
+										<th class="price_lower__quote_table_head">料金相場</th>
 									</tr>
 								</thead>
 								<tbody class="price_lower__quote_table_tbody">
 									<tr class="price_lower__quote_table_tr">
-										<th class="price_lower__quote_table_head">単身赴任・学生の一人部屋</th>
-										<td class="price_lower__quote_table_item">20,000円〜</td>
-										<td class="price_lower__quote_table_item">1名</td>
-										<td class="price_lower__quote_table_item">軽トラック</td>
-										<td class="price_lower__quote_table_item">約1m3</td>
+										<th class="price_lower__quote_table_head">1R / 1K</th>
+										<td class="price_lower__quote_table_item">2人</td>
+										<td class="price_lower__quote_table_item">1〜3時間</td>
+										<td class="price_lower__quote_table_item">35,000円～</td>
 									</tr>
 									<tr class="price_lower__quote_table_tr">
-										<th class="price_lower__quote_table_head">2K〜2DK程度の部屋</th>
-										<td class="price_lower__quote_table_item">34,000円〜</td>
-										<td class="price_lower__quote_table_item">2名</td>
-										<td class="price_lower__quote_table_item">2t車</td>
-										<td class="price_lower__quote_table_item">約4m3</td>
+										<th class="price_lower__quote_table_head">1DK</th>
+										<td class="price_lower__quote_table_item">2人</td>
+										<td class="price_lower__quote_table_item">2〜3時間</td>
+										<td class="price_lower__quote_table_item">55,000円～</td>
 									</tr>
 									<tr class="price_lower__quote_table_tr">
-										<th class="price_lower__quote_table_head">3DK〜程度の部屋</th>
-										<td class="price_lower__quote_table_item">58,000円〜</td>
-										<td class="price_lower__quote_table_item">2名</td>
-										<td class="price_lower__quote_table_item">4t車</td>
-										<td class="price_lower__quote_table_item">約8m3</td>
+										<th class="price_lower__quote_table_head">1LDK</th>
+										<td class="price_lower__quote_table_item">3人</td>
+										<td class="price_lower__quote_table_item">2〜4時間</td>
+										<td class="price_lower__quote_table_item">80,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">2DK</th>
+										<td class="price_lower__quote_table_item">3人</td>
+										<td class="price_lower__quote_table_item">3〜5時間</td>
+										<td class="price_lower__quote_table_item">100,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">2LDK</th>
+										<td class="price_lower__quote_table_item">4人</td>
+										<td class="price_lower__quote_table_item">2〜6時間</td>
+										<td class="price_lower__quote_table_item">140,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">3DK</th>
+										<td class="price_lower__quote_table_item">4人</td>
+										<td class="price_lower__quote_table_item">2〜7時間</td>
+										<td class="price_lower__quote_table_item">160,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">3LDK</th>
+										<td class="price_lower__quote_table_item">4人</td>
+										<td class="price_lower__quote_table_item">5〜8時間</td>
+										<td class="price_lower__quote_table_item">180,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">4DK</th>
+										<td class="price_lower__quote_table_item">5人</td>
+										<td class="price_lower__quote_table_item">5〜9時間</td>
+										<td class="price_lower__quote_table_item">200,000円～</td>
+									</tr>
+									<tr class="price_lower__quote_table_tr">
+										<th class="price_lower__quote_table_head">4LDK</th>
+										<td class="price_lower__quote_table_item">5人</td>
+										<td class="price_lower__quote_table_item">8〜10時間</td>
+										<td class="price_lower__quote_table_item">220,000円～</td>
 									</tr>
 								</tbody>
 							</table>
@@ -665,7 +696,7 @@
 				</section>
 				<section class="price_lower__tips">
 					<h2 class="l_section_title">
-						不用品回収の費用を<br class="sp">安く抑えるコツ
+						遺品整理の費用を<br class="sp">安く抑えるコツ
 						<span class="en">TIPS</span>
 					</h2>
 					<p class="l_section_lead">
@@ -675,14 +706,14 @@
 						<li class="item">
 							<div class="price_lower__tips_top">
 								<figure class="price_lower__tips_img">
-									<img src="../../assets/img/price/tips_obj01.jpg" alt="イメージ">
+									<img src="../../assets/img/price/tips_obj11.jpg" alt="イメージ">
 								</figure>
 								<div class="price_lower__tips_num">
 									<span>01</span>
 								</div>
 							</div>
 							<h3 class="price_lower__tips_title">
-								分別や袋詰めを<br class="sp">事前に行う
+								事前に買取りしてほしい<br class="pc">商品を分別する
 							</h3>
 							<p class="price_lower__tips_text">
 								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -691,14 +722,14 @@
 						<li class="item">
 							<div class="price_lower__tips_top">
 								<figure class="price_lower__tips_img">
-									<img src="../../assets/img/price/tips_obj02.jpg" alt="イメージ">
+									<img src="../../assets/img/price/tips_obj08.jpg" alt="イメージ">
 								</figure>
 								<div class="price_lower__tips_num">
 									<span>02</span>
 								</div>
 							</div>
 							<h3 class="price_lower__tips_title">
-								なるべく<br class="sp">不用品を減らす
+								複数社に<br class="sp">見積りを<br class="pc">依頼する
 							</h3>
 							<p class="price_lower__tips_text">
 								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -714,39 +745,7 @@
 								</div>
 							</div>
 							<h3 class="price_lower__tips_title">
-								買取りも<br class="sp">可能な業者<br class="sp">を選ぶ
-							</h3>
-							<p class="price_lower__tips_text">
-								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
-							</p>
-						</li>
-						<li class="item">
-							<div class="price_lower__tips_top">
-								<figure class="price_lower__tips_img">
-									<img src="../../assets/img/price/tips_obj04.jpg" alt="イメージ">
-								</figure>
-								<div class="price_lower__tips_num">
-									<span>04</span>
-								</div>
-							</div>
-							<h3 class="price_lower__tips_title">
-								事前に軒先<br class="sp">まで<br class="sp">搬出する
-							</h3>
-							<p class="price_lower__tips_text">
-								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
-							</p>
-						</li>
-						<li class="item">
-							<div class="price_lower__tips_top">
-								<figure class="price_lower__tips_img">
-									<img src="../../assets/img/price/tips_obj05.jpg" alt="イメージ">
-								</figure>
-								<div class="price_lower__tips_num">
-									<span>05</span>
-								</div>
-							</div>
-							<h3 class="price_lower__tips_title">
-								大型ごみは<br class="sp">事前に<br class="sp">分解する
+								高額な品物は<br class="pc">買取専門店に<br class="sp">依頼する
 							</h3>
 							<p class="price_lower__tips_text">
 								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -758,11 +757,43 @@
 									<img src="../../assets/img/price/tips_obj06.jpg" alt="イメージ">
 								</figure>
 								<div class="price_lower__tips_num">
+									<span>04</span>
+								</div>
+							</div>
+							<h3 class="price_lower__tips_title">
+								市町村の<br class="sp">許可業者を選ぶ
+							</h3>
+							<p class="price_lower__tips_text">
+								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+							</p>
+						</li>
+						<li class="item">
+							<div class="price_lower__tips_top">
+								<figure class="price_lower__tips_img">
+									<img src="../../assets/img/price/tips_obj01.jpg" alt="イメージ">
+								</figure>
+								<div class="price_lower__tips_num">
+									<span>05</span>
+								</div>
+							</div>
+							<h3 class="price_lower__tips_title">
+								事前に袋詰めを<br class="sp">行っておく
+							</h3>
+							<p class="price_lower__tips_text">
+								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+							</p>
+						</li>
+						<li class="item">
+							<div class="price_lower__tips_top">
+								<figure class="price_lower__tips_img">
+									<img src="../../assets/img/price/tips_obj10.jpg" alt="イメージ">
+								</figure>
+								<div class="price_lower__tips_num">
 									<span>06</span>
 								</div>
 							</div>
 							<h3 class="price_lower__tips_title">
-								行政の戸別<br class="sp">回収も<br class="sp">利用する
+								売れる品物は自分で<br class="sp">売却する
 							</h3>
 							<p class="price_lower__tips_text">
 								この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -772,7 +803,7 @@
 				</section>
 				<section class="price_lower__merit">
 					<h2 class="l_section_title">
-						不用品回収業者に依頼する<br>メリット・デメリット
+						遺品整理業者に依頼する<br>メリット・デメリット
 						<span class="en">MERIT / DEMERIT</span>
 					</h2>
 					<p class="l_section_lead">
@@ -789,7 +820,7 @@
 									<img src="../../assets/img/price/merit_obj01.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									専門業者なので<br>早く処分できる
+									短時間で<br class="sp">遺品整理が<br>完了する
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -797,21 +828,10 @@
 							</li>
 							<li class="item">
 								<figure class="price_lower__merit_img">
-									<img src="../../assets/img/price/merit_obj02.svg" alt="イメージ">
+									<img src="../../assets/img/price/merit_obj07.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									全てお任せできる<br class="sp">ので<br class="pc">手間がない
-								</h3>
-								<p class="price_lower__merit_text">
-									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
-								</p>
-							</li>
-							<li class="item">
-								<figure class="price_lower__merit_img">
-									<img src="../../assets/img/price/merit_obj03.svg" alt="イメージ">
-								</figure>
-								<h3 class="price_lower__merit_point">
-									ほとんど<br>回収してもらえる
+									現地立会い<br class="sp">しなくても<br>作業が可能
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -822,7 +842,18 @@
 									<img src="../../assets/img/price/merit_obj04.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									品物によっては<br>買取りも可能
+									買取りをして<br>お得に処分が可能
+								</h3>
+								<p class="price_lower__merit_text">
+									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+								</p>
+							</li>
+							<li class="item">
+								<figure class="price_lower__merit_img">
+									<img src="../../assets/img/price/merit_obj08.svg" alt="イメージ">
+								</figure>
+								<h3 class="price_lower__merit_point">
+									遺品供養まで<br>ご依頼ができる
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -845,10 +876,10 @@
 							</li>
 							<li class="item">
 								<figure class="price_lower__merit_img">
-									<img src="../../assets/img/price/demerit_obj02.svg" alt="イメージ">
+									<img src="../../assets/img/price/demerit_obj07.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									業者によっては<br>トラブルになる
+									自分の気持ちの<br class="sp">整理を<br class="pc">つける<br class="sp">時間がない
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -856,10 +887,10 @@
 							</li>
 							<li class="item">
 								<figure class="price_lower__merit_img">
-									<img src="../../assets/img/price/demerit_obj03.svg" alt="イメージ">
+									<img src="../../assets/img/price/demerit_obj08.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									下見対応など<br>事前に<br class="sp">手間がかかる
+									遺品を<br class="sp">時間かけて<br>整理できない
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -867,10 +898,10 @@
 							</li>
 							<li class="item">
 								<figure class="price_lower__merit_img">
-									<img src="../../assets/img/price/demerit_obj04.svg" alt="イメージ">
+									<img src="../../assets/img/price/demerit_obj09.svg" alt="イメージ">
 								</figure>
 								<h3 class="price_lower__merit_point">
-									悪徳業者も多い<br><br class="sp">　
+									買取りする際に<br>相場が<br class="sp">分からない
 								</h3>
 								<p class="price_lower__merit_text">
 									この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -888,26 +919,26 @@
 						<div class="price_lower__merit_cautions_list">
 							<ol class="l_list_number">
 								<li class="item">
-									一般廃棄物収集運搬業許可を持つ許可業者か確認する。
+									市町村から一般廃棄物収集運搬業許可を取得しているか確認する。
 								</li>
 								<li class="item">
-									料金が分かりやすく、追加料金がないか確認する。
+									買取りを依頼する際は古物商の許可の有無を確認する。
 								</li>
 								<li class="item">
-									ホームページの口コミや実績の評価を確認する。
+									遺品整理の見積りは複数業者へ依頼して相場を確認する。
 								</li>
 								<li class="item">
-									遺品整理士の資格では不用品回収はできないので注意する。
+									遺品整理の実績や口コミを確認して信頼できるか見極める。
 								</li>
 								<li class="item">
-									作業後の追加料金がないか事前に下見見積りを依頼する。
+									見積書を作成して提示してくれる業者を選ぶ。
 								</li>
 							</ol>
 						</div>
 					</div>
 				</section>
 				<section class="l_flow">
-					<h2 class="l_section_title"><span class="small">片付け堂 不用品回収サービスの</span><br>お見積りの流れ<span class="en">FLOW</span></h2>
+					<h2 class="l_section_title"><span class="small">遺品整理サービスの</span><br>お見積りの流れ<span class="en">FLOW</span></h2>
 					<p>
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
 					</p>
@@ -979,7 +1010,7 @@
 						</span>
 					</a>
 				</section>
-				<?php require_once( dirname(__FILE__). '/../../assets/block_parts/bnr/t_point.php'); ?>
+				<?php require_once( dirname(__FILE__). '/../../assets/block_parts/bnr/estimate.php'); ?>
 				<!-- お気軽にお問合せください -->
 				<?php require( dirname(__FILE__). '/../../assets/block_parts/tmp/contact.php'); ?>
 				<div class="l_btn_wrap_flex">
@@ -993,7 +1024,7 @@
 					</a>
 					<a class="l_btn_more" href="">
 						<span class="l_btn_more__wrap">
-							<span class="point">不用品回収サービス</span>について<br class="sp">詳しく見る
+							<span class="point">遺品整理サービス</span>について<br class="sp">詳しく見る
 							<span class="icon-arrow">
 								<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</span>
