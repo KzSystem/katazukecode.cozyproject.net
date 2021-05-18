@@ -1322,10 +1322,10 @@ br.sp {
       fill: #02816F; }
   .l_btn_more .point {
     padding-top: .2em;
-    background-position: top left -2px;
+    background-position: top left .05em;
     background-repeat: repeat-x;
     background-size: 1.0em .2em;
-    background-image: url(/assets/img/point.png);}
+    background-image: url(/assets/img/point.png); }
   .l_btn_more_wide {
     display: flex;
     justify-content: center;
@@ -6033,7 +6033,7 @@ br.sp {
       background-position: top left -2px;
       background-repeat: repeat-x;
       background-size: 1.0em .2em;
-      background-image: url(/assets/img/point.png);}
+      background-image: url(/assets/img/point.png); }
       @media (max-width: 680px) {
         .l_lowerTitle__main .point {
           width: 1.8666666667vw;

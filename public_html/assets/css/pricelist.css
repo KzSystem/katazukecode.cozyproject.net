@@ -1322,6 +1322,7 @@
 .pricelist__search-pc_plicelist {
   height: 160px;
   margin-bottom: 50px;
+  block-size: auto;
 }
 
 .pricelist__search-pc_plicelist p {
