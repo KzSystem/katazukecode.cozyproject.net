@@ -1,10 +1,12 @@
 <header class="l_header">
 	<div class="l_header__wrap">
 		<div class="l_header__logo"><a href=""><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
-		<h1 class="l_header__discription">
-			不用品回収、ゴミ屋敷清掃、遺品整理なら<br>
-			片付け堂！片付け専門の全国チェーン
-		</h1>
+		<div class="l_header__sp_discription_wrap">
+			<h1 class="l_header__discription">
+				不用品回収、ゴミ屋敷清掃、遺品整理なら<br class="pc">
+				片付け堂！片付け専門の全国チェーン
+			</h1>
+		</div>
 		<div class="l_header__tel">
 			<div class="l_header__tel_wrap">
 				<p class="muryo">無料見積り受付中！</p>
@@ -38,14 +40,14 @@
 	</div>
 	<nav class="l_header__nav pc">
 		<ul>
-			<li><a href=""><span>ホーム</span></a></li>
+			<li><a href="/"><span>ホーム</span></a></li>
 			<li><a href=""><span>初めての方へ</span></a></li>
-			<li><a href=""><span>サービス紹介</span></a></li>
-			<li><a href=""><span>料金表</span></a></li>
-			<li><a href=""><span>店舗一覧</span></a></li>
+			<li><a href="/service/"><span>サービス紹介</span></a></li>
+			<li><a href="/price/"><span>料金表</span></a></li>
+			<li><a href="/store/"><span>店舗一覧</span></a></li>
 			<li><a href=""><span>お申込みの流れ</span></a></li>
-			<li><a href=""><span>作業実績</span></a></li>
-			<li><a href=""><span>よくある質問</span></a></li>
+			<li><a href="/case/"><span>作業実績</span></a></li>
+			<li><a href="/qa/"><span>よくある質問</span></a></li>
 		</ul>
 	</nav>
 	<div id="nav_btn" class="l_header__nav_btn">
@@ -94,22 +96,22 @@
 				<li>
 					<span class="pull_down"><span class="icon"><img src="/assets/img/sp/ico_nav02.svg" alt="アイコン"></span>サービス紹介</span>
 					<ul class="child">
-						<li><a href="">不用品回収</a></li>
+						<li><a href="/service/junk_removal/">不用品回収</a></li>
 						<li><a href="">ゴミ屋敷清掃</a></li>
 						<li><a href="">遺品整理</a></li>
 						<li><a href="">ハウスクリーニング</a></li>
-						<li><a href="">不用品買取</a></li>
+						<li><a href="/service/purchase/">不用品買取</a></li>
 					</ul>
 				</li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav03.svg" alt="アイコン"></span>料金表</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav04.svg" alt="アイコン"></span>店舗一覧</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav05.svg" alt="アイコン"></span>対応エリア</a></li>
+				<li><a href="/price/"><span class="icon"><img src="/assets/img/sp/ico_nav03.svg" alt="アイコン"></span>料金表</a></li>
+				<li><a href="/store/"><span class="icon"><img src="/assets/img/sp/ico_nav04.svg" alt="アイコン"></span>店舗一覧</a></li>
+				<li><a href="/area/"><span class="icon"><img src="/assets/img/sp/ico_nav05.svg" alt="アイコン"></span>対応エリア</a></li>
 				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav06.svg" alt="アイコン"></span>サービスの流れ</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav07.svg" alt="アイコン"></span>作業実績</a></li>
+				<li><a href="/case/"><span class="icon"><img src="/assets/img/sp/ico_nav07.svg" alt="アイコン"></span>作業実績</a></li>
 				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav08.svg" alt="アイコン"></span>お客様の声</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav09.svg" alt="アイコン"></span>よくある質問</a></li>
+				<li><a href="/qa/"><span class="icon"><img src="/assets/img/sp/ico_nav09.svg" alt="アイコン"></span>よくある質問</a></li>
 				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav10.svg" alt="アイコン"></span>片付け堂Lab</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav11.svg" alt="アイコン"></span>スタッフブログ</a></li>
+				<li><a href="/blog/"><span class="icon"><img src="/assets/img/sp/ico_nav11.svg" alt="アイコン"></span>スタッフブログ</a></li>
 				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav12.svg" alt="アイコン"></span>お知らせ</a></li>
 			</ul>
 		</div>
@@ -119,14 +121,14 @@
 	<div class="l_fixed_nav__wrap">
 		<div class="l_fixed_nav__logo"><a href=""><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
 		<ul>
-			<li><a href=""><span>ホーム</span></a></li>
+			<li><a href="/"><span>ホーム</span></a></li>
 			<li><a href=""><span>初めての方へ</span></a></li>
-			<li><a href=""><span>サービス紹介</span></a></li>
-			<li><a href=""><span>料金表</span></a></li>
-			<li><a href=""><span>店舗一覧</span></a></li>
+			<li><a href="/service/"><span>サービス紹介</span></a></li>
+			<li><a href="/price/"><span>料金表</span></a></li>
+			<li><a href="/store/"><span>店舗一覧</span></a></li>
 			<li><a href=""><span>お申込みの流れ</span></a></li>
-			<li><a href=""><span>作業実績</span></a></li>
-			<li><a href=""><span>よくある質問</span></a></li>
+			<li><a href="/case/"><span>作業実績</span></a></li>
+			<li><a href="/qa/"><span>よくある質問</span></a></li>
 		</ul>
 	</div>
 </nav>

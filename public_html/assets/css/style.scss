@@ -231,6 +231,8 @@ br{
 		height: 70px;
 		display: flex;
 		align-items: flex-end;
+		position: relative;
+		margin-top: 30px;
 		padding-left: 15px;
 	}
 	&__wrap{
@@ -251,13 +253,31 @@ br{
 			}
 		}
 	}
+
+	&__sp_discription_wrap {
+		@include sp{
+			position: absolute;
+			width: 100%;
+			height: 30px;
+			top: -30px;
+			left: 0;
+			background-color: #F3F3F3;
+			overflow-x: auto;
+		}
+	}
+
 	&__discription{
 		margin-left: 8px;
 		margin-right: 10px;
 		font-size: 12px;
 		line-height: 1.3;
 		@include sp{
-			display: none;
+			margin-left: 0;
+			margin-right: 0;
+			font-size: 12px;
+			width: auto;
+			white-space: nowrap;
+			padding: 7px 10px 0;
 		}
 	}
 	&__tel{
@@ -424,7 +444,7 @@ br{
 			border: solid 2px $main_color;
 			z-index: 1001;
 			right: 7px;
-			top: 7px;
+			top: 37px;
 			width: 70px;
 			height: 70px;
 			padding: 15px 0 8px;
@@ -3606,6 +3626,243 @@ br{
 			width: s(345);
 			margin: s(45) auto s(30);
 		}
+		&_head{
+			position: relative;
+			display: flex;
+			justify-content: space-between;
+			padding:40px 40px 40px 90px ;
+			border-radius: 10px 10px 0 0;
+			background: $main_color;
+			color:#fff;
+			@include sp{
+				display: block;
+				padding:s(23) s(17) s(25) s(17);
+			}
+			&:before{
+				content:"";
+				position: absolute;
+				bottom:-60px;
+				left:0;
+				width: 100%;
+				height: 60px;
+				border-left:solid $main_color 3px;
+				border-right:solid $main_color 3px;
+				display: block;
+				box-sizing: border-box;
+				@include sp{
+					display:none;
+				}
+			}
+			&:after{
+				@include sp{
+					content:"01";
+					position: absolute;
+					left:0;
+					right:0;
+					top:s(-18);
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width:s(46);
+					height: s(46);
+					margin:auto;
+					border-radius: 100%;
+					margin:auto;
+					background: $main_color;
+					color:#fff;
+					font-family: 'Oswald', sans-serif;
+					font-size: s(20);
+					font-weight: 700;
+				}
+			}
+		}
+
+		&_lead{
+			padding:0 25px 35px 25px; 
+			@include sp{
+				padding:s(104) s(10) s(20) s(10);
+			}
+		}
+
+		&_body{
+			padding:20px 0;
+			background: #F7F3E5;
+			@include sp{
+				padding:s(20) s(10) s(10) s(10);
+			}
+		}
+
+		&_fin{
+			position: relative;
+			padding:60px 0 55px 0;
+			background: $main_color;
+			color:#fff;
+			text-align: center;
+			@include sp{
+				padding:s(40) s(10) s(25) s(10);
+			}
+			&:before{
+				content: "";
+				position: absolute;
+				left:0;
+				right: 0;
+				top:0;
+				display: block;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 20px 30px 0 30px;
+				border-color: #F7F3E5 transparent transparent transparent;				
+				margin:auto;
+				@include sp{
+					border-width:s(20) s(30) 0 s(30)
+				}
+			}
+			dt{
+				display: inline-flex;
+				margin-bottom: 20px;
+				font-size: 32px;
+				font-weight: 700;
+				@include sp{
+					margin-bottom:s(10);
+					font-size: s(24);
+					line-height: s(38);
+				}
+				&:before,
+				&:after{
+					content:"";
+					display: block;
+					width: 26px;
+					height: 26px;
+					background: url("../img/service/hoarding_house/ico_slash.svg") no-repeat left center;
+					@include sp{
+						align-self:center;
+						width:s(26);
+						height:s(26);
+					}
+				}
+				&:before{
+					margin-right: 20px;
+				}
+				&:after{
+					margin-left: 20px;
+					transform: rotate(90deg);
+				}				
+			}
+			dd{
+				font-size: 20px;
+				font-weight: 700;
+				line-height: (36 / 20);
+				@include sp{
+					text-align: left;
+					font-size:s(18);
+					line-height: s(32);
+				}
+			}
+		}
+
+		&_title_02{
+			font-size: 32px;
+			font-weight: 700;
+			line-height: (42 / 32);
+			@include sp{
+				font-size:s(18);
+				text-align: center;
+			}
+			.color_yellow{
+				color: $point_color;
+			}			
+		}
+		&_doc{
+			position: relative;
+			@include sp{
+				padding-left: s(160);
+			}
+			&_txt{
+				position: absolute;
+				bottom:-76px;
+				font-size: 13px;
+				color:#000;
+				line-height: (18 / 14);
+				@include sp{
+					position:static;
+					bottom:0;
+					color:#fff;
+					font-size: s(14);
+					line-height: s(22);
+				}
+			}
+		}
+		&_figure{
+			padding-right: 50px;
+			@include sp{
+				margin-bottom: s(25);
+				padding-right: 0;
+			}
+			img{
+				position: absolute; 
+				left:-190px;
+				top:-70px;
+				width: 170px;
+				@include sp{
+					left:0;
+					top:0;
+					width:s(150);
+				}
+			}
+		}
+		&_num{
+			font-size: 20px;
+			line-height: (30 / 20);
+			@include sp{
+				font-size: 16px;
+			}
+		}
+
+		&_point{
+			position: relative;
+			display: block;
+			padding-right: 10px;
+			@include sp{
+				display: inline-block;
+				margin-bottom: s(15);
+				padding-right: 0;
+				line-height: s(26);
+			}
+			&::after{
+				content: "";
+				display: block;
+				transform: rotate(90deg);
+				position: absolute;
+				bottom: 45px;
+				right:0;
+				width: 30px;
+				height: 30px;
+				background: url("../img/ico-speech_dash.svg")no-repeat 0 0 / contain;
+				@include sp{
+					transform:rotate(0);
+					right:auto;
+					left:s(-25);
+					top:s(-5);
+					width: s(18);
+					height: s(22);
+					background-size: contain;
+				}
+			}			
+			&:before{
+				@include sp{
+					content:"";
+					display: block;
+					position: absolute;
+					top:s(-5);
+					right:s(-25);
+					width: s(18);
+					height: s(22);
+					background: url("../img/service/hoarding_house/ico-speech_dash_color.svg") no-repeat left center / contain;
+				}
+			}
+		}
+
 		&_title{
 			display: flex;
 			justify-content: center;
@@ -3822,13 +4079,14 @@ br{
 					}
 				}
 				@include sp{
-					font-size: s(30);
+					font-size: s(26);
+					text-align: right;
 					.inr{
 						padding-left: 0;
 						&::before{
 							top: auto;
-							bottom: s(8);
-							left: 0;
+							bottom: s(4);
+							left: s(-20);
 							width: s(40);
 							height: s(35);
 							transform: translateY(0);
@@ -3837,7 +4095,7 @@ br{
 				}
 			}
 			&_list{
-				margin-top: 40px;
+				margin-top: 30px;
 				.item{
 					position: relative;
 					padding-left: 45px;
@@ -3878,6 +4136,51 @@ br{
 					}
 				}
 			}
+			.item_02{
+				position: relative;
+				margin-bottom: 8px;
+				height: 56px;
+				padding:0 0 0 65px;
+				line-height: 56px;
+				font-size: 24px;
+				font-weight: bold;
+				background: url("../img/service/hoarding_house/trouble_comment.svg") no-repeat left center;
+				@include sp{
+					height: s(83);
+					margin-bottom: s(2);
+					padding:s(20) s(10) 0 s(45);
+					line-height: s(26);
+					font-size:s(18);
+					background: url("../img/service/hoarding_house/sp_trouble_comment.svg") no-repeat left top / contain;
+					box-sizing: border-box;
+					
+				}
+				&:last-child{
+					margin-bottom: 0;
+				}
+				.marker{
+					background: linear-gradient(transparent 60%, #FFD800 60%);
+				}
+				&:before{
+					content:"";
+					position: absolute;
+					left:20px;
+					top:0;
+					bottom:0;
+					width: 42px;
+					height: 39px;
+					margin:auto;
+					background: url("../img/ico_check.svg") no-repeat left center;
+					@include sp{
+						top:s(-10);
+						left:s(8);
+						width: s(32);
+						height:s(30);
+						background-size:contain;
+						background-position: left top;
+					}
+				}				
+			}
 			&_img{
 				position: absolute;
 				z-index: 1;
@@ -3896,6 +4199,26 @@ br{
 					transform: translateY(-100%);
 				}
 			}
+			&_img_02{
+				position: absolute;
+				z-index: 1;
+				right: 30px;
+				bottom: 0;
+				width: 227px;
+			
+				img{
+					width: 100%;
+					vertical-align: bottom;
+				}
+				@include sp{
+					width:s(88);
+					top: 0;
+					right: s(5);
+					bottom: auto;
+					transform: translateY(-100%);
+				}
+			}
+			/*
 			&::after{
 				display: block;
 				position: absolute;
@@ -3912,6 +4235,7 @@ br{
 					border-width: s(20) s(30) 0 s(30);
 				}
 			}
+			*/
 		}
 		&_our{
 			padding: 45px 0 60px;
@@ -4236,6 +4560,91 @@ br{
 			}
 		}
 	}
+	&__block_space{
+		margin-bottom: 30px;
+	}
+}
+
+// -------------------------------------------------
+// l_comment
+// -------------------------------------------------
+.l_comment_balloon{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	@include sp{
+		align-items: flex-start;
+		margin-bottom: s(15);
+	}
+	&__img{
+		width: 156px;
+		@include sp{
+			width:s(80);
+		}
+		img{
+			max-width: 100%;
+		}
+	}
+	&__text{
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: calc(100% - 180px);
+		min-height: 110px;
+		padding:20px 30px;
+		border:solid 2px #E3E3E3;
+		border-radius: 5px;
+		background: #fff;
+		border-radius: 3px;
+		font-size: 20px;
+		line-height: (36 / 20);
+		@include sp{
+			width:s(224);
+			min-height: auto;
+			padding:s(16) s(14);
+			font-size:s(16);
+			line-height: s(22);
+			border-radius: s(5);
+		}
+		&--font-l{
+			font-size: 24px;
+			line-height: (34 / 24);
+			@include sp{
+				font-size: 16px;
+			}
+			span{
+				@include sp{
+					font-size:s(18);
+				}
+			}
+		}
+		&:before{
+			content:"";
+			display: block;
+			position: absolute;
+			width: 23px;
+			height: 22px;
+			background: url("../img/service/hoarding_house/div.png") no-repeat left center;
+			@include sp{
+				top:s(30);
+			}
+		}
+		&--right:before{
+			left:-13px;
+		}
+		&--left:before{
+			transform: rotate(180deg);
+			right:-13px;
+		}
+	}
+	&__color{
+		color:#ED4C24;
+		font-weight: 700;
+	}
+	
 }
 
 // -------------------------------------------------

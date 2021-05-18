@@ -12,6 +12,25 @@ $('#nav_btn').on('click', function(){
 	}
 });
 
+// nav_btn 追従
+jQuery(function() {
+    var nav = jQuery('.l_header');
+
+    // メニューのtop座標を取得する
+    var offsetTop = nav.offset().top;
+
+    var floatMenu = function() {
+        // スクロール位置がメニューのtop座標を超えたら固定にする
+        if (jQuery(window).scrollTop() > offsetTop) {
+            nav.addClass('nav_btn_fixed');
+        } else {
+            nav.removeClass('nav_btn_fixed');
+        }
+    }
+    jQuery(window).scroll(floatMenu);
+    jQuery('body').bind('touchmove', floatMenu);
+});
+
 // pull_down
 $('.pull_down').on('click', function(){
 	$(this).toggleClass('active');
