@@ -6316,6 +6316,215 @@ br.sp {
           transform: scale(1.1);
 }
 
+.l_permit_case {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid 3px #ED4C24;
+  background: #fff;
+}
+
+.l_permit_case--space {
+  margin-bottom: 20px;
+}
+
+.l_permit_case__title {
+  padding: 20px;
+  background: #ed4c24;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3125;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__title {
+    padding: 4vw 3.2vw;
+    font-size: 4.8vw;
+    line-height: 6.93333vw;
+  }
+}
+
+.l_permit_case__title_point {
+  position: relative;
+}
+
+.l_permit_case__title_point:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background: #FFD809;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__title_point:before {
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+}
+
+.l_permit_case__sub {
+  margin-bottom: 60px;
+  padding: 0 20px 20px 20px;
+  background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__sub {
+    margin-bottom: 9.33333vw;
+    padding: 0 4vw 4vw 4vw;
+    font-size: 6.4vw;
+    line-height: 9.33333vw;
+  }
+}
+
+.l_permit_case__body {
+  padding: 30px 38px;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__body {
+    padding: 4vw 4vw;
+  }
+}
+
+.l_permit_case__lead {
+  margin-bottom: 15px;
+  line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__lead {
+    margin-bottom: 5.33333vw;
+    line-height: 8vw;
+  }
+}
+
+.l_permit_case__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 35px;
+  color: #ed4c24;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.66667;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0vw;
+    font-size: 4.8vw;
+  }
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list li {
+    margin-bottom: 5.33333vw;
+  }
+}
+
+.l_permit_case__list img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list img {
+    margin-bottom: 2.13333vw;
+  }
+}
+
+.l_permit_case__attention {
+  position: relative;
+  padding: 50px 30px 30px 30px;
+  border: dashed 1px #EB6D4E;
+  background: #FCDFD8;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.125;
+  border-radius: 20px;
+  color: #ED4C24;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__attention {
+    padding: 6.93333vw 4vw 4vw 4vw;
+    font-size: 5.33333vw;
+    line-height: 6.66667vw;
+    border-radius: 1.86667vw;
+    border-width: 0.53333vw;
+  }
+}
+
+.l_permit_case__attention:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  width: 76px;
+  height: 66px;
+  margin: auto;
+  background: url("../img/service/hoarding_house/ico_attention.svg") no-repeat center/cover;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__attention:before {
+    top: -6.66667vw;
+    width: 12.8vw;
+    height: 11.73333vw;
+  }
+}
+
+.l_permit_case__note {
+  display: inline;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 44px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ED4C24));
+  background: linear-gradient(transparent 0%, #ED4C24 0%);
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__note {
+    margin-bottom: 2.13333vw;
+    line-height: 8.8vw;
+  }
+}
+
+.l_permit_case__wave {
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+  line-height: 1.42857;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__wave {
+    margin-top: 2.13333vw;
+    padding-bottom: 4vw;
+    line-height: 6.93333vw;
+  }
+}
+
 .l_cases {
   width: 1100px;
   padding-top: 60px;
