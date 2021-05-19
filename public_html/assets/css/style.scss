@@ -271,6 +271,7 @@ br{
 		margin-right: 10px;
 		font-size: 12px;
 		line-height: 1.3;
+		width: 240px;
 		@include sp{
 			margin-left: 0;
 			margin-right: 0;
@@ -1601,6 +1602,7 @@ br{
 	display: inline-block;
 	padding: 15px 60px 15px 0;
 	margin-top: 20px;
+	margin-bottom: 50px;
 	width: auto;
 	text-decoration: none;
 	position: relative;
