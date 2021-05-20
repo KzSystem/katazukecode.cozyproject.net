@@ -124,8 +124,12 @@
 					</div> 
 				</section>				
 
-				<?php require_once( dirname(__FILE__). '/../../assets/block_parts/reasons.php'); ?>
-				<?php require_once( dirname(__FILE__). '/../../assets/block_parts/bnr/t_point.php'); ?>
+				<section class="l_5reasons">
+					<h2 class="l_section_title">選ばれる<span class="color_pink"><strong >5</strong>つ</span>の理由<span class="en">5 REASONS</span></h2>
+					<?php require_once( dirname(__FILE__). '/../../assets/block_parts/reasons_list.php'); ?>
+					<?php require_once( dirname(__FILE__). '/../../assets/block_parts/reasons.php'); ?>
+					<?php require_once( dirname(__FILE__). '/../../assets/block_parts/bnr/t_point.php'); ?>
+				</section>
 
 				<section class="service_lower__menu">
 					<h2 class="l_section_title">ゴミ屋敷清掃<br>サービスメニュー<span class="en">SERVICE</span></h2>
@@ -650,7 +654,7 @@
 					<div class="text-center">
 						<a class="l_btn_more" href="">
 							<span class="l_btn_more__wrap">
-								<span class="point">不</span><span class="point">用</span><span class="point">品</span><span class="point">回</span><span class="point">収</span>の作業実績をもっと見る
+								<span class="point">ゴ</span><span class="point">ミ</span><span class="point">屋</span><span class="point">敷</span><span class="point">清</span><span class="point">掃</span>の作業実績をもっと見る
 								<span class="icon-arrow">
 									<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 								</span>
@@ -766,6 +770,14 @@
 				<section class="l_voice">
 					<h2 class="l_section_title"><span class="small">不用品回収をご依頼の</span><br>お客様の声<span class="en">VOICE</span></h2>				
 					<?php require_once( dirname(__FILE__). '/../../assets/block_parts/voice_contents.php'); ?>
+					<a class="l_btn_more" href="">
+						<span class="l_btn_more__wrap">
+							<span class="point">ゴ</span><span class="point">ミ</span><span class="point">屋</span><span class="point">敷</span><span class="point">清</span><span class="point">掃</span>の作業実績をもっと見る
+							<span class="icon-arrow">
+								<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</span>
+						</span>
+					</a>					
 				</section>				
 
 

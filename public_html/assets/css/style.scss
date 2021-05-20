@@ -1845,6 +1845,11 @@ br{
 			font-size: s(62);
 		}
 	}
+	&__sp_br{
+		@include sp{
+			display:inline !important;
+		}
+	}
 }
 
 // -------------------------------------------------
@@ -2034,6 +2039,9 @@ br{
 		margin: s(20) auto 0;
 		width: s(345);
 		font-size: s(16);
+	}
+	&--bottom_space_s{
+		margin-bottom: 20px;
 	}
 }
 
@@ -3496,6 +3504,12 @@ br{
 				}
 			}*/
 		}
+		&_high{
+			height: auto;
+			min-height: 108px;
+			padding-top: 3px;
+			line-height: (26 / 18);		
+		}
 	}
 
 	&__img_01{
@@ -3529,7 +3543,22 @@ br{
 			margin-left: s(-3);
 		}		
 	}				
-
+	&__img_06{
+		@include sp{
+			width:s(103) !important;
+		}
+	}
+	&__img_07{
+		@include sp{
+			width:s(84) !important;
+		}
+	}
+	&__img_08{
+		width: 97px;
+		@include sp{
+			
+		}
+	}		
 	&__detail{
 		width: $cont_w_pc;
 		margin: 50px auto 0;
@@ -3641,6 +3670,9 @@ br{
 			@include sp{
 				display: block;
 				padding:s(23) s(17) s(25) s(17);
+			}
+			&--low{
+				padding:20px ;
 			}
 			&:before{
 				content:"";
@@ -3775,8 +3807,87 @@ br{
 			}
 			.color_yellow{
 				color: $point_color;
-			}			
+			}
+			&--center{
+				width: 100%;
+				text-align: center;		
 		}
+	}
+	&_title_03{
+		width: 100%;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: (42 / 32);
+		text-align: center;
+		@include sp{
+			font-size:s(18);
+			text-align: center;
+		}
+		.color_yellow{
+			color: $point_color;
+		}
+	}
+	&_ico{
+		position: relative;
+		display: inline-block;
+		&:before,
+		&:after{
+			content:"";
+			position: absolute;
+			top:-0px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			background: url("../img/service/hoarding_house/apartment/ico_line.svg") no-repeat center;
+		}
+		&:before{
+			left:-50px;
+		}
+		&:after{
+			transform: rotate(90deg);
+			right:-40px;
+		}
+	}
+	&_paper{
+		display: flex;
+		align-items: center;
+		padding:35px 30px;
+		background: #F7F3E5;
+		line-height: (22 / 16);
+		&_col{
+			width: 50%;
+			&:nth-child(1){
+				border-right:#D9CFA9 solid 1px;
+			}
+		}
+	}
+	&_doc_02{
+		display: flex;
+		align-items: flex-end;
+		padding-right: 60px;
+		p{
+			margin-top: 40px;
+			padding-bottom: 10px;
+		}
+		&_left{
+			margin-right: 30px;
+			
+		}
+		&_right{
+
+		}
+	}
+	&_doc_03{
+		display: flex;
+		align-items: center;
+		padding-left: 60px;
+		&_left{
+			margin-right: 30px;
+		}
+		&_right{
+
+		}
+	}		
 		&_doc{
 			position: relative;
 			@include sp{
@@ -3822,7 +3933,6 @@ br{
 				font-size: 16px;
 			}
 		}
-
 		&_point{
 			position: relative;
 			display: block;
@@ -3866,7 +3976,6 @@ br{
 				}
 			}
 		}
-
 		&_title{
 			display: flex;
 			justify-content: center;
@@ -3881,8 +3990,7 @@ br{
 			text-align: center;
 			.color_yellow{
 				color: $point_color;
-			}
-		
+			}		
 			@include sp{
 				height: s(85);
 				padding-top: s(10);
@@ -4746,13 +4854,16 @@ br{
 			font-size: s(18);
 		}
 		li{
+			width: 293px;
 			@include sp{
+				width: 100%;
 				margin-bottom: s(20);
 			}
 		}
 		img{
 			display: block;
 			margin-bottom: 10px;
+			max-width: 100%;
 			@include sp{
 				margin-bottom:s(8);
 			}
@@ -4995,6 +5106,168 @@ br{
 			img{
 				transform: scale(1.1);
 			}
+		}
+	}
+}
+
+// -------------------------------------------------
+// l_permit_case
+// -------------------------------------------------
+.l_permit_case{
+	max-width: 1000px;
+	margin:0 auto;
+	border-radius: 5px;
+	border:solid 3px #ED4C24;
+	background: #fff;
+	&--space{
+		margin-bottom: 20px;
+	}
+	&__title{
+		padding:20px;
+		background: #ed4c24;
+		color:#fff;
+		font-size: 32px;
+		font-weight: 700;
+		text-align: center;
+		line-height: (42 / 32);
+		@include sp{
+			padding:s(15) s(12);
+			font-size: s(18);
+			line-height: s(26);
+		}
+		&_point{
+			position: relative;
+			&:before{
+				content:"";
+				position: absolute;
+				left:0;
+				right:0;
+				top:-5px;
+				width: 8px;
+				height: 8px;
+				margin:auto;
+				border-radius: 50%;
+				background: #FFD809;
+				@include sp{
+					width:s(6);
+					height: s(6);
+				}
+			}
+			@include sp{
+			
+			}
+		}
+	}
+	&__sub{
+		margin-bottom: 60px;
+		padding:0 20px 20px 20px;
+		background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+		font-size: 30px;
+		text-align: center;
+		@include sp{
+			margin-bottom: s(35);
+			padding:0 s(15) s(15) s(15);
+			font-size:s(24);
+			line-height: s(35);
+		}
+	}
+	&__body{
+		padding:30px 38px;
+		@include sp{
+			padding:s(15) s(15);
+		}
+	}
+	&__lead{
+		margin-bottom: 15px;
+		line-height: (30 / 16);
+		@include sp{
+			margin-bottom:s(20);
+			line-height: s(30);
+		}
+	}
+	&__list{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 35px;
+		color:#ed4c24;
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		line-height: (30 / 18);
+		@include sp{
+			flex-wrap:wrap;
+			margin-bottom: s(0);
+			font-size: s(18);
+		}
+		li{
+			@include sp{
+				margin-bottom: s(20);
+			}
+		}
+		img{
+			display: block;
+			margin-bottom: 10px;
+			@include sp{
+				margin-bottom:s(8);
+			}
+		}
+	}
+	&__attention{
+		position: relative;
+		padding:50px 30px 30px 30px;
+		border:dashed 1px #EB6D4E;
+		background: #FCDFD8;
+		text-align: center;
+		font-size: 28px;
+		font-weight: 700;
+		line-height: (45 / 40);
+		border-radius: 20px;
+		color:#ED4C24;
+		@include sp{
+			padding:s(26) s(15) s(15) s(15);
+			font-size:s(20);
+			line-height: s(25);
+			border-radius: s(7);
+			border-width: s(2);
+		}
+		&:before{
+			content:"";
+			position: absolute;
+			top:-30px;
+			left:0;
+			right:0;
+			width: 76px;
+			height: 66px;
+			margin:auto;
+			background: url("../img/service/hoarding_house/ico_attention.svg") no-repeat center / cover;
+			@include sp{
+				top:s(-25);
+				width:s(48);
+				height:s(44);
+			}
+		}
+	}
+	&__note{
+		display: inline;
+		margin-bottom: 20px;
+		color:#fff;
+		line-height: 44px;
+		background: linear-gradient(transparent 0%, #ED4C24 0%);
+		@include sp{
+			margin-bottom:s(8);
+			line-height: s(33);
+		}
+	}
+	&__wave{
+		display: inline-block;
+		margin-top: 20px;
+		padding-bottom:20px;
+		background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+		line-height: (40 / 28);
+		@include sp {
+			margin-top: s(8);
+			padding-bottom: s(15);
+			line-height: s(26);
 		}
 	}
 }
@@ -7902,6 +8175,9 @@ br{
 		border-radius: 0;
 		margin-top: s(20);
 	}
+	&--oneline{
+		padding:35px 0 50px 0;
+	}
 	&__sub{
 		font-size: 28px;
 		@include sp{
@@ -9900,6 +10176,115 @@ body .l_sec_bg{
   }
 }
 
+// -------------------------------------------------
+//  l_sub_title
+// -------------------------------------------------
+
+.l_sub_title{
+	font-size: 24px;
+	text-align: center;
+	@include sp{
+		margin-bottom: s(22);
+		font-size:s(18);
+		line-height: s(24);
+	}
+	&__ico{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 15px;
+		padding:3px 40px;
+		font-size: 32px;
+		@include sp{
+			margin-bottom: s(10);
+			font-size:s(24);
+			line-height: s(34);
+		}
+		&:before,
+		&:after{
+			content:"";
+			position: absolute;
+			top:0;
+			bottom:0;
+			width: 26px;
+			height: 26px;
+			margin:auto;
+			background: url("../img/service/house_cleaning/ico_line.svg") no-repeat center / contain;
+			@include sp{
+				top:auto;
+			}
+		}
+		&:before{
+			left:0;
+		}
+		&:after{
+			right:0;
+			transform: rotate(90deg);
+		}
+	}
+}
+// -------------------------------------------------
+//  l_item
+// -------------------------------------------------
+ 
+.l_item{
+	display: flex;
+	flex-wrap:wrap;
+	margin-bottom: -15px;
+	@include sp{
+		justify-content: space-between;
+		margin-bottom: s(-25);
+	}
+	&--space{
+		padding-bottom: 50px;
+	}
+	dl{
+		width: 353px;
+		margin:0 20px 15px 0;
+		&:nth-child(3n){
+			margin-right: 0;
+		}
+		@include sp{
+			width:s(166);
+			margin:0 0 s(25) 0;
+		}
+	}
+	dt{
+		margin-bottom: 15px;
+		text-align: center;
+		color:$main_color;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: (30 / 18);
+		@include sp{
+			margin-bottom: s(6);
+			line-height: s(28);
+		}
+		img{
+			display: block;
+			margin-bottom: 20px;
+			max-width: 100%;
+			@include sp{
+				margin-bottom:s(10);
+			}
+		}
+	}
+	dd{
+		margin-left: 0;
+		line-height: (30 / 16);
+		@include sp{
+			line-height: s(30);
+		}
+	}
+	&--sp-full dl{
+		@include sp{
+			width: 100%;
+			margin-right: 0;
+			dt{
+				text-align: left;
+			}
+		}
+	}
+}
 
 // -------------------------------------------------
 //  snippet

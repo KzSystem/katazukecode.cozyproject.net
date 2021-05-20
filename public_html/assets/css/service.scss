@@ -454,6 +454,9 @@
 		@include sp{
 			padding-top: s(50);
 		}
+		&--no-bg{
+			background: transparent;
+		}
 		.l_section_title{
 			margin-bottom: 27px;
 			@include sp{
@@ -547,6 +550,9 @@
 					border-width: s(20) s(31) 0 s(31);
 				}
 			}
+			&--wh:before{
+				border-color: #fff transparent transparent transparent;
+			}			
 			&_inr{
 				position: relative;
 				width: 1100px;
@@ -724,13 +730,16 @@
 		}
 		&_img{
 			width: 484px;
-			height: 100%;
 			min-height: 452px;
 			img{
 				width: 100%;
 				height: 100%;
+				border-radius: 15px;
 				object-fit: cover;
 				font-family: 'object-fit: cover;';
+				@include sp{
+					border-radius:s(7);
+				}
 			}
 			@include sp{
 				width: s(330);
@@ -1454,6 +1463,28 @@
 				background-image: url("../img/service/hoarding_house/ico-arrow.svg");
 			}
 		}
+		&_box.color02{
+			.service_lower__case01_info .type{
+				background: #6CC46C;
+			}
+			.service_lower__case01_img .after{
+				border-color:#6CC46C;
+			}
+			.service_lower__case01_img .before::after{
+				background-image: url("../img/service/house_cleaning/ico-arrow.png");
+			}
+		}		
+		&_box.color03{
+			.service_lower__case01_info .type{
+				background: #3678BA;
+			}
+			.service_lower__case01_img .after{
+				border-color:#3678BA;
+			}
+			.service_lower__case01_img .before::after{
+				background-image: url("../img/service/dismantling/ico-arrow.svg");
+			}
+		}		
 	}
 	
 	// -------------------------------------------------
@@ -1462,6 +1493,10 @@
 	&__case02{
 		margin-top: 70px;
 		margin-bottom: 50px;
+		&--bg{
+			padding-top: 70px;
+			background: #F7F3E5;
+		}
 		.l_cases__list{
 			margin-bottom: 25px;
 			.l_tag{
@@ -4319,6 +4354,224 @@
 		margin-bottom: 50px;
 		@include sp{
 			margin-bottom: s(30);
+		}
+	}
+
+}
+
+.service_onestop_02{
+	width: 100%;
+	max-width: 1100px;
+	margin:0 auto 50px auto;
+	border-radius: 10px;
+	border:solid 3px $main_color;
+	&__title{
+		padding:20px;
+		background: $main_color;
+		color:#fff;
+		font-size: 32px;
+		text-align: center;
+		line-height: 42px;
+		font-weight: 700;
+		@include sp{
+
+			font-size: 18px;
+			line-height: s(26);
+		}
+		strong{
+			font-weight: inherit;
+			color:#FFD800;
+		}
+	}
+	&__ico{
+		position: relative;
+		display: inline-block;
+		&:before,
+		&:after{
+			content:"";
+			position: absolute;
+			top:10px;
+			display: block;
+			width: 30px;
+			height: 30px;
+			background: url("../img/service/dismantling/ico_line.svg") no-repeat center / contain; 
+		}
+		&:before{
+			left:-25px;
+		}
+		&:after{
+			transform: rotate(90deg);
+			right:-25px;
+		}
+	}
+	&__body{
+		padding:0px 50px 50px 50px;
+		border-radius: 10px;
+		background: #F7F3E5;	
+		@include sp{
+			padding:0 s(15) s(35) s(15);
+		}
+	}
+	&__comment{
+		position: relative;
+		z-index:2;
+		top:30px;
+		width: 396px;
+		margin:0 auto;
+		text-align: center;
+		@include sp{
+			top:s(20);
+			width:s(246);
+		}
+		img{
+			max-width: 100%;
+		}
+	}	
+	&__list{
+		position: relative;
+		ul{
+			position: relative;
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			max-width: 930px;		
+			@include sp{
+				flex-wrap:wrap;
+			}	
+		
+		}
+		li{
+			width: calc(50% - 15px);
+			text-align: center;
+			font-weight: 700;
+			font-size: 22px;
+			@include sp{
+				width: 100%;
+				font-size:s(18);
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+			&:first-child{
+				position: relative;
+				@include sp{
+					margin-bottom: s(85);
+				}				
+				&:before{
+					content:"";
+					position: absolute;
+					z-index:2;
+					top:100px;
+					right:-40px;
+					display: block;
+					width: 50px;
+					height: 50px;
+					margin:auto;
+					background: url("../img/service/dismantling/ico_plus.svg") no-repeat center / contain;
+					@include sp{
+						top:auto;
+						left:0;
+						right:0;						
+						bottom:s(-70);
+					}
+				}	
+				&:after{
+					@include sp{
+						content:"";
+						position: absolute;
+						left:0;
+						bottom:s(-48);
+						width: 100%;
+						height: 0;
+						border: 1px solid #E2DDCD;
+					}
+				}				
+			}
+			img{
+				display: block;
+				max-width: 100%;
+				margin-bottom: 20px;
+				@include sp{
+					margin-bottom:s(15);
+				}
+			}
+		}
+	}
+}
+
+.service_point_section{
+	padding-bottom: 80px;
+	@include sp{
+		padding-bottom:s(50)
+	}
+}
+
+.service_before_after{
+	display: block;
+	max-width: 840px;
+	margin:30px auto 0 auto;
+	text-align: center;
+	@include sp{
+		margin-top: s(20);
+		padding:0 s(15);
+		box-sizing: border-box;
+	}
+	picture,
+	img{
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.service_consultation{
+	border-radius: 10px;
+	border:solid 3px $main_color;
+	&__title{
+		padding:20px;
+		background: $main_color;
+		color:#fff;
+		text-align: center;
+		font-size: 32px;
+		font-weight: 700;
+		strong{
+			color:#FFD800;
+			font-weight: inherit;
+		}
+	}
+	&__body{
+		padding:30px 35px;
+		background: #fff;
+		border-radius: 10px;
+	}
+	&__lead{
+		margin-bottom: 25px;
+		line-height: (30 / 16);
+	}
+	&__case{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		&_img{
+			width: 350px;
+			img{
+				max-width: 100%;
+			}
+		}
+		dl{
+			width:calc(100% - 370px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+			dt{
+				color:$main_color;
+				font-weight: 700;
+				font-size: 26px;
+				line-height: (39 / 26);
+			}
+			dd{
+				margin-left: 0;
+				line-height: (30 / 16);
+			}
 		}
 	}
 }

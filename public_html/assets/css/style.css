@@ -2462,6 +2462,12 @@ br.sp {
   }
 }
 
+@media (max-width: 680px) {
+  .l_section_title__sp_br {
+    display: inline !important;
+  }
+}
+
 .l_redtitle {
   position: relative;
   padding-bottom: 20px;
@@ -2673,6 +2679,10 @@ br.sp {
     width: 92vw;
     font-size: 4.26667vw;
   }
+}
+
+.l_section_lead--bottom_space_s {
+  margin-bottom: 20px;
 }
 
 .l_modal {
@@ -4611,6 +4621,13 @@ br.sp {
   }
 }
 
+.l_5reasons__list_high {
+  height: auto;
+  min-height: 108px;
+  padding-top: 3px;
+  line-height: 1.44444;
+}
+
 .l_5reasons__img_01 {
   width: 97px;
 }
@@ -4660,6 +4677,22 @@ br.sp {
     width: 29.33333vw !important;
     margin-left: -0.8vw;
   }
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_06 {
+    width: 27.46667vw !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__img_07 {
+    width: 22.4vw !important;
+  }
+}
+
+.l_5reasons__img_08 {
+  width: 97px;
 }
 
 .l_5reasons__detail {
@@ -4821,6 +4854,10 @@ br.sp {
     display: block;
     padding: 6.13333vw 4.53333vw 6.66667vw 4.53333vw;
   }
+}
+
+.l_5reasons__permit_head--low {
+  padding: 20px;
 }
 
 .l_5reasons__permit_head:before {
@@ -5002,6 +5039,108 @@ br.sp {
 
 .l_5reasons__permit_title_02 .color_yellow {
   color: #FFD800;
+}
+
+.l_5reasons__permit_title_02--center {
+  width: 100%;
+  text-align: center;
+}
+
+.l_5reasons__permit_title_03 {
+  width: 100%;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3125;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .l_5reasons__permit_title_03 {
+    font-size: 4.8vw;
+    text-align: center;
+  }
+}
+
+.l_5reasons__permit_title_03 .color_yellow {
+  color: #FFD800;
+}
+
+.l_5reasons__permit_ico {
+  position: relative;
+  display: inline-block;
+}
+
+.l_5reasons__permit_ico:before, .l_5reasons__permit_ico:after {
+  content: "";
+  position: absolute;
+  top: -0px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url("../img/service/hoarding_house/apartment/ico_line.svg") no-repeat center;
+}
+
+.l_5reasons__permit_ico:before {
+  left: -50px;
+}
+
+.l_5reasons__permit_ico:after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  right: -40px;
+}
+
+.l_5reasons__permit_paper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 30px;
+  background: #F7F3E5;
+  line-height: 1.375;
+}
+
+.l_5reasons__permit_paper_col {
+  width: 50%;
+}
+
+.l_5reasons__permit_paper_col:nth-child(1) {
+  border-right: #D9CFA9 solid 1px;
+}
+
+.l_5reasons__permit_doc_02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 60px;
+}
+
+.l_5reasons__permit_doc_02 p {
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.l_5reasons__permit_doc_02_left {
+  margin-right: 30px;
+}
+
+.l_5reasons__permit_doc_03 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 60px;
+}
+
+.l_5reasons__permit_doc_03_left {
+  margin-right: 30px;
 }
 
 .l_5reasons__permit_doc {
@@ -6218,8 +6357,13 @@ br.sp {
   }
 }
 
+.l_permit_case__list li {
+  width: 293px;
+}
+
 @media (max-width: 680px) {
   .l_permit_case__list li {
+    width: 100%;
     margin-bottom: 5.33333vw;
   }
 }
@@ -6227,6 +6371,7 @@ br.sp {
 .l_permit_case__list img {
   display: block;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 @media (max-width: 680px) {
@@ -6540,6 +6685,215 @@ br.sp {
 .l_official_channel .modal_open:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.l_permit_case {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid 3px #ED4C24;
+  background: #fff;
+}
+
+.l_permit_case--space {
+  margin-bottom: 20px;
+}
+
+.l_permit_case__title {
+  padding: 20px;
+  background: #ed4c24;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3125;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__title {
+    padding: 4vw 3.2vw;
+    font-size: 4.8vw;
+    line-height: 6.93333vw;
+  }
+}
+
+.l_permit_case__title_point {
+  position: relative;
+}
+
+.l_permit_case__title_point:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background: #FFD809;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__title_point:before {
+    width: 1.6vw;
+    height: 1.6vw;
+  }
+}
+
+.l_permit_case__sub {
+  margin-bottom: 60px;
+  padding: 0 20px 20px 20px;
+  background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__sub {
+    margin-bottom: 9.33333vw;
+    padding: 0 4vw 4vw 4vw;
+    font-size: 6.4vw;
+    line-height: 9.33333vw;
+  }
+}
+
+.l_permit_case__body {
+  padding: 30px 38px;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__body {
+    padding: 4vw 4vw;
+  }
+}
+
+.l_permit_case__lead {
+  margin-bottom: 15px;
+  line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__lead {
+    margin-bottom: 5.33333vw;
+    line-height: 8vw;
+  }
+}
+
+.l_permit_case__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 35px;
+  color: #ed4c24;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.66667;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0vw;
+    font-size: 4.8vw;
+  }
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list li {
+    margin-bottom: 5.33333vw;
+  }
+}
+
+.l_permit_case__list img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__list img {
+    margin-bottom: 2.13333vw;
+  }
+}
+
+.l_permit_case__attention {
+  position: relative;
+  padding: 50px 30px 30px 30px;
+  border: dashed 1px #EB6D4E;
+  background: #FCDFD8;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.125;
+  border-radius: 20px;
+  color: #ED4C24;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__attention {
+    padding: 6.93333vw 4vw 4vw 4vw;
+    font-size: 5.33333vw;
+    line-height: 6.66667vw;
+    border-radius: 1.86667vw;
+    border-width: 0.53333vw;
+  }
+}
+
+.l_permit_case__attention:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  width: 76px;
+  height: 66px;
+  margin: auto;
+  background: url("../img/service/hoarding_house/ico_attention.svg") no-repeat center/cover;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__attention:before {
+    top: -6.66667vw;
+    width: 12.8vw;
+    height: 11.73333vw;
+  }
+}
+
+.l_permit_case__note {
+  display: inline;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 44px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ED4C24));
+  background: linear-gradient(transparent 0%, #ED4C24 0%);
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__note {
+    margin-bottom: 2.13333vw;
+    line-height: 8.8vw;
+  }
+}
+
+.l_permit_case__wave {
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background: url("../img/service/hoarding_house/ico_wave.svg") no-repeat center bottom;
+  line-height: 1.42857;
+}
+
+@media (max-width: 680px) {
+  .l_permit_case__wave {
+    margin-top: 2.13333vw;
+    padding-bottom: 4vw;
+    line-height: 6.93333vw;
+  }
 }
 
 .l_cases {
@@ -10159,6 +10513,10 @@ br.sp {
   }
 }
 
+.l_lowerTitle--oneline {
+  padding: 35px 0 50px 0;
+}
+
 .l_lowerTitle__sub {
   font-size: 28px;
 }
@@ -12775,6 +13133,149 @@ li:nth-child(2) .l_next_prev__link {
 @media (max-width: 680px) {
   .l_article .l_quote .scroll-x_box_inr {
     padding: 0;
+  }
+}
+
+.l_sub_title {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .l_sub_title {
+    margin-bottom: 5.86667vw;
+    font-size: 4.8vw;
+    line-height: 6.4vw;
+  }
+}
+
+.l_sub_title__ico {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 3px 40px;
+  font-size: 32px;
+}
+
+@media (max-width: 680px) {
+  .l_sub_title__ico {
+    margin-bottom: 2.66667vw;
+    font-size: 6.4vw;
+    line-height: 9.06667vw;
+  }
+}
+
+.l_sub_title__ico:before, .l_sub_title__ico:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  background: url("../img/service/house_cleaning/ico_line.svg") no-repeat center/contain;
+}
+
+@media (max-width: 680px) {
+  .l_sub_title__ico:before, .l_sub_title__ico:after {
+    top: auto;
+  }
+}
+
+.l_sub_title__ico:before {
+  left: 0;
+}
+
+.l_sub_title__ico:after {
+  right: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.l_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: -15px;
+}
+
+@media (max-width: 680px) {
+  .l_item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: -6.66667vw;
+  }
+}
+
+.l_item--space {
+  padding-bottom: 50px;
+}
+
+.l_item dl {
+  width: 353px;
+  margin: 0 20px 15px 0;
+}
+
+.l_item dl:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media (max-width: 680px) {
+  .l_item dl {
+    width: 44.26667vw;
+    margin: 0 0 6.66667vw 0;
+  }
+}
+
+.l_item dt {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #03A58E;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.66667;
+}
+
+@media (max-width: 680px) {
+  .l_item dt {
+    margin-bottom: 1.6vw;
+    line-height: 7.46667vw;
+  }
+}
+
+.l_item dt img {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  .l_item dt img {
+    margin-bottom: 2.66667vw;
+  }
+}
+
+.l_item dd {
+  margin-left: 0;
+  line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .l_item dd {
+    line-height: 8vw;
+  }
+}
+
+@media (max-width: 680px) {
+  .l_item--sp-full dl {
+    width: 100%;
+    margin-right: 0;
+  }
+  .l_item--sp-full dl dt {
+    text-align: left;
   }
 }
 

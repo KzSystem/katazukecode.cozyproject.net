@@ -1,10 +1,5 @@
 
-<p class="l_section_lead">
-こちらでは、片付け堂でゴミ屋敷清掃をご依頼のお客様の声を掲載しております。
-スタッフはどういった対応だったか、料金はどうだったか、どんな掃除が行われたかなど、実際に片付け堂をご利用になったお客様のリアルな声ですので、他社さんと迷われている方は、比較検討の参考にされてください。<br>
-片付け堂は、ゴミ屋敷清掃にも確固たる自信のある、お片付けのプロ集団です。<br>
-お客様のお家を、ゴミ屋敷から見違える姿に変えてみせます。
-</p>
+
 <ul class="l_voice__list">
 	<li>
 		<a href="">
@@ -195,11 +190,3 @@
 		</a>
 	</li>
 </ul>
-<a class="l_btn_more" href="">
-	<span class="l_btn_more__wrap">
-		<span class="point">不</span><span class="point">用</span><span class="point">品</span><span class="point">回</span><span class="point">収</span><span class="point">の</span><span class="point">お</span><span class="point">客</span><span class="point">様</span><span class="point">の</span><span class="point">声</span>を<br class="sp">もっと見る
-		<span class="icon-arrow">
-			<svg xmlns="https://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
-		</span>
-	</span>
-</a>
