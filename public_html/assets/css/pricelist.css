@@ -899,6 +899,11 @@
   padding: 25px 30px 30px;
 }
 
+.pricelist__about_method dl dd .money_unit {
+  text-align: right;
+}
+
+
 @media (max-width: 680px) {
   .pricelist__about_method {
     border-radius: 5.33333vw;
@@ -925,6 +930,7 @@
   .pricelist__about_method h3 {
     font-size: 6.4vw;
     margin-bottom: 6.66667vw;
+    line-height: 1.5;
   }
   .pricelist__about_method h3 + p {
     display: none;
@@ -1247,7 +1253,8 @@
 }
 
 .pricelist__search-pc_3title {
-  margin: 15px auto 20px;
+  margin: 30px auto 40px;
+  width:80%;
 }
 
 
@@ -1266,7 +1273,7 @@
 }
 
 .pricelist__search-pc_3title ul {
-  margin: 0 auto 10px;
+  margin: 0 auto 30px;
   padding: 0 20px;
   background: #fcdfd8;
   border: #f3b49d dashed 2px;
@@ -1274,8 +1281,13 @@
 }
 
 @media (max-width: 680px) {
+  .pricelist__search-pc_3title{
+  width:100%;
+}
   .pricelist__search-pc_3title ul {
     width: 100%;
+    font-size: 15px;
+    line-height: 19px;
   }
 }
 
@@ -1293,6 +1305,11 @@
 .pricelist__search-pc_3title ul li span {
   color: #f3b49d;
   font-size: 80%;
+}
+
+.pricelist__search-pc_3title ul li strong {
+  color: white;
+  background: #e2754d;
 }
 
 .pricelist__search-pc_buytitle {
@@ -1359,11 +1376,7 @@
   border: #eee solid 1px;
 }
 
-@media (max-width: 680px) {
-  .pricelist__search-pc_plicelist dl {
-    width: 100%;
-  }
-}
+
 
 .pricelist__search-pc_plicelist dl dt {
   padding: 15px 0 15px;
@@ -2724,6 +2737,11 @@
   text-align: left;
 }
 
+.pricelist_5contents {
+  margin-bottom: 30px!important;
+}
+
+
 .price_lower__pickup_lead {
   width: 100%;
   line-height: 1.85;
@@ -3993,4 +4011,126 @@ margin:40px auto!important ;
 }
 .plaise_height div{
   height: auto;
+}
+
+.flex_block{
+  display: flex;
+}
+
+.align_c{
+  text-align: center;
+}
+.pricelist_pinprice{
+padding:25px 100px 30px!important;
+
+}
+@media (max-width: 680px) {
+  .pricelist_pinprice{
+    padding:25px 30px 30px!important;
+    
+    }
+}
+
+.price__fixednav {
+  position: fixed;
+  z-index: 990;
+  right: 0;
+  top: 50vh;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 20px 0 15px;
+  border-radius: 20px 0 0 20px;
+  border: solid #03A58E 3px;
+  border-right: 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16); }
+  .price__fixednav .balloon {
+    background: rgba(0, 142, 122, 0.9);
+    display: flex;
+    opacity: 0;
+    transition: opacity .2s;
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    position: absolute;
+    top: -113px;
+    left: -63px;
+    width: 126px;
+    height: 126px;
+    border-radius: 50% 50%;
+    line-height: 1.4; }
+    .price__fixednav .balloon strong {
+      color: #FFD800; }
+  .price__fixednav:hover .balloon {
+    opacity: 1; }
+  .price__fixednav .shop_name {
+    font-size: 15px;
+    padding: 0 10px 12px;
+    margin-bottom: 10px;
+    position: relative; }
+    .price__fixednav .shop_name::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-image: linear-gradient(to right, #DCDCDC, #DCDCDC 4px, transparent 4px, transparent 9px);
+      background-size: 9px 1px;
+      background-repeat: repeat-x;
+      position: absolute;
+      bottom: 0; }
+  .price__fixednav li a {
+    display: block;
+    color: #03A58E;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 15px 10px;
+    background: #fff; }
+    .price__fixednav li a svg {
+      stroke: #03A58E;
+      fill: #03A58E;
+      transform: rotate(90deg);
+      margin-left: 5px; }
+    .price__fixednav li a:hover {
+      background: #F7F3E5; }
+  @media (max-width: 680px) {
+    .price__fixednav {
+      display: none; } }
+.price__visual {
+  width: 1306px;
+  max-width: 91.666%;
+  margin: 0 auto;
+  position: relative; }
+  .price__visual img {
+    width: 100%; }
+
+
+      
+.color_str{
+	background: #FFD800;
+}
+
+.price_kaitori {
+  text-align: center;
+}
+
+.price_kaitori img{
+  width:500px;
+}
+@media (max-width: 680px) {
+  .price_kaitori img{
+    width:90%;
+  }
+}
+
+.bacetext_p{
+  width:1100px;
+  margin: 0 auto 30px;
+}
+@media (max-width: 680px) {
+  .bacetext_p{
+    width:90%;
+  }
 }
