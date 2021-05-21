@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="ico_plus" transform="translate(-549.367 -4174.057)">
+    <g id="楕円形_6" data-name="楕円形 6" transform="translate(599.367 4174.057) rotate(90)" fill="#15a58e" stroke="#fff" stroke-width="2">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24" fill="none"/>
+    </g>
+    <g id="plus" transform="translate(560.966 4185.948)">
+      <g id="グループ_767" data-name="グループ 767">
+        <path id="パス_61683" data-name="パス 61683" d="M25.1,12.042H14.083V1.02a1.02,1.02,0,1,0-2.041,0V12.042H1.02a1.02,1.02,0,1,0,0,2.041H12.042V25.1a1.02,1.02,0,1,0,2.041,0V14.083H25.1a1.02,1.02,0,1,0,0-2.041Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
