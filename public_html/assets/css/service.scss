@@ -407,7 +407,7 @@
 
 
 		&_text-box{
-			width: 557px;
+			width: 560px;
 			@include sp{
 				width: 100%;
 			}
@@ -424,6 +424,11 @@
 				margin-bottom: s(15);
 				font-size: s(30);
 				text-align: center;
+			}
+			&--small{
+				@include sp{
+					font-size:s(28);
+				}
 			}
 		}
 		
@@ -749,7 +754,7 @@
 		}
 		&_text-box{
 			padding: 10px 0;
-			width: 556px;
+			width: 558px;
 			@include sp{
 				position: relative;
 				z-index: 2;
@@ -1192,6 +1197,9 @@
 			& + &{
 				margin-top: 10px;
 			}
+			&.bg_wh{
+				background: #fff;
+			}
 			@include sp{
 				width: $cont_w_sp;
 				padding: s(5);
@@ -1204,8 +1212,10 @@
 				}
 			}
 		}
+		
 		&_img{
 			display: flex;
+
 			img{
 				width: 100%;
 				height: 100%;
@@ -1253,6 +1263,7 @@
 					font-family: "object-fit: cover;";
 				}
 			}
+
 			@include sp{
 				.before{
 					width: s(164);
@@ -1271,6 +1282,27 @@
 					border-radius: 0 s(5) 0 0;
 				}
 			}
+			&.vertical{
+				@media screen and (min-width:681px) {
+					display: block;
+					width: 302px;
+					.before{
+						position: relative;
+						display: block;
+						margin-bottom: 8px;
+					}
+					.before::after{
+						top:auto;
+						bottom:-102px;
+						right:auto;
+						left:-20px;
+						width: 153px;
+						height: 89px;
+						margin:auto;					
+						background-image: url("../img/service/hoarding_house/detail/ico_arrow_v.svg") !important;
+					}
+				}
+			}			
 		}
 		&_info{
 			width: 420px;
@@ -1280,6 +1312,12 @@
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
+			}
+			&.wide{
+				width: calc(100% - 330px);
+				@include sp{
+					width: 100%;
+				}
 			}
 			.type{
 				width: 200px;
@@ -1333,6 +1371,12 @@
 						width: 140px;
 						margin: 0;
 						margin-bottom: 10px;
+					}
+					&.flex_size dd{
+						@media screen and (min-width:681px) {
+							width: auto;
+							margin-right: 15px;
+						}
 					}
 				}
 			}
@@ -1450,6 +1494,100 @@
 		}
 		.text-center{
 			margin-top: 30px;
+		}
+		&_yen{
+			font-size: 14px;
+		}
+		&_price{
+			margin-bottom: 30px;
+			@include sp{
+				display:flex;
+				justify-content: flex-end;
+				margin-bottom: s(12);
+			}
+			dl{
+				display: flex;
+				justify-content: flex-end;
+				align-items: flex-end;
+				@include sp{
+					display:block;
+				}
+			}
+			dt{
+				font-size: 14px;
+				@include sp{
+					margin-bottom: s(3);
+				}
+			}
+			dd{
+				margin-left: 10px;
+				font-size: 28px;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 600;	
+				@include sp{
+					margin-left: 0;
+				}			
+			}
+		}
+		&_summary{
+			position: relative;
+			margin:18px 0 20px 0;
+			@include sp{
+				margin:s(15) 0 s(15) 0;
+				padding-bottom: s(5);
+			}
+			&:after{
+				content: "";
+				display: block;
+				width: 100%;
+				height: 1px;
+				background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+				background-size: 9px 1px;
+				background-repeat: repeat-x;
+				position: absolute;
+				bottom: 0;				
+			}
+			dt{
+				margin-bottom: 5px;
+				color:$main_color;
+				font-size: 18px;
+				font-weight: 700;
+				@include sp{
+					line-height: s(26);
+				}
+			}
+			dd{
+				margin-left: 0;
+				font-size: 16px;
+				line-height: (30 / 16);
+			}
+		}
+		&_staff{
+			padding:22px 20px;
+			border-radius: 20px;
+			background: #F7F3E5;
+			@include sp{
+				padding:s(18) s(15);
+				border-radius: s(10);
+			}
+			dt{
+				margin-bottom: 10px;
+				font-size: 14px;
+				font-weight: 700;
+				@include sp{
+					margin-bottom:s(10);
+					font-size:s(14);
+				}
+			}
+			dd{
+				margin-left: 0;
+				font-size: 16px;
+				line-height: (30 / 16);
+				@include sp{
+					font-size:s(16);
+					line-height: s(30);
+				}
+			}
 		}
 
 		&_box.color01{
@@ -4533,6 +4671,10 @@
 		text-align: center;
 		font-size: 32px;
 		font-weight: 700;
+		@include sp{
+			padding:s(15);
+			font-size:s(18);
+		}
 		strong{
 			color:#FFD800;
 			font-weight: inherit;
@@ -4542,6 +4684,9 @@
 		padding:30px 35px;
 		background: #fff;
 		border-radius: 10px;
+		@include sp{
+			padding:s(10) s(15);
+		}
 	}
 	&__lead{
 		margin-bottom: 25px;
@@ -4551,26 +4696,52 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 20px;
+		@include sp{
+			display:block;
+			margin-bottom: s(20);
+		}
 		&_img{
 			width: 350px;
+			@include sp{
+				width: 100%;
+				margin-bottom: s(10);
+			}
 			img{
 				max-width: 100%;
+				@include sp{
+					border-radius: s(10);
+				}
+				
 			}
 		}
 		dl{
 			width:calc(100% - 370px);
+			@include sp{
+				width: 100%;
+			}
 			&:last-child{
 				margin-bottom: 0;
 			}
 			dt{
+				margin-bottom: 5px;
 				color:$main_color;
 				font-weight: 700;
 				font-size: 26px;
 				line-height: (39 / 26);
+				@include sp{
+					margin-bottom: s(8);
+					font-size: s(18);
+					text-align: center;
+				}
+
 			}
 			dd{
 				margin-left: 0;
 				line-height: (30 / 16);
+				@include sp{
+					font-size: s(16);
+					line-height: s(30);
+				}
 			}
 		}
 	}

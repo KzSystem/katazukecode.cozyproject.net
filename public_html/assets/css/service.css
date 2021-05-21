@@ -463,7 +463,7 @@
 }
 
 .service_lower__about_text-box {
-  width: 557px;
+  width: 560px;
 }
 
 @media (max-width: 680px) {
@@ -487,6 +487,12 @@
     margin-bottom: 4vw;
     font-size: 8vw;
     text-align: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .service_lower__about_title--small {
+    font-size: 7.46667vw;
   }
 }
 
@@ -877,7 +883,7 @@
 
 .service_lower__menu_text-box {
   padding: 10px 0;
-  width: 556px;
+  width: 558px;
 }
 
 @media (max-width: 680px) {
@@ -1398,6 +1404,10 @@
   margin-top: 10px;
 }
 
+.service_lower__case01_box.bg_wh {
+  background: #fff;
+}
+
 @media (max-width: 680px) {
   .service_lower__case01_box {
     width: 92vw;
@@ -1492,6 +1502,28 @@
   }
 }
 
+@media screen and (min-width: 681px) {
+  .service_lower__case01_img.vertical {
+    display: block;
+    width: 302px;
+  }
+  .service_lower__case01_img.vertical .before {
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .service_lower__case01_img.vertical .before::after {
+    top: auto;
+    bottom: -102px;
+    right: auto;
+    left: -20px;
+    width: 153px;
+    height: 89px;
+    margin: auto;
+    background-image: url("../img/service/hoarding_house/detail/ico_arrow_v.svg") !important;
+  }
+}
+
 .service_lower__case01_info {
   width: 420px;
   padding-top: 25px;
@@ -1502,6 +1534,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.service_lower__case01_info.wide {
+  width: calc(100% - 330px);
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_info.wide {
+    width: 100%;
+  }
 }
 
 .service_lower__case01_info .type {
@@ -1563,6 +1605,13 @@
   width: 140px;
   margin: 0;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 681px) {
+  .service_lower__case01_info .status-list.flex_size dd {
+    width: auto;
+    margin-right: 15px;
+  }
 }
 
 .service_lower__case01_info .price {
@@ -1694,6 +1743,139 @@
 
 .service_lower__case01 .text-center {
   margin-top: 30px;
+}
+
+.service_lower__case01_yen {
+  font-size: 14px;
+}
+
+.service_lower__case01_price {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_price {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3.2vw;
+  }
+}
+
+.service_lower__case01_price dl {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_price dl {
+    display: block;
+  }
+}
+
+.service_lower__case01_price dt {
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_price dt {
+    margin-bottom: 0.8vw;
+  }
+}
+
+.service_lower__case01_price dd {
+  margin-left: 10px;
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_price dd {
+    margin-left: 0;
+  }
+}
+
+.service_lower__case01_summary {
+  position: relative;
+  margin: 18px 0 20px 0;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_summary {
+    margin: 4vw 0 4vw 0;
+    padding-bottom: 1.33333vw;
+  }
+}
+
+.service_lower__case01_summary:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+  background-size: 9px 1px;
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0;
+}
+
+.service_lower__case01_summary dt {
+  margin-bottom: 5px;
+  color: #03A58E;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_summary dt {
+    line-height: 6.93333vw;
+  }
+}
+
+.service_lower__case01_summary dd {
+  margin-left: 0;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.service_lower__case01_staff {
+  padding: 22px 20px;
+  border-radius: 20px;
+  background: #F7F3E5;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_staff {
+    padding: 4.8vw 4vw;
+    border-radius: 2.66667vw;
+  }
+}
+
+.service_lower__case01_staff dt {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_staff dt {
+    margin-bottom: 2.66667vw;
+    font-size: 3.73333vw;
+  }
+}
+
+.service_lower__case01_staff dd {
+  margin-left: 0;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .service_lower__case01_staff dd {
+    font-size: 4.26667vw;
+    line-height: 8vw;
+  }
 }
 
 .service_lower__case01_box.color01 .service_lower__case01_info .type {
@@ -5474,6 +5656,13 @@
   font-weight: 700;
 }
 
+@media (max-width: 680px) {
+  .service_consultation__title {
+    padding: 4vw;
+    font-size: 4.8vw;
+  }
+}
+
 .service_consultation__title strong {
   color: #FFD800;
   font-weight: inherit;
@@ -5483,6 +5672,12 @@
   padding: 30px 35px;
   background: #fff;
   border-radius: 10px;
+}
+
+@media (max-width: 680px) {
+  .service_consultation__body {
+    padding: 2.66667vw 4vw;
+  }
 }
 
 .service_consultation__lead {
@@ -5496,16 +5691,42 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 680px) {
+  .service_consultation__case {
+    display: block;
+    margin-bottom: 5.33333vw;
+  }
+}
+
 .service_consultation__case_img {
   width: 350px;
+}
+
+@media (max-width: 680px) {
+  .service_consultation__case_img {
+    width: 100%;
+    margin-bottom: 2.66667vw;
+  }
 }
 
 .service_consultation__case_img img {
   max-width: 100%;
 }
 
+@media (max-width: 680px) {
+  .service_consultation__case_img img {
+    border-radius: 2.66667vw;
+  }
+}
+
 .service_consultation__case dl {
   width: calc(100% - 370px);
+}
+
+@media (max-width: 680px) {
+  .service_consultation__case dl {
+    width: 100%;
+  }
 }
 
 .service_consultation__case dl:last-child {
@@ -5513,13 +5734,29 @@
 }
 
 .service_consultation__case dl dt {
+  margin-bottom: 5px;
   color: #03A58E;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.5;
 }
 
+@media (max-width: 680px) {
+  .service_consultation__case dl dt {
+    margin-bottom: 2.13333vw;
+    font-size: 4.8vw;
+    text-align: center;
+  }
+}
+
 .service_consultation__case dl dd {
   margin-left: 0;
   line-height: 1.875;
+}
+
+@media (max-width: 680px) {
+  .service_consultation__case dl dd {
+    font-size: 4.26667vw;
+    line-height: 8vw;
+  }
 }

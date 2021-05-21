@@ -1593,6 +1593,18 @@ br{
 		display: block;
 	}
 
+	&_space{
+		display: flex;
+		justify-content: center;
+		padding:30px 0 50px 0;
+	}
+
+	&_space_02{
+		display: flex;
+		justify-content: center;
+		padding:30px 0 0 0;
+	}	
+
 }
 
 // -------------------------------------------------
@@ -1846,6 +1858,7 @@ br{
 		}
 	}
 	&__sp_br{
+		display:none;
 		@include sp{
 			display:inline !important;
 		}
@@ -3332,7 +3345,6 @@ br{
 		margin-top: 10px;
 	}
 }
-
 // -------------------------------------------------
 // l_5reasons
 // -------------------------------------------------
@@ -3406,6 +3418,7 @@ br{
 					}
 				}
 			}
+
 			h3{
 				background: $main_color;
 				color: #fff;
@@ -3493,6 +3506,7 @@ br{
 					border: solid 3px $main_color;
 					border-left: none;
 				}
+			
 			}
 			/*&:hover{
 				box-shadow: 0 0 0 3px $main_color_hover;
@@ -3508,8 +3522,9 @@ br{
 			height: auto;
 			min-height: 108px;
 			padding-top: 3px;
-			line-height: (26 / 18);		
-		}
+			line-height: (26 / 18);
+			
+		}		
 	}
 
 	&__img_01{
@@ -3542,7 +3557,8 @@ br{
 			width:s(110) !important;
 			margin-left: s(-3);
 		}		
-	}				
+	}		
+	
 	&__img_06{
 		@include sp{
 			width:s(103) !important;
@@ -3559,6 +3575,7 @@ br{
 			
 		}
 	}		
+
 	&__detail{
 		width: $cont_w_pc;
 		margin: 50px auto 0;
@@ -3673,6 +3690,9 @@ br{
 			}
 			&--low{
 				padding:20px ;
+				@include sp{
+					padding:s(25) s(20) s(15) s(20) ;
+				}
 			}
 			&:before{
 				content:"";
@@ -3810,84 +3830,150 @@ br{
 			}
 			&--center{
 				width: 100%;
-				text-align: center;		
+				text-align: center;
+			}			
 		}
-	}
-	&_title_03{
-		width: 100%;
-		font-size: 32px;
-		font-weight: 700;
-		line-height: (42 / 32);
-		text-align: center;
-		@include sp{
-			font-size:s(18);
+
+		&_title_03{
+			width: 100%;
+			font-size: 32px;
+			font-weight: 700;
+			line-height: (42 / 32);
 			text-align: center;
-		}
-		.color_yellow{
-			color: $point_color;
-		}
-	}
-	&_ico{
-		position: relative;
-		display: inline-block;
-		&:before,
-		&:after{
-			content:"";
-			position: absolute;
-			top:-0px;
-			display: block;
-			width: 30px;
-			height: 30px;
-			background: url("../img/service/hoarding_house/apartment/ico_line.svg") no-repeat center;
-		}
-		&:before{
-			left:-50px;
-		}
-		&:after{
-			transform: rotate(90deg);
-			right:-40px;
-		}
-	}
-	&_paper{
-		display: flex;
-		align-items: center;
-		padding:35px 30px;
-		background: #F7F3E5;
-		line-height: (22 / 16);
-		&_col{
-			width: 50%;
-			&:nth-child(1){
-				border-right:#D9CFA9 solid 1px;
+			@include sp{
+				font-size:s(18);
+				text-align: center;
+				line-height: s(26);
+			}
+			.color_yellow{
+				color: $point_color;
 			}
 		}
-	}
-	&_doc_02{
-		display: flex;
-		align-items: flex-end;
-		padding-right: 60px;
-		p{
-			margin-top: 40px;
-			padding-bottom: 10px;
+		&_ico{
+			position: relative;
+			display: inline-block;
+			&:before,
+			&:after{
+				content:"";
+				position: absolute;
+				top:-0px;
+				display: block;
+				width: 30px;
+				height: 30px;
+				background: url("../img/service/hoarding_house/apartment/ico_line.svg") no-repeat center;
+				@include sp{
+					width:s(20);
+					height:s(20);						
+					background-size: contain;
+				}
+			}
+			&:before{
+				left:-50px;
+				@include sp{
+					left:s(-30);
+				}
+			}
+			&:after{
+				transform: rotate(90deg);
+				right:-40px;
+				@include sp{
+					transform: rotate(0);
+					right:s(-30);
+					background-image: url("../img/service/hoarding_house/ico-speech_dash_color.svg");
+				
+				}
+			}
 		}
-		&_left{
-			margin-right: 30px;
-			
-		}
-		&_right{
 
+		&_paper{
+			display: flex;
+			align-items: center;
+			padding:35px 30px;
+			background: #F7F3E5;
+			line-height: (22 / 16);
+			@include sp{
+				display:block;
+				padding:s(10) s(15) s(30) s(15);
+			}
+			&_col{
+				width: 50%;
+				@include sp{
+					width: 100%;
+				}
+				&:nth-child(1){
+					border-right:#D9CFA9 solid 1px;
+					@include sp{
+						border-right:none;
+						border-bottom:#D9CFA9 solid 1px;
+					}
+				}
+			}
 		}
-	}
-	&_doc_03{
-		display: flex;
-		align-items: center;
-		padding-left: 60px;
-		&_left{
-			margin-right: 30px;
-		}
-		&_right{
 
+		&_doc_02{
+			display: flex;
+			align-items: flex-end;
+			padding-right: 60px;
+			@include sp{
+				align-items: center;
+				padding-right: 0;
+			}
+			p{
+				margin-top: 40px;
+				padding-bottom: 10px;
+				@include sp{
+					margin-top: 0;
+					padding-bottom: 0;
+				}
+			}
+			&_sp_txt{
+				padding-left: 1em;
+				padding:s(5) 0 s(10) 1em;
+				text-indent: -1em;
+			}
+			&_left{
+				width: 170px;
+				margin-right: 30px;
+				@include sp{
+					width:s(110);
+					margin-right:s(20);
+				}
+				img{
+					max-width: 100%;
+				}	
+			}
+			&_right{
+				width: 260px;
+				@include sp{
+					width:s(164);
+				}
+			}
 		}
-	}		
+
+		&_doc_03{
+			display: flex;
+			align-items: center;
+			padding-left: 60px;
+			@include sp{
+				padding-left: 0;
+				padding:s(20) 0 0 0; 
+			}
+			&_left{
+				width: 200px;
+				margin-right: 30px;
+				@include sp{
+					width:s(147);
+					margin-right:s(15);
+				}
+				img{
+					max-width: 100%;
+				}				
+			}
+			&_right{
+
+			}
+		}		
+
 		&_doc{
 			position: relative;
 			@include sp{
@@ -3933,6 +4019,7 @@ br{
 				font-size: 16px;
 			}
 		}
+
 		&_point{
 			position: relative;
 			display: block;
@@ -3976,6 +4063,7 @@ br{
 				}
 			}
 		}
+
 		&_title{
 			display: flex;
 			justify-content: center;
@@ -3990,7 +4078,8 @@ br{
 			text-align: center;
 			.color_yellow{
 				color: $point_color;
-			}		
+			}
+		
 			@include sp{
 				height: s(85);
 				padding-top: s(10);
@@ -4682,6 +4771,7 @@ br{
 	}
 }
 
+
 // -------------------------------------------------
 // l_comment
 // -------------------------------------------------
@@ -4866,6 +4956,7 @@ br{
 			max-width: 100%;
 			@include sp{
 				margin-bottom:s(8);
+				
 			}
 		}
 	}
@@ -4943,6 +5034,7 @@ br{
 	background: #FFD800;
 	color:#000;
 }
+
 
 // -------------------------------------------------
 // l_official_channel
@@ -8178,6 +8270,24 @@ br{
 	&--oneline{
 		padding:35px 0 50px 0;
 	}
+	&--multi{
+		padding:26px 0 47px 0;
+		@include sp{
+			height:s(180);
+			padding: 0;
+			text-align: center;
+		}
+	}
+	&--multi &__main{
+		margin-top: s(10);
+	}
+	&--multi &__main .point{
+		@include sp{
+			padding-top: 0.1em;
+			line-height: s(56);
+			text-align: center;
+		}
+	}
 	&__sub{
 		font-size: 28px;
 		@include sp{
@@ -8219,6 +8329,9 @@ br{
 		margin-top: s(50);
 		margin-bottom: s(30);
 	}
+	&--no-space{
+		margin-bottom: 0;
+	}
 	&_box{
 		width: 540px;
 		background: #fff;
@@ -8229,6 +8342,9 @@ br{
 		&:nth-child(even){
 			margin-left: 20px;
 		}
+		&:only-child{
+			margin:0 auto;
+		}
 		a{
 			display: flex;
 			padding: 5px;
@@ -8236,7 +8352,7 @@ br{
 			figure{
 				overflow: hidden;
 				width: 213px;
-				height: 226px;
+				height: 100%;
 				border-radius: 15px;
 				img{
 					display: block;
@@ -8275,6 +8391,8 @@ br{
 			transition: background .2s;
 			.name{
 				position: relative;
+				display: block;
+				width:calc(100% - 50px);
 			}
 			.icon-arrow{
 				right: -30px;
@@ -8297,6 +8415,7 @@ br{
 				}
 			}
 		}
+
 		p{
 			line-height: 1.8;
 			padding: 17px 15px;
@@ -8339,6 +8458,15 @@ br{
 			}
 		}
 	}
+	h3.l_otherLinks_box__high_title{
+		height:auto ;
+		padding:20px 15px ;
+		line-height: (30 / 24) ;
+		@include sp{
+			padding:s(15) s(20);
+			line-height: s(30);
+		}
+	}	
 }
 	
 // -------------------------------------------------
@@ -10176,6 +10304,8 @@ body .l_sec_bg{
   }
 }
 
+
+
 // -------------------------------------------------
 //  l_sub_title
 // -------------------------------------------------
@@ -10236,6 +10366,9 @@ body .l_sec_bg{
 	}
 	&--space{
 		padding-bottom: 50px;
+		@include sp{
+			padding-bottom: s(25);
+		}
 	}
 	dl{
 		width: 353px;
@@ -10287,7 +10420,9 @@ body .l_sec_bg{
 }
 
 // -------------------------------------------------
-//  snippet
+//  snippet 
 // -------------------------------------------------
 
 @import '_snippet';
+
+

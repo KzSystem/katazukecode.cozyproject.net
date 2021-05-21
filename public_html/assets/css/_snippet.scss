@@ -1,0 +1,330 @@
+
+@import '_general';
+$main_color: #03A58E;
+$border_color: #DCDCDC;
+
+
+.l_section_space_01{
+    padding:70px 0 50px 0;
+    @include sp{
+        padding: s(50) 0 s(30);
+    }
+    &--bg{
+        background: #F7F3E5;
+    }
+    &--bottom-no-space{
+        padding-bottom: 0;
+    }
+}
+.l_section_space_02{
+    padding:80px 0 50px 0;
+    @include sp{
+        padding: s(50) 0 s(30);
+    }    
+    &--bg{
+        background: #F7F3E5;
+    }
+}
+
+
+.l_section_title--left .en,
+.l_section_title--left{
+    text-align: left;
+}
+
+//==================================================
+// タイトル
+//==================================================
+
+.l_section_title{
+    &--base_space{
+        margin-bottom: 30px;
+        @include sp{
+            margin-bottom:s(20);
+        }
+    }
+    &--high_space{
+        margin-bottom: 40px;
+        @include sp{
+           margin-bottom:s(30);
+        }
+    }    
+}
+
+.l_lead_title{
+    @extend .font-maru;
+    font-size: 35px;
+    line-height: 1.5;
+    &__marker{
+        background: $point_color;
+    }
+    @include sp{
+        max-width: s(345);
+        margin-left: auto;
+        margin-right: auto;
+        font-size: s(30);
+        text-align: center;
+    }
+    &--center{
+        text-align: center;
+    }
+    &--base_space{
+        margin-bottom: 20px ;
+        @include sp{
+            margin-bottom:s(15);
+        }
+    }
+}
+
+.l_block_title_01{
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid #DCDCDC;
+    @include sp{
+        max-width: s(345);
+        margin-left: auto;
+        margin-right: auto;        
+        padding-bottom: s(15);
+        font-size: s(24);
+    }    
+    &--center{
+        text-align: center;
+    }    
+    &--line_color{
+        border-color: $main_color;
+    }
+    &--base_space{
+        margin-bottom: 20px;
+        @include sp{
+            margin-bottom:s(30)
+        }
+    }
+}
+
+.l_block_title_02{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    position: relative;
+    @include sp{
+        max-width: s(345);
+        margin-left: auto;
+        margin-right: auto;          
+        font-size: s(24);
+        padding-bottom: s(15);
+    }    
+    &--center{
+        text-align: center;
+    }    
+    &:after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-image: linear-gradient(to right, #dcdcdc, #dcdcdc 4px, transparent 4px, transparent 9px);
+        background-size: 9px 1px;
+        background-repeat: repeat-x;
+        position: absolute;
+        bottom: 0;
+        left: 0;        
+    }
+    &--line_color:after{
+        background-image: linear-gradient(to right, #03A58E, #03A58E 4px, transparent 4px, transparent 9px)
+    }
+    &-base_space{
+        margin-bottom: 15px;
+        @include sp{
+            margin-bottom:s(10);
+        }
+    }
+}
+
+.l_sub_title_01{
+    color: #03A58E;
+    font-weight: 700;
+    font-size: 26px;
+    @include sp{
+        max-width: s(345);
+        margin-left: auto;
+        margin-right: auto;           
+    }
+    &--center{
+        text-align: center;
+    }
+    &--base_space{
+        margin-bottom: 10px;
+        @include sp{
+            margin-bottom: s(10);
+        }
+    }
+}
+
+.l_sub_title_02{
+    padding: 0 15px;
+    font-size: 26px;
+    font-weight: bold;
+    border-left: solid #03A58E 5px;
+    color: #03A58E;
+    @include sp{
+        max-width: s(345);
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    &--center{
+        text-align: center;
+    }
+    &--base_space{
+        margin-bottom: 20px;
+        @include sp{
+            margin-bottom: s(10);
+        }
+    }    
+}
+
+//==================================================
+// ボタン
+//==================================================
+
+.l_btn_small_02{
+    display: block;
+    padding: 0 30px 15px 0;
+    text-decoration: none;
+    position: relative;
+    transition: padding .2s;
+    box-sizing: border-box;
+    @include sp{
+        padding:0 0 s(15) 0;
+    }
+    &__arrow{
+        position: absolute;
+        right:0;
+        top:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        width: 16px;
+        height: 16px;
+        border-radius: 50% 50%;
+        transition: all .2s;        
+        right: 0;
+        background: $main_color;
+        @include sp{
+           
+        }
+        svg{
+            fill: #fff;
+            stroke: #fff;
+        }
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;        
+        background: $main_color;
+        display: block;
+        width: 100%;
+        height: 1px;
+        @include sp{
+            background: #DEE8E7;
+        }
+    }
+    &:hover{
+        padding-left: 15px;
+        &::after{
+            height: 2px;
+        }
+        @include sp{
+            padding: s(15) 0;
+        }
+    }
+}
+
+.l_btn_small_03{
+    position: relative;
+    display: block;
+    padding-right: 30px;
+    width: 160px;
+    color: $main_color;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: padding .2s;
+    white-space: nowrap;
+    text-decoration: none;
+    @include sp{
+        padding-right: s(30);
+        width: s(160);
+        margin: s(20) s(20) s(20) auto;
+    }
+    &:hover{
+        padding-left: 10px;
+    }
+    &--center{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    &__arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        width: 16px;
+        height: 16px;
+        border-radius: 50% 50%;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        transition: all .2s;        
+        right: 0;
+        top: 55%;
+        background: $main_color;
+        
+        svg{
+            stroke: #fff;
+            fill: #fff;
+        }
+    }
+}
+
+//==================================================
+// tag
+//==================================================
+
+.l_tag{
+    border-radius: 3px;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    &--type_01{
+        background: $main_color;
+    }
+    &--type_02{
+        background: #EB844E;
+    }
+    &--type_03{
+        background: #00AAC7;
+    }
+    &--type_04{
+        background: #6CC46C;
+    }
+    &--type_05{
+        background: #E288B1;
+    }
+    &--type_06{
+        background: #3678BA;
+    }
+    &--type_07{
+        background: #9289C4;
+    }
+    @include sp{
+        border-radius: s(3);
+        padding: s(5) 0;
+        font-size: s(12);
+    }
+}
