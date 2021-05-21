@@ -1725,18 +1725,11 @@
         .store__price_other li div strong {
           font-size: 24px; }
         .store__price_other li div .point {
-          position: relative; }
-          .store__price_other li div .point::before {
-            content: "";
-            display: block;
-            width: 6px;
-            height: 6px;
-            background: #FFD800;
-            border-radius: 50% 50%;
-            left: 50%;
-            transform: translateX(-50%);
-            top: -3px;
-            position: absolute; }
+					padding-top: .2em;
+					background-position: top left -2px;
+					background-repeat: repeat-x;
+					background-size: 1.04em .2em;
+					background-image: url(/assets/img/point.png);}
             @media (max-width: 680px) {
               .store__price_other li div .point::before {
                 width: 1.3333333333vw;
