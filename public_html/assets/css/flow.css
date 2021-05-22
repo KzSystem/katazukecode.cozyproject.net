@@ -53,6 +53,7 @@
           color: #03A58E;
           line-height: 1.2; }
         .flow__details_nav ul li.active {
+          pointer-events: none;
           background: #03A58E;
           border: none;
           font-weight: 700; }

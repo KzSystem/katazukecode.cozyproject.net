@@ -58,6 +58,7 @@
 						line-height: 1.2;
 					}
 					&.active{
+            pointer-events: none;
 						background: $main_color;
 						border: none;
 						font-weight: 700;

@@ -32,7 +32,7 @@
 						</li>
 						<li itemscope itemprop="itemListElement" itemtype="https://schema.org/ListItem">
 							<a itemprop="item" href="">
-								<span itemprop="name">不用品買取</span>
+								<span itemprop="name">不用品回収</span>
 								<meta itemprop="position" content="3" />
 							</a>
 						</li>
@@ -302,8 +302,8 @@
 				<?php require_once( dirname(__FILE__). '/../../../../assets/block_parts/bnr/t_point.php'); ?>
         <section class="commodity__price l_section_space_01 l_section_space_01--bg">
 					<h2 class="l_section_title">
-						<span class="jp">ベッドの処分方法</span>
-						<span class="en">METHOD</span>
+            <span class="jp"><span class="small">片付け堂の</span><br>〇〇〇の処分費用の参考料金</span>
+						<span class="en">PRICE</span>
 					</h2>
 					<p class="l_section_lead">
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
@@ -344,7 +344,7 @@
         </section>
         <section class="commodity__procedure l_section_space_01">
 					<h2 class="l_section_title">
-						<span class="jp">ベッドの回収方法と作業手順</span>
+						<span class="jp">ベッドの回収方法と<br class="sp">作業手順</span>
 						<span class="en">PROCEDURE</span>
 					</h2>
 					<p class="l_section_lead">
@@ -748,7 +748,7 @@
           <div class="text-center">
             <a class="l_btn_more" href="">
               <span class="l_btn_more__wrap">
-                <span class="point">不用品回収のお客様の声</span>について見る
+                <span class="point">不用品回収のお客様の声</span>をもっと見る
                 <span class="icon-arrow">
                   <svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
                 </span>
@@ -803,7 +803,7 @@
         </section>
 				<section id="faq" class="service_lower__faq">
 					<figure class="sp"><img src="../../../../assets/img/store/cmn/faq_obj.svg" alt="イメージ"></figure>
-					<h2 class="l_section_title"><span class="small">不用品回収の</span><br>よくある質問<span class="en">FAQ</span></h2>
+					<h2 class="l_section_title"><span class="small">ベッド回収の</span><br>よくある質問<span class="en">FAQ</span></h2>
 					<p>
 						この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。
 					</p>
