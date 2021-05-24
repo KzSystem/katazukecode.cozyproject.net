@@ -4645,19 +4645,136 @@
 }
 
 .service_before_after{
-	display: block;
-	max-width: 840px;
+	padding:110px 20px 55px 20px;
 	margin:30px auto 0 auto;
 	text-align: center;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 23px;
 	@include sp{
-		margin-top: s(20);
-		padding:0 s(15);
-		box-sizing: border-box;
+		padding:s(50) s(15) s(30) s(15);
+		font-size: s(14);
 	}
-	picture,
-	img{
-		display: block;
-		max-width: 100%;
+	ul{
+		position: relative;
+		width: 674px;
+		height: 674px;
+		margin:0 auto;
+		background: url("../img/service/dismantling/before_after_main.png") no-repeat center / contain;
+		@include sp{
+			width:s(300);
+			height:s(300);
+			background-image: url("../img/service/dismantling/sp_before_after_main.png");
+		}	
+	}
+	li{
+		position: absolute;
+		width: 202px;
+		height: 202px;		
+		line-height: (28 / 23);
+		@include sp{
+			width:s(100);
+			height:s(100);
+			line-height: s(18);
+		}
+		a{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			text-decoration: none;
+			color:#fff;
+			background:  no-repeat center / contain;
+			@include sp{
+				padding-bottom:s(5);
+			}
+			&:hover{
+				opacity: .8;
+			}
+		}
+
+		&:nth-child(1){
+			top:-114px;
+			left:228px;
+			margin:auto;
+			@include sp{
+				top:s(-50);
+				left:0;
+				right:0;
+				margin:auto;
+			}
+			a{
+				background-image: url("../img/service/dismantling/before_after_01.png");
+			}
+		}
+		&:nth-child(2){
+			right:-15px;
+			top:28px;
+			@include sp{
+				top:s(0);
+				right:s(-8);
+			}
+			a{
+				background-image: url("../img/service/dismantling/before_after_02.png");
+			}			
+		}	
+		&:nth-child(3){
+			right:-80px;
+			top:288px;
+			@include sp{
+				top:s(120);
+				right:s(-25);
+			}
+			a{
+				background-image: url("../img/service/dismantling/before_after_03.png");
+			}			
+		}	
+		&:nth-child(4){
+			right:70px;
+			bottom:-55px;
+			@include sp{
+				right:s(30);
+				bottom:s(-30);
+			}
+			a{
+				background-image: url("../img/service/dismantling/before_after_04.png");
+			}			
+		}	
+		&:nth-child(5){
+			left:90px;
+			bottom:-55px;
+			@include sp{
+				left:s(30);
+				bottom:s(-30);
+			}			
+			a{
+				background-image: url("../img/service/dismantling/before_after_05.png");
+			}			
+		}	
+		&:nth-child(6){
+			left:-80px;
+			top:288px;
+			@include sp{
+				top:s(120);
+				left:s(-25);
+			}			
+			a{
+				background-image: url("../img/service/dismantling/before_after_06.png");
+			}			
+		}	
+		&:nth-child(7){
+			left:-16px;
+			top:35px;		
+			@include sp{
+				top:s(0);
+				left:s(-8);
+			}	
+			a{
+				background-image: url("../img/service/dismantling/before_after_07.png");
+			}		
+		}
+													
+
 	}
 }
 

@@ -550,138 +550,175 @@
 				<section class="l_section_space_01 l_section_space_01--bg">
 					<h2 class="l_section_title"><span class="small">賃貸アパート・マンションの<br class="sp">ゴミ屋敷清掃の</span>作業実績<span class="en">CASES</span></h2>
 					<p class="l_section_lead l_section_lead--bottom_space_s">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
-					<div class="service_lower__case01_box color01 bg_wh">
-						<div class="flex-wrap">
-							<div class="service_lower__case01_img vertical">
-								<figure class="before">
-									<img src="../../../assets/img/price/lower/case_obj01_before.jpg" alt="イメージ">
-								</figure>
-								<figure class="after">
-									<img src="../../../assets/img/price/lower/case_obj01_after.jpg" alt="イメージ">
-								</figure>
-							</div>
-							<div class="service_lower__case01_info wide">
-								<div class="flex-box">
-									<div class="type">ゴミ屋敷清掃</div>
-									<div class="place">島根県松江市</div>
+
+
+					<ul class="l_cases--type2_list">
+						<li class="l_cases--type2_box green">
+							<div class="l_cases--type2_box-wrap">
+								<div class="l_cases--type2_img">
+									<figure>
+										<img src="../../../../assets/img/area/sample/case_obj02.jpg" alt="イメージ">
+									</figure>
+									<span class="ico-after">
+										<svg class="pc" xmlns="https://www.w3.org/2000/svg" width="156" height="92" viewBox="0 0 156.121 91.855"><g transform="translate(-222.939 -13214.5)"><path class="arrow_02" d="M-17171.463,9890.742-17247,9851.4a1,1,0,0,1,.463-1.888h20.414V9802h108.494v47.516h22.162a1,1,0,0,1,.463,1.888l-75.535,39.339a1,1,0,0,1-.463.113A1.007,1.007,0,0,1-17171.463,9890.742Z" transform="translate(17472 3414)" stroke="#fff" stroke-width="3"></path><path d="M.56,0H4.452l.924-5.236H9.324L10.22,0h3.836L9.52-22.68H5.1ZM5.8-7.868l1.54-9.52,1.54,9.52ZM16.324,0H20.44V-10.332H24.7v-2.884H20.44v-6.608h5.208V-22.68H16.324ZM30.156,0H34.3V-19.628h3.528V-22.68H26.544v3.052h3.612ZM39.9,0h9.576V-2.828h-5.46V-10.36h4.256v-2.884H44.016v-6.524h5.4V-22.68H39.9ZM51.884,0H56V-10.388h1.96L60.676,0H64.82L61.656-11.172c2.128-.868,2.8-2.772,2.8-5.488,0-4.564-2.576-6.02-7.112-6.02h-5.46ZM56-12.964v-6.888h1.54c2.38,0,3.024,1.12,3.024,3.416,0,2.436-.868,3.472-3.248,3.472Z" transform="translate(267 13265)" fill="#fff"></path></g></svg>
+										<svg class="sp" xmlns="https://www.w3.org/2000/svg" width="70" height="77" viewBox="0 0 69.732 76.839"><g transform="translate(-13214 304.667) rotate(-90)"><path class="arrow_02" d="M35.915,67.509-.477,38.1a1,1,0,0,1,.629-1.778H9.392V0H62.834V36.319h10.1a1,1,0,0,1,.629,1.778L37.173,67.509a1,1,0,0,1-1.257,0Z" transform="translate(229.703 13215)" stroke="#fff" stroke-width="2"></path><path d="M.32,0H2.544l.528-2.992H5.328L5.84,0H8.032L5.44-12.96H2.912ZM3.312-4.5l.88-5.44.88,5.44ZM9.328,0H11.68V-5.9h2.432V-7.552H11.68v-3.776h2.976V-12.96H9.328Zm7.9,0H19.6V-11.216h2.016V-12.96H15.168v1.744h2.064ZM22.8,0h5.472V-1.616h-3.12v-4.3h2.432V-7.568H25.152V-11.3H28.24V-12.96H22.8Zm6.848,0H32V-5.936h1.12L34.672,0H37.04L35.232-6.384c1.216-.5,1.6-1.584,1.6-3.136,0-2.608-1.472-3.44-4.064-3.44h-3.12ZM32-7.408v-3.936h.88c1.36,0,1.728.64,1.728,1.952,0,1.392-.5,1.984-1.856,1.984Z" transform="translate(259.909 13224.424) rotate(90)" fill="#fff"></path></g></svg>
+									</span>
+									<figure class="l_cases--type2_flame_02">
+										<img src="../../../../assets/img/area/sample/case_obj01.jpg" alt="イメージ">
+									</figure>
 								</div>
-								<div class="status">
-								
-									<dl class="status-list flex_size">
+								<div class="l_cases--type2_content">
+									<div class="flex-box flex-box--tag-long">
+										<div class="l_tag l_tag--type_02">賃貸アパート・マンションのゴミ屋敷清掃</div>
+										<div class="place">北海道札幌市</div>
+									</div>
+									<dl class="status">
+										<dt>回収量</dt><dd>軽トラ1台分</dd>
 										<dt>作業人数</dt><dd>3人</dd>
-										<dt>作業時間</dt><dd>14時間</dd>
-										<dt>回収量</dt><dd>4tトラック×4台分</dd>
+										<dt>作業時間</dt><dd>1時間30分</dd>
 									</dl>
-								</div>
-								<div class="service_lower__case01_summary">
-									<dl>
-										<dt>年末大掃除ゴミと家具の回収テキストテキスト</dt>
-										<dd>作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</dd>
-									</dl>
-								</div>
-								<div class="service_lower__case01_price">
-									<dl>
-										<dt>作業金額</dt>
-										<dd>50,000<span class="service_lower__case01_yen">円</span></dd>
-									</dl>
-								</div>								
-								<div class="service_lower__case01_staff">
-									<dl>
-										<dt>○○店スタッフより</dt>
-										<dd>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</dd>
-									</dl>
+									<div class="outline">
+										<p class="catch-text">年末大掃除ゴミと家具の回収テキストテキスト</p>
+										<p>
+											作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+										</p>
+										<div class="price">
+											<p>作業金額</p>
+											<p class="num">
+												<strong>50,000</strong>
+												<span>円（税込）</span>
+											</p>
+										</div>
+									</div>
+									<div class="message-box">
+										<p class="from">○○店スタッフより</p>
+										<p>
+											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="service_lower__case01_box color01 bg_wh">
-						<div class="flex-wrap">
-							<div class="service_lower__case01_img vertical">
-								<figure class="before">
-									<img src="../../../assets/img/price/lower/case_obj01_before.jpg" alt="イメージ">
-								</figure>
-								<figure class="after">
-									<img src="../../../assets/img/price/lower/case_obj01_after.jpg" alt="イメージ">
-								</figure>
-							</div>
-							<div class="service_lower__case01_info wide">
-								<div class="flex-box">
-									<div class="type">ゴミ屋敷清掃</div>
-									<div class="place">島根県松江市</div>
+							<span class="l_btn">
+								<span class="l_btn__wrap">
+									<span>もっと見る</span>
+									<span class="icon-plus">
+										<img src="../../../../assets/img/ico_plus.svg" alt="+">
+									</span>
+								</span>
+							</span>
+						</li>
+						<li class="l_cases--type2_box green">
+							<div class="l_cases--type2_box-wrap">
+								<div class="l_cases--type2_img">
+									<figure>
+										<img src="../../../../assets/img/area/sample/case_obj02.jpg" alt="イメージ">
+									</figure>
+									<span class="ico-after">
+										<svg class="pc" xmlns="https://www.w3.org/2000/svg" width="156" height="92" viewBox="0 0 156.121 91.855"><g transform="translate(-222.939 -13214.5)"><path class="arrow_02" d="M-17171.463,9890.742-17247,9851.4a1,1,0,0,1,.463-1.888h20.414V9802h108.494v47.516h22.162a1,1,0,0,1,.463,1.888l-75.535,39.339a1,1,0,0,1-.463.113A1.007,1.007,0,0,1-17171.463,9890.742Z" transform="translate(17472 3414)" stroke="#fff" stroke-width="3"></path><path d="M.56,0H4.452l.924-5.236H9.324L10.22,0h3.836L9.52-22.68H5.1ZM5.8-7.868l1.54-9.52,1.54,9.52ZM16.324,0H20.44V-10.332H24.7v-2.884H20.44v-6.608h5.208V-22.68H16.324ZM30.156,0H34.3V-19.628h3.528V-22.68H26.544v3.052h3.612ZM39.9,0h9.576V-2.828h-5.46V-10.36h4.256v-2.884H44.016v-6.524h5.4V-22.68H39.9ZM51.884,0H56V-10.388h1.96L60.676,0H64.82L61.656-11.172c2.128-.868,2.8-2.772,2.8-5.488,0-4.564-2.576-6.02-7.112-6.02h-5.46ZM56-12.964v-6.888h1.54c2.38,0,3.024,1.12,3.024,3.416,0,2.436-.868,3.472-3.248,3.472Z" transform="translate(267 13265)" fill="#fff"></path></g></svg>
+										<svg class="sp" xmlns="https://www.w3.org/2000/svg" width="70" height="77" viewBox="0 0 69.732 76.839"><g transform="translate(-13214 304.667) rotate(-90)"><path class="arrow_02" d="M35.915,67.509-.477,38.1a1,1,0,0,1,.629-1.778H9.392V0H62.834V36.319h10.1a1,1,0,0,1,.629,1.778L37.173,67.509a1,1,0,0,1-1.257,0Z" transform="translate(229.703 13215)" stroke="#fff" stroke-width="2"></path><path d="M.32,0H2.544l.528-2.992H5.328L5.84,0H8.032L5.44-12.96H2.912ZM3.312-4.5l.88-5.44.88,5.44ZM9.328,0H11.68V-5.9h2.432V-7.552H11.68v-3.776h2.976V-12.96H9.328Zm7.9,0H19.6V-11.216h2.016V-12.96H15.168v1.744h2.064ZM22.8,0h5.472V-1.616h-3.12v-4.3h2.432V-7.568H25.152V-11.3H28.24V-12.96H22.8Zm6.848,0H32V-5.936h1.12L34.672,0H37.04L35.232-6.384c1.216-.5,1.6-1.584,1.6-3.136,0-2.608-1.472-3.44-4.064-3.44h-3.12ZM32-7.408v-3.936h.88c1.36,0,1.728.64,1.728,1.952,0,1.392-.5,1.984-1.856,1.984Z" transform="translate(259.909 13224.424) rotate(90)" fill="#fff"></path></g></svg>
+									</span>
+									<figure class="l_cases--type2_flame_02">
+										<img src="../../../../assets/img/area/sample/case_obj01.jpg" alt="イメージ">
+									</figure>
 								</div>
-								<div class="status">
-								
-									<dl class="status-list flex_size">
+								<div class="l_cases--type2_content">
+									<div class="flex-box flex-box--tag-long">
+										<div class="l_tag l_tag--type_02">賃貸アパート・マンションのゴミ屋敷清掃</div>
+										<div class="place">北海道札幌市</div>
+									</div>
+									<dl class="status">
+										<dt>回収量</dt><dd>軽トラ1台分</dd>
 										<dt>作業人数</dt><dd>3人</dd>
-										<dt>作業時間</dt><dd>14時間</dd>
-										<dt>回収量</dt><dd>4tトラック×4台分</dd>
+										<dt>作業時間</dt><dd>1時間30分</dd>
 									</dl>
-								</div>
-								<div class="service_lower__case01_summary">
-									<dl>
-										<dt>年末大掃除ゴミと家具の回収テキストテキスト</dt>
-										<dd>作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</dd>
-									</dl>
-								</div>
-								<div class="service_lower__case01_price">
-									<dl>
-										<dt>作業金額</dt>
-										<dd>50,000<span class="service_lower__case01_yen">円</span></dd>
-									</dl>
-								</div>								
-								<div class="service_lower__case01_staff">
-									<dl>
-										<dt>○○店スタッフより</dt>
-										<dd>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</dd>
-									</dl>
+									<div class="outline">
+										<p class="catch-text">年末大掃除ゴミと家具の回収テキストテキスト</p>
+										<p>
+											作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+										</p>
+										<div class="price">
+											<p>作業金額</p>
+											<p class="num">
+												<strong>50,000</strong>
+												<span>円（税込）</span>
+											</p>
+										</div>
+									</div>
+									<div class="message-box">
+										<p class="from">○○店スタッフより</p>
+										<p>
+											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-				<div class="service_lower__case01_box color01 bg_wh">
-						<div class="flex-wrap">
-							<div class="service_lower__case01_img vertical">
-								<figure class="before">
-									<img src="../../../assets/img/price/lower/case_obj01_before.jpg" alt="イメージ">
-								</figure>
-								<figure class="after">
-									<img src="../../../assets/img/price/lower/case_obj01_after.jpg" alt="イメージ">
-								</figure>
-							</div>
-							<div class="service_lower__case01_info wide">
-								<div class="flex-box">
-									<div class="type">ゴミ屋敷清掃</div>
-									<div class="place">島根県松江市</div>
+							<span class="l_btn">
+								<span class="l_btn__wrap">
+									<span>もっと見る</span>
+									<span class="icon-plus">
+										<img src="../../../../assets/img/ico_plus.svg" alt="+">
+									</span>
+								</span>
+							</span>
+						</li>
+						<li class="l_cases--type2_box green">
+							<div class="l_cases--type2_box-wrap">
+								<div class="l_cases--type2_img">
+									<figure>
+										<img src="../../../../assets/img/area/sample/case_obj02.jpg" alt="イメージ">
+									</figure>
+									<span class="ico-after">
+										<svg class="pc" xmlns="https://www.w3.org/2000/svg" width="156" height="92" viewBox="0 0 156.121 91.855"><g transform="translate(-222.939 -13214.5)"><path class="arrow_02" d="M-17171.463,9890.742-17247,9851.4a1,1,0,0,1,.463-1.888h20.414V9802h108.494v47.516h22.162a1,1,0,0,1,.463,1.888l-75.535,39.339a1,1,0,0,1-.463.113A1.007,1.007,0,0,1-17171.463,9890.742Z" transform="translate(17472 3414)" stroke="#fff" stroke-width="3"></path><path d="M.56,0H4.452l.924-5.236H9.324L10.22,0h3.836L9.52-22.68H5.1ZM5.8-7.868l1.54-9.52,1.54,9.52ZM16.324,0H20.44V-10.332H24.7v-2.884H20.44v-6.608h5.208V-22.68H16.324ZM30.156,0H34.3V-19.628h3.528V-22.68H26.544v3.052h3.612ZM39.9,0h9.576V-2.828h-5.46V-10.36h4.256v-2.884H44.016v-6.524h5.4V-22.68H39.9ZM51.884,0H56V-10.388h1.96L60.676,0H64.82L61.656-11.172c2.128-.868,2.8-2.772,2.8-5.488,0-4.564-2.576-6.02-7.112-6.02h-5.46ZM56-12.964v-6.888h1.54c2.38,0,3.024,1.12,3.024,3.416,0,2.436-.868,3.472-3.248,3.472Z" transform="translate(267 13265)" fill="#fff"></path></g></svg>
+										<svg class="sp" xmlns="https://www.w3.org/2000/svg" width="70" height="77" viewBox="0 0 69.732 76.839"><g transform="translate(-13214 304.667) rotate(-90)"><path class="arrow_02" d="M35.915,67.509-.477,38.1a1,1,0,0,1,.629-1.778H9.392V0H62.834V36.319h10.1a1,1,0,0,1,.629,1.778L37.173,67.509a1,1,0,0,1-1.257,0Z" transform="translate(229.703 13215)" stroke="#fff" stroke-width="2"></path><path d="M.32,0H2.544l.528-2.992H5.328L5.84,0H8.032L5.44-12.96H2.912ZM3.312-4.5l.88-5.44.88,5.44ZM9.328,0H11.68V-5.9h2.432V-7.552H11.68v-3.776h2.976V-12.96H9.328Zm7.9,0H19.6V-11.216h2.016V-12.96H15.168v1.744h2.064ZM22.8,0h5.472V-1.616h-3.12v-4.3h2.432V-7.568H25.152V-11.3H28.24V-12.96H22.8Zm6.848,0H32V-5.936h1.12L34.672,0H37.04L35.232-6.384c1.216-.5,1.6-1.584,1.6-3.136,0-2.608-1.472-3.44-4.064-3.44h-3.12ZM32-7.408v-3.936h.88c1.36,0,1.728.64,1.728,1.952,0,1.392-.5,1.984-1.856,1.984Z" transform="translate(259.909 13224.424) rotate(90)" fill="#fff"></path></g></svg>
+									</span>
+									<figure class="l_cases--type2_flame_02">
+										<img src="../../../../assets/img/area/sample/case_obj01.jpg" alt="イメージ">
+									</figure>
 								</div>
-								<div class="status">
-								
-									<dl class="status-list flex_size">
+								<div class="l_cases--type2_content">
+									<div class="flex-box flex-box--tag-long">
+										<div class="l_tag l_tag--type_02">賃貸アパート・マンションのゴミ屋敷清掃</div>
+										<div class="place">北海道札幌市</div>
+									</div>
+									<dl class="status">
+										<dt>回収量</dt><dd>軽トラ1台分</dd>
 										<dt>作業人数</dt><dd>3人</dd>
-										<dt>作業時間</dt><dd>14時間</dd>
-										<dt>回収量</dt><dd>4tトラック×4台分</dd>
+										<dt>作業時間</dt><dd>1時間30分</dd>
 									</dl>
-								</div>
-								<div class="service_lower__case01_summary">
-									<dl>
-										<dt>年末大掃除ゴミと家具の回収テキストテキスト</dt>
-										<dd>作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</dd>
-									</dl>
-								</div>
-								<div class="service_lower__case01_price">
-									<dl>
-										<dt>作業金額</dt>
-										<dd>50,000<span class="service_lower__case01_yen">円</span></dd>
-									</dl>
-								</div>								
-								<div class="service_lower__case01_staff">
-									<dl>
-										<dt>○○店スタッフより</dt>
-										<dd>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</dd>
-									</dl>
+									<div class="outline">
+										<p class="catch-text">年末大掃除ゴミと家具の回収テキストテキスト</p>
+										<p>
+											作業のポイント。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+										</p>
+										<div class="price">
+											<p>作業金額</p>
+											<p class="num">
+												<strong>50,000</strong>
+												<span>円（税込）</span>
+											</p>
+										</div>
+									</div>
+									<div class="message-box">
+										<p class="from">○○店スタッフより</p>
+										<p>
+											この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>	
+							<span class="l_btn">
+								<span class="l_btn__wrap">
+									<span>もっと見る</span>
+									<span class="icon-plus">
+										<img src="../../../../assets/img/ico_plus.svg" alt="+">
+									</span>
+								</span>
+							</span>
+						</li>
+					</ul>
+
+
+
 					<div class="l_btn_more_space_02">
 						<a class="l_btn_more" href="">
 							<span class="l_btn_more__wrap l_btn_more__block">
@@ -773,7 +810,7 @@
 				<!--よくある質問-->
 				<section id="faq" class="service_lower__faq">
 					<figure class="sp"><img src="/assets/img/store/cmn/faq_obj.svg" alt="イメージ"></figure>
-					<h2 class="l_section_title"><span class="small">賃貸アパート・<br>マンションの<br>ゴミ屋敷清掃の</span><br>よくある質問<span class="en">FAQ</span></h2>				
+					<h2 class="l_section_title"><span class="small">賃貸アパート・<br class="l_section_title__sp_br">マンションの<br>ゴミ屋敷清掃の</span><br>よくある質問<span class="en">FAQ</span></h2>				
 					<?php require_once( dirname(__FILE__). '/../../../assets/block_parts/faq_contents.php'); ?>
 					<div class="text-center">
 						<a class="l_btn_more" href="">

@@ -78,7 +78,7 @@
 		</div>
 	</div>
 </section>
-<section class="l_shops-sp">
+<section class="l_shops-sp l_sec_bg">
 	<h2 class="l_section_title"><span class="small">片付け堂の</span><br>店舗検索<span class="en">SEARCH</span></h2>
 	<div class="l_shops-sp_outline">
 		<p>
