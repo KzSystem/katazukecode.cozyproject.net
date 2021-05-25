@@ -1,0 +1,35 @@
+.l_service_moving .l_beginner_comparison .l_full_outline > span {
+  line-height: 45px;
+  margin-left: 2px; }
+@media (max-width: 767px) {
+  .l_service_moving .l_beginner_comparison .l_container {
+    padding: 0; } }
+@media (max-width: 767px) {
+  .l_service_moving .l_beginner_comparison .l_beginner_comparison_left .only-pc {
+    display: none; } }
+@media (max-width: 767px) {
+  .l_service_moving .l_beginner_comparison .l_beginner_comparison_right {
+    padding: 13px 0px 0 15px; } }
+.l_service_moving .l_beginner_comparison .p-format {
+  padding: 0 15px; }
+@media (max-width: 767px) {
+  .l_service_moving .l_section_news_box .l_green_box .l_list_features li h3 {
+    max-width: inherit; } }
+@media (max-width: 767px) {
+  .l_service_moving .service_lower__case01 .l_btn_more {
+    padding-left: 37px;
+    padding-right: 55px;
+    width: 320px; } }
+@media (max-width: 767px) {
+  .l_service_moving .service_lower__case01 .l_btn_more .icon-arrow {
+    right: -21px; } }
+@media (max-width: 767px) {
+  .l_service_moving .l_news_grid_3nd .inr h3.height95 .icon-arrow {
+    margin-top: 0px; } }
+
+@media (max-width: 767px) {
+  .sp-text-center .l_lowerTitle__main {
+    text-align: center;
+    line-height: 47px; } }
+
+/*# sourceMappingURL=service-moving.css.map */

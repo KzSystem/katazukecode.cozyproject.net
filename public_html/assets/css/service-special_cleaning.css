@@ -1,0 +1,768 @@
+@media (max-width: 767px) {
+  .l_service_furniture .l_section_news_grid_1st .l_section_heading .l_heading,
+  .l_service_home_appliances .l_section_news_grid_1st .l_section_heading .l_heading,
+  .l_service_house .l_section_news_grid_1st .l_section_heading .l_heading {
+    padding-left: 0;
+    padding-right: 0; } }
+@media (max-width: 767px) {
+  .l_service_furniture .l_section_green_box .l_list_features li:first-child h3,
+  .l_service_home_appliances .l_section_green_box .l_list_features li:first-child h3,
+  .l_service_house .l_section_green_box .l_list_features li:first-child h3 {
+    max-width: inherit; } }
+.l_service_furniture .l_section_green_box .l_list_features li h3 .only-sp,
+.l_service_home_appliances .l_section_green_box .l_list_features li h3 .only-sp,
+.l_service_house .l_section_green_box .l_list_features li h3 .only-sp {
+  justify-content: center; }
+.l_service_furniture .service_sample_price .sample_price_wrapper,
+.l_service_home_appliances .service_sample_price .sample_price_wrapper,
+.l_service_house .service_sample_price .sample_price_wrapper {
+  margin-top: 26px;
+  padding: 0 30px 20px;
+  background: #FCDFD8;
+  border: 1px dashed #EB6D4E;
+  border-radius: 5px; }
+  @media (max-width: 767px) {
+    .l_service_furniture .service_sample_price .sample_price_wrapper,
+    .l_service_home_appliances .service_sample_price .sample_price_wrapper,
+    .l_service_house .service_sample_price .sample_price_wrapper {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  .l_service_furniture .service_sample_price .sample_price_wrapper h4,
+  .l_service_home_appliances .service_sample_price .sample_price_wrapper h4,
+  .l_service_house .service_sample_price .sample_price_wrapper h4 {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #E8B2A5;
+    font-weight: 500; }
+    @media (max-width: 767px) {
+      .l_service_furniture .service_sample_price .sample_price_wrapper h4,
+      .l_service_home_appliances .service_sample_price .sample_price_wrapper h4,
+      .l_service_house .service_sample_price .sample_price_wrapper h4 {
+        font-size: 18px; } }
+  .l_service_furniture .service_sample_price .sample_price_wrapper ul li,
+  .l_service_home_appliances .service_sample_price .sample_price_wrapper ul li,
+  .l_service_house .service_sample_price .sample_price_wrapper ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 1px;
+    color: #1A1311;
+    font-size: 16px;
+    line-height: 30px; }
+    .l_service_furniture .service_sample_price .sample_price_wrapper ul li span,
+    .l_service_home_appliances .service_sample_price .sample_price_wrapper ul li span,
+    .l_service_house .service_sample_price .sample_price_wrapper ul li span {
+      background: #EB6D4E;
+      color: #fff;
+      font-weight: 700;
+      border-radius: 2px; }
+    .l_service_furniture .service_sample_price .sample_price_wrapper ul li:before,
+    .l_service_home_appliances .service_sample_price .sample_price_wrapper ul li:before,
+    .l_service_house .service_sample_price .sample_price_wrapper ul li:before {
+      position: absolute;
+      top: 11px;
+      left: 0;
+      vertical-align: middle;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #EB6D4E;
+      content: "";
+      border-radius: 10px; }
+    .l_service_furniture .service_sample_price .sample_price_wrapper ul li:last-child,
+    .l_service_home_appliances .service_sample_price .sample_price_wrapper ul li:last-child,
+    .l_service_house .service_sample_price .sample_price_wrapper ul li:last-child {
+      margin-bottom: 0; }
+.l_service_furniture .service_sample_price table,
+.l_service_home_appliances .service_sample_price table,
+.l_service_house .service_sample_price table {
+  margin-bottom: 11px;
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #dcdcdc; }
+  .l_service_furniture .service_sample_price table thead th,
+  .l_service_home_appliances .service_sample_price table thead th,
+  .l_service_house .service_sample_price table thead th {
+    background: #03A58E;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    height: 47px; }
+    .l_service_furniture .service_sample_price table thead th:first-child,
+    .l_service_home_appliances .service_sample_price table thead th:first-child,
+    .l_service_house .service_sample_price table thead th:first-child {
+      border-top-left-radius: 10px; }
+    .l_service_furniture .service_sample_price table thead th:last-child,
+    .l_service_home_appliances .service_sample_price table thead th:last-child,
+    .l_service_house .service_sample_price table thead th:last-child {
+      border-top-right-radius: 10px; }
+  .l_service_furniture .service_sample_price table tbody tr td,
+  .l_service_home_appliances .service_sample_price table tbody tr td,
+  .l_service_house .service_sample_price table tbody tr td {
+    text-align: center;
+    font-size: 16px; }
+    .l_service_furniture .service_sample_price table tbody tr td:first-child,
+    .l_service_home_appliances .service_sample_price table tbody tr td:first-child,
+    .l_service_house .service_sample_price table tbody tr td:first-child {
+      line-height: 24px;
+      font-weight: 700;
+      color: #1A1311; }
+    .l_service_furniture .service_sample_price table tbody tr td:last-child,
+    .l_service_home_appliances .service_sample_price table tbody tr td:last-child,
+    .l_service_house .service_sample_price table tbody tr td:last-child {
+      width: 450px; }
+      @media (max-width: 767px) {
+        .l_service_furniture .service_sample_price table tbody tr td:last-child,
+        .l_service_home_appliances .service_sample_price table tbody tr td:last-child,
+        .l_service_house .service_sample_price table tbody tr td:last-child {
+          width: 50%; } }
+  .l_service_furniture .service_sample_price table tbody tr:last-child td,
+  .l_service_home_appliances .service_sample_price table tbody tr:last-child td,
+  .l_service_house .service_sample_price table tbody tr:last-child td {
+    border-bottom: 1px solid #DCDCDC; }
+    .l_service_furniture .service_sample_price table tbody tr:last-child td:first-child,
+    .l_service_home_appliances .service_sample_price table tbody tr:last-child td:first-child,
+    .l_service_house .service_sample_price table tbody tr:last-child td:first-child {
+      border-bottom-left-radius: 10px; }
+    .l_service_furniture .service_sample_price table tbody tr:last-child td:last-child,
+    .l_service_home_appliances .service_sample_price table tbody tr:last-child td:last-child,
+    .l_service_house .service_sample_price table tbody tr:last-child td:last-child {
+      border-bottom-right-radius: 10px; }
+  .l_service_furniture .service_sample_price table tbody tr:nth-of-type(even),
+  .l_service_home_appliances .service_sample_price table tbody tr:nth-of-type(even),
+  .l_service_house .service_sample_price table tbody tr:nth-of-type(even) {
+    background-color: #F3F3F3; }
+  .l_service_furniture .service_sample_price table td,
+  .l_service_furniture .service_sample_price table th,
+  .l_service_home_appliances .service_sample_price table td,
+  .l_service_home_appliances .service_sample_price table th,
+  .l_service_house .service_sample_price table td,
+  .l_service_house .service_sample_price table th {
+    height: 62px;
+    vertical-align: middle;
+    border: 1px solid #DCDCDC;
+    border-bottom: 0;
+    border-top: 0; }
+.l_service_furniture .l_section_ranking .l_container > .p-format,
+.l_service_home_appliances .l_section_ranking .l_container > .p-format,
+.l_service_house .l_section_ranking .l_container > .p-format {
+  margin-bottom: 27px; }
+.l_service_furniture .l_section_ranking .l_ranking_wrapper,
+.l_service_home_appliances .l_section_ranking .l_ranking_wrapper,
+.l_service_house .l_section_ranking .l_ranking_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -7.5px; }
+  @media (max-width: 767px) {
+    .l_service_furniture .l_section_ranking .l_ranking_wrapper,
+    .l_service_home_appliances .l_section_ranking .l_ranking_wrapper,
+    .l_service_house .l_section_ranking .l_ranking_wrapper {
+      margin: 0 -2.5px; } }
+  .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col,
+  .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col,
+  .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col {
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 7.5px; }
+    @media (max-width: 767px) {
+      .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col,
+      .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col,
+      .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding: 2.5px; } }
+    .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box,
+    .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box,
+    .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box {
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #DCDCDC; }
+      .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb,
+      .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb,
+      .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb {
+        position: relative;
+        margin-bottom: 11px; }
+        .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb img,
+        .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb img,
+        .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb img {
+          display: block;
+          max-width: 100%; }
+        .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb .steps_nums,
+        .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb .steps_nums,
+        .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_thumb .steps_nums {
+          position: absolute;
+          bottom: -15px;
+          left: 50%;
+          margin-left: -15px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #03A58E;
+          font-weight: 600;
+          font-family: 'Oswald', sans-serif;
+          font-size: 14px;
+          color: #fff;
+          border-radius: 30px;
+          width: 30px;
+          height: 30px; }
+      .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info,
+      .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info,
+      .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info {
+        position: relative; }
+        .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3,
+        .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3,
+        .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 {
+          margin-bottom: 6px;
+          text-align: center; }
+          .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a,
+          .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a,
+          .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a {
+            display: block;
+            line-height: 30px;
+            font-weight: 700;
+            font-size: 18px;
+            color: #03A58E;
+            text-decoration: none; }
+            @media (max-width: 767px) {
+              .l_service_furniture .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a,
+              .l_service_home_appliances .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a,
+              .l_service_house .l_section_ranking .l_ranking_wrapper .l_ranking_col .l_ranking_box .l_ranking_info h3 a {
+                font-size: 16px; } }
+.l_service_furniture section.l_section_features .l_section_heading,
+.l_service_home_appliances section.l_section_features .l_section_heading,
+.l_service_house section.l_section_features .l_section_heading {
+  margin-bottom: 16px; }
+  .l_service_furniture section.l_section_features .l_section_heading + .p-format,
+  .l_service_home_appliances section.l_section_features .l_section_heading + .p-format,
+  .l_service_house section.l_section_features .l_section_heading + .p-format {
+    padding-right: 5px; }
+.l_service_furniture section.l_section_features ul,
+.l_service_home_appliances section.l_section_features ul,
+.l_service_house section.l_section_features ul {
+  margin: 19px 0 0; }
+  @media (min-width: 767px) {
+    .l_service_furniture section.l_section_features ul,
+    .l_service_home_appliances section.l_section_features ul,
+    .l_service_house section.l_section_features ul {
+      background-color: #fff; } }
+  .l_service_furniture section.l_section_features ul li,
+  .l_service_home_appliances section.l_section_features ul li,
+  .l_service_house section.l_section_features ul li {
+    padding: 10px; }
+    @media (min-width: 767px) {
+      .l_service_furniture section.l_section_features ul li,
+      .l_service_home_appliances section.l_section_features ul li,
+      .l_service_house section.l_section_features ul li {
+        display: flex;
+        border-bottom: 1px dashed #DCDCDC; } }
+    @media (max-width: 767px) {
+      .l_service_furniture section.l_section_features ul li,
+      .l_service_home_appliances section.l_section_features ul li,
+      .l_service_house section.l_section_features ul li {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border: 1px solid #DCDCDC;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #DCDCDC; } }
+    .l_service_furniture section.l_section_features ul li:last-child,
+    .l_service_home_appliances section.l_section_features ul li:last-child,
+    .l_service_house section.l_section_features ul li:last-child {
+      border-bottom: 0; }
+    @media (max-width: 767px) {
+      .l_service_furniture section.l_section_features ul li:nth-child(2) h3,
+      .l_service_home_appliances section.l_section_features ul li:nth-child(2) h3,
+      .l_service_house section.l_section_features ul li:nth-child(2) h3 {
+        max-width: 261px; } }
+    @media (max-width: 767px) {
+      .l_service_furniture section.l_section_features ul li:nth-child(3) h3, .l_service_furniture section.l_section_features ul li:nth-child(4) h3, .l_service_furniture section.l_section_features ul li:nth-child(5) h3,
+      .l_service_home_appliances section.l_section_features ul li:nth-child(3) h3,
+      .l_service_home_appliances section.l_section_features ul li:nth-child(4) h3,
+      .l_service_home_appliances section.l_section_features ul li:nth-child(5) h3,
+      .l_service_house section.l_section_features ul li:nth-child(3) h3,
+      .l_service_house section.l_section_features ul li:nth-child(4) h3,
+      .l_service_house section.l_section_features ul li:nth-child(5) h3 {
+        max-width: inherit; } }
+    .l_service_furniture section.l_section_features ul li > .only-pc,
+    .l_service_home_appliances section.l_section_features ul li > .only-pc,
+    .l_service_house section.l_section_features ul li > .only-pc {
+      display: flex; }
+      @media (max-width: 767px) {
+        .l_service_furniture section.l_section_features ul li > .only-pc,
+        .l_service_home_appliances section.l_section_features ul li > .only-pc,
+        .l_service_house section.l_section_features ul li > .only-pc {
+          display: none; } }
+    .l_service_furniture section.l_section_features ul li h3.only-sp,
+    .l_service_home_appliances section.l_section_features ul li h3.only-sp,
+    .l_service_house section.l_section_features ul li h3.only-sp {
+      position: relative;
+      padding-left: 10px;
+      margin: 5px 0 10px;
+      flex-basis: 100%;
+      max-width: 100%;
+      font-size: 26px;
+      text-align: left; }
+      @media (min-width: 767px) {
+        .l_service_furniture section.l_section_features ul li h3.only-sp,
+        .l_service_home_appliances section.l_section_features ul li h3.only-sp,
+        .l_service_house section.l_section_features ul li h3.only-sp {
+          display: none; } }
+      .l_service_furniture section.l_section_features ul li h3.only-sp .ico-slide_down,
+      .l_service_home_appliances section.l_section_features ul li h3.only-sp .ico-slide_down,
+      .l_service_house section.l_section_features ul li h3.only-sp .ico-slide_down {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 17px;
+        height: 17px;
+        background: #F7F3E5;
+        border-radius: 50% 50%; }
+        .l_service_furniture section.l_section_features ul li h3.only-sp .ico-slide_down:before,
+        .l_service_home_appliances section.l_section_features ul li h3.only-sp .ico-slide_down:before,
+        .l_service_house section.l_section_features ul li h3.only-sp .ico-slide_down:before {
+          content: "";
+          display: block;
+          background: url(../img/service/junk_removal/furniture/plus-green.png) no-repeat 0 0/contain;
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+    .l_service_furniture section.l_section_features ul li .l_section_features_content,
+    .l_service_home_appliances section.l_section_features ul li .l_section_features_content,
+    .l_service_house section.l_section_features ul li .l_section_features_content {
+      display: none; }
+      .l_service_furniture section.l_section_features ul li .l_section_features_content img,
+      .l_service_home_appliances section.l_section_features ul li .l_section_features_content img,
+      .l_service_house section.l_section_features ul li .l_section_features_content img {
+        max-width: 100%; }
+      .l_service_furniture section.l_section_features ul li .l_section_features_content .p-format,
+      .l_service_home_appliances section.l_section_features ul li .l_section_features_content .p-format,
+      .l_service_house section.l_section_features ul li .l_section_features_content .p-format {
+        padding: 9px 0 4px; }
+    .l_service_furniture section.l_section_features ul li.active h3.only-sp .ico-slide_down:before,
+    .l_service_home_appliances section.l_section_features ul li.active h3.only-sp .ico-slide_down:before,
+    .l_service_house section.l_section_features ul li.active h3.only-sp .ico-slide_down:before {
+      background: url(../img/service/junk_removal/furniture/minus-green.png) no-repeat 0 0/contain; }
+  .l_service_furniture section.l_section_features ul .l_section_features_left,
+  .l_service_home_appliances section.l_section_features ul .l_section_features_left,
+  .l_service_house section.l_section_features ul .l_section_features_left {
+    background-color: #FDFBF2;
+    padding: 0;
+    text-align: center; }
+    .l_service_furniture section.l_section_features ul .l_section_features_left img,
+    .l_service_home_appliances section.l_section_features ul .l_section_features_left img,
+    .l_service_house section.l_section_features ul .l_section_features_left img {
+      display: block;
+      max-width: 100%; }
+    @media (min-width: 767px) {
+      .l_service_furniture section.l_section_features ul .l_section_features_left,
+      .l_service_home_appliances section.l_section_features ul .l_section_features_left,
+      .l_service_house section.l_section_features ul .l_section_features_left {
+        max-width: 350px;
+        flex-basis: 350px;
+        min-height: 200px; } }
+  @media (min-width: 767px) {
+    .l_service_furniture section.l_section_features ul .l_section_features_right,
+    .l_service_home_appliances section.l_section_features ul .l_section_features_right,
+    .l_service_house section.l_section_features ul .l_section_features_right {
+      max-width: calc(100% - 350px);
+      flex-basis: calc(100% - 350px);
+      padding: 37px 0 0 20px; } }
+  @media (max-width: 767px) {
+    .l_service_furniture section.l_section_features ul .l_section_features_right,
+    .l_service_home_appliances section.l_section_features ul .l_section_features_right,
+    .l_service_house section.l_section_features ul .l_section_features_right {
+      margin-top: 8px;
+      margin-bottom: 10px; } }
+  .l_service_furniture section.l_section_features ul h3,
+  .l_service_home_appliances section.l_section_features ul h3,
+  .l_service_house section.l_section_features ul h3 {
+    color: #03A58E;
+    line-height: 37px;
+    font-size: 26px;
+    margin-bottom: 3px;
+    font-weight: 700; }
+    @media (max-width: 767px) {
+      .l_service_furniture section.l_section_features ul h3,
+      .l_service_home_appliances section.l_section_features ul h3,
+      .l_service_house section.l_section_features ul h3 {
+        margin-top: 10px;
+        max-width: 245px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 18px; } }
+.l_service_furniture .service_lower__case02,
+.l_service_home_appliances .service_lower__case02,
+.l_service_house .service_lower__case02 {
+  padding-bottom: 50px; }
+
+.l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading,
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading {
+  display: flex;
+  justify-content: center;
+  height: 82px; }
+  @media (max-width: 767px) {
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading {
+      padding-top: 7px;
+      height: 88px; } }
+  .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3,
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 {
+    font-size: 32px;
+    font-weight: 700; }
+    @media (max-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 26px; } }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 span,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 span,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 span {
+      color: #FFD800; }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img {
+      position: relative;
+      top: -10px; }
+      @media (max-width: 767px) {
+        .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img,
+        .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img,
+        .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img {
+          top: -5px; } }
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left {
+        left: -10px; }
+        @media (max-width: 767px) {
+          .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left,
+          .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left,
+          .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left {
+            left: -7px; } }
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right {
+        right: -10px; }
+        @media (max-width: 767px) {
+          .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right,
+          .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right,
+          .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right {
+            right: -7px; } }
+.l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row,
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row {
+  background-color: #F7F3E5; }
+  .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reasons_row,
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reasons_row,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reasons_row {
+    height: 308px; }
+  .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper,
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper {
+    margin: 0 30px;
+    padding-bottom: 45px; }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+      text-align: center;
+      border: 1px solid #E3E3E3;
+      background-color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 10px; }
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert h4,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert h4,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert h4 {
+        line-height: 36px; }
+.l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row,
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row {
+  display: flex;
+  align-items: center;
+  height: 325px;
+  background-color: #F7F3E5; }
+  @media (max-width: 767px) {
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row {
+      padding-top: 30px;
+      flex-wrap: wrap;
+      height: auto;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px; } }
+  .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col,
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-basis: 50%;
+    max-width: 50%;
+    font-size: 16px;
+    color: #1A1311; }
+    @media (max-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding-bottom: 14px; } }
+    @media (min-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child:after,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child:after,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child:after {
+        content: " ";
+        width: 1px;
+        position: absolute;
+        top: -5px;
+        bottom: -5px;
+        right: 0;
+        z-index: 9999;
+        background: #D9CFA9; } }
+    @media (max-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child img,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child img,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:first-child img {
+        width: 109px; } }
+    @media (max-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child {
+        padding: 0 15px 30px; } }
+    @media (max-width: 767px) {
+      .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child img,
+      .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child img,
+      .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child img {
+        width: 147px; } }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4 {
+      margin-bottom: 50px;
+      line-height: 23px; }
+      @media (max-width: 767px) {
+        .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4,
+        .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4,
+        .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col h4 {
+          margin-bottom: 0; } }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col p,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col p,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col p {
+      line-height: 23px; }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left {
+      padding-left: 60px; }
+      @media (max-width: 767px) {
+        .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left,
+        .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left,
+        .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left {
+          padding-left: 20px; } }
+      @media (max-width: 767px) {
+        .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left h4,
+        .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left h4,
+        .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_left h4 {
+          width: 162px; } }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right {
+      padding-left: 60px; }
+      @media (max-width: 767px) {
+        .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right,
+        .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right,
+        .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col .l_5reasons_col_right {
+          padding-left: 15px; } }
+  .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p,
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0 15px 17px;
+    margin-bottom: 20px; }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p:after,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p:after,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p:after {
+      content: " ";
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+      background: #D9CFA9;
+      height: 1px;
+      left: 15px; }
+    .l_service_house .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p > span:last-child,
+    .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p > span:last-child,
+    .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row > .only-sp p > span:last-child {
+      padding-left: 5px; }
+.l_service_house .service_lower__case02,
+.l_service_rearrangement_special_cleaning .service_lower__case02,
+.l_service_rearrangement_memorial_service1 .service_lower__case02 {
+  padding-bottom: 0; }
+.l_service_house .l_section_request_right .l_btn-more-wrapper,
+.l_service_rearrangement_special_cleaning .l_section_request_right .l_btn-more-wrapper,
+.l_service_rearrangement_memorial_service1 .l_section_request_right .l_btn-more-wrapper {
+  margin-top: 21px !important; }
+  .l_service_house .l_section_request_right .l_btn-more-wrapper:not(.text-right),
+  .l_service_rearrangement_special_cleaning .l_section_request_right .l_btn-more-wrapper:not(.text-right),
+  .l_service_rearrangement_memorial_service1 .l_section_request_right .l_btn-more-wrapper:not(.text-right) {
+    padding-left: 38px;
+    text-align: left !important; }
+    @media (max-width: 767px) {
+      .l_service_house .l_section_request_right .l_btn-more-wrapper:not(.text-right),
+      .l_service_rearrangement_special_cleaning .l_section_request_right .l_btn-more-wrapper:not(.text-right),
+      .l_service_rearrangement_memorial_service1 .l_section_request_right .l_btn-more-wrapper:not(.text-right) {
+        margin-top: 10px !important;
+        padding-left: 0px; } }
+
+.service_lower__case02.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_img .after,
+.service_lower__case02.service_lower_blue .service_lower__case02_box .service_lower__case02_img .after img,
+.service_lower__case01.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_img .after,
+.service_lower__case01.service_lower_blue .service_lower__case02_box .service_lower__case02_img .after img {
+  border-color: #15AAC7; }
+.service_lower__case02.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_info .flex-box .type,
+.service_lower__case02.service_lower_blue .service_lower__case02_box .service_lower__case02_info .flex-box .type,
+.service_lower__case01.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_info .flex-box .type,
+.service_lower__case01.service_lower_blue .service_lower__case02_box .service_lower__case02_info .flex-box .type {
+  background-color: #15AAC7; }
+.service_lower__case02.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_img .before:after,
+.service_lower__case01.service_lower_blue .service_lower__case01_box .flex-wrap .service_lower__case01_img .before:after {
+  background: url(../img/service/rearrangement/special_cleaning/ico-arrows.png) no-repeat 0 0/contain; }
+.service_lower__case02.service_lower_blue .service_lower__case02_box .service_lower__case02_img .before:after,
+.service_lower__case01.service_lower_blue .service_lower__case02_box .service_lower__case02_img .before:after {
+  background: url(../img/service/rearrangement/special_cleaning/ico-arrows-down.png) no-repeat 0 0/contain; }
+
+.service_lower__case02.service_lower_blue,
+.service_lower__case01.service_lower_blue {
+  padding-bottom: 50px; }
+
+.l_service_rearrangement_special_cleaning .l_section_news_single,
+.l_service_rearrangement_memorial_service1 .l_section_news_single {
+  padding-bottom: 22px; }
+  .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper,
+  .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper {
+    display: flex; }
+    @media (max-width: 767px) {
+      .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper,
+      .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper {
+        flex-wrap: wrap; } }
+    @media (max-width: 767px) {
+      .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child,
+      .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child {
+        margin: 0 auto; } }
+    @media (min-width: 767px) {
+      .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child,
+      .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child {
+        flex-basis: 560px;
+        max-width: 560px; } }
+    .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child img,
+    .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:first-child img {
+      display: block;
+      max-width: 100%;
+      border-radius: 20px; }
+    .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child,
+    .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child {
+      padding-top: 20px; }
+      @media (min-width: 767px) {
+        .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child,
+        .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child {
+          flex-basis: calc(100% - 560px);
+          max-width: calc(100% - 560px);
+          padding-left: 40px; } }
+      .l_service_rearrangement_special_cleaning .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child h3,
+      .l_service_rearrangement_memorial_service1 .l_section_news_single .l_section_news_single_wrapper .l_section_news_single_col:last-child h3 {
+        margin-bottom: 16px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 42px; }
+.l_service_rearrangement_special_cleaning .l_5reasons_custom_row .l_5reason_alert h4 span,
+.l_service_rearrangement_memorial_service1 .l_5reasons_custom_row .l_5reason_alert h4 span {
+  background-image: url(../../assets/img/beginner/RepeatGrid.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 9px; }
+.l_service_rearrangement_special_cleaning .service_lower__case02.service_lower_blue .service_lower__case02_box,
+.l_service_rearrangement_memorial_service1 .service_lower__case02.service_lower_blue .service_lower__case02_box {
+  background: #fff; }
+.l_service_rearrangement_special_cleaning .l_section_space_01.l_flow,
+.l_service_rearrangement_memorial_service1 .l_section_space_01.l_flow {
+  padding-bottom: 30px; }
+.l_service_rearrangement_special_cleaning .l_section_news_links .l_btn-more-wrapper,
+.l_service_rearrangement_memorial_service1 .l_section_news_links .l_btn-more-wrapper {
+  margin-top: 30px;
+  width: 100%; }
+.l_service_rearrangement_special_cleaning .l_shops-pc,
+.l_service_rearrangement_memorial_service1 .l_shops-pc {
+  padding-top: 70px;
+  padding-bottom: 45px;
+  background: #F7F3E5; }
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img {
+  top: 0px; }
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_left {
+  left: -12px; }
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_heading h3 img.l_5reasons_quote_right {
+  right: -10px; }
+@media (max-width: 767px) {
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reasons_row,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reasons_row {
+    height: auto; } }
+@media (max-width: 767px) {
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper {
+    margin: 0 15px;
+    padding-bottom: 30px; } }
+@media (max-width: 767px) {
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper h4,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper h4 {
+    font-size: 18px; } }
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .l_5reason_alert {
+  padding: 20px 15px; }
+.l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .only-sp,
+.l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_custom_row .l_5reason_alert_wrapper .only-sp {
+  text-align: left; }
+@media (max-width: 767px) {
+  .l_service_rearrangement_special_cleaning .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child,
+  .l_service_rearrangement_memorial_service1 .l_5reasons__permit.l_5reasons_custom .l_5reasons_row .l_5reasons_col:last-child {
+    padding-bottom: 20px; } }
+.l_service_rearrangement_special_cleaning .l_section_request .l_section_heading_arrow .only-sp,
+.l_service_rearrangement_memorial_service1 .l_section_request .l_section_heading_arrow .only-sp {
+  display: block; }
+  @media (min-width: 767px) {
+    .l_service_rearrangement_special_cleaning .l_section_request .l_section_heading_arrow .only-sp,
+    .l_service_rearrangement_memorial_service1 .l_section_request .l_section_heading_arrow .only-sp {
+      display: none; } }
+
+.l_btn-more-wrapper_footer {
+  margin-bottom: 17px; }
+  .l_btn-more-wrapper_footer .point-wrapper {
+    left: 50%;
+    top: -6px;
+    margin-left: -43px; }
+
+/*# sourceMappingURL=service-special_cleaning.css.map */

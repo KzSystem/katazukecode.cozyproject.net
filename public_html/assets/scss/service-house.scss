@@ -1,0 +1,234 @@
+@import '_mixin';
+@import 'service-furniture';
+
+.l_service_house,
+.l_service_rearrangement_special_cleaning {
+    .l_5reasons__permit {
+        &.l_5reasons_custom {
+            .l_5reasons_heading {
+                display: flex;
+                justify-content: center;
+                height: 82px;
+
+                @include respond-to('max-small') {
+                    padding-top: 7px;
+                    height: 88px;
+                }
+
+                h3 {
+                    font-size: 32px;
+                    font-weight: 700;
+
+                    @include respond-to('max-small') {
+                    	font-size: 18px;
+                        text-align: center;
+                        line-height: 26px;
+                    }
+
+                    span {
+                        color: #FFD800;
+                    }
+
+                    img {
+                        position: relative;
+                        top: -10px;
+
+                        @include respond-to('max-small') {
+                            top: -5px;
+                        }
+
+                        &.l_5reasons_quote_left {
+                            left: -10px;
+
+                            @include respond-to('max-small') {
+                                left: -7px;
+                            }
+                        }
+
+                        &.l_5reasons_quote_right {
+                            right: -10px;
+
+                            @include respond-to('max-small') {
+                                right: -7px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .l_5reasons_custom_row {
+                background-color: #F7F3E5;
+
+                .l_5reasons_row {
+                    height: 308px;
+                }
+
+                .l_5reason_alert_wrapper {
+                    margin: 0 30px;
+                    padding-bottom: 45px;
+
+                    .l_5reason_alert {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 30px 0;
+                        text-align: center;
+                        border: 1px solid #E3E3E3;
+                        background-color: #fff;
+                        font-size: 20px;
+                        font-weight: 700;
+                        border-radius: 10px;
+
+                        h4 {
+                            line-height: 36px;
+                        }
+                    }
+                }
+            }
+
+            .l_5reasons_row {
+                display: flex;
+                align-items: center;
+                height: 325px;
+
+                @include respond-to('max-small') {
+                    padding-top: 30px;
+                	flex-wrap: wrap;
+                	height: auto;
+					border-bottom-left-radius: 10px;
+					border-bottom-right-radius: 10px;
+                }
+
+                .l_5reasons_col {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    position: relative;
+                    flex-basis: 50%;
+                    max-width: 50%;
+
+                    font-size: 16px;
+                    color: #1A1311;
+
+                    @include respond-to('max-small') {
+	                    flex-basis: 100%;
+	                    max-width: 100%;
+	                    padding-bottom: 14px;
+                    }
+
+                    &:first-child {
+                        &:after {
+	                        @include respond-to('small') {
+	                            content: " ";
+	                            width: 1px;
+	                            position: absolute;
+	                            top: -5px;
+	                            bottom: -5px;
+	                            right: 0;
+	                            z-index: 9999;
+	                            background: #D9CFA9;
+	                        }
+                        }
+
+                        img {
+                        	@include respond-to('max-small') {
+                        		width: 109px;
+                        	}
+                        }
+                    }
+
+                    &:last-child {
+	                    @include respond-to('max-small') {
+	                    	padding: 0 15px 30px;
+	                    }
+
+                    	img {
+                    	    @include respond-to('max-small') {
+                    	    	width: 147px;
+                    	    }
+                    	}
+                    }
+
+                    h4 {
+                        margin-bottom: 50px;
+                        line-height: 23px;
+
+                        @include respond-to('max-small') {
+                        	margin-bottom: 0;
+                        }
+                    }
+
+                    p {
+                        line-height: 23px;
+                    }
+
+                    .l_5reasons_col_left {
+                        padding-left: 60px;
+
+                        @include respond-to('max-small') {
+                        	padding-left: 20px;
+                        }
+
+                        h4 {
+                        	@include respond-to('max-small') {
+                        		width: 162px;
+                        	}
+                        }
+
+
+                    }
+
+                    .l_5reasons_col_right {
+                        padding-left: 60px;
+
+                        @include respond-to('max-small') {
+                        	padding-left: 15px;
+                        }
+                    }
+                }
+
+                > .only-sp p {
+                    display: flex;
+                	position: relative;
+                	font-size: 16px;
+                    line-height: 23px;
+                    padding: 0 15px 17px;
+                    margin-bottom: 20px;
+
+                    &:after {
+					    content: " ";
+					    position: absolute;
+					    bottom: 0;
+					    right: 15px;
+					    background: #D9CFA9;
+					    height: 1px;
+					    left: 15px;
+                    }
+
+                    > span:last-child {
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .service_lower__case02 {
+        padding-bottom: 0;
+    }
+
+    .l_section_request_right .l_btn-more-wrapper {
+        margin-top: 21px !important;
+
+        &:not(.text-right) {
+            padding-left: 38px;
+            text-align: left !important;
+
+            @include respond-to('max-small') {
+                margin-top: 10px !important;
+                padding-left: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,883 @@
+main#beginner_flow .orange {
+  color: #EB6D4E; }
+  main#beginner_flow .orange strong {
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 93px; }
+    @media (max-width: 767px) {
+      main#beginner_flow .orange strong {
+        line-height: 75px; } }
+    @media (max-width: 480px) {
+      main#beginner_flow .orange strong {
+        font-size: 42px;
+        line-height: 40px; } }
+main#beginner_flow .p-format.p-note {
+  text-align: right; }
+@media (max-width: 767px) {
+  main#beginner_flow .l_section_space_01 {
+    padding: 50px 0 30px; } }
+@media (max-width: 767px) {
+  main#beginner_flow .l_section_heading {
+    margin-bottom: 20px; } }
+main#beginner_flow .line_banner {
+  padding-top: 40px; }
+  @media (max-width: 767px) {
+    main#beginner_flow .line_banner {
+      padding-top: 30px; } }
+main#beginner_flow .flow__merit {
+  padding-top: 50px; }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__merit {
+      padding-top: 30px; } }
+  @media (max-width: 767px) {
+    main#beginner_flow .flow__merit .flow__merit_features {
+      padding-bottom: 0px; } }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__merit .flow__merit_features .flow__merit_features_box li {
+      margin-bottom: 20px; } }
+  main#beginner_flow .flow__merit_features {
+    padding-bottom: 50px; }
+  main#beginner_flow .flow__merit_catch {
+    position: relative;
+    background: #03A58E; }
+    main#beginner_flow .flow__merit_catch::before {
+      display: block;
+      position: absolute;
+      top: -1px;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 36px 55px 0 55px;
+      border-color: #ffffff transparent transparent transparent;
+      transform: translateX(-50%);
+      content: ""; }
+      @media (max-width: 480px) {
+        main#beginner_flow .flow__merit_catch::before {
+          border-width: 21px 31px 0 31px; } }
+    main#beginner_flow .flow__merit_catch_inr {
+      position: relative;
+      width: 1100px;
+      margin: 0 auto;
+      padding: 50px 0 26px;
+      text-align: center; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_catch_inr {
+          text-align: left;
+          width: 100%;
+          padding: 58px 15px 34px; } }
+    main#beginner_flow .flow__merit_catch_img-l, main#beginner_flow .flow__merit_catch_img-r {
+      position: absolute;
+      bottom: 4px;
+      width: 240px; }
+      main#beginner_flow .flow__merit_catch_img-l img, main#beginner_flow .flow__merit_catch_img-r img {
+        width: 100%;
+        vertical-align: bottom; }
+    main#beginner_flow .flow__merit_catch_img-l {
+      left: 0; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_catch_img-l {
+          left: auto;
+          right: 0;
+          width: 200px;
+          bottom: 0px; } }
+      @media (max-width: 480px) {
+        main#beginner_flow .flow__merit_catch_img-l {
+          width: 152px; } }
+    main#beginner_flow .flow__merit_catch_img-r {
+      right: 0; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_catch_img-r {
+          display: none; } }
+    main#beginner_flow .flow__merit_catch_text {
+      display: inline-block;
+      position: relative;
+      font-size: 40px;
+      text-align: center;
+      color: #fff;
+      line-height: 56px;
+      font-family: 'M PLUS Rounded 1c', sans-serif; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_catch_text {
+          text-align: left;
+          font-size: 30px; } }
+      @media (max-width: 480px) {
+        main#beginner_flow .flow__merit_catch_text {
+          font-size: 18px;
+          line-height: 30px; } }
+      main#beginner_flow .flow__merit_catch_text .color_yellow {
+        color: #FFD800;
+        line-height: 60px; }
+        @media (max-width: 767px) {
+          main#beginner_flow .flow__merit_catch_text .color_yellow {
+            line-height: 50px; } }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__merit_catch_text .color_yellow {
+            font-size: 24px;
+            line-height: 30px; } }
+      main#beginner_flow .flow__merit_catch_text strong {
+        font-size: 52px; }
+        @media (max-width: 767px) {
+          main#beginner_flow .flow__merit_catch_text strong {
+            font-size: 35px; } }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__merit_catch_text strong {
+            font-size: 30px; } }
+      main#beginner_flow .flow__merit_catch_text::after {
+        display: block;
+        position: absolute;
+        top: -30px;
+        right: 0;
+        width: 110px;
+        height: 100px;
+        background: url("../img/service/lower/shine.svg") no-repeat 0 0/contain;
+        content: ""; }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__merit_catch_text::after {
+            top: -20px;
+            right: 50px;
+            width: 70px;
+            height: 60px; } }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__merit_catch_text::after {
+            top: -40px;
+            right: -20px;
+            width: 60px;
+            height: 50px; } }
+main#beginner_flow .flow__merit_features_box {
+  margin-top: 20px;
+  margin-bottom: 0; }
+  main#beginner_flow .flow__merit_features_box ul {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0; }
+    main#beginner_flow .flow__merit_features_box ul li {
+      flex-basis: calc((100% / 3) - (40px / 3));
+      display: flex;
+      flex-direction: column;
+      max-width: calc((100% / 3) - (40px / 3)); }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_features_box ul li {
+          max-width: 100%;
+          flex-basis: 100%;
+          margin-bottom: 45px; } }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__merit_features_box ul {
+        flex-wrap: wrap;
+        padding-bottom: 0; } }
+  main#beginner_flow .flow__merit_features_box .flow__merit_features_top img {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    max-width: 100%; }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__merit_features_box .flow__merit_features_top img {
+        width: 100%; } }
+  main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1; }
+    @media all and (-ms-high-contrast: none) {
+      main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom {
+        flex: 1 1 auto; } }
+    main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 {
+      margin: 20px 0 8px;
+      text-align: center;
+      line-height: 24px;
+      font-size: 18px;
+      font-weight: 700;
+      flex: 1; }
+      @media all and (-ms-high-contrast: none) {
+        main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 {
+          flex: 1 1 auto; } }
+      main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 a {
+        color: #03A58E;
+        text-decoration: none; }
+        main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 a .flow__merit_note {
+          font-size: 14px; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 {
+          margin: 10px 0 8px; } }
+      @media (max-width: 480px) {
+        main#beginner_flow .flow__merit_features_box .flow__merit_features_bottom h3 {
+          margin: 10px 0 0; } }
+main#beginner_flow .l_section_banner {
+  padding-top: 50px; }
+  @media (max-width: 767px) {
+    main#beginner_flow .l_section_banner {
+      padding-top: 30px; } }
+  main#beginner_flow .l_section_banner .l_banner {
+    margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      main#beginner_flow .l_section_banner .l_banner {
+        margin-bottom: 30px; } }
+    main#beginner_flow .l_section_banner .l_banner:last-child {
+      margin-bottom: 0; }
+main#beginner_flow .flow__steps {
+  padding: 42px 0 50px; }
+  @media (max-width: 767px) {
+    main#beginner_flow .flow__steps {
+      padding-bottom: 60px; } }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__steps {
+      padding-bottom: 30px; } }
+  main#beginner_flow .flow__steps .p-format {
+    margin: 30px 0 15px; }
+  main#beginner_flow .flow__steps .l_section_steps_heading .l_steps_heading {
+    font-size: 40px; }
+    @media (max-width: 480px) {
+      main#beginner_flow .flow__steps .l_section_steps_heading .l_steps_heading {
+        font-size: 30px; }
+        main#beginner_flow .flow__steps .l_section_steps_heading .l_steps_heading:before {
+          left: -90px; } }
+  main#beginner_flow .flow__steps .l_section_steps_heading .l_heading_sm {
+    display: block;
+    font-size: 24px;
+    line-height: 34px; }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__steps .l_section_steps_heading .l_heading_sm {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 4px; } }
+  main#beginner_flow .flow__steps .flow__steps_features ul {
+    display: flex;
+    justify-content: space-between; }
+    main#beginner_flow .flow__steps .flow__steps_features ul li {
+      flex-basis: calc((100%/3) - (80px/3));
+      position: relative; }
+      main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_thumb {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        overflow: hidden; }
+        main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_thumb img {
+          width: 100%;
+          display: block; }
+      main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_desc {
+        text-align: center; }
+        main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_desc .flow__steps_heading .steps_nums {
+          width: 40px;
+          height: 40px;
+          display: block;
+          margin: -20px auto 0;
+          background: #03A58E;
+          line-height: 40px;
+          border-radius: 50%;
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: 'Oswald', sans-serif;
+          position: relative; }
+        main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_desc .flow__steps_heading h3 {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 700;
+          margin-bottom: 10px;
+          color: #03A58E; }
+        main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_desc .p-format {
+          margin: 0;
+          text-align: left; }
+          @media (max-width: 767px) {
+            main#beginner_flow .flow__steps .flow__steps_features ul li .flow__steps_features_desc .p-format {
+              text-align: left; } }
+      main#beginner_flow .flow__steps .flow__steps_features ul li:last-child {
+        margin-bottom: 0; }
+        main#beginner_flow .flow__steps .flow__steps_features ul li:last-child:before {
+          display: none; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__steps .flow__steps_features ul li {
+          flex-basis: 100%;
+          margin-bottom: 40px; } }
+      main#beginner_flow .flow__steps .flow__steps_features ul li:before {
+        width: 0px;
+        height: 0px;
+        border-top: 23px solid transparent;
+        border-bottom: 23px solid transparent;
+        border-left: 24px solid #03A58E;
+        content: "";
+        position: absolute;
+        right: -45px;
+        transform: translateX(-50%);
+        top: 75px; }
+        @media (max-width: 767px) {
+          main#beginner_flow .flow__steps .flow__steps_features ul li:before {
+            border-left: 21px solid transparent;
+            border-right: 21px solid transparent;
+            border-top: 21px solid #03A58E;
+            right: auto;
+            top: auto;
+            bottom: -30px;
+            left: 50%;
+            border-bottom: 0; } }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__steps .flow__steps_features ul {
+        flex-wrap: wrap; } }
+main#beginner_flow .flow__pickup {
+  padding-bottom: 70px; }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__pickup {
+      padding-bottom: 35px; } }
+  main#beginner_flow .flow__pickup_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1064px; }
+    main#beginner_flow .flow__pickup_wrap_left {
+      flex-basis: 500px; }
+      main#beginner_flow .flow__pickup_wrap_left .l_section_heading {
+        text-align: left; }
+        main#beginner_flow .flow__pickup_wrap_left .l_section_heading .l_heading_en {
+          text-align: left; }
+          @media (max-width: 767px) {
+            main#beginner_flow .flow__pickup_wrap_left .l_section_heading .l_heading_en {
+              text-align: center; } }
+        @media (max-width: 767px) {
+          main#beginner_flow .flow__pickup_wrap_left .l_section_heading {
+            text-align: center; } }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__pickup_wrap_left {
+          flex-basis: 100%; } }
+    main#beginner_flow .flow__pickup_wrap_right {
+      flex-basis: calc(100% - (500px + 50px)); }
+      main#beginner_flow .flow__pickup_wrap_right .p-note {
+        text-align: right; }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__pickup_wrap_right .p-note {
+            text-align: left;
+            line-height: 22px;
+            margin-top: 10px; } }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__pickup_wrap_right {
+          flex-basis: 100%;
+          margin-top: 75px; } }
+      @media (max-width: 480px) {
+        main#beginner_flow .flow__pickup_wrap_right {
+          margin-top: 20px; } }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__pickup_wrap_right img {
+          width: 100%; } }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__pickup_wrap {
+        flex-wrap: wrap; } }
+main#beginner_flow .flow__pickup_sp .flow__pickup_wrap_bottom {
+  padding: 20px 15px;
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+  main#beginner_flow .flow__pickup_sp .flow__pickup_wrap_bottom .flow__pickup_subheading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 15px 0 10px;
+    color: #03A58E; }
+  main#beginner_flow .flow__pickup_sp .flow__pickup_wrap_bottom .p-format {
+    text-align: left; }
+  main#beginner_flow .flow__pickup_sp .flow__pickup_wrap_bottom .l_btn_small_line {
+    color: #ffffff;
+    border-radius: 5px;
+    background: #19C103;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 15px; }
+main#beginner_flow .flow__add_ways {
+  margin: 30px 0 20px;
+  padding: 20px 40px 40px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+  main#beginner_flow .flow__add_ways .l_section_steps_heading {
+    max-width: 348px; }
+  main#beginner_flow .flow__add_ways_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; }
+    main#beginner_flow .flow__add_ways_wrap .flow__add_item {
+      display: flex;
+      align-items: center; }
+      main#beginner_flow .flow__add_ways_wrap .flow__add_item .flow__add_content {
+        padding-left: 20px; }
+        main#beginner_flow .flow__add_ways_wrap .flow__add_item .flow__add_content h4 {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 26px;
+          margin-bottom: 10px;
+          color: #03A58E; }
+    main#beginner_flow .flow__add_ways_wrap .flow__add_left {
+      flex-basis: calc(100% - (466px + 60px)); }
+    main#beginner_flow .flow__add_ways_wrap .flow__add_right {
+      flex-basis: 466px;
+      position: relative; }
+      main#beginner_flow .flow__add_ways_wrap .flow__add_right:before {
+        content: "";
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        left: -30px;
+        bottom: 0;
+        background-image: linear-gradient(#E3E3E3 33%, rgba(255, 255, 255, 0) 0%);
+        background-position: right;
+        background-size: 2px 8px;
+        background-repeat: repeat-y; }
+main#beginner_flow .flow__add_tabs .flow__details_nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  main#beginner_flow .flow__add_tabs .flow__details_nav li {
+    flex-basis: 450px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CAE4D3;
+    border-radius: 5px 5px 0 0;
+    border: 2px solid #fff;
+    margin-right: 5px;
+    cursor: pointer;
+    border-bottom: 0;
+    color: #15A58E;
+    line-height: 30px;
+    font-size: 24px; }
+    main#beginner_flow .flow__add_tabs .flow__details_nav li img {
+      margin-right: 10px; }
+    main#beginner_flow .flow__add_tabs .flow__details_nav li:last-child {
+      margin-right: 0; }
+    main#beginner_flow .flow__add_tabs .flow__details_nav li.active {
+      background: #03A58E;
+      border-color: #03A58E;
+      color: #fff; }
+main#beginner_flow .flow__add_tabs .tab-content {
+  border-top: 5px solid #15A58E; }
+  main#beginner_flow .flow__add_tabs .tab-content .flow__details_box {
+    display: none;
+    border: 2px solid #DCDCDC;
+    border-top: 0; }
+  main#beginner_flow .flow__add_tabs .tab-content .active {
+    display: block; }
+main#beginner_flow .flow__section .l_block_steps {
+  padding-top: 40px; }
+  @media (max-width: 767px) {
+    main#beginner_flow .flow__section .l_block_steps {
+      padding-top: 0;
+      margin-top: 0; } }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__section .l_block_steps {
+      padding-bottom: 0; } }
+main#beginner_flow .flow__tips .flow__merit_features_box {
+  margin-bottom: 15px; }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__tips .flow__merit_features_box {
+      margin-bottom: 0; } }
+  main#beginner_flow .flow__tips .flow__merit_features_box ul {
+    padding-bottom: 35px; }
+    @media (max-width: 480px) {
+      main#beginner_flow .flow__tips .flow__merit_features_box ul {
+        padding-bottom: 0; } }
+  @media (max-width: 480px) {
+    main#beginner_flow .flow__tips .flow__merit_features_box li {
+      max-width: calc(50% - (12px / 2));
+      flex-basis: calc(50% - (12px / 2));
+      margin-bottom: 25px; } }
+main#beginner_flow .flow__tips .flow__merit_features_bottom h3 {
+  line-height: 28px; }
+main#beginner_flow .flow__tips .take_pictures {
+  padding-top: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+  main#beginner_flow .flow__tips .take_pictures h3 {
+    padding-bottom: 20px;
+    line-height: 30px; }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__tips .take_pictures h3 {
+        max-width: 100%; } }
+  main#beginner_flow .flow__tips .take_pictures_step {
+    padding: 25px 40px 40px; }
+    @media (max-width: 480px) {
+      main#beginner_flow .flow__tips .take_pictures_step {
+        padding: 15px 15px 10px; } }
+    main#beginner_flow .flow__tips .take_pictures_step_item {
+      padding-bottom: 30px;
+      margin-bottom: 27px;
+      border-bottom: 1px dashed #DCDCDC; }
+      main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px; }
+        main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head .step_num {
+          width: 46px;
+          height: 46px;
+          display: block;
+          background: #03A58E;
+          line-height: 46px;
+          border-radius: 50%;
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: 'Oswald', sans-serif;
+          position: relative;
+          text-align: center;
+          margin-right: 8px; }
+          @media (max-width: 480px) {
+            main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head .step_num {
+              margin: 0 auto 5px; } }
+        main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head h3 {
+          padding-bottom: 0; }
+          @media (max-width: 480px) {
+            main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head h3 {
+              width: 100%;
+              line-height: 26px;
+              font-size: 18px; } }
+        @media (max-width: 480px) {
+          main#beginner_flow .flow__tips .take_pictures_step_item .step_item_head {
+            flex-wrap: wrap;
+            text-align: center; } }
+      main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box {
+        display: flex; }
+        main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner {
+          flex-basis: calc(25% - ((20px * 3) / 4));
+          max-width: calc(25% - ((20px * 3) / 4));
+          margin-right: 20px; }
+          main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner img {
+            max-width: 100%; }
+            @media (max-width: 767px) {
+              main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner img {
+                width: 100%; } }
+          main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner p {
+            margin-top: 5px; }
+            @media (max-width: 480px) {
+              main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner p {
+                line-height: 24px; } }
+          main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner:last-child {
+            margin-right: 0; }
+          @media (max-width: 767px) {
+            main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner:nth-child(2n) {
+              margin-right: 0; } }
+          @media (max-width: 767px) {
+            main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner {
+              flex-basis: calc(50% - (20px / 2));
+              max-width: calc(50% - (20px / 2));
+              margin-bottom: 15px; } }
+          @media (max-width: 480px) {
+            main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box_inner {
+              flex-basis: calc(50% - (10px / 2));
+              max-width: calc(50% - (10px / 2));
+              margin-right: 10px; } }
+        @media (max-width: 767px) {
+          main#beginner_flow .flow__tips .take_pictures_step_item .step_item_box {
+            flex-wrap: wrap; } }
+      main#beginner_flow .flow__tips .take_pictures_step_item:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__tips .take_pictures_step_item {
+          padding-bottom: 5px;
+          margin-bottom: 20px; } }
+main#beginner_flow .flow__service {
+  padding-bottom: 0; }
+  main#beginner_flow .flow__service .l_list_merit {
+    margin: 26px 0 0px; }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__service .l_list_merit li {
+        padding: 0; } }
+    main#beginner_flow .flow__service .l_list_merit li .l_section_request_right {
+      max-width: calc(100% - 334px);
+      flex-basis: calc(100% - 334px); }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__service .l_list_merit li .l_section_request_right {
+          max-width: 100%;
+          flex-basis: 100%;
+          margin-top: -35px; } }
+      main#beginner_flow .flow__service .l_list_merit li .l_section_request_right .l_section_heading_arrow {
+        max-width: 556px; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__service .l_list_merit li .l_section_request_right .p-format {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 15px; } }
+    main#beginner_flow .flow__service .l_list_merit li picture {
+      display: block;
+      max-width: 334px;
+      flex-basis: 334px;
+      width: 100%; }
+      main#beginner_flow .flow__service .l_list_merit li picture img {
+        width: 100%;
+        max-width: 100%; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__service .l_list_merit li picture {
+          margin-left: auto;
+          margin-right: auto;
+          order: 1;
+          max-width: 100%;
+          flex-basis: 100%;
+          padding: 7px 7px 0; } }
+main#beginner_flow .flow__items_table {
+  border: 1px solid #DCDCDC;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    main#beginner_flow .flow__items_table {
+      overflow-x: auto; } }
+  main#beginner_flow .flow__items_table .items_table {
+    width: 100%; }
+    @media all and (-ms-high-contrast: none) {
+      main#beginner_flow .flow__items_table .items_table {
+        table-layout: fixed; } }
+    @media (max-width: 767px) {
+      main#beginner_flow .flow__items_table .items_table {
+        width: 780px; } }
+    @media (max-width: 480px) {
+      main#beginner_flow .flow__items_table .items_table {
+        width: 702px; } }
+    main#beginner_flow .flow__items_table .items_table tr:nth-child(2n) td {
+      background: #F3F3F3; }
+    main#beginner_flow .flow__items_table .items_table tr:last-child th {
+      border-bottom: none; }
+    main#beginner_flow .flow__items_table .items_table th {
+      border-right: 1px solid #DCDCDC;
+      width: 240px;
+      background: #CAE4D3;
+      border-bottom: 1px solid #fff;
+      padding: 15px;
+      font-weight: 700;
+      vertical-align: middle; }
+      @media (max-width: 767px) {
+        main#beginner_flow .flow__items_table .items_table th {
+          width: 170px;
+          padding: 10px;
+          line-height: 21px; } }
+    main#beginner_flow .flow__items_table .items_table td {
+      padding: 15px; }
+      main#beginner_flow .flow__items_table .items_table td ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; }
+      main#beginner_flow .flow__items_table .items_table td li {
+        margin-right: 20px; }
+        main#beginner_flow .flow__items_table .items_table td li:after {
+          content: "";
+          background-image: url(../../assets/img/beginner/ico_arrow.png);
+          background-repeat: no-repeat;
+          width: 4px;
+          height: 7px;
+          display: inline-block;
+          margin-left: 5px; }
+main#beginner_flow .l_otherLinks_section {
+  margin-top: 0; }
+  main#beginner_flow .l_otherLinks_section .l_btn-more-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%; }
+    main#beginner_flow .l_otherLinks_section .l_btn-more-wrapper .l_btn_more {
+      padding: 20px 101px 14px 75px; }
+main#beginner_flow .l_serviceMenu {
+  padding: 30px 0; }
+  main#beginner_flow .l_serviceMenu .l_inherit_width {
+    max-width: 334px;
+    flex-basis: 334px; }
+  main#beginner_flow .l_serviceMenu .l_section_request_right {
+    max-width: calc(100% - 334px);
+    flex-basis: calc(100% - 334px); }
+main#beginner_flow .l_section_steps_heading {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 42px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0 auto; }
+  @media (max-width: 480px) {
+    main#beginner_flow .l_section_steps_heading {
+      font-size: 30px;
+      line-height: 40px; } }
+  main#beginner_flow .l_section_steps_heading .l_steps_heading {
+    position: relative; }
+    main#beginner_flow .l_section_steps_heading .l_steps_heading:before {
+      content: "";
+      background-image: url(../../assets/img/beginner/ico_slash1.png);
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: -50px;
+      bottom: 8px;
+      background-size: contain; }
+    main#beginner_flow .l_section_steps_heading .l_steps_heading:after {
+      content: "";
+      background-image: url(../../assets/img/beginner/ico_slash2.png);
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      right: -35px;
+      bottom: 8px;
+      background-size: contain; }
+main#beginner_flow .l_block_steps {
+  padding: 35px 30px 30px;
+  background: #fff; }
+  main#beginner_flow .l_block_steps .l_block_steps_item {
+    margin-bottom: 40px;
+    position: relative; }
+    main#beginner_flow .l_block_steps .l_block_steps_item:before {
+      width: 0px;
+      height: 0px;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-top: 30px solid #03A58E;
+      content: "";
+      position: absolute;
+      top: calc(100% - 1px);
+      left: 50%;
+      transform: translateX(-50%); }
+      @media (max-width: 767px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item:before {
+          border-left: 19px solid transparent;
+          border-right: 19px solid transparent;
+          border-top: 19px solid #03A58E; } }
+    main#beginner_flow .l_block_steps .l_block_steps_item:nth-child(2n) .l_block_steps_head {
+      background: #00AAC7; }
+    main#beginner_flow .l_block_steps .l_block_steps_item:nth-child(2n):before {
+      border-top-color: #00AAC7; }
+    main#beginner_flow .l_block_steps .l_block_steps_item:nth-child(2n) .l_block_steps_content {
+      border-color: #00AAC7;
+      background: #F7F3E5; }
+    @media (max-width: 767px) {
+      main#beginner_flow .l_block_steps .l_block_steps_item:nth-child(2n) .step_num {
+        background: #00AAC7; } }
+    main#beginner_flow .l_block_steps .l_block_steps_item:last-child:before {
+      display: none; }
+    main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_head {
+      height: 100px;
+      background: #03A58E;
+      border-radius: 55px 0 0 55px;
+      position: absolute;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 34px;
+      font-size: 32px;
+      line-height: 42px;
+      color: #fff;
+      top: 20px; }
+      @media (max-width: 767px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_head {
+          height: auto;
+          border-radius: 10px 10px 0 0;
+          position: relative;
+          padding: 23px 0 18px;
+          margin-top: 43px;
+          top: auto; } }
+      @media (max-width: 480px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_head {
+          margin-top: 35px; } }
+    main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content {
+      border: 5px solid #15A58E;
+      border-radius: 20px;
+      margin-left: 50px;
+      display: flex;
+      padding: 40px 30px 30px;
+      background-color: #fff; }
+      main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .steps_wrap_thumb {
+        order: 1;
+        flex-basis: 445px;
+        min-height: 280px;
+        border-radius: 20px;
+        background: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        display: block; }
+        @media (max-width: 767px) {
+          main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .steps_wrap_thumb {
+            order: 0;
+            flex-basis: 100%;
+            min-height: 200px;
+            padding: 14px; } }
+        @media (max-width: 480px) {
+          main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .steps_wrap_thumb {
+            padding: 0;
+            min-height: auto; } }
+        @media (max-width: 767px) {
+          main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .steps_wrap_thumb img {
+            max-width: 100%; } }
+      main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .p-format {
+        padding-top: 95px;
+        max-width: calc(100% - 445px);
+        flex-basis: calc(100% - 445px); }
+        @media (max-width: 767px) {
+          main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content .p-format {
+            padding-top: 15px;
+            max-width: 100%;
+            flex-basis: 100%; } }
+      @media (max-width: 767px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item .l_block_steps_content {
+          padding: 15px;
+          border-radius: 0 0 20px 20px;
+          margin-left: 0;
+          flex-wrap: wrap; } }
+    main#beginner_flow .l_block_steps .l_block_steps_item .l_block_sub_title {
+      max-width: 538px;
+      font-weight: 700;
+      padding-left: 36px;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      display: flex;
+      align-items: center; }
+      main#beginner_flow .l_block_steps .l_block_steps_item .l_block_sub_title:before {
+        content: "";
+        display: inline-block;
+        height: 21px;
+        width: 1px;
+        background: #DCDCDC;
+        margin-right: 20px; }
+        @media (max-width: 767px) {
+          main#beginner_flow .l_block_steps .l_block_steps_item .l_block_sub_title:before {
+            display: none; } }
+      main#beginner_flow .l_block_steps .l_block_steps_item .l_block_sub_title__yellow {
+        color: #FFD800; }
+      @media (max-width: 767px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item .l_block_sub_title {
+          padding: 0 15px;
+          font-size: 24px;
+          line-height: 34px;
+          margin: 0 auto;
+          max-width: none;
+          text-align: center; } }
+    main#beginner_flow .l_block_steps .l_block_steps_item .step_num {
+      font-weight: 600;
+      font-family: 'Oswald', sans-serif; }
+      @media (max-width: 767px) {
+        main#beginner_flow .l_block_steps .l_block_steps_item .step_num {
+          width: 46px;
+          height: 46px;
+          position: absolute;
+          top: -23px;
+          left: 50%;
+          background: #15A58E;
+          text-align: center;
+          border-radius: 50%;
+          font-size: 20px;
+          line-height: 46px;
+          transform: translateX(-50%); } }
+    main#beginner_flow .l_block_steps .l_block_steps_item:last-child {
+      margin-bottom: 0; }
+    @media (max-width: 767px) {
+      main#beginner_flow .l_block_steps .l_block_steps_item {
+        margin-bottom: 54px; } }
+  @media (max-width: 767px) {
+    main#beginner_flow .l_block_steps {
+      margin-top: 20px; } }
+  @media (max-width: 480px) {
+    main#beginner_flow .l_block_steps {
+      padding-left: 0;
+      padding-right: 0; } }
+
+/*# sourceMappingURL=beginner-flow.css.map */

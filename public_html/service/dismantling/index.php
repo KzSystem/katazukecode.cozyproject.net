@@ -559,10 +559,18 @@
 				<section class="l_section_space_01 l_section_space_01--bg">
 					<h2 class="l_section_title">解体前後のご相談<span class="en">CASE</span></h2>
 					<p class="l_section_lead">この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。<br>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。</p>
-					<picture class="service_before_after">
-							<source srcset="../../assets/img/service/dismantling/sp_before_after.png" media="(max-width: 680px)">
-							<img src="../../assets/img/service/dismantling/before_after.png" alt="不用品回収 遺品整理 買取 リフォーム ゴミ屋敷清掃 終活 生前整理">
-					</picture>
+					<div class="service_before_after">
+						<ul >
+							<li><a href="">不用品<br>回収</a></li>
+							<li><a href="">遺品整理</a></li>
+							<li><a href="">買取</a></li>
+							<li><a href="">リフォーム</a></li>
+							<li><a href="">ゴミ屋敷<br>清掃</a></li>
+							<li><a href="">終活</a></li>
+							<li><a href="">生前整理</a></li>
+						</ul>
+					</div>
+					
 				</section>
 
 				<div class="l_section_space_01">

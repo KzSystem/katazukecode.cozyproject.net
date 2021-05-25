@@ -768,7 +768,8 @@
 				
 				<!--お客様の声-->
 				<section class="l_voice">
-					<h2 class="l_section_title"><span class="small">不用品回収をご依頼の</span><br>お客様の声<span class="en">VOICE</span></h2>				
+					<h2 class="l_section_title"><span class="small">不用品回収をご依頼の</span><br>お客様の声<span class="en">VOICE</span></h2>	
+					<p class="l_section_lead">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>		
 					<?php require_once( dirname(__FILE__). '/../../assets/block_parts/voice_contents.php'); ?>
 					<a class="l_btn_more" href="">
 						<span class="l_btn_more__wrap">

@@ -12,7 +12,7 @@
         </figure>
     </li>
     <li>
-        <h3><span class="num">03</span><span>Tポイントが<br><span class="color_yellow">貯まる！</span></h3>
+        <h3><span class="num">03</span><span class="color_yellow">Tポイントが<br></span>貯まる！</span></h3>
         <figure>
             <img class="l_5reasons__img_03" src="/assets/img/service/hoarding_house/apartment/reason_03.svg" alt="イメージ">
         </figure>

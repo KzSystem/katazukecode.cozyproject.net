@@ -1,0 +1,133 @@
+@media (max-width: 767px) {
+  main#privacy .l_lowerTitle {
+    padding: 4vw 0; }
+    main#privacy .l_lowerTitle .l_lowerTitle__sub {
+      font-size: 23px;
+      line-height: 32px; }
+    main#privacy .l_lowerTitle .l_lowerTitle__main {
+      font-size: 38px;
+      line-height: 48px;
+      margin-top: 20px;
+      text-align: center; } }
+main#privacy .l_serviceMenu_gray {
+  background: #F7F3E5; }
+main#privacy .l_shops-pc {
+  background: #ffffff;
+  padding-bottom: 0; }
+main#privacy .l_block_title_01--no_line {
+  padding-bottom: 0;
+  border-bottom: 0;
+  line-height: 30px;
+  margin-bottom: 20px; }
+  @media (max-width: 767px) {
+    main#privacy .l_block_title_01--no_line {
+      font-size: 24px; } }
+main#privacy .l_sub_title_03 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 15px;
+  border-left: 5px solid #03A58E;
+  margin-bottom: 8px; }
+  @media (max-width: 767px) {
+    main#privacy .l_sub_title_03 {
+      font-size: 18px; } }
+main#privacy .privacy__policy {
+  padding: 40px 0 65px; }
+  @media (max-width: 767px) {
+    main#privacy .privacy__policy {
+      padding: 30px 0 32px; } }
+  main#privacy .privacy__policy_wrap {
+    max-width: 900px;
+    margin: 0 auto; }
+    main#privacy .privacy__policy_wrap:not(.privacy__inquiries_wrap) {
+      padding: 25px 30px 30px;
+      border-radius: 20px; }
+      @media (max-width: 767px) {
+        main#privacy .privacy__policy_wrap:not(.privacy__inquiries_wrap) {
+          padding: 15px;
+          border-radius: 5px; } }
+  main#privacy .privacy__policy .p-format {
+    margin-bottom: 25px;
+    padding-left: 20px; }
+    main#privacy .privacy__policy .p-format:nth-of-type(1), main#privacy .privacy__policy .p-format:nth-last-of-type(1) {
+      padding-left: 0; }
+    main#privacy .privacy__policy .p-format:nth-last-of-type(1) {
+      margin-bottom: 0;
+      text-align: right; }
+    main#privacy .privacy__policy .p-format > span {
+      display: flex; }
+    main#privacy .privacy__policy .p-format span > span {
+      margin-right: 10px; }
+    @media (max-width: 767px) {
+      main#privacy .privacy__policy .p-format {
+        padding-left: 0;
+        margin-bottom: 20px; } }
+main#privacy .privacy__inquiries {
+  padding-bottom: 70px; }
+  @media (max-width: 767px) {
+    main#privacy .privacy__inquiries {
+      padding-bottom: 50px; } }
+  main#privacy .privacy__inquiries .l_block_title_01--no_line {
+    margin-bottom: 36px; }
+    @media (max-width: 767px) {
+      main#privacy .privacy__inquiries .l_block_title_01--no_line {
+        margin-bottom: 25px; } }
+  main#privacy .privacy__inquiries_wrap li {
+    display: flex;
+    align-items: center; }
+    @media (max-width: 767px) {
+      main#privacy .privacy__inquiries_wrap li {
+        align-items: normal; } }
+    main#privacy .privacy__inquiries_wrap li .inquiries_left {
+      flex-basis: 186px;
+      max-width: 186px;
+      padding: 13px 20px;
+      border-bottom: 2px solid #FFF;
+      background: #F3F3F3;
+      font-weight: 700; }
+      @media (max-width: 767px) {
+        main#privacy .privacy__inquiries_wrap li .inquiries_left {
+          max-width: 110px;
+          padding: 13px 15px; } }
+    main#privacy .privacy__inquiries_wrap li:first-child .inquiries_right:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      background-image: linear-gradient(to right, #DCDCDC 50%, white 50%);
+      background-position: left top;
+      background-size: 10px 1px;
+      background-repeat: repeat-x;
+      left: 0;
+      top: 0; }
+    main#privacy .privacy__inquiries_wrap li:last-child .inquiries_right:after {
+      bottom: 2px; }
+    main#privacy .privacy__inquiries_wrap li .inquiries_right {
+      padding: 14px 30px;
+      flex-basis: calc(100% - 186px);
+      max-width: calc(100% - 186px);
+      position: relative; }
+      main#privacy .privacy__inquiries_wrap li .inquiries_right a {
+        color: #0058FF;
+        word-wrap: break-word; }
+      @media (max-width: 767px) {
+        main#privacy .privacy__inquiries_wrap li .inquiries_right {
+          flex-basis: calc(100% - 110px);
+          max-width: calc(100% - 110px); } }
+      @media (max-width: 480px) {
+        main#privacy .privacy__inquiries_wrap li .inquiries_right {
+          padding: 13px 15px; } }
+      main#privacy .privacy__inquiries_wrap li .inquiries_right:after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        background-image: linear-gradient(to right, #DCDCDC 50%, white 50%);
+        background-position: left top;
+        background-size: 10px 1px;
+        background-repeat: repeat-x;
+        left: 0;
+        bottom: 0; }
+
+/*# sourceMappingURL=privacy.css.map */

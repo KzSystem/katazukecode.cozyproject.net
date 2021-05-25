@@ -386,6 +386,31 @@
 							}
 						}
 					}
+          &.tohoku{
+            top: 265px;
+            right: 82px;
+            .line01{
+              width: 80px;
+              right: 100%;
+              top: 50%;
+            }
+            .line02{
+              width: 45px;
+              left: -102px;
+              bottom: 41px;
+              transform: rotate(90deg);
+              &::after{
+                content: "";
+                display: block;
+                background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                top: -10px;
+                left: -10px;
+              }
+            }
+          }
 					&.kantou{
 						top: 363px;
 						right: 82px;
@@ -2923,7 +2948,9 @@
       margin-top: s(30);
     }
     .l_sub_title_02{
+      line-height: 1.2;
       @include sp{
+        margin-bottom: s(15);
         font-size: s(22);
       }
     }
@@ -3273,6 +3300,12 @@
   }
   .price_lower__quote_table_thead .price_lower__quote_table_head{
     width: auto;
+  }
+  .price__search-pc{
+    margin-top: 50px;
+  }
+  .price__search-sp{
+    margin-top: s(30);
   }
   @include sp{
     .price_lower__quote .scroll-x_box_inr{

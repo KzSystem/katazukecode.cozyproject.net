@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+  .l_service_home_appliances .l_section_news_box .l_green_box .l_list_features li:nth-child(2) h3 {
+    max-width: inherit; } }
+.l_service_home_appliances .service_sample_price table tbody tr td {
+  width: 33.33%; }
+
+/*# sourceMappingURL=service-home_appliances.css.map */

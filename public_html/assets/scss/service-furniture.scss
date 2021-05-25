@@ -1,0 +1,473 @@
+@import '_mixin';
+
+.l_service_furniture,
+.l_service_home_appliances {
+    .l_list_features .l_section_features_left.l_features_img_full,
+    .l_list_features .l_section_features_left img,
+    .news-row .news-box img {
+        @include respond-to('max-small') {
+            width: 100%;
+        }
+    }
+
+    .l_section_news_grid_1st {
+        .l_section_heading .l_heading {
+            @include respond-to('max-small') {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .l_section_green_box {
+        .l_list_features {
+            li {
+                &:first-child {
+                    @include respond-to('max-small') {
+                        h3 {
+                            max-width: inherit;
+                        }
+                    }
+                }
+
+                h3 {
+                    .only-sp {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .service_sample_price {
+        .l_container > .p-format:last-child {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        .sample_price_wrapper {
+            margin-top: 26px;
+            padding: 0 30px 20px;
+            background: #FCDFD8;
+            border: 1px dashed #EB6D4E;
+            border-radius: 10px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+
+            @include respond-to('max-small') {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            h4 {
+                margin-bottom: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 60px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-size: 20px;
+                border-bottom: 1px solid #E8B2A5;
+                font-weight: 500;
+
+                @include respond-to('max-small') {
+                    font-size: 18px;
+                }
+            }
+
+            ul {
+                li {
+                    position: relative;
+                    padding-left: 20px;
+                    margin-bottom: 1px;
+                    color: #1A1311;
+                    font-size: 16px;
+                    line-height: 30px;
+
+                    span {
+                        background: #EB6D4E;
+                        color: #fff;
+                        font-weight: 700;
+                        border-radius: 2px;
+                    }
+
+                    &:before {
+                        position: absolute;  
+                        top: 11px;  
+                        left: 0; 
+                        vertical-align: middle;
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        background: #EB6D4E;
+                        content: "";
+                        border-radius: 10px;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+        table {
+            margin-bottom: 11px;
+            margin-top: 30px;
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border-style: hidden;
+            box-shadow: 0 0 0 1px #dcdcdc;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+
+            thead {
+                th {
+                    background: #03A58E;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 18px;
+                    height: 47px;
+
+                    &:first-child {
+                        border-top-left-radius: 10px;
+                    }
+
+                    &:last-child {
+                        border-top-right-radius: 10px;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        font-size: 16px;
+                        
+                        &:first-child {
+                            line-height: 24px;
+                            font-weight: 700;
+                            color: #1A1311;
+                        }
+
+                        &:last-child {
+                            width: 450px;
+
+                            @include respond-to('max-small') {
+                                width: 50%;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        td {
+                            border-bottom: 1px solid #DCDCDC;
+
+                            &:first-child {
+                                border-bottom-left-radius: 10px;
+                            }
+        
+                            &:last-child {
+                                border-bottom-right-radius: 10px;
+                            }
+                        }
+                    }
+                }
+                tr:nth-of-type(even) {
+                    background-color: #F3F3F3;
+                }
+            }
+
+            td,
+            th {
+                height: 62px;
+                vertical-align: middle;
+                border: 1px solid #DCDCDC;
+                border-bottom: 0;
+                border-top: 0;
+            }
+        }
+    }
+
+    .l_section_ranking {
+        .l_container {
+            > .p-format {
+                margin-bottom: 27px;
+            }
+        }
+
+
+        .l_ranking_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -7.5px;
+
+            @include respond-to('max-small') {
+                margin: 0 -2.5px;
+            }
+
+            .l_ranking_col {
+                flex-basis: 20%;
+                max-width: 20%;
+                padding: 7.5px;
+
+                @include respond-to('max-small') {
+                    flex-basis: 50%;
+                    max-width: 50%;
+                    padding: 2.5px;
+                }
+
+                .l_ranking_box {
+                    background: #fff;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: 2px solid #DCDCDC;
+
+                    .l_ranking_thumb {
+                        position: relative;
+                        margin-bottom: 11px;
+
+                        img {
+                            display: block;
+                            max-width: 100%;
+                            @include respond-to('max-small') {
+                                width: 100%;
+                            }
+                        }
+
+                        .steps_nums {
+                            position: absolute;
+                            bottom: -15px;
+                            left: 50%;
+                            margin-left: -15px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #03A58E;
+                            font-weight: 600;
+                            font-family: 'Oswald', sans-serif;
+                            font-size: 20px;
+                            color: #fff;
+                            border-radius: 30px;
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+
+
+                    .l_ranking_info {
+                        position: relative;
+
+                        h3 {
+                            margin-bottom: 6px;
+                            text-align: center;
+
+                            a {
+                                display: block;
+                                line-height: 30px;
+                                font-weight: 700;
+                                font-size: 18px;
+                                color: #03A58E;
+                                text-decoration: none;
+
+                                @include respond-to('max-small') {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+    }
+
+    section.l_section_features {
+        .l_section_heading {
+            margin-bottom: 16px;
+
+            & + .p-format {
+                padding-right: 5px;
+            }
+        }
+
+
+
+        
+        ul {
+            margin: 19px 0 0;
+
+            @include respond-to('small') {
+                background-color: #fff;
+            }
+
+            li {
+                @include respond-to('small') {
+                    display: flex;
+                    border-bottom: 1px dashed #DCDCDC;
+                }
+
+                @include respond-to('max-small') {
+                    display: flex;
+                    flex-wrap: wrap;
+                    background-color: #fff;
+                    margin-bottom: 10px;
+                    border: 1px solid #DCDCDC;
+                    border-radius: 10px;
+                    box-shadow: 0 0 5px #DCDCDC;
+                }
+
+                padding: 10px;
+                
+                &:last-child {
+                    border-bottom: 0;
+                }
+
+                &:nth-child(2) {
+                    h3 {
+                        @include respond-to('max-small') {
+                            max-width: 261px;
+                        }
+                    }
+                }
+
+                &:nth-child(3),
+                &:nth-child(4),
+                &:nth-child(5) {
+                    h3 {
+                        @include respond-to('max-small') {
+                            max-width: inherit;
+                        }
+                    }
+                }
+                > .only-pc {
+                    display: flex;
+
+                    @include respond-to('max-small') {
+                        display: none;
+                    }
+                }
+
+                h3.only-sp {
+                    position: relative;
+                    padding-left: 10px;
+                    margin: 5px 0 10px;
+                    flex-basis: 100%;
+                    max-width: 100%;
+                    font-size: 26px;
+                    text-align: left;
+                    padding-right: 28px;
+
+                    @include respond-to('small') {
+                        display: none;
+                    }
+
+                    .ico-slide_down {
+                        display: block;
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 17px;
+                        height: 17px;
+                        background: #F7F3E5;
+                        border-radius: 50% 50%;
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            background: url(../img/service/junk_removal/furniture/plus-green.png) no-repeat 0 0/contain;
+                            width: 17px;
+                            height: 17px;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translateX(-50%) translateY(-50%);
+                        }
+                    }
+                }
+
+                .l_section_features_content {
+                    display: none;
+
+                    img {
+                        max-width: 100%;
+                    }
+
+                    .p-format {
+                        padding: 9px 0 4px;
+                    }
+                }
+
+                &.active {
+                    .only-sp .l_section_features_content {
+                        display: block;
+                    }
+                    h3.only-sp .ico-slide_down {
+                        &:before {
+                            background: url(../img/service/junk_removal/furniture/minus-green.png) no-repeat 0 0/contain;
+                        }
+                    }
+                }
+            }
+
+            .l_section_features_left {
+                background-color: #FDFBF2;
+                padding: 0;
+                text-align: center;
+
+                img {
+                    display: block;
+                    max-width: 100%;
+                }
+    
+                @include respond-to('small') {
+                    max-width: 350px;
+                    flex-basis: 350px;
+                    min-height: 200px;
+                }
+            }
+    
+            .l_section_features_right {
+    
+                @include respond-to('small') {
+                    max-width: calc(100% - 350px);
+                    flex-basis: calc(100% - 350px);
+                    padding: 37px 0 0 20px;
+                }
+    
+                @include respond-to('max-small') {
+                    margin-top: 8px;
+                    margin-bottom: 10px;
+                }
+            }
+    
+            h3 {
+                color: #03A58E;
+                line-height: 37px;
+                font-size: 26px;
+                margin-bottom: 3px;
+                font-weight: 700;
+    
+                @include respond-to('max-small') {
+                    margin-top: 10px;
+                    max-width: 245px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    margin-bottom: 18px;
+                }
+            }
+        }
+    }
+
+    .service_lower__case02 {
+        padding-bottom: 50px;
+    }
+}

@@ -5622,24 +5622,185 @@
 }
 
 .service_before_after {
-  display: block;
-  max-width: 840px;
+  padding: 110px 20px 55px 20px;
   margin: 30px auto 0 auto;
   text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 23px;
 }
 
 @media (max-width: 680px) {
   .service_before_after {
-    margin-top: 5.33333vw;
-    padding: 0 4vw;
-    box-sizing: border-box;
+    padding: 13.33333vw 4vw 8vw 4vw;
+    font-size: 3.73333vw;
   }
 }
 
-.service_before_after picture,
-.service_before_after img {
-  display: block;
-  max-width: 100%;
+.service_before_after ul {
+  position: relative;
+  width: 674px;
+  height: 674px;
+  margin: 0 auto;
+  background: url("../img/service/dismantling/before_after_main.png") no-repeat center/contain;
+}
+
+@media (max-width: 680px) {
+  .service_before_after ul {
+    width: 80vw;
+    height: 80vw;
+    background-image: url("../img/service/dismantling/sp_before_after_main.png");
+  }
+}
+
+.service_before_after li {
+  position: absolute;
+  width: 202px;
+  height: 202px;
+  line-height: 1.21739;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li {
+    width: 26.66667vw;
+    height: 26.66667vw;
+    line-height: 4.8vw;
+  }
+}
+
+.service_before_after li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  background: no-repeat center / contain;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li a {
+    padding-bottom: 1.33333vw;
+  }
+}
+
+.service_before_after li a:hover {
+  opacity: .8;
+}
+
+.service_before_after li:nth-child(1) {
+  top: -114px;
+  left: 228px;
+  margin: auto;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(1) {
+    top: -13.33333vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.service_before_after li:nth-child(1) a {
+  background-image: url("../img/service/dismantling/before_after_01.png");
+}
+
+.service_before_after li:nth-child(2) {
+  right: -15px;
+  top: 28px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(2) {
+    top: 0vw;
+    right: -2.13333vw;
+  }
+}
+
+.service_before_after li:nth-child(2) a {
+  background-image: url("../img/service/dismantling/before_after_02.png");
+}
+
+.service_before_after li:nth-child(3) {
+  right: -80px;
+  top: 288px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(3) {
+    top: 32vw;
+    right: -6.66667vw;
+  }
+}
+
+.service_before_after li:nth-child(3) a {
+  background-image: url("../img/service/dismantling/before_after_03.png");
+}
+
+.service_before_after li:nth-child(4) {
+  right: 70px;
+  bottom: -55px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(4) {
+    right: 8vw;
+    bottom: -8vw;
+  }
+}
+
+.service_before_after li:nth-child(4) a {
+  background-image: url("../img/service/dismantling/before_after_04.png");
+}
+
+.service_before_after li:nth-child(5) {
+  left: 90px;
+  bottom: -55px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(5) {
+    left: 8vw;
+    bottom: -8vw;
+  }
+}
+
+.service_before_after li:nth-child(5) a {
+  background-image: url("../img/service/dismantling/before_after_05.png");
+}
+
+.service_before_after li:nth-child(6) {
+  left: -80px;
+  top: 288px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(6) {
+    top: 32vw;
+    left: -6.66667vw;
+  }
+}
+
+.service_before_after li:nth-child(6) a {
+  background-image: url("../img/service/dismantling/before_after_06.png");
+}
+
+.service_before_after li:nth-child(7) {
+  left: -16px;
+  top: 35px;
+}
+
+@media (max-width: 680px) {
+  .service_before_after li:nth-child(7) {
+    top: 0vw;
+    left: -2.13333vw;
+  }
+}
+
+.service_before_after li:nth-child(7) a {
+  background-image: url("../img/service/dismantling/before_after_07.png");
 }
 
 .service_consultation {

@@ -288,7 +288,7 @@
             </p>
           </div>
           <div class="price_lower__tablewrap">
-            <h3 class="l_sub_title_02 l_sub_title_02--base_space">お部屋まるごとクリーニング</h3>
+            <h3 class="l_sub_title_02 l_sub_title_02--base_space">キッチン周りのお掃除</h3>
             <table class="price_lower__quote_table">
               <thead class="price_lower__quote_table_thead">
                 <tr class="price_lower__quote_table_tr">
@@ -635,7 +635,7 @@
 				</section>
 				<section class="price_lower__quote">
 					<h2 class="l_section_title">
-						ハウスクリーニングの<span class="sp">料金相場
+						ハウスクリーニングの<br class="sp">料金相場
 						<span class="en">PRICE QUOTE</span>
 					</h2>
 					<p class="l_section_lead">
@@ -835,7 +835,7 @@
 				</section>
 				<section class="price_lower__merit">
 					<h2 class="l_section_title">
-						業者に依頼する<span class="sp">メリット・デメリット
+						業者に依頼する<br class="sp">メリット・デメリット
 						<span class="en">MERIT / DEMERIT</span>
 					</h2>
 					<p class="l_section_lead">
@@ -943,7 +943,7 @@
 					</div>
 					<div class="price_lower__merit_cautions">
 						<h4 class="price_lower__merit_cautions_title">
-							ハウスクリーニング業者に<span class="sp">依頼する際の注意点
+							ハウスクリーニング業者に<br class="sp">依頼する際の注意点
 						</h4>
 						<p class="price_lower__merit_cautions_lead">
 							この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。この文章はダミーです。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです。
