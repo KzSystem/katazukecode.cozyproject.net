@@ -325,6 +325,27 @@
             position: absolute;
             top: -10px;
             left: -10px; }
+      .price__search-pc_map_links li.tohoku {
+        top: 265px;
+        right: 82px; }
+        .price__search-pc_map_links li.tohoku .line01 {
+          width: 80px;
+          right: 100%;
+          top: 50%; }
+        .price__search-pc_map_links li.tohoku .line02 {
+          width: 45px;
+          left: -102px;
+          bottom: 41px;
+          transform: rotate(90deg); }
+          .price__search-pc_map_links li.tohoku .line02::after {
+            content: "";
+            display: block;
+            background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            left: -10px; }
       .price__search-pc_map_links li.kantou {
         top: 363px;
         right: 82px; }
@@ -2323,9 +2344,12 @@
     .price_lower__tablewrap {
       width: 92vw;
       margin-top: 8vw; } }
-  @media (max-width: 680px) {
-    .price_lower__tablewrap .l_sub_title_02 {
-      font-size: 5.8666666667vw; } }
+  .price_lower__tablewrap .l_sub_title_02 {
+    line-height: 1.2; }
+    @media (max-width: 680px) {
+      .price_lower__tablewrap .l_sub_title_02 {
+        margin-bottom: 4vw;
+        font-size: 5.8666666667vw; } }
   @media (max-width: 680px) {
     .price_lower__tablewrap .price_lower__quote_table {
       width: 100%; } }
@@ -2579,6 +2603,10 @@
   border-right: solid 1px #DCDCDC; }
 .dismantling .price_lower__quote_table_thead .price_lower__quote_table_head {
   width: auto; }
+.dismantling .price__search-pc {
+  margin-top: 50px; }
+.dismantling .price__search-sp {
+  margin-top: 8vw; }
 @media (max-width: 680px) {
   .dismantling .price_lower__quote .scroll-x_box_inr {
     width: 428px; }

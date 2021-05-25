@@ -475,7 +475,7 @@
 				</section>
 				<section class="price_lower__case">
 					<h2 class="l_section_title">
-						解体の<br class="sp">料金実績
+						解体工事の<br class="sp">料金実績
 						<span class="en">CASE</span>
 					</h2>
 					<p class="l_section_lead">
@@ -573,7 +573,7 @@
 				</section>
 				<section class="price_lower__quote">
 					<h2 class="l_section_title">
-						解体の料金相場
+						解体工事の料金相場
 						<span class="en">PRICE QUOTE</span>
 					</h2>
 					<p class="l_section_lead">
