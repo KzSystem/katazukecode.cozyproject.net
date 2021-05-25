@@ -19,30 +19,41 @@
 					</div>
 					<ul>
 						<li>
-							<a href="#price">料金表一覧
+							<a href="#01">不用品回収の料金
 								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</a>
 						</li>
 						<li>
-							<a href="#voice">お客様の声
+							<a href="#02">ゴミ屋敷清掃
 								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</a>
 						</li>
 						<li>
-							<a href="#cases">実績紹介
+							<a href="#03">遺品整理
 								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</a>
 						</li>
 						<li>
-							<a href="#faq">よくある質問
+							<a href="#04">ハウスクリーニング
 								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</a>
 						</li>
 						<li>
-							<a href="#news">お知らせ
+							<a href="#07">不用品買取
 								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 							</a>
 						</li>
+						<li>
+							<a href="#05">解体
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+						<li>
+							<a href="#06">生前整理
+								<svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="5.035" height="8.43" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
+							</a>
+						</li>
+
 					</ul>
 				</nav>
 			<h1 class="l_lowerTitle">
@@ -78,7 +89,7 @@
 
 				<section class="service__about">
 
-				<section class="price__about price_base_color_olta price_base_space">
+				<section class="price__about price_base_space price_first_list">
 					<h2 class="l_section_title"><span class="small">正確なお見積りと明朗会計</span><br>安心の料金体系<span class="en">ABOUT PRICE</span></h2>
 					<ul class="price__about_list">
 						<li>
@@ -150,13 +161,13 @@
 						</picture>
 					</a>
 				</div>
-			<section class="pricelist__price">
+			<section class="pricelist__price" id="01">
 
 			<section class="l_flow">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>不用品回収の料金<span class="en">WASTE COLLECTION</span></h2>
-<h3 class="pricelist__price_fukidashi"><span>不用品回収の<strong>お得な料金パック</strong></span></h3>
-<p class="align_c">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
+<h3 class="pricelist__price_fukidashi"><span>不用品回収の<br class="sp-only"><strong>お得な料金パック</strong></span></h3>
+<p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
 <div class="tax_price_list">
 <div class="pricelist__search-pc_3title">
 	<ul>
@@ -172,7 +183,7 @@
 
 			<div class="pricelist_5listtcontent">
 
-<h2 class="l_section_title pricelist_5contents">パックに含まれる作業内容</h2>
+<h2 class="l_section_title pricelist_5contents msz_f">パックに含まれる作業内容</h2>
 
 <ul class="pricelist__about_list">
 		<li>
@@ -303,8 +314,10 @@
 						<li>廃棄物の積み出しや上層階からの積み降ろし作業、分解が必要な場合は別途費用が掛かります。</li>
 						<li>家電リサイクル法により、5つの家庭用電化製品（エアコン、テレビ、洗濯機、洗濯乾燥機、冷蔵庫）については、別途費用がかかります。 メーカーやサイズにより料金が異なりますので、お問い合わせ下さい。</li>
 					</ul>
+				<div class="price_base_color_olta">
 					<div class="pricelist__about_method pricelist_pinprice">
-					<h3><strong>単品不用品回収</strong>の参考料金</h3>
+
+					<h3><strong class="marker_y">単品不用品回収</strong>の参考料金</h3>
 					<p>タンス1点単品回収をご希望の方はこちら</p>
 
 						<div class="pricelist__search-pc_3title">
@@ -321,19 +334,19 @@
 								<dt>家電製品の参考料金</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+									<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -342,82 +355,80 @@
 								<dd>
 							<dl>
 						</div>
-
 						<div>
 							<dl>
 								<dt>家具の参考料金</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+									<div class="plicelist_list list_cols2">
 										<dl>
 											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
+											<dt>222</dt>
 										</dl>
 										<dl>
-											<dt>111</dt>
+											<dd>111</dd>
 											<dd>222</dd>
-											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
-											<dd>333</dd>
 										</dl>
 										<p>※</p>
 									</div>
 								<dd>
 							<dl>
 						</div>
-
-
 						<div>
 							<dl>
 								<dt>娯楽用品・情報機器</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="scroll_nav sp align_c">
+         					       <img src="/assets/img/yoko-scroll.svg" alt="横スクロールでご確認いただけます。">
+         					    </div>
+									<div class="plicelist_list list_cols4">
 										<dl>
 											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
+											<dt>222</dt>
+											<dt>333</dt>
+											<dt>444</dt>
 										</dl>
 										<dl>
-											<dt>111</dt>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
+											<dd>444</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
+											<dd>444</dd>
 										</dl>
 										<p>※</p>
 									</div>
 								<dd>
 							<dl>
 						</div>
-
-
 
 						<div>
 							<dl>
 								<dt>家電リサイクル対象品の参考料金</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -426,7 +437,7 @@
 								<dd>
 							<dl>
 						</div>
-
+						</div>
 					</div>
 				</section>
 				<section class="l_contact plaise_contact_top">
@@ -507,10 +518,10 @@
 				</section>
 
 
-				<section class="l_flow">
+				<section class="l_flow" id="02">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>ゴミ屋敷清掃の料金<span class="en">GARBAGE HOUSE CLEANING</span></h2>
-<p class="align_c">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
+<p class="">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
 <div class="tax_price_list">
 <div class="pricelist__search-pc_3title">
 <ul>
@@ -525,7 +536,7 @@
 
 <div class="pricelist_5listtcontent">
 
-<h3 class="l_section_title pricelist_5contents">ゴミ屋敷清掃の参考料金に含まれる内容</h3>
+<h3 class="l_section_title pricelist_5contents msz_f">ゴミ屋敷清掃の参考料金に含まれる内容</h3>
 
 <ul class="pricelist__about_list">
 		<li>
@@ -569,22 +580,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -599,22 +611,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -708,7 +721,7 @@
 				</section>
 
 
-				<section class="l_flow">
+				<section class="l_flow" id="03">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>遺品整理の料金<span class="en">ORGANIZE RELICS</span></h2>
 <p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
@@ -726,7 +739,7 @@
 
 <div class="pricelist_5listtcontent">
 
-<h3 class="l_section_title pricelist_5contents">遺品整理の料金</h3>
+<h3 class="l_section_title pricelist_5contents msz_f">遺品整理の参考料金に含まれる作業内容</h3>
 
 <ul class="pricelist__about_list">
 		<li>
@@ -771,22 +784,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -800,22 +814,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -829,22 +844,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -858,22 +874,23 @@
 						<div>
 							<dl>
 								<dd>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
+										<p>※</p>
 									</div>
 								<dd>
 							<dl>
@@ -969,7 +986,7 @@
 					</div>					
 				</section>
 
-				<section class="l_flow">
+				<section class="l_flow" id="04">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>ハウスクリーニングの料金<span class="en">HOUSE CLEANING</span></h2>
 <p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
@@ -993,19 +1010,19 @@
 								<dt>お部屋丸ごとクリーニング</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1020,19 +1037,19 @@
 								<dt>キッチンのお掃除</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1048,19 +1065,19 @@
 								<dt>エアコンクリーニング</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1077,19 +1094,19 @@
 								<dt>水回りのお掃除</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1107,19 +1124,19 @@
 								<dt>お部屋のお掃除</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1137,19 +1154,19 @@
 								<dt>その他のお掃除</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1249,13 +1266,18 @@
 
 
 				<section class="pricelist__price">
-				<section class="l_flow">
-				<p class="bacetext_p">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
+				<section class="l_flow" id="07">
 
-				<h3 class="pricelist__price_fukidashi"><span>不用品回収の<strong>お得な料金パック</strong></span></h3>
-<div class="price_kaitori">
-			<img src="/assets/img/kaitori.png" alt="">
-		</div>
+<h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>不用品買取<span class="en">HOUSE CLEANING</span></h2>
+<p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
+<div class="tax_price_list">
+<div class="pricelist__search-pc_3title">
+<ul>
+	<li>当店の価格は全て税込価格です</li>
+	<li><span>●</span>以下単品料金は<strong>2tトラック1台分</strong>の不用品を積載した際の<strong>1品あたりの参考料金</strong>となります。</li>
+</ul>
+</div>
+</div>
 </section>
 
 					<div class="pricelist__search-pc_buytitle">
@@ -1426,10 +1448,12 @@
 
 				<section class="pricelist__price _thin">
 				<section class="l_flow">
+				<p class="bacetext_p">この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
 
-<h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>不用品回収<span class="en">WASTE COLLECTION</span></h2>
-<p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
-
+				<h3 class="pricelist__price_fukidashi"><span><strong>姉妹店の宅配買取を<br class="sp-only">ご利用ください！</strong></span></h3>
+<div class="price_kaitori">
+			<img src="/assets/img/kaitori.png" alt="">
+		</div>
 </section>
 
 					<div class="pricelist__search-pc_buytitle">
@@ -1516,9 +1540,6 @@
 							<div class="price_lower__canbuy_price">111111111111</div>
 						</div>
 					</div>
-
-
-
 				</section>
 
 
@@ -1600,7 +1621,7 @@
 					</div>					
 				</section>
 
-				<section class="l_flow">
+				<section class="l_flow" id="05">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>解体の料金<span class="en">DISMANTLING</span></h2>
 <p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
@@ -1651,19 +1672,19 @@
 								<dt>樹木伐採/草刈り</dt>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1672,7 +1693,6 @@
 								</dd><dd>
 							<dl>
 						</dl></dd></dl></div>
-
 				</div>
 			</div>
 
@@ -1757,7 +1777,7 @@
 
 
 
-				<section class="l_flow">
+				<section class="l_flow" id="06">
 
 <h2 class="l_section_title"><span class="small">片付け堂〇〇店</span><br>生前整理の料金<span class="en">ORGANIZE BEFORE LIFE</span></h2>
 <p>この文章はダミーです文字の大きさ・量・字間・行間等を確認するために入れています。</p>
@@ -1775,7 +1795,7 @@
 
 <div class="pricelist_5listtcontent">
 
-<h3 class="l_section_title pricelist_5contents">生前整理の参考料金に含まれる作業内容</h3>
+<h3 class="l_section_title pricelist_5contents msz_f">生前整理の参考料金に<br class="sp-only">含まれる作業内容</h3>
 
 <ul class="pricelist__about_list">
 		<li>
@@ -1819,19 +1839,19 @@
 							<dl>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1850,19 +1870,19 @@
 							<dl>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1882,19 +1902,19 @@
 							<dl>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1913,19 +1933,19 @@
 							<dl>
 								<dd>
 								<p class="money_unit">（単位：円/台）</p>
-									<div class="pricelist__search-pc_plicelist">
+								<div class="plicelist_list">
 										<dl>
 											<dt>111</dt>
+											<dt>222</dt>
+											<dt>333</dt>
+										</dl>
+										<dl>
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
-										<dl>
-											<dt>111</dt>
-											<dd>222</dd>
-											<dd>333</dd>
-										</dl>
-										<dl>
-											<dt>111</dt>
+										<dl class="plicelist_list_last">
+											<dd>111</dd>
 											<dd>222</dd>
 											<dd>333</dd>
 										</dl>
@@ -1935,8 +1955,6 @@
 						</div>
 					</div>
 				</div>
-
-
 			</section>
 
 
