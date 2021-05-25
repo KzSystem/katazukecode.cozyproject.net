@@ -7920,6 +7920,31 @@ br{
 						}
 					}
 				}
+				&.tohoku{
+					top: 265px;
+					right: 82px;
+					.line01{
+						width: 80px;
+						right: 100%;
+						top: 50%;
+					}
+					.line02{
+						width: 45px;
+						left: -102px;
+						bottom: 41px;
+						transform: rotate(90deg);
+						&::after{
+							content: "";
+							display: block;
+							background: url("../img/shops_map_point.svg")no-repeat 0 0 / contain;
+							width: 20px;
+							height: 20px;
+							position: absolute;
+							top: -10px;
+							left: -10px;
+						}
+					}
+				}
 				&.kantou{
 					top: 363px;
 					right: 82px;
@@ -8398,6 +8423,7 @@ br{
 			figure{
 				overflow: hidden;
 				width: 213px;
+				height: 100%;
 				border-radius: 15px;
 				img{
 					display: block;

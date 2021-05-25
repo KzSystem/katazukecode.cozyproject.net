@@ -17,6 +17,13 @@
 				<span>北海道地方の料金を見る</span>
 			</div>
 		</li>
+		<li class="tohoku">
+			<span class="line01"></span>
+			<span class="line02"></span>
+			<div class="modal_open" data-modal="shops_tohoku">
+				<span>東北地方の料金を見る</span>
+			</div>
+		</li>
 		<li class="kantou">
 			<span class="line01"></span>
 			<div class="modal_open" data-modal="shops_kantou">
@@ -87,6 +94,9 @@
 <ul class="price__search-sp_map_links">
 	<li class="modal_open" data-modal="shops_hokkaidou">
 		<span>北海道地方の料金を見る</span>
+	</li>
+	<li class="modal_open" data-modal="shops_tohoku">
+		<span>東北地方の料金を見る</span>
 	</li>
 	<li class="modal_open" data-modal="shops_kantou">
 		<span>関東地方の料金を見る</span>

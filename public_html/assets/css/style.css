@@ -10234,6 +10234,36 @@ br.sp {
   left: -10px;
 }
 
+.l_shops-pc_map_links li.tohoku {
+  top: 265px;
+  right: 82px;
+}
+
+.l_shops-pc_map_links li.tohoku .line01 {
+  width: 80px;
+  right: 100%;
+  top: 50%;
+}
+
+.l_shops-pc_map_links li.tohoku .line02 {
+  width: 45px;
+  left: -102px;
+  bottom: 41px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.l_shops-pc_map_links li.tohoku .line02::after {
+  content: "";
+  display: block;
+  background: url("../img/shops_map_point.svg") no-repeat 0 0/contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
 .l_shops-pc_map_links li.kantou {
   top: 363px;
   right: 82px;
@@ -10828,6 +10858,7 @@ br.sp {
 .l_otherLinks_box a figure {
   overflow: hidden;
   width: 213px;
+  height: 100%;
   border-radius: 15px;
 }
 

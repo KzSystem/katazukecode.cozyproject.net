@@ -23,6 +23,13 @@
 					<span>北海道地方</span>
 				</div>
 			</li>
+			<li class="tohoku">
+				<span class="line01"></span>
+				<span class="line02"></span>
+				<div class="modal_open" data-modal="shops_tohoku">
+					<span>東北地方</span>
+				</div>
+			</li>
 			<li class="kantou">
 				<span class="line01"></span>
 				<div class="modal_open" data-modal="shops_kantou">
@@ -100,6 +107,9 @@
 		<li class="modal_open" data-modal="shops_hokkaidou">
 			<span>北海道地方</span>
 		</li>
+		<li class="modal_open" data-modal="shops_tohoku">
+      <span>東北地方</span>
+    </li>
 		<li class="modal_open" data-modal="shops_kantou">
 			<span>関東地方</span>
 		</li>
