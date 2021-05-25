@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AA6BI,yBAAsD;EC1BtD,+FAAqE;IAE7D,SAAS,EAAE,OAAO;AAI1B,kEAAyC;EACrC,KAAK,EAAE,MAAM",
-"sources": ["../scss/_mixin.scss","../scss/service-home_appliances.scss"],
-"names": [],
-"file": "service-home_appliances.css"
-}
