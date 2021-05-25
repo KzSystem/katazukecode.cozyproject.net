@@ -899,6 +899,13 @@
   padding: 25px 30px 30px;
 }
 
+@media (min-width: 681px) {
+.pricelist__about_method div {
+  width:900px;
+  margin:0 auto;
+}
+}
+
 .pricelist__about_method dl dd .money_unit {
   text-align: right;
 }

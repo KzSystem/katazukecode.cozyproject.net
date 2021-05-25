@@ -743,9 +743,9 @@
 
 <ul class="pricelist__about_list">
 		<li>
-			<h3><span>分別作業</span></h3>
+			<h3><span>遺品整理作業</span></h3>
 			<figure>
-				<img src="/assets/img/5content_01.png" alt="">
+				<img src="/assets/img/5content_ihin.png" alt="">
 			</figure>
 		</li>
 		<li>
@@ -1799,9 +1799,9 @@
 
 <ul class="pricelist__about_list">
 		<li>
-			<h3><span>分別作業</span></h3>
+			<h3><span>遺品整理作業</span></h3>
 			<figure>
-				<img src="/assets/img/5content_01.png" alt="">
+				<img src="/assets/img/5content_ihin.png" alt="">
 			</figure>
 		</li>
 		<li>
