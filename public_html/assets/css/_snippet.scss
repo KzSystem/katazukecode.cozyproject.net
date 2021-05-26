@@ -26,6 +26,17 @@ $border_color: #DCDCDC;
     }
 }
 
+.l_section_space_03{
+    padding:80px 0 60px 0;
+    @include sp{
+        padding: s(50) 0 s(30);
+    }    
+    &--bg{
+        background: #F7F3E5;
+    }
+}
+
+
 
 .l_section_title--left .en,
 .l_section_title--left{
@@ -132,12 +143,35 @@ $border_color: #DCDCDC;
     &--line_color:after{
         background-image: linear-gradient(to right, #03A58E, #03A58E 4px, transparent 4px, transparent 9px)
     }
+    &--color_02{
+        color:#ED4C24;
+        &:after{
+            background-image: linear-gradient(to right, #ED4C24, #ED4C24 4px, transparent 4px, transparent 9px);
+        }
+    }    
     &-base_space{
         margin-bottom: 15px;
         @include sp{
             margin-bottom:s(10);
         }
     }
+    &--base_space{
+        margin-bottom: 20px;
+        @include sp{
+            margin-bottom:s(10);
+        }
+    }  
+    &__attention{
+        position: relative;
+        top:5px;
+        display: inline-block;
+        padding:5px 0 5px 60px;
+        background: url("../img/service/life/ico_attention.svg") no-repeat left center;
+        @include sp{
+            padding-left: s(48);
+            background-size: s(39) auto;
+        }
+    }  
 }
 
 .l_sub_title_01{

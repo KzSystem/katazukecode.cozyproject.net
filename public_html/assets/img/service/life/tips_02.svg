@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="tips_02" transform="translate(0 -0.477)">
+    <circle id="楕円形_23" data-name="楕円形 23" cx="70" cy="70" r="70" transform="translate(0 0.477)" fill="#f7f3e5"/>
+    <g id="グループ_6916" data-name="グループ 6916" transform="translate(-5351.749 -2024.474)">
+      <path id="パス_76860" data-name="パス 76860" d="M5475.227,2182.836a34.407,34.407,0,1,1,34.407-34.407A34.446,34.446,0,0,1,5475.227,2182.836Z" transform="translate(-53.478 -53.478)" fill="#15a58e"/>
+      <g id="グループ_6908" data-name="グループ 6908" transform="translate(5381.317 2054.52)">
+        <circle id="楕円形_441" data-name="楕円形 441" cx="28.589" cy="28.589" r="28.589" transform="translate(0 40.432) rotate(-45)" fill="#fff"/>
+      </g>
+      <g id="グループ_6915" data-name="グループ 6915" transform="translate(5394.007 2067.209)">
+        <g id="グループ_6909" data-name="グループ 6909" transform="translate(27.18)">
+          <rect id="長方形_29390" data-name="長方形 29390" width="1.124" height="4.176" fill="#534741"/>
+          <rect id="長方形_29391" data-name="長方形 29391" width="1.124" height="4.176" transform="translate(0 51.307)" fill="#534741"/>
+        </g>
+        <g id="グループ_6910" data-name="グループ 6910" transform="translate(13.384 3.436)">
+          <rect id="長方形_29392" data-name="長方形 29392" width="1.124" height="4.176" transform="matrix(0.866, -0.5, 0.5, 0.866, 0, 0.562)" fill="#534741"/>
+          <rect id="長方形_29393" data-name="長方形 29393" width="1.124" height="4.176" transform="matrix(0.866, -0.5, 0.5, 0.866, 25.654, 44.995)" fill="#534741"/>
+        </g>
+        <g id="グループ_6911" data-name="グループ 6911" transform="translate(3.436 13.384)">
+          <rect id="長方形_29394" data-name="長方形 29394" width="1.124" height="4.176" transform="matrix(0.5, -0.866, 0.866, 0.5, 0, 0.974)" fill="#534741"/>
+          <rect id="長方形_29395" data-name="長方形 29395" width="1.124" height="4.176" transform="translate(44.434 26.628) rotate(-60.01)" fill="#534741"/>
+        </g>
+        <g id="グループ_6912" data-name="グループ 6912" transform="translate(0 27.18)">
+          <rect id="長方形_29396" data-name="長方形 29396" width="1.124" height="4.176" transform="translate(0 1.124) rotate(-90)" fill="#534741"/>
+          <rect id="長方形_29397" data-name="長方形 29397" width="1.124" height="4.176" transform="translate(51.307 1.124) rotate(-90)" fill="#534741"/>
+        </g>
+        <g id="グループ_6913" data-name="グループ 6913" transform="translate(3.436 13.384)">
+          <rect id="長方形_29398" data-name="長方形 29398" width="1.124" height="4.176" transform="matrix(-0.5, -0.866, 0.866, -0.5, 0.562, 28.715)" fill="#534741"/>
+          <rect id="長方形_29399" data-name="長方形 29399" width="1.124" height="4.176" transform="matrix(-0.5, -0.866, 0.866, -0.5, 44.995, 3.061)" fill="#534741"/>
+        </g>
+        <g id="グループ_6914" data-name="グループ 6914" transform="translate(13.384 3.436)">
+          <rect id="長方形_29400" data-name="長方形 29400" width="1.124" height="4.176" transform="matrix(-0.866, -0.5, 0.5, -0.866, 0.974, 48.612)" fill="#534741"/>
+          <rect id="長方形_29401" data-name="長方形 29401" width="1.124" height="4.176" transform="matrix(-0.866, -0.5, 0.5, -0.866, 26.627, 4.179)" fill="#534741"/>
+        </g>
+      </g>
+      <path id="パス_76861" data-name="パス 76861" d="M5771.551,2268.115h-.581c-.421,0-.765-.233-.765-.519V2251c0-.285.344-4.247.765-4.247h.581c.421,0,.765,3.961.765,4.247v16.6C5772.316,2267.881,5771.972,2268.115,5771.551,2268.115Z" transform="translate(-349.512 -172.769)" fill="#3e3a39"/>
+      <path id="パス_76862" data-name="パス 76862" d="M5770.074,2340.286l.447.294c.323.213.68.246.793.074l6.6-10.016c.114-.172,1.424-2.738,1.1-2.95l-.446-.295c-.323-.213-2.163,2-2.276,2.177l-6.6,10.016C5769.58,2339.758,5769.751,2340.074,5770.074,2340.286Z" transform="translate(-349.021 -245.232)" fill="#e73828"/>
+      <path id="パス_76863" data-name="パス 76863" d="M5751.439,2421.043a3.694,3.694,0,1,1-3.694-3.694A3.694,3.694,0,0,1,5751.439,2421.043Z" transform="translate(-326.006 -326.092)" fill="#534741"/>
+    </g>
+  </g>
+</svg>
