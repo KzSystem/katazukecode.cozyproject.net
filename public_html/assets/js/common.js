@@ -77,6 +77,12 @@ $('.l_service__box h3').on({
 	}
 });
 
+$('.l_how_title.sp').on('click', function(){
+	$(this).toggleClass('active');
+	$(this).next('figure').slideToggle(200);
+	$(this).next('figure').next('.text-box').slideToggle(200);
+});
+
 // fixed_nav
 var startPos = 0,winScrollTop = 0;
 $(window).on('scroll',function(){

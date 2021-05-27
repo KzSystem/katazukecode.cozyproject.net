@@ -2173,9 +2173,19 @@
 	
 	.l_otherLinks{
 		@include sp{
-			margin-top: s(10);
+			//margin-top: s(10);
 		}
+    &--space{
+      @include sp{
+        margin-top: s(30);
+        & + .l_btn_more_space{
+          padding-top: 0;
+          padding-bottom: s(30);
+        }
+      }
+    }
 	}
+
 
 }
 
