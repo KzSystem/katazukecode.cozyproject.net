@@ -899,6 +899,11 @@
   padding: 25px 30px 30px;
 }
 
+.pricelist__about_method div {
+overflow:auto;
+}
+
+
 @media (min-width: 681px) {
 .pricelist__about_method div {
   width:900px;
@@ -4049,6 +4054,7 @@ margin:40px auto 0!important ;
 }
 .plaise_height div{
   height: auto;
+  overflow:auto;
 }
 
 .flex_block{
