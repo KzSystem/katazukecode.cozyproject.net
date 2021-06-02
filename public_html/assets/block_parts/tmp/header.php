@@ -1,8 +1,8 @@
 <header class="l_header">
 	<div class="l_header__wrap">
-		<div class="l_header__logo"><a href=""><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
+		<div class="l_header__logo"><a href="/"><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
 		<div class="l_header__sp_discription_wrap">
-			<h1 class="l_header__discription">
+      <h1 class="l_header__discription">
 				不用品回収、ゴミ屋敷清掃、遺品整理なら<br class="pc">
 				片付け堂！片付け専門の全国チェーン
 			</h1>
@@ -25,13 +25,13 @@
 				</div>
 			</div>
 		</div>
-		<a class="l_header__line" href="">
+		<a class="l_header__line" href="http://line.me/ti/p/@katazukedou" target="_blank">
 			<div class="icon">
 				<img src="/assets/img/ico_line.svg" alt="LINE">
 			</div>
 			<span>LINEで30秒！<br>簡単お見積り</span>
 		</a>
-		<a class="l_header__mail" href="">
+		<a class="l_header__mail" href="/form/">
 			<div class="icon">
 				<svg xmlns="https://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22.083 17.081"><g transform="translate(0 -63.481)"><g transform="translate(0 64)"><g transform="translate(0 0)"><path d="M7.076,65.344c3.031,2.567,8.349,7.083,9.912,8.491a.923.923,0,0,0,1.336,0c1.564-1.409,6.883-5.926,9.914-8.492a.46.46,0,0,0,.065-.635A1.827,1.827,0,0,0,26.859,64H8.456a1.827,1.827,0,0,0-1.444.709A.46.46,0,0,0,7.076,65.344Z" transform="translate(-6.615 -64.519)"/><path d="M21.816,126.454a.458.458,0,0,0-.491.067c-3.361,2.849-7.651,6.5-9,7.718a1.863,1.863,0,0,1-2.568,0c-1.439-1.3-6.256-5.391-9-7.717a.46.46,0,0,0-.757.351v11.57a1.842,1.842,0,0,0,1.84,1.84h18.4a1.842,1.842,0,0,0,1.84-1.84v-11.57A.46.46,0,0,0,21.816,126.454Z" transform="translate(0 -123.72)"/></g></g></g></svg>
 			</div>
@@ -41,11 +41,11 @@
 	<nav class="l_header__nav pc">
 		<ul>
 			<li><a href="/"><span>ホーム</span></a></li>
-			<li><a href=""><span>初めての方へ</span></a></li>
+			<li><a href="/beginner/"><span>初めての方へ</span></a></li>
 			<li><a href="/service/"><span>サービス紹介</span></a></li>
 			<li><a href="/price/"><span>料金表</span></a></li>
 			<li><a href="/store/"><span>店舗一覧</span></a></li>
-			<li><a href=""><span>お申込みの流れ</span></a></li>
+			<li><a href="/flow/"><span>お申込みの流れ</span></a></li>
 			<li><a href="/case/"><span>作業実績</span></a></li>
 			<li><a href="/qa/"><span>よくある質問</span></a></li>
 		</ul>
@@ -66,7 +66,7 @@
 						</span>
 					</div>
 				</a>
-				<a class="l_header__line_sp" href="">
+				<a class="l_header__line_sp" href="http://line.me/ti/p/@katazukedou" target="_blank">
 					<div class="icon">
 						<img src="/assets/img/ico_line.svg" alt="LINE">
 					</div>
@@ -75,7 +75,7 @@
 						<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 					</span>
 				</a>
-				<a class="l_header__mail_sp" href="">
+				<a class="l_header__mail_sp" href="/form/">
 					<div class="icon">
 						<svg xmlns="https://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22.083 17.081"><g transform="translate(0 -63.481)"><g transform="translate(0 64)"><g transform="translate(0 0)"><path d="M7.076,65.344c3.031,2.567,8.349,7.083,9.912,8.491a.923.923,0,0,0,1.336,0c1.564-1.409,6.883-5.926,9.914-8.492a.46.46,0,0,0,.065-.635A1.827,1.827,0,0,0,26.859,64H8.456a1.827,1.827,0,0,0-1.444.709A.46.46,0,0,0,7.076,65.344Z" transform="translate(-6.615 -64.519)"/><path d="M21.816,126.454a.458.458,0,0,0-.491.067c-3.361,2.849-7.651,6.5-9,7.718a1.863,1.863,0,0,1-2.568,0c-1.439-1.3-6.256-5.391-9-7.717a.46.46,0,0,0-.757.351v11.57a1.842,1.842,0,0,0,1.84,1.84h18.4a1.842,1.842,0,0,0,1.84-1.84v-11.57A.46.46,0,0,0,21.816,126.454Z" transform="translate(0 -123.72)"/></g></g></g></svg>
 					</div>
@@ -87,46 +87,46 @@
 			</div>
 			<ul class="l_header__nav_main">
 				<li>
-					<span class="pull_down"><span class="icon"><img src="/assets/img/sp/ico_nav01.svg" alt="アイコン"></span>初めての方へ</span>
+					<span class="pull_down"><span class="icon"><img src="/assets/img/sp/ico_nav01.svg" alt="初めての方へ"></span>初めての方へ</span>
 					<ul class="child">
-						<li><a href="">選ばれる理由</a></li>
-						<li><a href="">不用品回収業者比較</a></li>
+						<li><a href="/beginner/select/">選ばれる理由</a></li>
+						<li><a href="/beginner/comparison/">不用品回収業者比較</a></li>
 					</ul>
 				</li>
 				<li>
-					<span class="pull_down"><span class="icon"><img src="/assets/img/sp/ico_nav02.svg" alt="アイコン"></span>サービス紹介</span>
+					<span class="pull_down"><span class="icon"><img src="/assets/img/sp/ico_nav02.svg" alt="サービス紹介"></span>サービス紹介</span>
 					<ul class="child">
 						<li><a href="/service/junk_removal/">不用品回収</a></li>
-						<li><a href="">ゴミ屋敷清掃</a></li>
-						<li><a href="">遺品整理</a></li>
-						<li><a href="">ハウスクリーニング</a></li>
+						<li><a href="/service/hoarding_house/">ゴミ屋敷清掃</a></li>
+						<li><a href="/service/rearrangement/">遺品整理</a></li>
+						<li><a href="/service/house_cleaning/">ハウスクリーニング</a></li>
 						<li><a href="/service/purchase/">不用品買取</a></li>
 					</ul>
 				</li>
-				<li><a href="/price/"><span class="icon"><img src="/assets/img/sp/ico_nav03.svg" alt="アイコン"></span>料金表</a></li>
-				<li><a href="/store/"><span class="icon"><img src="/assets/img/sp/ico_nav04.svg" alt="アイコン"></span>店舗一覧</a></li>
-				<li><a href="/area/"><span class="icon"><img src="/assets/img/sp/ico_nav05.svg" alt="アイコン"></span>対応エリア</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav06.svg" alt="アイコン"></span>サービスの流れ</a></li>
-				<li><a href="/case/"><span class="icon"><img src="/assets/img/sp/ico_nav07.svg" alt="アイコン"></span>作業実績</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav08.svg" alt="アイコン"></span>お客様の声</a></li>
-				<li><a href="/qa/"><span class="icon"><img src="/assets/img/sp/ico_nav09.svg" alt="アイコン"></span>よくある質問</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav10.svg" alt="アイコン"></span>片付け堂Lab</a></li>
-				<li><a href="/blog/"><span class="icon"><img src="/assets/img/sp/ico_nav11.svg" alt="アイコン"></span>スタッフブログ</a></li>
-				<li><a href=""><span class="icon"><img src="/assets/img/sp/ico_nav12.svg" alt="アイコン"></span>お知らせ</a></li>
+				<li><a href="/price/"><span class="icon"><img src="/assets/img/sp/ico_nav03.svg" alt="料金表"></span>料金表</a></li>
+				<li><a href="/store/"><span class="icon"><img src="/assets/img/sp/ico_nav04.svg" alt="店舗一覧"></span>店舗一覧</a></li>
+				<li><a href="/area/"><span class="icon"><img src="/assets/img/sp/ico_nav05.svg" alt="対応エリア"></span>対応エリア</a></li>
+				<li><a href="/flow/"><span class="icon"><img src="/assets/img/sp/ico_nav06.svg" alt="サービスの流れ"></span>サービスの流れ</a></li>
+				<li><a href="/case/"><span class="icon"><img src="/assets/img/sp/ico_nav07.svg" alt="作業実績"></span>作業実績</a></li>
+				<li><a href="/voice/"><span class="icon"><img src="/assets/img/sp/ico_nav08.svg" alt="お客様の声"></span>お客様の声</a></li>
+				<li><a href="/qa/"><span class="icon"><img src="/assets/img/sp/ico_nav09.svg" alt="よくある質問"></span>よくある質問</a></li>
+				<li><a href="/laboratory/"><span class="icon"><img src="/assets/img/sp/ico_nav10.svg" alt="片付け堂Lab"></span>片付け堂Lab</a></li>
+				<li><a href="/blog/"><span class="icon"><img src="/assets/img/sp/ico_nav11.svg" alt="スタッフブログ"></span>スタッフブログ</a></li>
+				<li><a href="/news/"><span class="icon"><img src="/assets/img/sp/ico_nav12.svg" alt="お知らせ"></span>お知らせ</a></li>
 			</ul>
 		</div>
 	</nav>
 </header>
 <nav id="l_fixed_nav" class="l_fixed_nav">
 	<div class="l_fixed_nav__wrap">
-		<div class="l_fixed_nav__logo"><a href=""><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
+		<div class="l_fixed_nav__logo"><a href="/"><img src="/assets/img/logo.svg" alt="片付け堂"></a></div>
 		<ul>
 			<li><a href="/"><span>ホーム</span></a></li>
-			<li><a href=""><span>初めての方へ</span></a></li>
+			<li><a href="/beginner/"><span>初めての方へ</span></a></li>
 			<li><a href="/service/"><span>サービス紹介</span></a></li>
 			<li><a href="/price/"><span>料金表</span></a></li>
 			<li><a href="/store/"><span>店舗一覧</span></a></li>
-			<li><a href=""><span>お申込みの流れ</span></a></li>
+			<li><a href="/flow/"><span>お申込みの流れ</span></a></li>
 			<li><a href="/case/"><span>作業実績</span></a></li>
 			<li><a href="/qa/"><span>よくある質問</span></a></li>
 		</ul>
@@ -155,7 +155,7 @@
 		<a class="l_fixed_contact__tel sp" href="tel:0120-3310-55">
 			<img src="/assets/img/sp/l_fixed_contact__tel.svg" alt="通話料無料　お電話で無料相談　0120-3310-55">
 		</a>
-		<a class="l_fixed_contact__line" href="">
+		<a class="l_fixed_contact__line" href="http://line.me/ti/p/@katazukedou" target="_blank">
 			<div class="icon">
 				<img src="/assets/img/ico_line.svg" alt="LINE">
 			</div>
@@ -165,7 +165,7 @@
 				<svg xmlns="https://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5.035 8.43"><g transform="translate(0.548 0.548)"><g transform="translate(0 0)"><path d="M121.645,3.489,118.231.084a.286.286,0,1,0-.4.405l3.211,3.2-3.212,3.2a.286.286,0,0,0,.4.405l3.415-3.405a.286.286,0,0,0,0-.405Z" transform="translate(-117.742 0)" stroke-linecap="round" stroke-width="1"/></g></g></svg>
 			</span>
 		</a>
-		<a class="l_fixed_contact__mail" href="">
+		<a class="l_fixed_contact__mail" href="form">
 			<div class="icon">
 				<svg xmlns="https://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22.083 17.081"><g transform="translate(0 -63.481)"><g transform="translate(0 64)"><g transform="translate(0 0)"><path d="M7.076,65.344c3.031,2.567,8.349,7.083,9.912,8.491a.923.923,0,0,0,1.336,0c1.564-1.409,6.883-5.926,9.914-8.492a.46.46,0,0,0,.065-.635A1.827,1.827,0,0,0,26.859,64H8.456a1.827,1.827,0,0,0-1.444.709A.46.46,0,0,0,7.076,65.344Z" transform="translate(-6.615 -64.519)"/><path d="M21.816,126.454a.458.458,0,0,0-.491.067c-3.361,2.849-7.651,6.5-9,7.718a1.863,1.863,0,0,1-2.568,0c-1.439-1.3-6.256-5.391-9-7.717a.46.46,0,0,0-.757.351v11.57a1.842,1.842,0,0,0,1.84,1.84h18.4a1.842,1.842,0,0,0,1.84-1.84v-11.57A.46.46,0,0,0,21.816,126.454Z" transform="translate(0 -123.72)"/></g></g></g></svg>
 			</div>
@@ -176,4 +176,4 @@
 			</span>
 		</a>
 	</div>
-</div>            
+</div>
