@@ -1083,6 +1083,7 @@
         width: 44.8vw; } }
   .blog__prevnext_next {
     width: 360px;
+    margin-left: auto;
     border-radius: 10px;
     text-align: right; }
     @media (max-width: 680px) {
