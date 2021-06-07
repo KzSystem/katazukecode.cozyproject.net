@@ -83,6 +83,14 @@ br{
 	}
 }
 
+.l_container{
+  width: $cont_w_pc;
+  margin: 0 auto;
+  @include sp{
+    width: $cont_w_sp;
+  }
+}
+
 .text-center{
 	text-align: center;
 }
@@ -11131,6 +11139,203 @@ body .l_sec_bg{
           margin: 0 auto;
           padding: s(15) 0;
           width: s(325);
+        }
+      }
+    }
+  }
+}
+
+// -------------------------------------------------
+//  l_block_steps 
+// -------------------------------------------------
+.l_block_steps {
+  width: $cont_w_pc;
+  margin: 0 auto;
+  padding-top: 30px;
+  @include sp{
+    width: $cont_w_sp;
+    padding-top: s(20);
+  }
+  &_item {
+    margin-bottom: 30px;
+    position: relative;
+    .l_block_sub_title {
+      max-width: 500px;
+      position: relative;
+      font-weight: 700;
+      padding-left: 20px;
+      margin-left: 32px;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      &:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 21px;
+        width: 1px;
+        background: #DCDCDC;
+        margin-right: 20px;
+        transform: translateY(-50%);
+        @include sp{
+            display: none;
+        }
+      }
+      &__yellow {
+        color: #FFD800;
+      }
+      @include sp{
+          padding: 0 15px;
+          font-size: 24px;
+          line-height: 34px;
+          margin: 0 auto;
+          max-width: none;
+          text-align: center;
+      }
+    }
+    .step_num {
+        font-weight: 600;
+        font-family: 'Oswald', sans-serif;
+        @include sp{
+          width: 46px;
+        height: 46px;
+        position: absolute;
+        top: -23px;
+        left: 50%;
+        background: #15A58E;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 46px;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  &_head {
+      height: 100px;
+    background: #03A58E;
+    border-radius: 55px 0 0 55px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    @include sp{
+      height: auto;
+      border-radius: 10px 10px 0 0;
+      position: relative;
+      top: auto;
+      padding: 23px 0 18px;
+      margin-top: 43px;
+    }
+  }
+  &_content {
+    border: 5px solid #15A58E;
+    border-radius: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 30px;
+    background: #F7F3E5;
+    @include sp{
+      justify-content: flex-start;
+      padding: 15px;
+      border-radius: 0 0 20px 20px;
+      margin-left: 0;
+      flex-wrap: wrap;
+    }
+    .steps_wrap_thumb {
+        order: 1;
+        flex-basis: 445px;
+        min-height: 280px;
+        border-radius: 20px;
+        border: 2px solid #E3E3E3;
+        background: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        @include sp{
+          order: 0;
+          flex-basis: 100%;
+          min-height: inherit;
+          padding: 0;
+      }
+      picture{
+        height: 100%;
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        font-family: 'object-fit: cover;';
+        vertical-align: bottom;
+        @include sp{
+            max-width: 100%;
+        }
+      }
+    }
+    .p-format {
+      padding-top: 100px;
+      width: 515px;
+      line-height: 1.75;
+      @include sp{
+        padding-top: 15px;
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+  }
+  
+  &--flow{
+    .l_block_steps_item{
+      position: relative;
+      &:not(:last-child){
+        margin-bottom: 40px;
+        @include sp{
+          margin-bottom: s(50);
+        }
+        &::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 29px 30px 0 30px;
+          border-color: #03A58E transparent transparent transparent;
+          position: absolute;
+          bottom: -29px;
+          left: 50%;
+          transform: translateX(-50%);
+          @include sp{
+            border-width: s(19) s(19) 0 s(19);
+            bottom: s(-19);
+          }
+        }
+      }
+      .l_block_steps_content{
+        background: #fff;
+      }
+      &:nth-child(even){
+        &::after {
+          border-color: #00aac7 transparent transparent transparent;
+        }
+        .l_block_steps_content{
+          background: #f7f3e5;
+          border: 5px solid #00aac7;
+        }
+        .l_block_steps_head{
+          background: #00aac7;
+        }
+        .step_num{
+          background: #00aac7;
         }
       }
     }
