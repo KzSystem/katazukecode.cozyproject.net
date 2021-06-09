@@ -208,3 +208,29 @@ if (touch) { // remove all :hover stylesheets
         }
     } catch (ex) {}
 }
+
+
+
+//----------------------------------------------------------------------
+//mega menu
+//----------------------------------------------------------------------
+
+$(function () {
+	$('.l-header_parent').hover(function () {
+		$(this).find('.l-header_ch').addClass('l-header_ch--show');
+		$('.l-header__nav_bg').addClass('l-header__nav_bg--show');
+	}, function () {
+		$(this).find('.l-header_ch').removeClass('l-header_ch--show');
+		$('.l-header__nav_bg').removeClass('l-header__nav_bg--show');
+	});
+
+	$('.l_fixed_nav_switch').hover(function () {
+		$(this).find('.l-header_ch').addClass('l-header_ch--show');
+		$('.l-header__nav_bg').addClass('l-header__nav_bg--show');
+	}, function () {
+		$(this).find('.l-header_ch').removeClass('l-header_ch--show');
+		$('.l-header__nav_bg').removeClass('l-header__nav_bg--show');
+	});
+
+})
+
